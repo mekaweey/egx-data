@@ -1,0 +1,13 @@
+field,value
+symbol,SPMD
+description,Speed Medical SAE
+isin,EGS73BR1C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,speed-medical
+found_by_isin,False
+provider,ice

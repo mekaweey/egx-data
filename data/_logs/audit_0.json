@@ -1,0 +1,231 @@
+[
+{
+"sym": "AALR",
+"issues": [
+"60m-narrower:11/31",
+"1m-narrower:1/33"
+]
+},
+{
+"sym": "ADIB",
+"issues": [
+"60m-narrower:1/31"
+]
+},
+{
+"sym": "AJWA",
+"issues": [
+"60m-narrower:2/31"
+]
+},
+{
+"sym": "AMOC",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:2/23"
+]
+},
+{
+"sym": "ASCM",
+"issues": [
+"60m-narrower:7/31",
+"1m-narrower:1/37"
+]
+},
+{
+"sym": "BIOC",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:4/23"
+]
+},
+{
+"sym": "CEFM",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:5/47"
+]
+},
+{
+"sym": "COMI",
+"issues": [
+"60m-narrower:4/31"
+]
+},
+{
+"sym": "DCRC",
+"issues": [
+"60m-narrower:1/34",
+"1m-narrower:1/34"
+]
+},
+{
+"sym": "EAST",
+"issues": [
+"60m-narrower:1/31"
+]
+},
+{
+"sym": "EGAL",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "EGS48271C018-EGP",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/31"
+]
+},
+{
+"sym": "ELKA",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:5/32"
+]
+},
+{
+"sym": "EPPK",
+"issues": [
+"60m-narrower:11/31",
+"1m-narrower:4/33"
+]
+},
+{
+"sym": "FIRE",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:1/42"
+]
+},
+{
+"sym": "GIHD",
+"issues": [
+"60m-narrower:7/31",
+"1m-narrower:2/37"
+]
+},
+{
+"sym": "GTHE",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:6/31"
+]
+},
+{
+"sym": "ICFC",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:3/28"
+]
+},
+{
+"sym": "IRAX",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/31"
+]
+},
+{
+"sym": "KORA",
+"issues": [
+"60m-narrower:2/40",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "MASR",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:2/23"
+]
+},
+{
+"sym": "MFPC",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "MMAT",
+"issues": [
+"60m-narrower:14/31",
+"1m-narrower:19/31"
+]
+},
+{
+"sym": "MTIE",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:1/28"
+]
+},
+{
+"sym": "NHPS",
+"issues": [
+"60m-narrower:13/31",
+"1m-narrower:4/42"
+]
+},
+{
+"sym": "OIH",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "PHGC",
+"issues": [
+"60m-narrower:4/32",
+"60m-CONTRADICTION:2/32"
+]
+},
+{
+"sym": "RAKT",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:3/33"
+]
+},
+{
+"sym": "RUBX",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:4/28"
+]
+},
+{
+"sym": "SEIGA",
+"issues": []
+},
+{
+"sym": "SPIN",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:3/42"
+]
+},
+{
+"sym": "TAQA",
+"issues": [
+"60m-narrower:2/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "UEFM",
+"issues": [
+"60m-narrower:17/31",
+"1m-narrower:2/34"
+]
+},
+{
+"sym": "VLMR",
+"issues": []
+}
+]

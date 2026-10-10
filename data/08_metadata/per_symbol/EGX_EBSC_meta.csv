@@ -1,0 +1,13 @@
+field,value
+symbol,EBSC
+description,Osool ESB Securities Brokerage
+isin,EGS68181C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,osool-esb-securities-brokerage
+found_by_isin,False
+provider,ice

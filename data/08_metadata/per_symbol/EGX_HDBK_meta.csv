@@ -1,0 +1,13 @@
+field,value
+symbol,HDBK
+description,Housing & Development Bank
+isin,EGS60301C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,housing-and-development-bank
+found_by_isin,False
+provider,ice

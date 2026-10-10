@@ -1,0 +1,13 @@
+field,value
+symbol,KWIN
+description,El Kahera El Watania Investment
+isin,EGS69011C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-kahera-el-watania-investment
+found_by_isin,False
+provider,ice

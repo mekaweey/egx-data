@@ -1,0 +1,13 @@
+field,value
+symbol,ASPI
+description,Aspire Capital Holding for Financial Investments
+isin,EGS691L1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,aspire-capital-for-financial-investments
+found_by_isin,False
+provider,ice

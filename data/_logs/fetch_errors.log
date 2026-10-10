@@ -1,0 +1,345 @@
+2026-10-09T16:29:59 EGX:EGX30 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:30:12 EGX:EGX30 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:30:25 EGX:EGX30 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:31:17 EGX:EGX70EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 33, in <module>
+    bars, meta = fetch_bars(tvsym, res=res, count=cnt, timeout=90)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 61, in fetch_bars
+    ws = _new_ws()
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 57, in _new_ws
+    return websocket.create_connection(WS_URL, timeout=30, header=hdr)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 734, in create_connection
+    websock.connect(url, **options)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 279, in connect
+    self.sock, addrs = connect(
+                       ~~~~~~~^
+        url, self.sock_opt, proxy_info(**options), options.pop("socket", None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 158, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 237, in _open_socket
+    raise error
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 227, in _open_socket
+    sock.connect(address)
+    ~~~~~~~~~~~~^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+2026-10-09T16:31:48 EGX:EGX70EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 33, in <module>
+    bars, meta = fetch_bars(tvsym, res=res, count=cnt, timeout=90)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 61, in fetch_bars
+    ws = _new_ws()
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 57, in _new_ws
+    return websocket.create_connection(WS_URL, timeout=30, header=hdr)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 734, in create_connection
+    websock.connect(url, **options)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 279, in connect
+    self.sock, addrs = connect(
+                       ~~~~~~~^
+        url, self.sock_opt, proxy_info(**options), options.pop("socket", None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 158, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 237, in _open_socket
+    raise error
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 227, in _open_socket
+    sock.connect(address)
+    ~~~~~~~~~~~~^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+2026-10-09T16:32:00 EGX:EGX70EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:32:32 EGX:EGX100EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:32:44 EGX:EGX100EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:32:56 EGX:EGX100EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:33:28 FX_IDC:USDEGP 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:33:41 FX_IDC:USDEGP 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:33:54 FX_IDC:USDEGP 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 35, in <module>
+    n = write_res(path, bars)
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 15, in write_res
+    rows.append([int(ts), dt, "%.6f" % v[1], "%.6f" % v[2], "%.6f" % v[3], "%.6f" % v[4], "%.2f" % v[5]])
+                                                                                                   ~^^^
+IndexError: list index out of range
+
+2026-10-09T16:40:10 EGX:ACRO 1D resolved=False n=0 err=['cs_ldwanOOChiBq', 's1', 's_1', 'resolve error', 'sfo-charts-free-4-tvbs-vw2hy-4@sfo-charts-free-4-
+2026-10-09T16:40:46 EGX:ACRO 1 resolved=False n=0 err=['cs_EWKPFNyJNUZo', 's1', 's_1', 'resolve error', 'iln1-charts-free-3-tvbs-9pul2-1@iln1-charts-free-
+2026-10-09T16:41:32 EGX:ACRO 5 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T16:41:51 EGX:EGX70EWI 1D
+Traceback (most recent call last):
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\fetch_idx.py", line 36, in <module>
+    bars, meta = fetch_bars(tvsym, res=res, count=cnt, timeout=90)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 61, in fetch_bars
+    ws = _new_ws()
+  File "C:\Users\Mekawey\AppData\Local\Temp\opencode\tv_fetch2.py", line 57, in _new_ws
+    return websocket.create_connection(WS_URL, timeout=30, header=hdr)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 734, in create_connection
+    websock.connect(url, **options)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_core.py", line 279, in connect
+    self.sock, addrs = connect(
+                       ~~~~~~~^
+        url, self.sock_opt, proxy_info(**options), options.pop("socket", None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 158, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 237, in _open_socket
+    raise error
+  File "C:\Users\Mekawey\AppData\Roaming\Python\Python314\site-packages\websocket\_http.py", line 227, in _open_socket
+    sock.connect(address)
+    ~~~~~~~~~~~~^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+2026-10-09T16:43:08 EGX:ACRO 15 resolved=False n=0 err=['cs_MRXLglKCNVak', 's1', 's_1', 'resolve error', 'iln1-charts-free-3-tvbs-s0srf-6@iln1-charts-free-
+2026-10-09T16:43:44 EGX:ACRO 30 resolved=False n=0 err=['cs_IcKYeCIUmRAs', 's1', 's_1', 'resolve error', 'iln1-charts-free-4-tvbs-dm0p0-1@iln1-charts-free-
+2026-10-09T16:44:20 EGX:ACRO 60 resolved=False n=0 err=['cs_XnOGcaVgJyAy', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-ai4ki-15@cnc1-charts-free
+2026-10-09T17:11:43 EGX:ACRO 1D resolved=False n=0 err=['cs_vUJwoqNRNybk', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-t63dc-1@dal-charts-
+2026-10-09T17:12:34 EGX:ACRO 1 resolved=False n=0 err=['cs_stHrZEYzrPir', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-tvbs-uzfzy-4@cnc1-charts-free-
+2026-10-09T17:13:24 EGX:ACRO 5 resolved=False n=0 err=['cs_jUVVdnpLGvtU', 's1', 's_1', 'resolve error', 'wdc-charts-free-3-tvbs-cisbh-3@wdc-charts-free-3-
+2026-10-09T17:16:15 EGX:ACRO 15 resolved=False n=0 err=['cs_aLFEKDPcjRyu', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-3@cnc1-chart
+2026-10-09T17:17:06 EGX:ACRO 30 resolved=False n=0 err=['cs_cPvKRaSGhdSc', 's1', 's_1', 'resolve error', 'lax1-charts-free-3-tvbs-pmyno-8@lax1-charts-free-
+2026-10-09T17:17:57 EGX:ACRO 60 resolved=False n=0 err=['cs_yFBTSydZHaWC', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-3@sfo-charts-
+2026-10-09T17:20:48 EGX:ACRO 240 resolved=False n=0 err=['cs_GJpdXbWKCYaq', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-8@lax1-charts-free-
+2026-10-09T17:21:49 EGX:ACRO 1W EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T17:22:40 EGX:ACRO 1M resolved=False n=0 err=['cs_PsDDNggNQyLs', 's1', 's_1', 'resolve error', 'sfo2-charts-free-3-tvbs-cgssj-5@sfo2-charts-free-
+2026-10-09T17:28:04 EGX:AFMC 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T17:39:13 EGX:AIDC 1M EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T17:39:32 EGX:ALEX 30 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T17:44:41 EGX:ALCN 5 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T17:54:04 EGX:APPC 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T18:08:29 EGX:ARBLAND 1W EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T18:15:00 EGX:ASPI 30 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T19:23:09 EGX:ACRO 1D resolved=False n=0 err=['cs_NTgWqrqizzgy', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-1@sfo-charts-
+2026-10-09T19:23:52 EGX:ACRO 1 resolved=False n=0 err=['cs_ytgAjWRWctCP', 's1', 's_1', 'resolve error', 'sfo-charts-free-4-tvbs-vw2hy-5@sfo-charts-free-4-
+2026-10-09T19:24:34 EGX:ACRO 5 resolved=False n=0 err=['cs_lgsCIqKmEMEk', 's1', 's_1', 'resolve error', 'wdc2-charts-free-4-tvbs-cd8de-8@wdc2-charts-free-
+2026-10-09T19:27:17 EGX:ACRO 15 resolved=False n=0 err=['cs_mePsFfphJtJI', 's1', 's_1', 'resolve error', 'sfo2-charts-free-3-tvbs-cgssj-7@sfo2-charts-free-
+2026-10-09T19:28:00 EGX:ACRO 30 resolved=False n=0 err=['cs_VOcUSXGyOSBA', 's1', 's_1', 'resolve error', 'sfo2-charts-free-4-tvbs-kizit-5@sfo2-charts-free-
+2026-10-09T19:28:43 EGX:ACRO 60 resolved=False n=0 err=['cs_nLuniVXSLYOx', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-r5sie-4@dal-charts-free-3-
+2026-10-09T19:30:47 EGX:COSG 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T19:31:26 EGX:ACRO 240 resolved=False n=0 err=['cs_sOSScUrVKpdF', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-3@sfo-charts-free-3-
+2026-10-09T19:47:27 EGX:CRST 240 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T19:47:34 EGX:EEII 30 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T20:02:09 EGX:EHDR 15 resolved=True n=0 err=None
+2026-10-09T20:03:06 EGX:EHDR 60 resolved=True n=0 err=None
+2026-10-09T20:03:49 EGX:EHDR 240 resolved=True n=0 err=None
+2026-10-09T20:04:35 EGX:EIUD 1D resolved=False n=0 err=['cs_RePUBwQFgdes', 's1', 's_1', 'resolve error', 'sfo2-charts-free-4-tvbs-kizit-1@sfo2-charts-free-
+2026-10-09T20:05:18 EGX:EIUD 1 resolved=False n=0 err=['cs_cQbAnYUrORgv', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-3@sfo-charts-free-3-
+2026-10-09T20:06:01 EGX:EIUD 5 resolved=False n=0 err=['cs_kjVihTzhAkid', 's1', 's_1', 'resolve error', 'wdc2-charts-free-4-tvbs-cd8de-6@wdc2-charts-free-
+2026-10-09T20:08:44 EGX:EIUD 15 resolved=False n=0 err=['cs_WEHJKBZvlQaH', 's1', 's_1', 'resolve error', 'wdc-charts-free-4-tvbs-lwt9j-6@wdc-charts-free-4-
+2026-10-09T20:09:26 EGX:EIUD 30 resolved=False n=0 err=['cs_AgKrpKyybZqe', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-3@lax1-charts-free-
+2026-10-09T20:10:09 EGX:EIUD 60 resolved=False n=0 err=['cs_iipXvbgesFxo', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-q03bw-6@lax1-charts-free-
+2026-10-09T20:12:52 EGX:EIUD 240 resolved=False n=0 err=['cs_ffURYyLpMiZq', 's1', 's_1', 'resolve error', 'nje1-charts-free-4-tvbs-7ftgk-2@nje1-charts-free-
+2026-10-09T20:17:31 EGX:EMFD 1D EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T20:27:24 EGX:FCMD 1D resolved=False n=0 err=['cs_wjcXzCtCHDoS', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-2@sfo-charts-free-3-
+2026-10-09T20:28:07 EGX:FCMD 1 resolved=False n=0 err=['cs_PxfBBvHcrkZT', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-5@sfo-charts-free-3-
+2026-10-09T20:28:50 EGX:FCMD 5 resolved=False n=0 err=['cs_SuEwkLuvrHMw', 's1', 's_1', 'resolve error', 'nje1-charts-free-4-tvbs-gcjpg-2@nje1-charts-free-
+2026-10-09T20:31:33 EGX:FCMD 15 resolved=False n=0 err=['cs_BnvisXjQDOJq', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-6@lax1-charts-free-
+2026-10-09T20:32:15 EGX:FCMD 30 resolved=False n=0 err=['cs_avwWvZwfQumn', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-2lxfd-2@nje1-charts-free-
+2026-10-09T20:32:58 EGX:FCMD 60 resolved=False n=0 err=['cs_VNIrCGxkXOQX', 's1', 's_1', 'resolve error', 'wdc-charts-free-3-tvbs-ablkb-6@wdc-charts-free-3-
+2026-10-09T20:35:41 EGX:FCMD 240 resolved=False n=0 err=['cs_cDjpSruPrmdJ', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-r5sie-5@dal-charts-free-3-
+2026-10-09T20:37:16 EGX:FIRE 5 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T20:53:28 EGX:HALN 1 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-09T20:54:11 EGX:HALN 5 resolved=True n=0 err=None
+2026-10-09T20:54:54 EGX:HALN 15 resolved=True n=0 err=None
+2026-10-09T20:57:37 EGX:HALN 30 resolved=True n=0 err=None
+2026-10-09T20:58:20 EGX:HALN 60 resolved=True n=0 err=None
+2026-10-09T20:59:03 EGX:HALN 240 resolved=True n=0 err=None
+2026-10-10T00:44:57 EGX:ACRO 1D resolved=False n=0 err=['cs_jgJclyAYenkw', 's1', 's_1', 'resolve error', 'sfo-charts-free-4-stress-tvbs-anvl5-5@sfo-charts-
+2026-10-10T00:45:40 EGX:ACRO 1 resolved=False n=0 err=['cs_vMojaBgCJHNS', 's1', 's_1', 'resolve error', 'sfo-charts-free-4-stress-tvbs-anvl5-2@sfo-charts-
+2026-10-10T00:46:23 EGX:ACRO 5 resolved=False n=0 err=['cs_uXaFHWtuerWh', 's1', 's_1', 'resolve error', 'wdc-charts-free-4-tvbs-lpw4d-5@wdc-charts-free-4-
+2026-10-10T00:49:06 EGX:ACRO 15 resolved=False n=0 err=['cs_MtTDgyNYaZyp', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-3@cnc1-chart
+2026-10-10T00:49:49 EGX:ACRO 30 resolved=False n=0 err=['cs_tXZZkQnfpIEC', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-2@lax1-charts-free-
+2026-10-10T00:50:32 EGX:ACRO 60 resolved=False n=0 err=['cs_mqJFfYIdsJhl', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-lkiu8-8@dal-charts-free-3-
+2026-10-10T00:53:15 EGX:ACRO 240 resolved=False n=0 err=['cs_EQzXhqxtyXxu', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-nrv5h-7@dal-charts-
+2026-10-10T00:56:49 EGX:ADPC 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T01:11:15 EGX:ASCM 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T02:46:16 EGX:ACRO 1D resolved=False n=0 err=['cs_XRxbbUWmfkDy', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-nrv5h-5@dal-charts-
+2026-10-10T02:46:59 EGX:ACRO 1 resolved=False n=0 err=['cs_YRoAbLcyaoTB', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-lkiu8-6@dal-charts-free-3-
+2026-10-10T02:47:42 EGX:ACRO 5 resolved=False n=0 err=['cs_IMzTPaACxwwJ', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-gaeom-7@dal-charts-free-4-
+2026-10-10T02:52:39 EGX:ACRO 1D resolved=False n=0 err=['cs_eNKvlwRtnKtU', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-lkiu8-1@dal-charts-free-3-
+2026-10-10T02:53:22 EGX:ACRO 1 resolved=False n=0 err=['cs_EDYmyvcFMKxz', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-nrv5h-2@dal-charts-
+2026-10-10T02:54:06 EGX:ACRO 5 resolved=False n=0 err=['cs_MNjnYaqxdNTF', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-12@cnc1-char
+2026-10-10T02:56:49 EGX:ACRO 15 resolved=False n=0 err=['cs_qwWBsHVGWsLm', 's1', 's_1', 'resolve error', 'sfo2-charts-free-3-tvbs-cgssj-7@sfo2-charts-free-
+2026-10-10T02:57:32 EGX:ACRO 30 resolved=False n=0 err=['cs_DdCykTbjhHlt', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-4@sfo-charts-
+2026-10-10T02:58:15 EGX:ACRO 60 resolved=False n=0 err=['cs_WETVruuJYAEQ', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-5@sfo-charts-
+2026-10-10T03:00:58 EGX:ACRO 240 resolved=False n=0 err=['cs_rTrmkDXHGFeG', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-gaeom-8@dal-charts-free-4-
+2026-10-10T03:07:08 EGX:ACRO 1D resolved=False n=0 err=['cs_YvuDNzgdoVvz', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-ai4ki-4@cnc1-charts-free-
+2026-10-10T03:07:51 EGX:ACRO 1 resolved=False n=0 err=['cs_kgcfOcAThzBq', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-ai4ki-9@cnc1-charts-free-
+2026-10-10T03:08:33 EGX:ACRO 5 resolved=False n=0 err=['cs_xLWthZLmiaFe', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-3@cnc1-chart
+2026-10-10T03:11:16 EGX:ACRO 15 resolved=False n=0 err=['cs_FADKJUfkwKJU', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-lkiu8-3@dal-charts-free-3-
+2026-10-10T03:11:59 EGX:ACRO 30 resolved=False n=0 err=['cs_QFOnjzpCSLYe', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-11@cnc1-char
+2026-10-10T03:12:42 EGX:ACRO 60 resolved=False n=0 err=['cs_CkDOIQsWZUCI', 's1', 's_1', 'resolve error', 'sfo2-charts-free-4-tvbs-kizit-5@sfo2-charts-free-
+2026-10-10T03:15:25 EGX:ACRO 240 resolved=False n=0 err=['cs_SqPpFTuFTLRK', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-uugdi-6@dal-charts-free-4-
+2026-10-10T03:21:04 EGX:ACRO 1D resolved=False n=0 err=['cs_aLKyxEORaXos', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-ai4ki-14@cnc1-charts-free
+2026-10-10T03:21:47 EGX:ACRO 1 resolved=False n=0 err=['cs_BsablZmGBYNF', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-aco99-15@cnc1-charts-free
+2026-10-10T03:22:30 EGX:ACRO 5 resolved=False n=0 err=['cs_QDtYJvJNwbKH', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-11@cnc1-char
+2026-10-10T03:25:13 EGX:ACRO 15 resolved=False n=0 err=['cs_zAOmDpWDMfDA', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-8@cnc1-chart
+2026-10-10T03:25:55 EGX:ACRO 30 resolved=False n=0 err=['cs_DosdOvhaEXiL', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-aco99-9@cnc1-charts-free-
+2026-10-10T03:26:38 EGX:ACRO 60 resolved=False n=0 err=['cs_rvZzjPkwoMjq', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-3@sfo-charts-
+2026-10-10T03:29:21 EGX:ACRO 240 resolved=False n=0 err=['cs_uPwMlJLcwJFY', 's1', 's_1', 'resolve error', 'wdc2-charts-free-4-tvbs-cd8de-5@wdc2-charts-free-
+2026-10-10T03:54:29 EGX:ACRO 1D resolved=False n=0 err=['cs_zGqpRcCvdbzU', 's1', 's_1', 'resolve error', 'cnc1-charts-free-6-tvbs-aco99-9@cnc1-charts-free-
+2026-10-10T03:55:11 EGX:ACRO 1 resolved=False n=0 err=['cs_wvPvoDwWeoua', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-tvbs-uzfzy-3@cnc1-charts-free-
+2026-10-10T03:55:54 EGX:ACRO 5 resolved=False n=0 err=['cs_tjTJlzjMMfPQ', 's1', 's_1', 'resolve error', 'wdc-charts-free-4-tvbs-lwt9j-8@wdc-charts-free-4-
+2026-10-10T03:58:37 EGX:ACRO 15 resolved=False n=0 err=['cs_xjEdLjxDnTmA', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-2@lax1-charts-free-
+2026-10-10T03:59:20 EGX:ACRO 30 resolved=False n=0 err=['cs_DeooTCMRDQeT', 's1', 's_1', 'resolve error', 'sfo2-charts-free-4-tvbs-axgg6-8@sfo2-charts-free-
+2026-10-10T04:00:03 EGX:ACRO 60 resolved=False n=0 err=['cs_xqBDNEDUQFIX', 's1', 's_1', 'resolve error', 'nje1-charts-free-4-tvbs-gcjpg-3@nje1-charts-free-
+2026-10-10T04:02:45 EGX:ACRO 240 resolved=False n=0 err=['cs_JzVPVIbsERgN', 's1', 's_1', 'resolve error', 'iln1-charts-free-3-tvbs-9pul2-7@iln1-charts-free-
+2026-10-10T04:08:59 EGX:AMER 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T05:14:28 EGX:EHDR 15 resolved=True n=0 err=None
+2026-10-10T05:15:26 EGX:EHDR 60 resolved=True n=0 err=None
+2026-10-10T05:16:08 EGX:EHDR 240 resolved=True n=0 err=None
+2026-10-10T05:16:54 EGX:EIUD 1D resolved=False n=0 err=['cs_APzZdtGpwluc', 's1', 's_1', 'resolve error', 'dal-charts-free-3-tvbs-lkiu8-5@dal-charts-free-3-
+2026-10-10T05:17:37 EGX:EIUD 1 resolved=False n=0 err=['cs_OCeofSWtnWHw', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-nrv5h-7@dal-charts-
+2026-10-10T05:18:19 EGX:EIUD 5 resolved=False n=0 err=['cs_fjHJAcjcFKuG', 's1', 's_1', 'resolve error', 'nje1-charts-free-4-tvbs-7ftgk-7@nje1-charts-free-
+2026-10-10T05:21:02 EGX:EIUD 15 resolved=False n=0 err=['cs_lCaGhkJsiLVm', 's1', 's_1', 'resolve error', 'wdc-charts-free-4-tvbs-lwt9j-5@wdc-charts-free-4-
+2026-10-10T05:21:45 EGX:EIUD 30 resolved=False n=0 err=['cs_jFAgouwzOqFT', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-tvbs-uzfzy-12@cnc1-charts-free
+2026-10-10T05:22:28 EGX:EIUD 60 resolved=False n=0 err=['cs_ACXEcLyDKtjA', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-uugdi-1@dal-charts-free-4-
+2026-10-10T05:25:10 EGX:EIUD 240 resolved=False n=0 err=['cs_EWbkyKPlOuGD', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-7caj4-2@nje1-charts-free-
+2026-10-10T05:28:01 EGX:ELWA 15 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T05:28:17 EGX:ELSH 1 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T05:35:54 EGX:EXPA 1 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T05:39:55 EGX:FCMD 1D resolved=False n=0 err=['cs_mnEacuLNAyDr', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-2lxfd-3@nje1-charts-free-
+2026-10-10T05:40:38 EGX:FCMD 1 resolved=False n=0 err=['cs_iigUsGpOqNcL', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-2lxfd-5@nje1-charts-free-
+2026-10-10T05:41:20 EGX:FCMD 5 resolved=False n=0 err=['cs_GvGgOWPSNbMa', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-2@cnc1-chart
+2026-10-10T05:44:04 EGX:FCMD 15 resolved=False n=0 err=['cs_HzXJPvccXBdJ', 's1', 's_1', 'resolve error', 'lax1-charts-free-4-tvbs-uztyr-6@lax1-charts-free-
+2026-10-10T05:44:47 EGX:FCMD 30 resolved=False n=0 err=['cs_iPuvlYQUKxfR', 's1', 's_1', 'resolve error', 'lax1-charts-free-3-tvbs-mglco-4@lax1-charts-free-
+2026-10-10T05:45:29 EGX:FCMD 60 resolved=False n=0 err=['cs_wTyxVSVbnrCV', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-9@cnc1-chart
+2026-10-10T05:48:12 EGX:FCMD 240 resolved=False n=0 err=['cs_CaXUKtowTlMd', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-5@cnc1-chart
+2026-10-10T06:05:27 EGX:HALN 1 resolved=True n=0 err=None
+2026-10-10T06:06:10 EGX:HALN 5 resolved=True n=0 err=None
+2026-10-10T06:06:53 EGX:HALN 15 resolved=True n=0 err=None
+2026-10-10T06:09:36 EGX:HALN 30 resolved=True n=0 err=None
+2026-10-10T06:10:29 EGX:HALN 60 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T06:11:12 EGX:HALN 240 resolved=True n=0 err=None
+2026-10-10T06:34:58 EGX:LCSW 1D EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T09:33:31 EGX:ACRO 1D resolved=False n=0 err=['cs_BmOXMcQbNmuU', 's1', 's_1', 'resolve error', 'iln1-charts-free-3-tvbs-s0srf-2@iln1-charts-free-
+2026-10-10T09:34:13 EGX:ACRO 1 resolved=False n=0 err=['cs_ZxFsPyMLzeDQ', 's1', 's_1', 'resolve error', 'iln1-charts-free-3-tvbs-s0srf-5@iln1-charts-free-
+2026-10-10T09:34:56 EGX:ACRO 5 resolved=False n=0 err=['cs_OdMxahsFYBvJ', 's1', 's_1', 'resolve error', 'sfo-charts-free-4-tvbs-vw2hy-3@sfo-charts-free-4-
+2026-10-10T09:36:40 EGX:ACRO 1D resolved=False n=0 err=['cs_LGpIIcPgKWLD', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-6@sfo-charts-free-3-
+2026-10-10T09:37:23 EGX:ACRO 1 resolved=False n=0 err=['cs_QOfmTLAsxJBr', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-stress-tvbs-z9icp-2@sfo-charts-
+2026-10-10T09:38:06 EGX:ACRO 5 resolved=False n=0 err=['cs_ASpSYVjIbXoU', 's1', 's_1', 'resolve error', 'sfo-charts-free-3-tvbs-dydv6-2@sfo-charts-free-3-
+2026-10-10T09:40:49 EGX:ACRO 15 resolved=False n=0 err=['cs_vhPsYjArlkuY', 's1', 's_1', 'resolve error', 'lax1-charts-free-3-tvbs-mglco-8@lax1-charts-free-
+2026-10-10T09:41:32 EGX:ACRO 30 resolved=False n=0 err=['cs_kYSWzoyaEjsr', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-uugdi-2@dal-charts-free-4-
+2026-10-10T09:42:06 EGX:EHDR 15 resolved=True n=0 err=None
+2026-10-10T09:42:15 EGX:ACRO 60 resolved=False n=0 err=['cs_IqAyvnNYcMIj', 's1', 's_1', 'resolve error', 'wdc-charts-free-3-tvbs-ablkb-4@wdc-charts-free-3-
+2026-10-10T09:42:48 EGX:EHDR 60 resolved=True n=0 err=None
+2026-10-10T09:43:31 EGX:EHDR 240 resolved=True n=0 err=None
+2026-10-10T09:44:57 EGX:ACRO 240 resolved=False n=0 err=['cs_JdArdUEKpTaA', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-2lxfd-2@nje1-charts-free-
+2026-10-10T09:46:17 EGX:EIUD 1D resolved=False n=0 err=['cs_lEyDOymfUytc', 's1', 's_1', 'resolve error', 'wdc2-charts-free-4-tvbs-p7txx-8@wdc2-charts-free-
+2026-10-10T09:46:59 EGX:EIUD 1 resolved=False n=0 err=['cs_ystmTOANxAcO', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-tvbs-uzfzy-3@cnc1-charts-free-
+2026-10-10T09:47:42 EGX:EIUD 5 resolved=False n=0 err=['cs_XaIjdwgMydmW', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-1@cnc1-chart
+2026-10-10T09:50:25 EGX:EIUD 15 resolved=False n=0 err=['cs_HYJYBfhoDWsE', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-9@cnc1-chart
+2026-10-10T09:51:07 EGX:EIUD 30 resolved=False n=0 err=['cs_NsbRjyKzGkIJ', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-7caj4-3@nje1-charts-free-
+2026-10-10T09:51:50 EGX:EIUD 60 resolved=False n=0 err=['cs_EiuzCvFArnkB', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-14@cnc1-char
+2026-10-10T09:54:33 EGX:EIUD 240 resolved=False n=0 err=['cs_zXKUrrbQRidW', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-2@cnc1-chart
+2026-10-10T09:57:20 EGX:FCMD 1D resolved=False n=0 err=['cs_JmnuAinyVDSC', 's1', 's_1', 'resolve error', 'wdc-charts-free-4-tvbs-lpw4d-3@wdc-charts-free-4-
+2026-10-10T09:58:02 EGX:FCMD 1 resolved=False n=0 err=['cs_qRERNfgBjtKQ', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-7caj4-4@nje1-charts-free-
+2026-10-10T09:58:45 EGX:FCMD 5 resolved=False n=0 err=['cs_dYLwQykOUzaK', 's1', 's_1', 'resolve error', 'lax1-charts-free-3-tvbs-mglco-4@lax1-charts-free-
+2026-10-10T10:01:28 EGX:FCMD 15 resolved=False n=0 err=['cs_POwdhMLDkfTf', 's1', 's_1', 'resolve error', 'dal-charts-free-3-stress-tvbs-nrv5h-2@dal-charts-
+2026-10-10T10:02:11 EGX:FCMD 30 resolved=False n=0 err=['cs_IKgmZmeLAwzP', 's1', 's_1', 'resolve error', 'nje1-charts-free-4-tvbs-gcjpg-7@nje1-charts-free-
+2026-10-10T10:02:54 EGX:FCMD 60 resolved=False n=0 err=['cs_UxmzhJojXxMr', 's1', 's_1', 'resolve error', 'nje1-charts-free-3-tvbs-2lxfd-1@nje1-charts-free-
+2026-10-10T10:05:36 EGX:FCMD 240 resolved=False n=0 err=['cs_TcatZNRcSNew', 's1', 's_1', 'resolve error', 'cnc1-charts-free-5-stress-tvbs-hhw6h-12@cnc1-char
+2026-10-10T10:10:20 EGX:HALN 1 resolved=True n=0 err=None
+2026-10-10T10:11:02 EGX:HALN 5 resolved=True n=0 err=None
+2026-10-10T10:11:45 EGX:HALN 15 resolved=True n=0 err=None
+2026-10-10T10:14:28 EGX:HALN 30 resolved=True n=0 err=None
+2026-10-10T10:15:11 EGX:HALN 60 resolved=True n=0 err=None
+2026-10-10T10:15:54 EGX:HALN 240 resolved=True n=0 err=None
+2026-10-10T10:22:25 EGX:PHTV 30 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T10:31:55 EGX:MMAT 1D EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T11:10:52 EGX:RMTV 1D resolved=True n=0 err=None
+2026-10-10T11:11:35 EGX:RMTV 1 resolved=True n=0 err=None
+2026-10-10T11:12:28 EGX:RMTV 5 EXC [WinError 10060] A connection attempt failed because the connected party did not properly respond af
+2026-10-10T11:15:11 EGX:RMTV 15 resolved=True n=0 err=None
+2026-10-10T11:15:53 EGX:RMTV 30 resolved=True n=0 err=None
+2026-10-10T11:16:36 EGX:RMTV 60 resolved=True n=0 err=None
+2026-10-10T11:19:19 EGX:RMTV 240 resolved=True n=0 err=None
+2026-10-10T12:04:28 FX:USDEGP 1D resolved=False n=0 err=['cs_DDubObseoGML', 's1', 's_1', 'resolve error', 'dal-charts-free-4-tvbs-uugdi-1@dal-charts-free-4-

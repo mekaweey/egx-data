@@ -1,0 +1,13 @@
+field,value
+symbol,AFMC
+description,Alexandria Flour Mills Co.
+isin,EGS30471C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,alexandria-flour-mills
+found_by_isin,False
+provider,ice

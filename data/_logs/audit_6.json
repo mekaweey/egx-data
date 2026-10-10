@@ -1,0 +1,222 @@
+[
+{
+"sym": "ACTF",
+"issues": [
+"60m-narrower:1/32",
+"1m-narrower:1/24"
+]
+},
+{
+"sym": "AIFI",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:1/33"
+]
+},
+{
+"sym": "AMIA",
+"issues": [
+"60m-narrower:1/31"
+]
+},
+{
+"sym": "ARCC",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "BIGP",
+"issues": [
+"60m-narrower:7/31",
+"1m-narrower:4/42"
+]
+},
+{
+"sym": "CCAPP",
+"issues": []
+},
+{
+"sym": "CLHO",
+"issues": [
+"60m-narrower:5/31"
+]
+},
+{
+"sym": "CSAG",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:2/42"
+]
+},
+{
+"sym": "EALR",
+"issues": [
+"60m-narrower:17/31",
+"1m-narrower:2/42"
+]
+},
+{
+"sym": "EFID",
+"issues": [
+"60m-CONTRADICTION:1/31",
+"1m-narrower:3/23"
+]
+},
+{
+"sym": "EGS370O1C013",
+"issues": [
+"60m-narrower:4/32",
+"1m-narrower:4/52"
+]
+},
+{
+"sym": "EIUD",
+"issues": [
+"missing-60m",
+"missing-1m"
+]
+},
+{
+"sym": "EOSB",
+"issues": [
+"60m-narrower:15/31",
+"1m-narrower:25/31"
+]
+},
+{
+"sym": "FCMD",
+"issues": []
+},
+{
+"sym": "GGCC",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:2/28"
+]
+},
+{
+"sym": "GSSC",
+"issues": [
+"60m-narrower:4/31"
+]
+},
+{
+"sym": "HRHO",
+"issues": [
+"60m-narrower:1/31"
+]
+},
+{
+"sym": "INEG",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:6/28"
+]
+},
+{
+"sym": "KABO",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:2/37"
+]
+},
+{
+"sym": "LUTS",
+"issues": [
+"60m-narrower:4/30"
+]
+},
+{
+"sym": "MENA",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/42"
+]
+},
+{
+"sym": "MISR",
+"issues": [
+"60m-narrower:9/32",
+"1m-narrower:9/32"
+]
+},
+{
+"sym": "MPCO",
+"issues": [
+"60m-narrower:6/31"
+]
+},
+{
+"sym": "NDRL",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:9/31"
+]
+},
+{
+"sym": "ODIN",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:3/32"
+]
+},
+{
+"sym": "PHAR",
+"issues": [
+"60m-narrower:1/31",
+"60m-CONTRADICTION:1/31"
+]
+},
+{
+"sym": "QNBE",
+"issues": [
+"60m-narrower:5/30"
+]
+},
+{
+"sym": "RREI",
+"issues": [
+"60m-narrower:6/31"
+]
+},
+{
+"sym": "SDTI",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:1/47"
+]
+},
+{
+"sym": "SNFI",
+"issues": []
+},
+{
+"sym": "TALM",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:2/23"
+]
+},
+{
+"sym": "TYCN",
+"issues": [
+"60m-narrower:19/31",
+"1m-narrower:1/37"
+]
+},
+{
+"sym": "VALU",
+"issues": [
+"60m-narrower:2/32",
+"1m-narrower:3/37"
+]
+},
+{
+"sym": "ZMID",
+"issues": [
+"60m-narrower:1/31"
+]
+}
+]

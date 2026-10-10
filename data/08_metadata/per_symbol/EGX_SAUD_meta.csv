@@ -1,0 +1,13 @@
+field,value
+symbol,SAUD
+description,Al Baraka Bank Egypt
+isin,EGS60101C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,al-baraka-bank-egypt
+found_by_isin,False
+provider,ice

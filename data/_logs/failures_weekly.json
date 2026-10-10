@@ -1,0 +1,17 @@
+[
+ {
+  "sym": "ACRO",
+  "res": "weekly",
+  "err": "symbol_error: ['cs_323603610', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "EIUD",
+  "res": "weekly",
+  "err": "symbol_error: ['cs_323604109', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "FCMD",
+  "res": "weekly",
+  "err": "symbol_error: ['cs_323604609', 'sds_sym_1', 'invalid symbol']"
+ }
+]

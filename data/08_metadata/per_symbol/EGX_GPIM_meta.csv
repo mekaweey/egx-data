@@ -1,0 +1,13 @@
+field,value
+symbol,GPIM
+description,GPI For Urban Growth
+isin,EGS213S1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egyptians-for-investment-and-urban-development
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,CSAG
+description,Canal Shipping Agencies Co.
+isin,EGS44031C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,canal-shipping-agencies
+found_by_isin,False
+provider,ice

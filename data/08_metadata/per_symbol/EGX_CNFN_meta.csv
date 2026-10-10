@@ -1,0 +1,13 @@
+field,value
+symbol,CNFN
+description,Contact Financial Holding SAE
+isin,EGS738I1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,contact-financial
+found_by_isin,False
+provider,ice

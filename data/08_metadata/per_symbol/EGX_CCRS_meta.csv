@@ -1,0 +1,13 @@
+field,value
+symbol,CCRS
+description,Gulf Canadian Real Estate Investment Co.
+isin,EGS651B1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,gulf-canadian-real-estate-investment-co
+found_by_isin,False
+provider,ice

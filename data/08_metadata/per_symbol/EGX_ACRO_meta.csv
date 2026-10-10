@@ -1,0 +1,13 @@
+field,value
+symbol,ACRO
+description,Acrow Misr
+isin,EGS3E071C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,acrow-misr
+found_by_isin,False
+provider,ice

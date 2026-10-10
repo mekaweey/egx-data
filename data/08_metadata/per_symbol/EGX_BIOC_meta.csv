@@ -1,0 +1,13 @@
+field,value
+symbol,BIOC
+description,GlaxoSmithKline S.A.E.
+isin,EGS38171C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,glaxosmithkline
+found_by_isin,False
+provider,ice

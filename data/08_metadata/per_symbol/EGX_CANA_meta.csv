@@ -1,0 +1,13 @@
+field,value
+symbol,CANA
+description,Suez Canal Bank SAE
+isin,EGS60231C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,suez-canal-bank-sae
+found_by_isin,False
+provider,ice

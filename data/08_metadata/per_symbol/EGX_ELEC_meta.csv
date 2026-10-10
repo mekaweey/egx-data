@@ -1,0 +1,13 @@
+field,value
+symbol,ELEC
+description,Electro Cable Egypt
+isin,EGS3G231C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,electro-cable-egypt
+found_by_isin,False
+provider,ice

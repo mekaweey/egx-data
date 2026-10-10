@@ -1,0 +1,13 @@
+field,value
+symbol,POUL
+description,Cairo Poultry Co.
+isin,EGS02051C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,cairo-poultry
+found_by_isin,False
+provider,ice

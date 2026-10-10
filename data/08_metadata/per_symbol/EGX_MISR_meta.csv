@@ -1,0 +1,13 @@
+field,value
+symbol,MISR
+description,MISR Intercontinental for Granite & Marble
+isin,EGS3C4P1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,misr-intercontinental-for-granite-and-marble-egy-ston
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,VALU
+description,U Consumer Finance S.A.E
+isin,EGS505Z1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,u-consumer-finance
+found_by_isin,False
+provider,ice

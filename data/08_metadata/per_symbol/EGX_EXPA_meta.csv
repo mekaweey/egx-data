@@ -1,0 +1,13 @@
+field,value
+symbol,EXPA
+description,Export Development Bank of Egypt
+isin,EGS60241C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,export-development-bank-of-egypt-edbe
+found_by_isin,False
+provider,ice

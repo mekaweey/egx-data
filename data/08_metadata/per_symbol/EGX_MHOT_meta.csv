@@ -1,0 +1,13 @@
+field,value
+symbol,MHOT
+description,Misr Hotels Co.
+isin,EGS70081C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,misr-hotels
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,ATQA
+description,Misr National Steel
+isin,EGS3D0C1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,misr-national-steel-ataqa
+found_by_isin,False
+provider,ice

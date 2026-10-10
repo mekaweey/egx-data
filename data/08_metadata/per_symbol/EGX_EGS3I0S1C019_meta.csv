@@ -1,0 +1,13 @@
+field,value
+symbol,EGS3I0S1C019
+description,Future Care For Medical Industries
+isin,EGS3I0S1C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,international-company-for-medical-industries-icmi
+found_by_isin,True
+provider,ice

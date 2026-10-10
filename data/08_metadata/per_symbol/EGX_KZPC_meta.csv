@@ -1,0 +1,13 @@
+field,value
+symbol,KZPC
+description,Kafr El Zayat Pesticides & Chemical Co.
+isin,EGS38411C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,kafr-el-zayat-pesticides
+found_by_isin,False
+provider,ice

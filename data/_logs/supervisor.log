@@ -1,0 +1,2924 @@
+2026-10-10T02:44:47 shard 0 alive (log age 2.6 min)
+2026-10-10T02:44:47 shard 1 alive (log age 2.6 min)
+2026-10-10T02:44:47 tripwire alive-or-done
+2026-10-10T02:44:47 watcher alive
+2026-10-10T02:44:47 cycle done
+2026-10-10T02:45:12 shard 0 alive (log age 3.0 min)
+2026-10-10T02:45:12 shard 1 alive (log age 3.0 min)
+2026-10-10T02:45:12 tripwire alive-or-done
+2026-10-10T02:45:12 watcher alive
+2026-10-10T02:45:12 cycle done
+2026-10-10T02:48:17 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T02:48:17 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T02:48:17 shard 1 alive (log age 0.6 min)
+2026-10-10T02:48:17 tripwire alive-or-done
+2026-10-10T02:48:17 watcher alive
+2026-10-10T02:48:17 cycle done
+2026-10-10T02:48:37 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T02:48:37 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T02:48:37 shard 1 process DEAD (log age 0.9 min) -> relaunch NOW
+2026-10-10T02:48:37 shard 1 relaunched
+2026-10-10T02:48:37 tripwire alive-or-done
+2026-10-10T02:48:37 watcher alive
+2026-10-10T02:48:37 cycle done
+2026-10-10T02:50:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T02:50:03 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T02:50:03 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T02:50:03 tripwire alive-or-done
+2026-10-10T02:50:03 watcher alive
+2026-10-10T02:50:03 cycle done
+2026-10-10T02:55:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T02:55:03 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T02:55:03 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T02:55:03 tripwire alive-or-done
+2026-10-10T02:55:03 watcher alive
+2026-10-10T02:55:03 cycle done
+2026-10-10T02:59:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T02:59:03 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T02:59:03 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T02:59:03 tripwire alive-or-done
+2026-10-10T02:59:03 watcher alive
+2026-10-10T02:59:03 merge not started
+2026-10-10T02:59:03 cycle done
+2026-10-10T03:00:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:00:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:00:03 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T03:00:03 tripwire alive-or-done
+2026-10-10T03:00:03 watcher alive
+2026-10-10T03:00:03 merge not started
+2026-10-10T03:00:03 cycle done
+2026-10-10T03:01:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:01:03 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:01:03 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T03:01:03 tripwire alive-or-done
+2026-10-10T03:01:03 watcher alive
+2026-10-10T03:01:03 merge not started
+2026-10-10T03:01:03 cycle done
+2026-10-10T03:02:03 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:02:03 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T03:02:03 shard 1 process ALIVE (log age 3.8 min) - no action
+2026-10-10T03:02:03 tripwire alive-or-done
+2026-10-10T03:02:03 watcher alive
+2026-10-10T03:02:03 merge not started
+2026-10-10T03:02:03 cycle done
+2026-10-10T03:03:03 live: []
+2026-10-10T03:03:03 shard 0 process DEAD (log age 3.1 min) -> relaunch NOW
+2026-10-10T03:03:03 shard 0 relaunched
+2026-10-10T03:03:03 shard 1 process DEAD (log age 4.8 min) -> relaunch NOW
+2026-10-10T03:03:03 shard 1 relaunched
+2026-10-10T03:03:03 tripwire alive-or-done
+2026-10-10T03:03:03 watcher alive
+2026-10-10T03:03:03 merge not started
+2026-10-10T03:03:03 cycle done
+2026-10-10T03:04:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:04:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:04:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:04:02 tripwire alive-or-done
+2026-10-10T03:04:02 watcher alive
+2026-10-10T03:04:02 merge not started
+2026-10-10T03:04:02 cycle done
+2026-10-10T03:05:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:05:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:05:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:05:02 tripwire alive-or-done
+2026-10-10T03:05:02 watcher alive
+2026-10-10T03:05:02 merge not started
+2026-10-10T03:05:02 cycle done
+2026-10-10T03:06:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:06:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:06:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:06:02 tripwire alive-or-done
+2026-10-10T03:06:02 watcher alive
+2026-10-10T03:06:02 merge not started
+2026-10-10T03:06:02 cycle done
+2026-10-10T03:07:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:07:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:07:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:07:02 tripwire alive-or-done
+2026-10-10T03:07:02 watcher alive
+2026-10-10T03:07:02 merge not started
+2026-10-10T03:07:02 cycle done
+2026-10-10T03:08:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:08:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:08:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:08:02 tripwire alive-or-done
+2026-10-10T03:08:02 watcher alive
+2026-10-10T03:08:02 merge not started
+2026-10-10T03:08:02 cycle done
+2026-10-10T03:09:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:09:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:09:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:09:02 tripwire alive-or-done
+2026-10-10T03:09:02 watcher alive
+2026-10-10T03:09:02 merge not started
+2026-10-10T03:09:02 cycle done
+2026-10-10T03:10:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:10:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T03:10:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:10:02 tripwire alive-or-done
+2026-10-10T03:10:02 watcher alive
+2026-10-10T03:10:02 merge not started
+2026-10-10T03:10:02 cycle done
+2026-10-10T03:11:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:11:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:11:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:11:02 tripwire alive-or-done
+2026-10-10T03:11:02 watcher alive
+2026-10-10T03:11:02 merge not started
+2026-10-10T03:11:02 cycle done
+2026-10-10T03:12:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:12:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:12:02 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T03:12:02 tripwire alive-or-done
+2026-10-10T03:12:02 watcher alive
+2026-10-10T03:12:02 merge not started
+2026-10-10T03:12:02 cycle done
+2026-10-10T03:13:02 live: [('refresh', 0), ('refresh', 1)]
+2026-10-10T03:13:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:13:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T03:13:02 tripwire stale+dead -> relaunch
+2026-10-10T03:13:02 watcher stale+dead -> relaunch
+2026-10-10T03:13:02 merge not started
+2026-10-10T03:13:02 cycle done
+2026-10-10T03:14:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:14:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:14:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T03:14:02 tripwire alive-or-done
+2026-10-10T03:14:02 watcher alive
+2026-10-10T03:14:02 merge not started
+2026-10-10T03:14:02 cycle done
+2026-10-10T03:15:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:15:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:15:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T03:15:02 tripwire alive-or-done
+2026-10-10T03:15:02 watcher alive
+2026-10-10T03:15:02 merge not started
+2026-10-10T03:15:02 cycle done
+2026-10-10T03:16:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:16:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:16:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T03:16:02 tripwire alive-or-done
+2026-10-10T03:16:02 watcher alive
+2026-10-10T03:16:02 merge not started
+2026-10-10T03:16:02 cycle done
+2026-10-10T03:17:02 live: [('tripwire', -1), ('watch', -1)]
+2026-10-10T03:17:02 shard 0 process DEAD (log age 3.5 min) -> relaunch NOW
+2026-10-10T03:17:02 shard 0 relaunched
+2026-10-10T03:17:02 shard 1 process DEAD (log age 4.3 min) -> relaunch NOW
+2026-10-10T03:17:02 shard 1 relaunched
+2026-10-10T03:17:02 tripwire alive-or-done
+2026-10-10T03:17:02 watcher alive
+2026-10-10T03:17:02 merge not started
+2026-10-10T03:17:02 cycle done
+2026-10-10T03:18:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:18:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:18:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:18:02 tripwire alive-or-done
+2026-10-10T03:18:02 watcher alive
+2026-10-10T03:18:02 merge not started
+2026-10-10T03:18:02 cycle done
+2026-10-10T03:19:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:19:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:19:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:19:02 tripwire alive-or-done
+2026-10-10T03:19:02 watcher alive
+2026-10-10T03:19:02 merge not started
+2026-10-10T03:19:02 cycle done
+2026-10-10T03:20:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:20:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:20:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:20:02 tripwire alive-or-done
+2026-10-10T03:20:02 watcher alive
+2026-10-10T03:20:02 merge not started
+2026-10-10T03:20:02 cycle done
+2026-10-10T03:21:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:21:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:21:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:21:02 tripwire alive-or-done
+2026-10-10T03:21:02 watcher alive
+2026-10-10T03:21:02 merge not started
+2026-10-10T03:21:02 cycle done
+2026-10-10T03:22:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:22:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:22:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:22:02 tripwire alive-or-done
+2026-10-10T03:22:02 watcher alive
+2026-10-10T03:22:02 merge not started
+2026-10-10T03:22:02 cycle done
+2026-10-10T03:23:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:23:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:23:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:23:02 tripwire alive-or-done
+2026-10-10T03:23:02 watcher alive
+2026-10-10T03:23:02 merge not started
+2026-10-10T03:23:02 cycle done
+2026-10-10T03:24:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:24:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:24:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:24:02 tripwire alive-or-done
+2026-10-10T03:24:02 watcher alive
+2026-10-10T03:24:02 merge not started
+2026-10-10T03:24:02 cycle done
+2026-10-10T03:25:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:25:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:25:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:25:02 tripwire alive-or-done
+2026-10-10T03:25:02 watcher alive
+2026-10-10T03:25:02 merge not started
+2026-10-10T03:25:02 cycle done
+2026-10-10T03:26:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:26:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T03:26:02 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T03:26:02 tripwire alive-or-done
+2026-10-10T03:26:02 watcher alive
+2026-10-10T03:26:02 merge not started
+2026-10-10T03:26:02 cycle done
+2026-10-10T03:27:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:27:02 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T03:27:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T03:27:02 tripwire alive-or-done
+2026-10-10T03:27:02 watcher alive
+2026-10-10T03:27:02 merge not started
+2026-10-10T03:27:02 cycle done
+2026-10-10T03:28:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:28:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T03:28:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T03:28:02 tripwire alive-or-done
+2026-10-10T03:28:02 watcher alive
+2026-10-10T03:28:02 merge not started
+2026-10-10T03:28:02 cycle done
+2026-10-10T03:29:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:29:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T03:29:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T03:29:02 tripwire alive-or-done
+2026-10-10T03:29:02 watcher alive
+2026-10-10T03:29:02 merge not started
+2026-10-10T03:29:02 cycle done
+2026-10-10T03:30:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:30:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T03:30:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T03:30:02 tripwire alive-or-done
+2026-10-10T03:30:02 watcher alive
+2026-10-10T03:30:02 merge not started
+2026-10-10T03:30:02 cycle done
+2026-10-10T03:31:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:31:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T03:31:02 shard 1 process ALIVE (log age 4.4 min) - no action
+2026-10-10T03:31:02 tripwire alive-or-done
+2026-10-10T03:31:02 watcher alive
+2026-10-10T03:31:02 merge not started
+2026-10-10T03:31:02 cycle done
+2026-10-10T03:32:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:32:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T03:32:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T03:32:02 tripwire alive-or-done
+2026-10-10T03:32:02 watcher alive
+2026-10-10T03:32:02 merge not started
+2026-10-10T03:32:02 cycle done
+2026-10-10T03:33:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:33:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T03:33:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T03:33:02 tripwire alive-or-done
+2026-10-10T03:33:02 watcher alive
+2026-10-10T03:33:02 merge not started
+2026-10-10T03:33:02 cycle done
+2026-10-10T03:34:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:34:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T03:34:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T03:34:02 tripwire alive-or-done
+2026-10-10T03:34:02 watcher alive
+2026-10-10T03:34:02 merge not started
+2026-10-10T03:34:02 cycle done
+2026-10-10T03:35:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:35:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T03:35:02 shard 1 process ALIVE (log age 0.2 min) - no action
+2026-10-10T03:35:02 tripwire alive-or-done
+2026-10-10T03:35:02 watcher alive
+2026-10-10T03:35:02 merge not started
+2026-10-10T03:35:02 cycle done
+2026-10-10T03:36:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:36:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T03:36:02 shard 1 process ALIVE (log age 1.2 min) - no action
+2026-10-10T03:36:02 tripwire alive-or-done
+2026-10-10T03:36:02 watcher alive
+2026-10-10T03:36:02 merge not started
+2026-10-10T03:36:02 cycle done
+2026-10-10T03:37:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:37:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T03:37:02 shard 1 process ALIVE (log age 2.2 min) - no action
+2026-10-10T03:37:02 tripwire alive-or-done
+2026-10-10T03:37:02 watcher alive
+2026-10-10T03:37:02 merge not started
+2026-10-10T03:37:02 cycle done
+2026-10-10T03:38:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:38:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T03:38:02 shard 1 process ALIVE (log age 3.2 min) - no action
+2026-10-10T03:38:02 tripwire alive-or-done
+2026-10-10T03:38:02 watcher alive
+2026-10-10T03:38:02 merge not started
+2026-10-10T03:38:02 cycle done
+2026-10-10T03:39:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:39:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T03:39:02 shard 1 process ALIVE (log age 0.7 min) - no action
+2026-10-10T03:39:02 tripwire alive-or-done
+2026-10-10T03:39:02 watcher alive
+2026-10-10T03:39:02 merge not started
+2026-10-10T03:39:02 cycle done
+2026-10-10T03:40:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:40:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T03:40:02 shard 1 process ALIVE (log age 1.7 min) - no action
+2026-10-10T03:40:02 tripwire alive-or-done
+2026-10-10T03:40:02 watcher alive
+2026-10-10T03:40:02 merge not started
+2026-10-10T03:40:02 cycle done
+2026-10-10T03:41:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:41:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T03:41:02 shard 1 process ALIVE (log age 2.7 min) - no action
+2026-10-10T03:41:02 tripwire alive-or-done
+2026-10-10T03:41:02 watcher alive
+2026-10-10T03:41:02 merge not started
+2026-10-10T03:41:02 cycle done
+2026-10-10T03:42:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:42:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T03:42:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:42:02 tripwire alive-or-done
+2026-10-10T03:42:02 watcher alive
+2026-10-10T03:42:02 merge not started
+2026-10-10T03:42:02 cycle done
+2026-10-10T03:43:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:43:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T03:43:02 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:43:02 tripwire alive-or-done
+2026-10-10T03:43:02 watcher alive
+2026-10-10T03:43:02 merge not started
+2026-10-10T03:43:02 cycle done
+2026-10-10T03:44:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:44:03 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T03:44:03 shard 1 process ALIVE (log age 2.1 min) - no action
+2026-10-10T03:44:03 tripwire alive-or-done
+2026-10-10T03:44:03 watcher alive
+2026-10-10T03:44:03 merge not started
+2026-10-10T03:44:03 cycle done
+2026-10-10T03:45:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:45:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T03:45:02 shard 1 process ALIVE (log age 3.1 min) - no action
+2026-10-10T03:45:02 tripwire alive-or-done
+2026-10-10T03:45:02 watcher alive
+2026-10-10T03:45:02 merge not started
+2026-10-10T03:45:02 cycle done
+2026-10-10T03:46:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:46:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T03:46:02 shard 1 process ALIVE (log age 0.6 min) - no action
+2026-10-10T03:46:02 tripwire alive-or-done
+2026-10-10T03:46:02 watcher alive
+2026-10-10T03:46:02 merge not started
+2026-10-10T03:46:02 cycle done
+2026-10-10T03:47:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:47:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T03:47:02 shard 1 process ALIVE (log age 1.6 min) - no action
+2026-10-10T03:47:02 tripwire alive-or-done
+2026-10-10T03:47:02 watcher alive
+2026-10-10T03:47:02 merge not started
+2026-10-10T03:47:02 cycle done
+2026-10-10T03:48:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:48:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T03:48:02 shard 1 process ALIVE (log age 2.6 min) - no action
+2026-10-10T03:48:02 tripwire alive-or-done
+2026-10-10T03:48:02 watcher alive
+2026-10-10T03:48:02 merge not started
+2026-10-10T03:48:02 cycle done
+2026-10-10T03:49:02 live: [('refresh', 0), ('refresh', 1), ('tripwire', -1), ('watch', -1)]
+2026-10-10T03:49:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T03:49:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:49:02 tripwire alive-or-done
+2026-10-10T03:49:02 watcher alive
+2026-10-10T03:49:02 merge not started
+2026-10-10T03:49:02 cycle done
+2026-10-10T03:50:02 live: [('watch', -1)]
+2026-10-10T03:50:02 shard 0 process DEAD (log age 1.3 min) -> relaunch NOW
+2026-10-10T03:50:02 shard 0 relaunched
+2026-10-10T03:50:02 shard 1 process DEAD (log age 1.1 min) -> relaunch NOW
+2026-10-10T03:50:02 shard 1 relaunched
+2026-10-10T03:50:02 tripwire alive-or-done
+2026-10-10T03:50:02 watcher alive
+2026-10-10T03:50:02 merge not started
+2026-10-10T03:50:02 cycle done
+2026-10-10T03:51:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:51:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:51:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T03:51:02 tripwire alive-or-done
+2026-10-10T03:51:02 watcher alive
+2026-10-10T03:51:02 merge not started
+2026-10-10T03:51:02 cycle done
+2026-10-10T03:52:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:52:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:52:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T03:52:02 tripwire alive-or-done
+2026-10-10T03:52:02 watcher alive
+2026-10-10T03:52:02 merge not started
+2026-10-10T03:52:02 cycle done
+2026-10-10T03:53:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:53:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:53:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T03:53:02 tripwire alive-or-done
+2026-10-10T03:53:02 watcher alive
+2026-10-10T03:53:02 merge not started
+2026-10-10T03:53:02 cycle done
+2026-10-10T03:54:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:54:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T03:54:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:54:02 tripwire alive-or-done
+2026-10-10T03:54:02 watcher alive
+2026-10-10T03:54:02 merge not started
+2026-10-10T03:54:02 cycle done
+2026-10-10T03:55:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:55:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T03:55:02 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:55:02 tripwire alive-or-done
+2026-10-10T03:55:02 watcher alive
+2026-10-10T03:55:02 merge not started
+2026-10-10T03:55:02 cycle done
+2026-10-10T03:56:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:56:03 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T03:56:03 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:56:03 tripwire alive-or-done
+2026-10-10T03:56:03 watcher alive
+2026-10-10T03:56:03 merge not started
+2026-10-10T03:56:03 cycle done
+2026-10-10T03:57:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:57:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T03:57:03 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:57:03 tripwire alive-or-done
+2026-10-10T03:57:03 watcher alive
+2026-10-10T03:57:03 merge not started
+2026-10-10T03:57:03 cycle done
+2026-10-10T03:58:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:58:03 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T03:58:03 shard 1 process ALIVE (log age 2.1 min) - no action
+2026-10-10T03:58:03 tripwire alive-or-done
+2026-10-10T03:58:03 watcher alive
+2026-10-10T03:58:03 merge not started
+2026-10-10T03:58:03 cycle done
+2026-10-10T03:59:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T03:59:03 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T03:59:03 shard 1 process ALIVE (log age 3.1 min) - no action
+2026-10-10T03:59:03 tripwire alive-or-done
+2026-10-10T03:59:03 watcher alive
+2026-10-10T03:59:03 merge not started
+2026-10-10T03:59:03 cycle done
+2026-10-10T04:00:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:00:03 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T04:00:03 shard 1 process ALIVE (log age 4.1 min) - no action
+2026-10-10T04:00:03 tripwire alive-or-done
+2026-10-10T04:00:03 watcher alive
+2026-10-10T04:00:03 merge not started
+2026-10-10T04:00:03 cycle done
+2026-10-10T04:01:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:01:03 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T04:01:03 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T04:01:03 tripwire alive-or-done
+2026-10-10T04:01:03 watcher alive
+2026-10-10T04:01:03 merge not started
+2026-10-10T04:01:03 cycle done
+2026-10-10T04:02:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:02:03 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T04:02:03 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:02:03 tripwire alive-or-done
+2026-10-10T04:02:03 watcher alive
+2026-10-10T04:02:03 merge not started
+2026-10-10T04:02:03 cycle done
+2026-10-10T04:03:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:03:03 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T04:03:03 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:03:03 tripwire alive-or-done
+2026-10-10T04:03:03 watcher alive
+2026-10-10T04:03:03 merge not started
+2026-10-10T04:03:03 cycle done
+2026-10-10T04:04:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:04:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T04:04:03 shard 1 process ALIVE (log age 4.0 min) - no action
+2026-10-10T04:04:03 tripwire alive-or-done
+2026-10-10T04:04:03 watcher alive
+2026-10-10T04:04:03 merge not started
+2026-10-10T04:04:03 cycle done
+2026-10-10T04:05:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:05:03 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T04:05:03 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T04:05:03 tripwire alive-or-done
+2026-10-10T04:05:03 watcher alive
+2026-10-10T04:05:03 merge not started
+2026-10-10T04:05:03 cycle done
+2026-10-10T04:06:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:06:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:06:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:06:02 tripwire alive-or-done
+2026-10-10T04:06:02 watcher alive
+2026-10-10T04:06:02 merge not started
+2026-10-10T04:06:02 cycle done
+2026-10-10T04:07:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:07:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:07:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:07:02 tripwire alive-or-done
+2026-10-10T04:07:02 watcher alive
+2026-10-10T04:07:02 merge not started
+2026-10-10T04:07:02 cycle done
+2026-10-10T04:08:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:08:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T04:08:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:08:02 tripwire alive-or-done
+2026-10-10T04:08:02 watcher alive
+2026-10-10T04:08:02 merge not started
+2026-10-10T04:08:02 cycle done
+2026-10-10T04:09:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:09:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T04:09:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T04:09:02 tripwire alive-or-done
+2026-10-10T04:09:02 watcher alive
+2026-10-10T04:09:02 merge not started
+2026-10-10T04:09:02 cycle done
+2026-10-10T04:10:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:10:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T04:10:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T04:10:02 tripwire alive-or-done
+2026-10-10T04:10:02 watcher alive
+2026-10-10T04:10:02 merge not started
+2026-10-10T04:10:02 cycle done
+2026-10-10T04:11:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:11:02 shard 0 process ALIVE (log age 3.7 min) - no action
+2026-10-10T04:11:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T04:11:02 tripwire alive-or-done
+2026-10-10T04:11:02 watcher alive
+2026-10-10T04:11:02 merge not started
+2026-10-10T04:11:02 cycle done
+2026-10-10T04:12:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:12:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T04:12:02 shard 1 process ALIVE (log age -0.0 min) - no action
+2026-10-10T04:12:02 tripwire alive-or-done
+2026-10-10T04:12:02 watcher alive
+2026-10-10T04:12:02 merge not started
+2026-10-10T04:12:02 cycle done
+2026-10-10T04:13:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:13:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T04:13:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T04:13:02 tripwire alive-or-done
+2026-10-10T04:13:02 watcher alive
+2026-10-10T04:13:02 merge not started
+2026-10-10T04:13:02 cycle done
+2026-10-10T04:14:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:14:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T04:14:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:14:02 tripwire alive-or-done
+2026-10-10T04:14:02 watcher alive
+2026-10-10T04:14:02 merge not started
+2026-10-10T04:14:02 cycle done
+2026-10-10T04:15:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:15:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T04:15:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:15:02 tripwire alive-or-done
+2026-10-10T04:15:02 watcher alive
+2026-10-10T04:15:02 merge not started
+2026-10-10T04:15:02 cycle done
+2026-10-10T04:16:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:16:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T04:16:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T04:16:02 tripwire alive-or-done
+2026-10-10T04:16:02 watcher alive
+2026-10-10T04:16:02 merge not started
+2026-10-10T04:16:02 cycle done
+2026-10-10T04:17:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:17:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:17:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T04:17:02 tripwire alive-or-done
+2026-10-10T04:17:02 watcher alive
+2026-10-10T04:17:02 merge not started
+2026-10-10T04:17:02 cycle done
+2026-10-10T04:18:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:18:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:18:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T04:18:02 tripwire alive-or-done
+2026-10-10T04:18:02 watcher alive
+2026-10-10T04:18:02 merge not started
+2026-10-10T04:18:02 cycle done
+2026-10-10T04:19:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:19:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T04:19:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T04:19:02 tripwire alive-or-done
+2026-10-10T04:19:02 watcher alive
+2026-10-10T04:19:02 merge not started
+2026-10-10T04:19:02 cycle done
+2026-10-10T04:20:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:20:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T04:20:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T04:20:02 tripwire alive-or-done
+2026-10-10T04:20:02 watcher alive
+2026-10-10T04:20:02 merge not started
+2026-10-10T04:20:02 cycle done
+2026-10-10T04:21:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:21:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T04:21:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T04:21:02 tripwire alive-or-done
+2026-10-10T04:21:02 watcher alive
+2026-10-10T04:21:02 merge not started
+2026-10-10T04:21:02 cycle done
+2026-10-10T04:22:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:22:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T04:22:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T04:22:02 tripwire alive-or-done
+2026-10-10T04:22:02 watcher alive
+2026-10-10T04:22:02 merge not started
+2026-10-10T04:22:02 cycle done
+2026-10-10T04:23:04 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:23:04 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T04:23:04 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T04:23:04 tripwire alive-or-done
+2026-10-10T04:23:04 watcher alive
+2026-10-10T04:23:04 merge not started
+2026-10-10T04:23:04 cycle done
+2026-10-10T04:24:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:24:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:24:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:24:02 tripwire alive-or-done
+2026-10-10T04:24:02 watcher alive
+2026-10-10T04:24:02 merge not started
+2026-10-10T04:24:02 cycle done
+2026-10-10T04:25:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:25:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:25:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:25:02 tripwire alive-or-done
+2026-10-10T04:25:02 watcher alive
+2026-10-10T04:25:02 merge not started
+2026-10-10T04:25:02 cycle done
+2026-10-10T04:26:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:26:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T04:26:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:26:02 tripwire alive-or-done
+2026-10-10T04:26:02 watcher alive
+2026-10-10T04:26:02 merge not started
+2026-10-10T04:26:02 cycle done
+2026-10-10T04:27:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:27:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T04:27:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T04:27:02 tripwire alive-or-done
+2026-10-10T04:27:02 watcher alive
+2026-10-10T04:27:02 merge not started
+2026-10-10T04:27:02 cycle done
+2026-10-10T04:28:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:28:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T04:28:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T04:28:02 tripwire alive-or-done
+2026-10-10T04:28:02 watcher alive
+2026-10-10T04:28:02 merge not started
+2026-10-10T04:28:02 cycle done
+2026-10-10T04:29:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:29:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T04:29:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T04:29:02 tripwire alive-or-done
+2026-10-10T04:29:02 watcher alive
+2026-10-10T04:29:02 merge not started
+2026-10-10T04:29:02 cycle done
+2026-10-10T04:30:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:30:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T04:30:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T04:30:02 tripwire alive-or-done
+2026-10-10T04:30:02 watcher alive
+2026-10-10T04:30:02 merge not started
+2026-10-10T04:30:02 cycle done
+2026-10-10T04:31:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:31:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T04:31:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T04:31:02 tripwire alive-or-done
+2026-10-10T04:31:02 watcher alive
+2026-10-10T04:31:02 merge not started
+2026-10-10T04:31:02 cycle done
+2026-10-10T04:32:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:32:02 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T04:32:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T04:32:02 tripwire alive-or-done
+2026-10-10T04:32:02 watcher alive
+2026-10-10T04:32:02 merge not started
+2026-10-10T04:32:02 cycle done
+2026-10-10T04:33:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:33:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T04:33:02 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T04:33:02 tripwire alive-or-done
+2026-10-10T04:33:02 watcher alive
+2026-10-10T04:33:02 merge not started
+2026-10-10T04:33:02 cycle done
+2026-10-10T04:34:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:34:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:34:02 shard 1 process ALIVE (log age 0.2 min) - no action
+2026-10-10T04:34:02 tripwire alive-or-done
+2026-10-10T04:34:02 watcher alive
+2026-10-10T04:34:02 merge not started
+2026-10-10T04:34:02 cycle done
+2026-10-10T04:35:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:35:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:35:02 shard 1 process ALIVE (log age 1.2 min) - no action
+2026-10-10T04:35:02 tripwire alive-or-done
+2026-10-10T04:35:02 watcher alive
+2026-10-10T04:35:02 merge not started
+2026-10-10T04:35:02 cycle done
+2026-10-10T04:36:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:36:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:36:02 shard 1 process ALIVE (log age 2.2 min) - no action
+2026-10-10T04:36:02 tripwire alive-or-done
+2026-10-10T04:36:02 watcher alive
+2026-10-10T04:36:02 merge not started
+2026-10-10T04:36:02 cycle done
+2026-10-10T04:37:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:37:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:37:02 shard 1 process ALIVE (log age 3.2 min) - no action
+2026-10-10T04:37:02 tripwire alive-or-done
+2026-10-10T04:37:02 watcher alive
+2026-10-10T04:37:02 merge not started
+2026-10-10T04:37:02 cycle done
+2026-10-10T04:38:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:38:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:38:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:38:02 tripwire alive-or-done
+2026-10-10T04:38:02 watcher alive
+2026-10-10T04:38:02 merge not started
+2026-10-10T04:38:02 cycle done
+2026-10-10T04:39:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:39:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:39:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:39:02 tripwire alive-or-done
+2026-10-10T04:39:02 watcher alive
+2026-10-10T04:39:02 merge not started
+2026-10-10T04:39:02 cycle done
+2026-10-10T04:40:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:40:02 shard 0 process ALIVE (log age 3.8 min) - no action
+2026-10-10T04:40:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:40:02 tripwire alive-or-done
+2026-10-10T04:40:02 watcher alive
+2026-10-10T04:40:02 merge not started
+2026-10-10T04:40:02 cycle done
+2026-10-10T04:41:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:41:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:41:02 shard 1 process ALIVE (log age 3.8 min) - no action
+2026-10-10T04:41:02 tripwire alive-or-done
+2026-10-10T04:41:02 watcher alive
+2026-10-10T04:41:02 merge not started
+2026-10-10T04:41:02 cycle done
+2026-10-10T04:42:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:42:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:42:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:42:02 tripwire alive-or-done
+2026-10-10T04:42:02 watcher alive
+2026-10-10T04:42:02 merge not started
+2026-10-10T04:42:02 cycle done
+2026-10-10T04:43:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:43:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:43:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:43:02 tripwire alive-or-done
+2026-10-10T04:43:02 watcher alive
+2026-10-10T04:43:02 merge not started
+2026-10-10T04:43:02 cycle done
+2026-10-10T04:44:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:44:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T04:44:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:44:02 tripwire alive-or-done
+2026-10-10T04:44:02 watcher alive
+2026-10-10T04:44:02 merge not started
+2026-10-10T04:44:02 cycle done
+2026-10-10T04:45:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:45:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:45:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T04:45:02 tripwire alive-or-done
+2026-10-10T04:45:02 watcher alive
+2026-10-10T04:45:02 merge not started
+2026-10-10T04:45:02 cycle done
+2026-10-10T04:46:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:46:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:46:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:46:02 tripwire alive-or-done
+2026-10-10T04:46:02 watcher alive
+2026-10-10T04:46:02 merge not started
+2026-10-10T04:46:02 cycle done
+2026-10-10T04:47:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:47:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:47:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:47:02 tripwire alive-or-done
+2026-10-10T04:47:02 watcher alive
+2026-10-10T04:47:02 merge not started
+2026-10-10T04:47:02 cycle done
+2026-10-10T04:48:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:48:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:48:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:48:02 tripwire alive-or-done
+2026-10-10T04:48:02 watcher alive
+2026-10-10T04:48:02 merge not started
+2026-10-10T04:48:02 cycle done
+2026-10-10T04:49:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:49:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:49:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T04:49:02 tripwire alive-or-done
+2026-10-10T04:49:02 watcher alive
+2026-10-10T04:49:02 merge not started
+2026-10-10T04:49:02 cycle done
+2026-10-10T04:50:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:50:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:50:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T04:50:02 tripwire alive-or-done
+2026-10-10T04:50:02 watcher alive
+2026-10-10T04:50:02 merge not started
+2026-10-10T04:50:02 cycle done
+2026-10-10T04:51:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:51:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T04:51:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T04:51:02 tripwire alive-or-done
+2026-10-10T04:51:02 watcher alive
+2026-10-10T04:51:02 merge not started
+2026-10-10T04:51:02 cycle done
+2026-10-10T04:52:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:52:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T04:52:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T04:52:02 tripwire alive-or-done
+2026-10-10T04:52:02 watcher alive
+2026-10-10T04:52:02 merge not started
+2026-10-10T04:52:02 cycle done
+2026-10-10T04:53:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:53:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T04:53:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T04:53:02 tripwire alive-or-done
+2026-10-10T04:53:02 watcher alive
+2026-10-10T04:53:02 merge not started
+2026-10-10T04:53:02 cycle done
+2026-10-10T04:54:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:54:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T04:54:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T04:54:02 tripwire alive-or-done
+2026-10-10T04:54:02 watcher alive
+2026-10-10T04:54:02 merge not started
+2026-10-10T04:54:02 cycle done
+2026-10-10T04:55:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:55:02 shard 0 process ALIVE (log age 4.4 min) - no action
+2026-10-10T04:55:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T04:55:02 tripwire alive-or-done
+2026-10-10T04:55:02 watcher alive
+2026-10-10T04:55:02 merge not started
+2026-10-10T04:55:02 cycle done
+2026-10-10T04:56:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:56:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T04:56:02 shard 1 process ALIVE (log age 4.3 min) - no action
+2026-10-10T04:56:02 tripwire alive-or-done
+2026-10-10T04:56:02 watcher alive
+2026-10-10T04:56:02 merge not started
+2026-10-10T04:56:02 cycle done
+2026-10-10T04:57:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:57:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T04:57:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T04:57:02 tripwire alive-or-done
+2026-10-10T04:57:02 watcher alive
+2026-10-10T04:57:02 merge not started
+2026-10-10T04:57:02 cycle done
+2026-10-10T04:58:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:58:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T04:58:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T04:58:02 tripwire alive-or-done
+2026-10-10T04:58:02 watcher alive
+2026-10-10T04:58:02 merge not started
+2026-10-10T04:58:02 cycle done
+2026-10-10T04:59:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T04:59:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T04:59:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T04:59:02 tripwire alive-or-done
+2026-10-10T04:59:02 watcher alive
+2026-10-10T04:59:02 merge not started
+2026-10-10T04:59:02 cycle done
+2026-10-10T05:00:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:00:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T05:00:02 shard 1 process ALIVE (log age -0.0 min) - no action
+2026-10-10T05:00:02 tripwire alive-or-done
+2026-10-10T05:00:02 watcher alive
+2026-10-10T05:00:02 merge not started
+2026-10-10T05:00:02 cycle done
+2026-10-10T05:01:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:01:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T05:01:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T05:01:02 tripwire alive-or-done
+2026-10-10T05:01:02 watcher alive
+2026-10-10T05:01:02 merge not started
+2026-10-10T05:01:02 cycle done
+2026-10-10T05:02:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:02:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T05:02:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T05:02:02 tripwire alive-or-done
+2026-10-10T05:02:02 watcher alive
+2026-10-10T05:02:02 merge not started
+2026-10-10T05:02:02 cycle done
+2026-10-10T05:03:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:03:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T05:03:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T05:03:02 tripwire alive-or-done
+2026-10-10T05:03:02 watcher alive
+2026-10-10T05:03:02 merge not started
+2026-10-10T05:03:02 cycle done
+2026-10-10T05:04:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:04:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T05:04:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T05:04:02 tripwire alive-or-done
+2026-10-10T05:04:02 watcher alive
+2026-10-10T05:04:02 merge not started
+2026-10-10T05:04:02 cycle done
+2026-10-10T05:05:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:05:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T05:05:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T05:05:02 tripwire alive-or-done
+2026-10-10T05:05:02 watcher alive
+2026-10-10T05:05:02 merge not started
+2026-10-10T05:05:02 cycle done
+2026-10-10T05:06:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:06:02 shard 0 process ALIVE (log age 3.7 min) - no action
+2026-10-10T05:06:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T05:06:02 tripwire alive-or-done
+2026-10-10T05:06:02 watcher alive
+2026-10-10T05:06:02 merge not started
+2026-10-10T05:06:02 cycle done
+2026-10-10T05:07:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:07:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T05:07:02 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T05:07:02 tripwire alive-or-done
+2026-10-10T05:07:02 watcher alive
+2026-10-10T05:07:02 merge not started
+2026-10-10T05:07:02 cycle done
+2026-10-10T05:08:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:08:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T05:08:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T05:08:02 tripwire alive-or-done
+2026-10-10T05:08:02 watcher alive
+2026-10-10T05:08:02 merge not started
+2026-10-10T05:08:02 cycle done
+2026-10-10T05:09:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:09:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T05:09:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T05:09:02 tripwire alive-or-done
+2026-10-10T05:09:02 watcher alive
+2026-10-10T05:09:02 merge not started
+2026-10-10T05:09:02 cycle done
+2026-10-10T05:10:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:10:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T05:10:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T05:10:02 tripwire alive-or-done
+2026-10-10T05:10:02 watcher alive
+2026-10-10T05:10:02 merge not started
+2026-10-10T05:10:02 cycle done
+2026-10-10T05:11:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:11:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T05:11:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:11:02 tripwire alive-or-done
+2026-10-10T05:11:02 watcher alive
+2026-10-10T05:11:02 merge not started
+2026-10-10T05:11:02 cycle done
+2026-10-10T05:12:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:12:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T05:12:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T05:12:02 tripwire alive-or-done
+2026-10-10T05:12:02 watcher alive
+2026-10-10T05:12:02 merge not started
+2026-10-10T05:12:02 cycle done
+2026-10-10T05:13:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:13:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T05:13:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T05:13:02 tripwire alive-or-done
+2026-10-10T05:13:02 watcher alive
+2026-10-10T05:13:02 merge not started
+2026-10-10T05:13:02 cycle done
+2026-10-10T05:14:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:14:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T05:14:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T05:14:02 tripwire alive-or-done
+2026-10-10T05:14:02 watcher alive
+2026-10-10T05:14:02 merge not started
+2026-10-10T05:14:02 cycle done
+2026-10-10T05:15:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:15:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T05:15:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T05:15:02 tripwire alive-or-done
+2026-10-10T05:15:02 watcher alive
+2026-10-10T05:15:02 merge not started
+2026-10-10T05:15:02 cycle done
+2026-10-10T05:16:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:16:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T05:16:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T05:16:02 tripwire alive-or-done
+2026-10-10T05:16:02 watcher alive
+2026-10-10T05:16:02 merge not started
+2026-10-10T05:16:02 cycle done
+2026-10-10T05:17:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:17:02 shard 0 process ALIVE (log age 3.9 min) - no action
+2026-10-10T05:17:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T05:17:02 tripwire alive-or-done
+2026-10-10T05:17:02 watcher alive
+2026-10-10T05:17:02 merge not started
+2026-10-10T05:17:02 cycle done
+2026-10-10T05:18:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:18:02 shard 0 process ALIVE (log age 4.9 min) - no action
+2026-10-10T05:18:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:18:02 tripwire alive-or-done
+2026-10-10T05:18:02 watcher alive
+2026-10-10T05:18:02 merge not started
+2026-10-10T05:18:02 cycle done
+2026-10-10T05:19:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:19:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T05:19:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T05:19:02 tripwire alive-or-done
+2026-10-10T05:19:02 watcher alive
+2026-10-10T05:19:02 merge not started
+2026-10-10T05:19:02 cycle done
+2026-10-10T05:20:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:20:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T05:20:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T05:20:02 tripwire alive-or-done
+2026-10-10T05:20:02 watcher alive
+2026-10-10T05:20:02 merge not started
+2026-10-10T05:20:02 cycle done
+2026-10-10T05:21:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:21:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T05:21:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T05:21:02 tripwire alive-or-done
+2026-10-10T05:21:02 watcher alive
+2026-10-10T05:21:02 merge not started
+2026-10-10T05:21:02 cycle done
+2026-10-10T05:22:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:22:02 shard 0 process ALIVE (log age 3.7 min) - no action
+2026-10-10T05:22:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T05:22:02 tripwire alive-or-done
+2026-10-10T05:22:02 watcher alive
+2026-10-10T05:22:02 merge not started
+2026-10-10T05:22:02 cycle done
+2026-10-10T05:23:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:23:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T05:23:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T05:23:02 tripwire alive-or-done
+2026-10-10T05:23:02 watcher alive
+2026-10-10T05:23:02 merge not started
+2026-10-10T05:23:02 cycle done
+2026-10-10T05:24:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:24:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T05:24:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T05:24:02 tripwire alive-or-done
+2026-10-10T05:24:02 watcher alive
+2026-10-10T05:24:02 merge not started
+2026-10-10T05:24:02 cycle done
+2026-10-10T05:25:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:25:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T05:25:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:25:02 tripwire alive-or-done
+2026-10-10T05:25:02 watcher alive
+2026-10-10T05:25:02 merge not started
+2026-10-10T05:25:02 cycle done
+2026-10-10T05:26:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:26:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T05:26:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T05:26:02 tripwire alive-or-done
+2026-10-10T05:26:02 watcher alive
+2026-10-10T05:26:02 merge not started
+2026-10-10T05:26:02 cycle done
+2026-10-10T05:27:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:27:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T05:27:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T05:27:02 tripwire alive-or-done
+2026-10-10T05:27:02 watcher alive
+2026-10-10T05:27:02 merge not started
+2026-10-10T05:27:02 cycle done
+2026-10-10T05:28:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:28:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T05:28:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T05:28:02 tripwire alive-or-done
+2026-10-10T05:28:02 watcher alive
+2026-10-10T05:28:02 merge not started
+2026-10-10T05:28:02 cycle done
+2026-10-10T05:29:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:29:02 shard 0 process ALIVE (log age 3.7 min) - no action
+2026-10-10T05:29:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T05:29:02 tripwire alive-or-done
+2026-10-10T05:29:02 watcher alive
+2026-10-10T05:29:02 merge not started
+2026-10-10T05:29:02 cycle done
+2026-10-10T05:30:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:30:02 shard 0 process ALIVE (log age 4.7 min) - no action
+2026-10-10T05:30:02 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T05:30:02 tripwire alive-or-done
+2026-10-10T05:30:02 watcher alive
+2026-10-10T05:30:02 merge not started
+2026-10-10T05:30:02 cycle done
+2026-10-10T05:31:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:31:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T05:31:02 shard 1 process ALIVE (log age 2.1 min) - no action
+2026-10-10T05:31:02 tripwire alive-or-done
+2026-10-10T05:31:02 watcher alive
+2026-10-10T05:31:02 merge not started
+2026-10-10T05:31:02 cycle done
+2026-10-10T05:32:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:32:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T05:32:02 shard 1 process ALIVE (log age 3.1 min) - no action
+2026-10-10T05:32:02 tripwire alive-or-done
+2026-10-10T05:32:02 watcher alive
+2026-10-10T05:32:02 merge not started
+2026-10-10T05:32:02 cycle done
+2026-10-10T05:33:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:33:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T05:33:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T05:33:02 tripwire alive-or-done
+2026-10-10T05:33:02 watcher alive
+2026-10-10T05:33:02 merge not started
+2026-10-10T05:33:02 cycle done
+2026-10-10T05:34:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:34:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T05:34:02 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T05:34:02 tripwire alive-or-done
+2026-10-10T05:34:02 watcher alive
+2026-10-10T05:34:02 merge not started
+2026-10-10T05:34:02 cycle done
+2026-10-10T05:35:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:35:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T05:35:02 shard 1 process ALIVE (log age 2.1 min) - no action
+2026-10-10T05:35:02 tripwire alive-or-done
+2026-10-10T05:35:02 watcher alive
+2026-10-10T05:35:02 merge not started
+2026-10-10T05:35:02 cycle done
+2026-10-10T05:36:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:36:03 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T05:36:03 shard 1 process ALIVE (log age 3.1 min) - no action
+2026-10-10T05:36:03 tripwire alive-or-done
+2026-10-10T05:36:03 watcher alive
+2026-10-10T05:36:03 merge not started
+2026-10-10T05:36:03 cycle done
+2026-10-10T05:37:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:37:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T05:37:02 shard 1 process ALIVE (log age 4.1 min) - no action
+2026-10-10T05:37:02 tripwire alive-or-done
+2026-10-10T05:37:02 watcher alive
+2026-10-10T05:37:02 merge not started
+2026-10-10T05:37:02 cycle done
+2026-10-10T05:38:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:38:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:38:02 shard 1 process ALIVE (log age 0.7 min) - no action
+2026-10-10T05:38:02 tripwire alive-or-done
+2026-10-10T05:38:02 watcher alive
+2026-10-10T05:38:02 merge not started
+2026-10-10T05:38:02 cycle done
+2026-10-10T05:39:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:39:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T05:39:02 shard 1 process ALIVE (log age 1.7 min) - no action
+2026-10-10T05:39:02 tripwire alive-or-done
+2026-10-10T05:39:02 watcher alive
+2026-10-10T05:39:02 merge not started
+2026-10-10T05:39:02 cycle done
+2026-10-10T05:40:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:40:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T05:40:02 shard 1 process ALIVE (log age 2.7 min) - no action
+2026-10-10T05:40:02 tripwire alive-or-done
+2026-10-10T05:40:02 watcher alive
+2026-10-10T05:40:02 merge not started
+2026-10-10T05:40:02 cycle done
+2026-10-10T05:41:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:41:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T05:41:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T05:41:02 tripwire alive-or-done
+2026-10-10T05:41:02 watcher alive
+2026-10-10T05:41:02 merge not started
+2026-10-10T05:41:02 cycle done
+2026-10-10T05:42:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:42:03 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T05:42:03 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T05:42:03 tripwire alive-or-done
+2026-10-10T05:42:03 watcher alive
+2026-10-10T05:42:03 merge not started
+2026-10-10T05:42:03 cycle done
+2026-10-10T05:43:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:43:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T05:43:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T05:43:02 tripwire alive-or-done
+2026-10-10T05:43:02 watcher alive
+2026-10-10T05:43:02 merge not started
+2026-10-10T05:43:02 cycle done
+2026-10-10T05:44:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:44:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T05:44:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T05:44:02 tripwire alive-or-done
+2026-10-10T05:44:02 watcher alive
+2026-10-10T05:44:02 merge not started
+2026-10-10T05:44:02 cycle done
+2026-10-10T05:45:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:45:03 shard 0 process ALIVE (log age 3.7 min) - no action
+2026-10-10T05:45:03 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T05:45:03 tripwire alive-or-done
+2026-10-10T05:45:03 watcher alive
+2026-10-10T05:45:03 merge not started
+2026-10-10T05:45:03 cycle done
+2026-10-10T05:46:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:46:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T05:46:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T05:46:02 tripwire alive-or-done
+2026-10-10T05:46:02 watcher alive
+2026-10-10T05:46:02 merge not started
+2026-10-10T05:46:02 cycle done
+2026-10-10T05:47:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:47:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T05:47:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T05:47:02 tripwire alive-or-done
+2026-10-10T05:47:02 watcher alive
+2026-10-10T05:47:02 merge not started
+2026-10-10T05:47:02 cycle done
+2026-10-10T05:48:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:48:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T05:48:02 shard 1 process ALIVE (log age 3.8 min) - no action
+2026-10-10T05:48:02 tripwire alive-or-done
+2026-10-10T05:48:02 watcher alive
+2026-10-10T05:48:02 merge not started
+2026-10-10T05:48:02 cycle done
+2026-10-10T05:49:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:49:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T05:49:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T05:49:02 tripwire alive-or-done
+2026-10-10T05:49:02 watcher alive
+2026-10-10T05:49:02 merge not started
+2026-10-10T05:49:02 cycle done
+2026-10-10T05:50:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:50:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T05:50:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T05:50:02 tripwire alive-or-done
+2026-10-10T05:50:02 watcher alive
+2026-10-10T05:50:02 merge not started
+2026-10-10T05:50:02 cycle done
+2026-10-10T05:51:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:51:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T05:51:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T05:51:02 tripwire alive-or-done
+2026-10-10T05:51:02 watcher alive
+2026-10-10T05:51:02 merge not started
+2026-10-10T05:51:02 cycle done
+2026-10-10T05:52:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:52:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T05:52:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:52:02 tripwire alive-or-done
+2026-10-10T05:52:02 watcher alive
+2026-10-10T05:52:02 merge not started
+2026-10-10T05:52:02 cycle done
+2026-10-10T05:53:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:53:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T05:53:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T05:53:02 tripwire alive-or-done
+2026-10-10T05:53:02 watcher alive
+2026-10-10T05:53:02 merge not started
+2026-10-10T05:53:02 cycle done
+2026-10-10T05:54:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:54:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T05:54:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T05:54:02 tripwire alive-or-done
+2026-10-10T05:54:02 watcher alive
+2026-10-10T05:54:02 merge not started
+2026-10-10T05:54:02 cycle done
+2026-10-10T05:55:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:55:02 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T05:55:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T05:55:02 tripwire alive-or-done
+2026-10-10T05:55:02 watcher alive
+2026-10-10T05:55:02 merge not started
+2026-10-10T05:55:02 cycle done
+2026-10-10T05:56:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:56:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T05:56:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T05:56:02 tripwire alive-or-done
+2026-10-10T05:56:02 watcher alive
+2026-10-10T05:56:02 merge not started
+2026-10-10T05:56:02 cycle done
+2026-10-10T05:57:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:57:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T05:57:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T05:57:02 tripwire alive-or-done
+2026-10-10T05:57:02 watcher alive
+2026-10-10T05:57:02 merge not started
+2026-10-10T05:57:02 cycle done
+2026-10-10T05:58:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:58:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T05:58:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T05:58:02 tripwire alive-or-done
+2026-10-10T05:58:02 watcher alive
+2026-10-10T05:58:02 merge not started
+2026-10-10T05:58:02 cycle done
+2026-10-10T05:59:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T05:59:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T05:59:03 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T05:59:03 tripwire alive-or-done
+2026-10-10T05:59:03 watcher alive
+2026-10-10T05:59:03 merge not started
+2026-10-10T05:59:03 cycle done
+2026-10-10T06:00:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:00:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T06:00:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T06:00:02 tripwire alive-or-done
+2026-10-10T06:00:02 watcher alive
+2026-10-10T06:00:02 merge not started
+2026-10-10T06:00:02 cycle done
+2026-10-10T06:01:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:01:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T06:01:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T06:01:02 tripwire alive-or-done
+2026-10-10T06:01:02 watcher alive
+2026-10-10T06:01:02 merge not started
+2026-10-10T06:01:02 cycle done
+2026-10-10T06:02:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:02:03 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T06:02:03 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T06:02:03 tripwire alive-or-done
+2026-10-10T06:02:03 watcher alive
+2026-10-10T06:02:03 merge not started
+2026-10-10T06:02:03 cycle done
+2026-10-10T06:03:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:03:03 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T06:03:03 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T06:03:03 tripwire alive-or-done
+2026-10-10T06:03:03 watcher alive
+2026-10-10T06:03:03 merge not started
+2026-10-10T06:03:03 cycle done
+2026-10-10T06:04:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:04:03 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T06:04:03 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T06:04:03 tripwire alive-or-done
+2026-10-10T06:04:03 watcher alive
+2026-10-10T06:04:03 merge not started
+2026-10-10T06:04:03 cycle done
+2026-10-10T06:05:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:05:03 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T06:05:03 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T06:05:03 tripwire alive-or-done
+2026-10-10T06:05:03 watcher alive
+2026-10-10T06:05:03 merge not started
+2026-10-10T06:05:03 cycle done
+2026-10-10T06:06:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:06:03 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T06:06:03 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T06:06:03 tripwire alive-or-done
+2026-10-10T06:06:03 watcher alive
+2026-10-10T06:06:03 merge not started
+2026-10-10T06:06:03 cycle done
+2026-10-10T06:07:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:07:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T06:07:03 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T06:07:03 tripwire alive-or-done
+2026-10-10T06:07:03 watcher alive
+2026-10-10T06:07:03 merge not started
+2026-10-10T06:07:03 cycle done
+2026-10-10T06:08:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:08:03 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T06:08:03 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T06:08:03 tripwire alive-or-done
+2026-10-10T06:08:03 watcher alive
+2026-10-10T06:08:03 merge not started
+2026-10-10T06:08:03 cycle done
+2026-10-10T06:09:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:09:03 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T06:09:03 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T06:09:03 tripwire alive-or-done
+2026-10-10T06:09:03 watcher alive
+2026-10-10T06:09:03 merge not started
+2026-10-10T06:09:03 cycle done
+2026-10-10T06:10:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:10:03 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T06:10:03 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T06:10:03 tripwire alive-or-done
+2026-10-10T06:10:03 watcher alive
+2026-10-10T06:10:03 merge not started
+2026-10-10T06:10:03 cycle done
+2026-10-10T06:11:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:11:03 shard 0 process ALIVE (log age 4.1 min) - no action
+2026-10-10T06:11:03 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T06:11:03 tripwire alive-or-done
+2026-10-10T06:11:03 watcher alive
+2026-10-10T06:11:03 merge not started
+2026-10-10T06:11:03 cycle done
+2026-10-10T06:12:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:12:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T06:12:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T06:12:02 tripwire alive-or-done
+2026-10-10T06:12:02 watcher alive
+2026-10-10T06:12:02 merge not started
+2026-10-10T06:12:02 cycle done
+2026-10-10T06:13:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:13:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T06:13:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T06:13:02 tripwire alive-or-done
+2026-10-10T06:13:02 watcher alive
+2026-10-10T06:13:02 merge not started
+2026-10-10T06:13:02 cycle done
+2026-10-10T06:14:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:14:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T06:14:02 shard 1 process ALIVE (log age 0.2 min) - no action
+2026-10-10T06:14:02 tripwire alive-or-done
+2026-10-10T06:14:02 watcher alive
+2026-10-10T06:14:02 merge not started
+2026-10-10T06:14:02 cycle done
+2026-10-10T06:15:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:15:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T06:15:02 shard 1 process ALIVE (log age 1.2 min) - no action
+2026-10-10T06:15:02 tripwire alive-or-done
+2026-10-10T06:15:02 watcher alive
+2026-10-10T06:15:02 merge not started
+2026-10-10T06:15:02 cycle done
+2026-10-10T06:16:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:16:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T06:16:02 shard 1 process ALIVE (log age 2.2 min) - no action
+2026-10-10T06:16:02 tripwire alive-or-done
+2026-10-10T06:16:02 watcher alive
+2026-10-10T06:16:02 merge not started
+2026-10-10T06:16:02 cycle done
+2026-10-10T06:17:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:17:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T06:17:02 shard 1 process ALIVE (log age 3.2 min) - no action
+2026-10-10T06:17:02 tripwire alive-or-done
+2026-10-10T06:17:02 watcher alive
+2026-10-10T06:17:02 merge not started
+2026-10-10T06:17:02 cycle done
+2026-10-10T06:18:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:18:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T06:18:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T06:18:02 tripwire alive-or-done
+2026-10-10T06:18:02 watcher alive
+2026-10-10T06:18:02 merge not started
+2026-10-10T06:18:02 cycle done
+2026-10-10T06:19:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:19:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T06:19:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T06:19:02 tripwire alive-or-done
+2026-10-10T06:19:02 watcher alive
+2026-10-10T06:19:02 merge not started
+2026-10-10T06:19:02 cycle done
+2026-10-10T06:20:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:20:02 shard 0 process ALIVE (log age 3.1 min) - no action
+2026-10-10T06:20:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T06:20:02 tripwire alive-or-done
+2026-10-10T06:20:02 watcher alive
+2026-10-10T06:20:02 merge not started
+2026-10-10T06:20:02 cycle done
+2026-10-10T06:21:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:21:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T06:21:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T06:21:02 tripwire alive-or-done
+2026-10-10T06:21:02 watcher alive
+2026-10-10T06:21:02 merge not started
+2026-10-10T06:21:02 cycle done
+2026-10-10T06:22:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:22:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T06:22:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T06:22:02 tripwire alive-or-done
+2026-10-10T06:22:02 watcher alive
+2026-10-10T06:22:02 merge not started
+2026-10-10T06:22:02 cycle done
+2026-10-10T06:23:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:23:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T06:23:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T06:23:02 tripwire alive-or-done
+2026-10-10T06:23:02 watcher alive
+2026-10-10T06:23:02 merge not started
+2026-10-10T06:23:02 cycle done
+2026-10-10T06:24:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:24:03 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T06:24:03 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T06:24:03 tripwire alive-or-done
+2026-10-10T06:24:03 watcher alive
+2026-10-10T06:24:03 merge not started
+2026-10-10T06:24:03 cycle done
+2026-10-10T06:25:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:25:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T06:25:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T06:25:02 tripwire alive-or-done
+2026-10-10T06:25:02 watcher alive
+2026-10-10T06:25:02 merge not started
+2026-10-10T06:25:02 cycle done
+2026-10-10T06:26:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:26:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T06:26:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T06:26:02 tripwire alive-or-done
+2026-10-10T06:26:02 watcher alive
+2026-10-10T06:26:02 merge not started
+2026-10-10T06:26:02 cycle done
+2026-10-10T06:27:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:27:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T06:27:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T06:27:02 tripwire alive-or-done
+2026-10-10T06:27:02 watcher alive
+2026-10-10T06:27:02 merge not started
+2026-10-10T06:27:02 cycle done
+2026-10-10T06:28:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:28:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T06:28:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T06:28:02 tripwire alive-or-done
+2026-10-10T06:28:02 watcher alive
+2026-10-10T06:28:02 merge not started
+2026-10-10T06:28:02 cycle done
+2026-10-10T06:29:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:29:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T06:29:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T06:29:02 tripwire alive-or-done
+2026-10-10T06:29:02 watcher alive
+2026-10-10T06:29:02 merge not started
+2026-10-10T06:29:02 cycle done
+2026-10-10T06:30:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:30:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T06:30:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T06:30:02 tripwire alive-or-done
+2026-10-10T06:30:02 watcher alive
+2026-10-10T06:30:02 merge not started
+2026-10-10T06:30:02 cycle done
+2026-10-10T06:31:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:31:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T06:31:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T06:31:02 tripwire alive-or-done
+2026-10-10T06:31:02 watcher alive
+2026-10-10T06:31:02 merge not started
+2026-10-10T06:31:02 cycle done
+2026-10-10T06:32:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:32:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T06:32:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T06:32:02 tripwire alive-or-done
+2026-10-10T06:32:02 watcher alive
+2026-10-10T06:32:02 merge not started
+2026-10-10T06:32:02 cycle done
+2026-10-10T06:33:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:33:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T06:33:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T06:33:02 tripwire alive-or-done
+2026-10-10T06:33:02 watcher alive
+2026-10-10T06:33:02 merge not started
+2026-10-10T06:33:02 cycle done
+2026-10-10T06:34:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:34:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T06:34:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T06:34:02 tripwire alive-or-done
+2026-10-10T06:34:02 watcher alive
+2026-10-10T06:34:02 merge not started
+2026-10-10T06:34:02 cycle done
+2026-10-10T06:35:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:35:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T06:35:02 shard 1 process ALIVE (log age 3.9 min) - no action
+2026-10-10T06:35:02 tripwire alive-or-done
+2026-10-10T06:35:02 watcher alive
+2026-10-10T06:35:02 merge not started
+2026-10-10T06:35:02 cycle done
+2026-10-10T06:36:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:36:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T06:36:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T06:36:02 tripwire alive-or-done
+2026-10-10T06:36:02 watcher alive
+2026-10-10T06:36:02 merge not started
+2026-10-10T06:36:02 cycle done
+2026-10-10T06:37:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:37:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T06:37:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T06:37:02 tripwire alive-or-done
+2026-10-10T06:37:02 watcher alive
+2026-10-10T06:37:02 merge not started
+2026-10-10T06:37:02 cycle done
+2026-10-10T06:38:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:38:02 shard 0 process ALIVE (log age 4.0 min) - no action
+2026-10-10T06:38:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T06:38:02 tripwire alive-or-done
+2026-10-10T06:38:02 watcher alive
+2026-10-10T06:38:02 merge not started
+2026-10-10T06:38:02 cycle done
+2026-10-10T06:39:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:39:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T06:39:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T06:39:02 tripwire alive-or-done
+2026-10-10T06:39:02 watcher alive
+2026-10-10T06:39:02 merge not started
+2026-10-10T06:39:02 cycle done
+2026-10-10T06:40:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:40:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T06:40:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T06:40:02 tripwire alive-or-done
+2026-10-10T06:40:02 watcher alive
+2026-10-10T06:40:02 merge not started
+2026-10-10T06:40:02 cycle done
+2026-10-10T06:41:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:41:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T06:41:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T06:41:02 tripwire alive-or-done
+2026-10-10T06:41:02 watcher alive
+2026-10-10T06:41:02 merge not started
+2026-10-10T06:41:02 cycle done
+2026-10-10T06:42:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:42:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T06:42:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T06:42:02 tripwire alive-or-done
+2026-10-10T06:42:02 watcher alive
+2026-10-10T06:42:02 merge not started
+2026-10-10T06:42:02 cycle done
+2026-10-10T06:43:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:43:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T06:43:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T06:43:02 tripwire alive-or-done
+2026-10-10T06:43:02 watcher alive
+2026-10-10T06:43:02 merge not started
+2026-10-10T06:43:02 cycle done
+2026-10-10T06:44:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T06:44:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T06:44:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T06:44:02 tripwire alive-or-done
+2026-10-10T06:44:02 watcher alive
+2026-10-10T06:44:02 merge not started
+2026-10-10T06:44:02 cycle done
+2026-10-10T09:29:23 live: []
+2026-10-10T09:29:24 shard 0 process DEAD (log age 167.4 min) -> relaunch NOW
+2026-10-10T09:29:24 shard 0 relaunched
+2026-10-10T09:29:24 shard 1 process DEAD (log age 167.2 min) -> relaunch NOW
+2026-10-10T09:29:24 shard 1 relaunched
+2026-10-10T09:29:24 tripwire alive-or-done
+2026-10-10T09:29:24 watcher stale+dead -> relaunch
+2026-10-10T09:29:24 merge not started
+2026-10-10T09:29:24 cycle done
+2026-10-10T09:30:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:30:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T09:30:02 shard 1 process ALIVE (log age 0.6 min) - no action
+2026-10-10T09:30:02 tripwire alive-or-done
+2026-10-10T09:30:02 watcher alive
+2026-10-10T09:30:02 merge not started
+2026-10-10T09:30:02 cycle done
+2026-10-10T09:31:04 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:31:04 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T09:31:04 shard 1 process ALIVE (log age 1.6 min) - no action
+2026-10-10T09:31:04 tripwire alive-or-done
+2026-10-10T09:31:04 watcher alive
+2026-10-10T09:31:04 merge not started
+2026-10-10T09:31:04 cycle done
+2026-10-10T09:32:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:32:03 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T09:32:03 shard 1 process ALIVE (log age 2.6 min) - no action
+2026-10-10T09:32:03 tripwire alive-or-done
+2026-10-10T09:32:03 watcher alive
+2026-10-10T09:32:03 merge not started
+2026-10-10T09:32:03 cycle done
+2026-10-10T09:33:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:33:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:33:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T09:33:02 tripwire alive-or-done
+2026-10-10T09:33:02 watcher alive
+2026-10-10T09:33:02 merge not started
+2026-10-10T09:33:02 cycle done
+2026-10-10T09:34:04 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:34:04 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T09:34:04 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T09:34:04 tripwire alive-or-done
+2026-10-10T09:34:04 watcher alive
+2026-10-10T09:34:04 merge not started
+2026-10-10T09:34:04 cycle done
+2026-10-10T09:35:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:35:03 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T09:35:03 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T09:35:03 tripwire alive-or-done
+2026-10-10T09:35:03 watcher alive
+2026-10-10T09:35:03 merge not started
+2026-10-10T09:35:03 cycle done
+2026-10-10T09:36:02 live: [('watch', -1)]
+2026-10-10T09:36:02 shard 0 process DEAD (log age 3.0 min) -> relaunch NOW
+2026-10-10T09:36:02 shard 0 relaunched
+2026-10-10T09:36:02 shard 1 process DEAD (log age 1.1 min) -> relaunch NOW
+2026-10-10T09:36:02 shard 1 relaunched
+2026-10-10T09:36:02 tripwire alive-or-done
+2026-10-10T09:36:02 watcher alive
+2026-10-10T09:36:02 merge not started
+2026-10-10T09:36:02 cycle done
+2026-10-10T09:37:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:37:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:37:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T09:37:02 tripwire alive-or-done
+2026-10-10T09:37:02 watcher alive
+2026-10-10T09:37:02 merge not started
+2026-10-10T09:37:02 cycle done
+2026-10-10T09:38:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:38:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T09:38:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T09:38:02 tripwire alive-or-done
+2026-10-10T09:38:02 watcher alive
+2026-10-10T09:38:02 merge not started
+2026-10-10T09:38:02 cycle done
+2026-10-10T09:39:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:39:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:39:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T09:39:02 tripwire alive-or-done
+2026-10-10T09:39:02 watcher alive
+2026-10-10T09:39:02 merge not started
+2026-10-10T09:39:02 cycle done
+2026-10-10T09:40:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:40:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T09:40:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T09:40:02 tripwire alive-or-done
+2026-10-10T09:40:02 watcher alive
+2026-10-10T09:40:02 merge not started
+2026-10-10T09:40:02 cycle done
+2026-10-10T09:41:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:41:02 shard 0 process ALIVE (log age -0.0 min) - no action
+2026-10-10T09:41:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T09:41:02 tripwire alive-or-done
+2026-10-10T09:41:02 watcher alive
+2026-10-10T09:41:02 merge not started
+2026-10-10T09:41:02 cycle done
+2026-10-10T09:42:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:42:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T09:42:02 shard 1 process ALIVE (log age 3.9 min) - no action
+2026-10-10T09:42:02 tripwire alive-or-done
+2026-10-10T09:42:02 watcher alive
+2026-10-10T09:42:02 merge not started
+2026-10-10T09:42:02 cycle done
+2026-10-10T09:43:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:43:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T09:43:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T09:43:02 tripwire alive-or-done
+2026-10-10T09:43:02 watcher alive
+2026-10-10T09:43:02 merge not started
+2026-10-10T09:43:02 cycle done
+2026-10-10T09:44:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:44:02 shard 0 process ALIVE (log age 0.5 min) - no action
+2026-10-10T09:44:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T09:44:02 tripwire alive-or-done
+2026-10-10T09:44:02 watcher alive
+2026-10-10T09:44:02 merge not started
+2026-10-10T09:44:02 cycle done
+2026-10-10T09:45:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:45:02 shard 0 process ALIVE (log age 1.5 min) - no action
+2026-10-10T09:45:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T09:45:02 tripwire alive-or-done
+2026-10-10T09:45:02 watcher alive
+2026-10-10T09:45:02 merge not started
+2026-10-10T09:45:02 cycle done
+2026-10-10T09:46:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:46:02 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T09:46:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T09:46:02 tripwire alive-or-done
+2026-10-10T09:46:02 watcher alive
+2026-10-10T09:46:02 merge not started
+2026-10-10T09:46:02 cycle done
+2026-10-10T09:47:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:47:02 shard 0 process ALIVE (log age 3.5 min) - no action
+2026-10-10T09:47:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T09:47:02 tripwire alive-or-done
+2026-10-10T09:47:02 watcher alive
+2026-10-10T09:47:02 merge not started
+2026-10-10T09:47:02 cycle done
+2026-10-10T09:48:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:48:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T09:48:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T09:48:02 tripwire alive-or-done
+2026-10-10T09:48:02 watcher alive
+2026-10-10T09:48:02 merge not started
+2026-10-10T09:48:02 cycle done
+2026-10-10T09:49:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:49:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T09:49:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T09:49:02 tripwire alive-or-done
+2026-10-10T09:49:02 watcher alive
+2026-10-10T09:49:02 merge not started
+2026-10-10T09:49:02 cycle done
+2026-10-10T09:50:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:50:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T09:50:02 shard 1 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:50:02 tripwire alive-or-done
+2026-10-10T09:50:02 watcher alive
+2026-10-10T09:50:02 merge not started
+2026-10-10T09:50:02 cycle done
+2026-10-10T09:51:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:51:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T09:51:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T09:51:02 tripwire alive-or-done
+2026-10-10T09:51:02 watcher alive
+2026-10-10T09:51:02 merge not started
+2026-10-10T09:51:02 cycle done
+2026-10-10T09:52:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:52:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T09:52:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T09:52:02 tripwire alive-or-done
+2026-10-10T09:52:02 watcher alive
+2026-10-10T09:52:02 merge not started
+2026-10-10T09:52:02 cycle done
+2026-10-10T09:53:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:53:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T09:53:02 shard 1 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:53:02 tripwire alive-or-done
+2026-10-10T09:53:02 watcher alive
+2026-10-10T09:53:02 merge not started
+2026-10-10T09:53:02 cycle done
+2026-10-10T09:54:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:54:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T09:54:02 shard 1 process ALIVE (log age 0.6 min) - no action
+2026-10-10T09:54:02 tripwire alive-or-done
+2026-10-10T09:54:02 watcher alive
+2026-10-10T09:54:02 merge not started
+2026-10-10T09:54:02 cycle done
+2026-10-10T09:55:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:55:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T09:55:02 shard 1 process ALIVE (log age 1.6 min) - no action
+2026-10-10T09:55:02 tripwire alive-or-done
+2026-10-10T09:55:02 watcher alive
+2026-10-10T09:55:02 merge not started
+2026-10-10T09:55:02 cycle done
+2026-10-10T09:56:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:56:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T09:56:02 shard 1 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:56:02 tripwire alive-or-done
+2026-10-10T09:56:02 watcher alive
+2026-10-10T09:56:02 merge not started
+2026-10-10T09:56:02 cycle done
+2026-10-10T09:57:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:57:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T09:57:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T09:57:02 tripwire alive-or-done
+2026-10-10T09:57:02 watcher alive
+2026-10-10T09:57:02 merge not started
+2026-10-10T09:57:02 cycle done
+2026-10-10T09:58:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:58:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T09:58:02 shard 1 process ALIVE (log age 0.0 min) - no action
+2026-10-10T09:58:02 tripwire alive-or-done
+2026-10-10T09:58:02 watcher alive
+2026-10-10T09:58:02 merge not started
+2026-10-10T09:58:02 cycle done
+2026-10-10T09:59:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T09:59:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T09:59:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T09:59:02 tripwire alive-or-done
+2026-10-10T09:59:02 watcher alive
+2026-10-10T09:59:02 merge not started
+2026-10-10T09:59:02 cycle done
+2026-10-10T10:00:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:00:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T10:00:02 shard 1 process ALIVE (log age 0.7 min) - no action
+2026-10-10T10:00:02 tripwire alive-or-done
+2026-10-10T10:00:02 watcher alive
+2026-10-10T10:00:02 merge not started
+2026-10-10T10:00:02 cycle done
+2026-10-10T10:01:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:01:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T10:01:02 shard 1 process ALIVE (log age 1.7 min) - no action
+2026-10-10T10:01:02 tripwire alive-or-done
+2026-10-10T10:01:02 watcher alive
+2026-10-10T10:01:02 merge not started
+2026-10-10T10:01:02 cycle done
+2026-10-10T10:02:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:02:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T10:02:02 shard 1 process ALIVE (log age 2.7 min) - no action
+2026-10-10T10:02:02 tripwire alive-or-done
+2026-10-10T10:02:02 watcher alive
+2026-10-10T10:02:02 merge not started
+2026-10-10T10:02:02 cycle done
+2026-10-10T10:03:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:03:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T10:03:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T10:03:02 tripwire alive-or-done
+2026-10-10T10:03:02 watcher alive
+2026-10-10T10:03:02 merge not started
+2026-10-10T10:03:02 cycle done
+2026-10-10T10:04:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:04:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T10:04:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T10:04:02 tripwire alive-or-done
+2026-10-10T10:04:02 watcher alive
+2026-10-10T10:04:02 merge not started
+2026-10-10T10:04:02 cycle done
+2026-10-10T10:05:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:05:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T10:05:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T10:05:02 tripwire alive-or-done
+2026-10-10T10:05:02 watcher alive
+2026-10-10T10:05:02 merge not started
+2026-10-10T10:05:02 cycle done
+2026-10-10T10:06:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:06:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T10:06:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T10:06:02 tripwire alive-or-done
+2026-10-10T10:06:02 watcher alive
+2026-10-10T10:06:02 merge not started
+2026-10-10T10:06:02 cycle done
+2026-10-10T10:07:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:07:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T10:07:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T10:07:02 tripwire alive-or-done
+2026-10-10T10:07:02 watcher alive
+2026-10-10T10:07:02 merge not started
+2026-10-10T10:07:02 cycle done
+2026-10-10T10:08:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:08:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:08:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T10:08:02 tripwire alive-or-done
+2026-10-10T10:08:02 watcher alive
+2026-10-10T10:08:02 merge not started
+2026-10-10T10:08:02 cycle done
+2026-10-10T10:09:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:09:03 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:09:03 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T10:09:03 tripwire alive-or-done
+2026-10-10T10:09:03 watcher alive
+2026-10-10T10:09:03 merge not started
+2026-10-10T10:09:03 cycle done
+2026-10-10T10:10:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:10:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:10:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T10:10:02 tripwire alive-or-done
+2026-10-10T10:10:02 watcher alive
+2026-10-10T10:10:02 merge not started
+2026-10-10T10:10:02 cycle done
+2026-10-10T10:11:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:11:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:11:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T10:11:02 tripwire alive-or-done
+2026-10-10T10:11:02 watcher alive
+2026-10-10T10:11:02 merge not started
+2026-10-10T10:11:02 cycle done
+2026-10-10T10:12:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:12:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T10:12:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T10:12:02 tripwire alive-or-done
+2026-10-10T10:12:02 watcher alive
+2026-10-10T10:12:02 merge not started
+2026-10-10T10:12:02 cycle done
+2026-10-10T10:13:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:13:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T10:13:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T10:13:02 tripwire alive-or-done
+2026-10-10T10:13:02 watcher alive
+2026-10-10T10:13:02 merge not started
+2026-10-10T10:13:02 cycle done
+2026-10-10T10:14:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:14:03 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T10:14:03 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T10:14:03 tripwire alive-or-done
+2026-10-10T10:14:03 watcher alive
+2026-10-10T10:14:03 merge not started
+2026-10-10T10:14:03 cycle done
+2026-10-10T10:15:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:15:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T10:15:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T10:15:02 tripwire alive-or-done
+2026-10-10T10:15:02 watcher alive
+2026-10-10T10:15:02 merge not started
+2026-10-10T10:15:02 cycle done
+2026-10-10T10:16:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:16:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T10:16:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T10:16:02 tripwire alive-or-done
+2026-10-10T10:16:02 watcher alive
+2026-10-10T10:16:02 merge not started
+2026-10-10T10:16:02 cycle done
+2026-10-10T10:17:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:17:02 shard 0 process ALIVE (log age 1.1 min) - no action
+2026-10-10T10:17:02 shard 1 process ALIVE (log age 3.9 min) - no action
+2026-10-10T10:17:02 tripwire alive-or-done
+2026-10-10T10:17:02 watcher alive
+2026-10-10T10:17:02 merge not started
+2026-10-10T10:17:02 cycle done
+2026-10-10T10:18:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:18:02 shard 0 process ALIVE (log age 2.1 min) - no action
+2026-10-10T10:18:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T10:18:02 tripwire alive-or-done
+2026-10-10T10:18:02 watcher alive
+2026-10-10T10:18:02 merge not started
+2026-10-10T10:18:02 cycle done
+2026-10-10T10:19:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:19:03 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T10:19:03 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T10:19:03 tripwire alive-or-done
+2026-10-10T10:19:03 watcher alive
+2026-10-10T10:19:03 merge not started
+2026-10-10T10:19:03 cycle done
+2026-10-10T10:20:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:20:03 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T10:20:03 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T10:20:03 tripwire alive-or-done
+2026-10-10T10:20:03 watcher alive
+2026-10-10T10:20:03 merge not started
+2026-10-10T10:20:03 cycle done
+2026-10-10T10:21:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:21:03 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T10:21:03 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T10:21:03 tripwire alive-or-done
+2026-10-10T10:21:03 watcher alive
+2026-10-10T10:21:03 merge not started
+2026-10-10T10:21:03 cycle done
+2026-10-10T10:22:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:22:03 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T10:22:03 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T10:22:03 tripwire alive-or-done
+2026-10-10T10:22:03 watcher alive
+2026-10-10T10:22:03 merge not started
+2026-10-10T10:22:03 cycle done
+2026-10-10T10:23:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:23:03 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:23:03 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T10:23:03 tripwire alive-or-done
+2026-10-10T10:23:03 watcher alive
+2026-10-10T10:23:03 merge not started
+2026-10-10T10:23:03 cycle done
+2026-10-10T10:24:03 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:24:03 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T10:24:03 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T10:24:03 tripwire alive-or-done
+2026-10-10T10:24:03 watcher alive
+2026-10-10T10:24:03 merge not started
+2026-10-10T10:24:03 cycle done
+2026-10-10T10:25:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:25:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T10:25:02 shard 1 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:25:02 tripwire alive-or-done
+2026-10-10T10:25:02 watcher alive
+2026-10-10T10:25:02 merge not started
+2026-10-10T10:25:02 cycle done
+2026-10-10T10:26:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:26:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T10:26:02 shard 1 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:26:02 tripwire alive-or-done
+2026-10-10T10:26:02 watcher alive
+2026-10-10T10:26:02 merge not started
+2026-10-10T10:26:02 cycle done
+2026-10-10T10:27:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:27:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T10:27:02 shard 1 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:27:02 tripwire alive-or-done
+2026-10-10T10:27:02 watcher alive
+2026-10-10T10:27:02 merge not started
+2026-10-10T10:27:02 cycle done
+2026-10-10T10:28:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:28:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T10:28:02 shard 1 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:28:02 tripwire alive-or-done
+2026-10-10T10:28:02 watcher alive
+2026-10-10T10:28:02 merge not started
+2026-10-10T10:28:02 cycle done
+2026-10-10T10:29:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:29:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T10:29:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T10:29:02 tripwire alive-or-done
+2026-10-10T10:29:02 watcher alive
+2026-10-10T10:29:02 merge not started
+2026-10-10T10:29:02 cycle done
+2026-10-10T10:30:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:30:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T10:30:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T10:30:02 tripwire alive-or-done
+2026-10-10T10:30:02 watcher alive
+2026-10-10T10:30:02 merge not started
+2026-10-10T10:30:02 cycle done
+2026-10-10T10:31:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:31:02 shard 0 process ALIVE (log age 0.0 min) - no action
+2026-10-10T10:31:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T10:31:02 tripwire alive-or-done
+2026-10-10T10:31:02 watcher alive
+2026-10-10T10:31:02 merge not started
+2026-10-10T10:31:02 cycle done
+2026-10-10T10:32:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:32:02 shard 0 process ALIVE (log age 1.0 min) - no action
+2026-10-10T10:32:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T10:32:02 tripwire alive-or-done
+2026-10-10T10:32:02 watcher alive
+2026-10-10T10:32:02 merge not started
+2026-10-10T10:32:02 cycle done
+2026-10-10T10:33:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:33:02 shard 0 process ALIVE (log age 2.0 min) - no action
+2026-10-10T10:33:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T10:33:02 tripwire alive-or-done
+2026-10-10T10:33:02 watcher alive
+2026-10-10T10:33:02 merge not started
+2026-10-10T10:33:02 cycle done
+2026-10-10T10:34:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:34:02 shard 0 process ALIVE (log age 3.0 min) - no action
+2026-10-10T10:34:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T10:34:02 tripwire alive-or-done
+2026-10-10T10:34:02 watcher alive
+2026-10-10T10:34:02 merge not started
+2026-10-10T10:34:02 cycle done
+2026-10-10T10:35:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:35:02 shard 0 process ALIVE (log age 4.0 min) - no action
+2026-10-10T10:35:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T10:35:02 tripwire alive-or-done
+2026-10-10T10:35:02 watcher alive
+2026-10-10T10:35:02 merge not started
+2026-10-10T10:35:02 cycle done
+2026-10-10T10:36:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:36:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T10:36:02 shard 1 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:36:02 tripwire alive-or-done
+2026-10-10T10:36:02 watcher alive
+2026-10-10T10:36:02 merge not started
+2026-10-10T10:36:02 cycle done
+2026-10-10T10:37:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:37:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T10:37:02 shard 1 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:37:02 tripwire alive-or-done
+2026-10-10T10:37:02 watcher alive
+2026-10-10T10:37:02 merge not started
+2026-10-10T10:37:02 cycle done
+2026-10-10T10:38:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:38:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T10:38:02 shard 1 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:38:02 tripwire alive-or-done
+2026-10-10T10:38:02 watcher alive
+2026-10-10T10:38:02 merge not started
+2026-10-10T10:38:02 cycle done
+2026-10-10T10:39:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:39:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:39:02 shard 1 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:39:02 tripwire alive-or-done
+2026-10-10T10:39:02 watcher alive
+2026-10-10T10:39:02 merge not started
+2026-10-10T10:39:02 cycle done
+2026-10-10T10:40:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:40:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:40:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T10:40:02 tripwire alive-or-done
+2026-10-10T10:40:02 watcher alive
+2026-10-10T10:40:02 merge not started
+2026-10-10T10:40:02 cycle done
+2026-10-10T10:41:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:41:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:41:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T10:41:02 tripwire alive-or-done
+2026-10-10T10:41:02 watcher alive
+2026-10-10T10:41:02 merge not started
+2026-10-10T10:41:02 cycle done
+2026-10-10T10:42:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:42:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:42:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T10:42:02 tripwire alive-or-done
+2026-10-10T10:42:02 watcher alive
+2026-10-10T10:42:02 merge not started
+2026-10-10T10:42:02 cycle done
+2026-10-10T10:43:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:43:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T10:43:02 shard 1 process ALIVE (log age 0.3 min) - no action
+2026-10-10T10:43:02 tripwire alive-or-done
+2026-10-10T10:43:02 watcher alive
+2026-10-10T10:43:02 merge not started
+2026-10-10T10:43:02 cycle done
+2026-10-10T10:44:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:44:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T10:44:02 shard 1 process ALIVE (log age 1.3 min) - no action
+2026-10-10T10:44:02 tripwire alive-or-done
+2026-10-10T10:44:02 watcher alive
+2026-10-10T10:44:02 merge not started
+2026-10-10T10:44:02 cycle done
+2026-10-10T10:45:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:45:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T10:45:02 shard 1 process ALIVE (log age 2.3 min) - no action
+2026-10-10T10:45:02 tripwire alive-or-done
+2026-10-10T10:45:02 watcher alive
+2026-10-10T10:45:02 merge not started
+2026-10-10T10:45:02 cycle done
+2026-10-10T10:46:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:46:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:46:02 shard 1 process ALIVE (log age 3.3 min) - no action
+2026-10-10T10:46:02 tripwire alive-or-done
+2026-10-10T10:46:02 watcher alive
+2026-10-10T10:46:02 merge not started
+2026-10-10T10:46:02 cycle done
+2026-10-10T10:47:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:47:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:47:02 shard 1 process ALIVE (log age 0.8 min) - no action
+2026-10-10T10:47:02 tripwire alive-or-done
+2026-10-10T10:47:02 watcher alive
+2026-10-10T10:47:02 merge not started
+2026-10-10T10:47:02 cycle done
+2026-10-10T10:48:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:48:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:48:02 shard 1 process ALIVE (log age 1.8 min) - no action
+2026-10-10T10:48:02 tripwire alive-or-done
+2026-10-10T10:48:02 watcher alive
+2026-10-10T10:48:02 merge not started
+2026-10-10T10:48:02 cycle done
+2026-10-10T10:49:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:49:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:49:02 shard 1 process ALIVE (log age 2.8 min) - no action
+2026-10-10T10:49:02 tripwire alive-or-done
+2026-10-10T10:49:02 watcher alive
+2026-10-10T10:49:02 merge not started
+2026-10-10T10:49:02 cycle done
+2026-10-10T10:50:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:50:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T10:50:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T10:50:02 tripwire alive-or-done
+2026-10-10T10:50:02 watcher alive
+2026-10-10T10:50:02 merge not started
+2026-10-10T10:50:02 cycle done
+2026-10-10T10:51:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:51:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T10:51:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T10:51:02 tripwire alive-or-done
+2026-10-10T10:51:02 watcher alive
+2026-10-10T10:51:02 merge not started
+2026-10-10T10:51:02 cycle done
+2026-10-10T10:52:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:52:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T10:52:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T10:52:02 tripwire alive-or-done
+2026-10-10T10:52:02 watcher alive
+2026-10-10T10:52:02 merge not started
+2026-10-10T10:52:02 cycle done
+2026-10-10T10:53:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:53:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T10:53:02 shard 1 process ALIVE (log age 3.4 min) - no action
+2026-10-10T10:53:02 tripwire alive-or-done
+2026-10-10T10:53:02 watcher alive
+2026-10-10T10:53:02 merge not started
+2026-10-10T10:53:02 cycle done
+2026-10-10T10:54:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:54:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T10:54:02 shard 1 process ALIVE (log age 0.9 min) - no action
+2026-10-10T10:54:02 tripwire alive-or-done
+2026-10-10T10:54:02 watcher alive
+2026-10-10T10:54:02 merge not started
+2026-10-10T10:54:02 cycle done
+2026-10-10T10:55:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:55:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T10:55:02 shard 1 process ALIVE (log age 1.9 min) - no action
+2026-10-10T10:55:02 tripwire alive-or-done
+2026-10-10T10:55:02 watcher alive
+2026-10-10T10:55:02 merge not started
+2026-10-10T10:55:02 cycle done
+2026-10-10T10:56:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:56:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T10:56:02 shard 1 process ALIVE (log age 2.9 min) - no action
+2026-10-10T10:56:02 tripwire alive-or-done
+2026-10-10T10:56:02 watcher alive
+2026-10-10T10:56:02 merge not started
+2026-10-10T10:56:02 cycle done
+2026-10-10T10:57:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:57:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T10:57:02 shard 1 process ALIVE (log age 0.4 min) - no action
+2026-10-10T10:57:02 tripwire alive-or-done
+2026-10-10T10:57:02 watcher alive
+2026-10-10T10:57:02 merge not started
+2026-10-10T10:57:02 cycle done
+2026-10-10T10:58:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:58:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T10:58:02 shard 1 process ALIVE (log age 1.4 min) - no action
+2026-10-10T10:58:02 tripwire alive-or-done
+2026-10-10T10:58:02 watcher alive
+2026-10-10T10:58:02 merge not started
+2026-10-10T10:58:02 cycle done
+2026-10-10T10:59:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T10:59:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T10:59:02 shard 1 process ALIVE (log age 2.4 min) - no action
+2026-10-10T10:59:02 tripwire alive-or-done
+2026-10-10T10:59:02 watcher alive
+2026-10-10T10:59:02 merge not started
+2026-10-10T10:59:02 cycle done
+2026-10-10T11:00:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:00:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T11:00:02 shard 1 process ALIVE (log age 0.0 min) - no action
+2026-10-10T11:00:02 tripwire alive-or-done
+2026-10-10T11:00:02 watcher alive
+2026-10-10T11:00:02 merge not started
+2026-10-10T11:00:02 cycle done
+2026-10-10T11:01:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:01:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T11:01:02 shard 1 process ALIVE (log age 1.0 min) - no action
+2026-10-10T11:01:02 tripwire alive-or-done
+2026-10-10T11:01:02 watcher alive
+2026-10-10T11:01:02 merge not started
+2026-10-10T11:01:02 cycle done
+2026-10-10T11:02:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:02:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T11:02:02 shard 1 process ALIVE (log age 2.0 min) - no action
+2026-10-10T11:02:02 tripwire alive-or-done
+2026-10-10T11:02:02 watcher alive
+2026-10-10T11:02:02 merge not started
+2026-10-10T11:02:02 cycle done
+2026-10-10T11:03:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:03:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T11:03:02 shard 1 process ALIVE (log age 3.0 min) - no action
+2026-10-10T11:03:02 tripwire alive-or-done
+2026-10-10T11:03:02 watcher alive
+2026-10-10T11:03:02 merge not started
+2026-10-10T11:03:02 cycle done
+2026-10-10T11:04:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:04:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T11:04:02 shard 1 process ALIVE (log age 0.6 min) - no action
+2026-10-10T11:04:02 tripwire alive-or-done
+2026-10-10T11:04:02 watcher alive
+2026-10-10T11:04:02 merge not started
+2026-10-10T11:04:02 cycle done
+2026-10-10T11:05:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:05:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T11:05:02 shard 1 process ALIVE (log age 1.6 min) - no action
+2026-10-10T11:05:02 tripwire alive-or-done
+2026-10-10T11:05:02 watcher alive
+2026-10-10T11:05:02 merge not started
+2026-10-10T11:05:02 cycle done
+2026-10-10T11:06:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:06:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T11:06:02 shard 1 process ALIVE (log age 2.6 min) - no action
+2026-10-10T11:06:02 tripwire alive-or-done
+2026-10-10T11:06:02 watcher alive
+2026-10-10T11:06:02 merge not started
+2026-10-10T11:06:02 cycle done
+2026-10-10T11:07:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:07:02 shard 0 process ALIVE (log age 0.3 min) - no action
+2026-10-10T11:07:02 shard 1 process ALIVE (log age 0.1 min) - no action
+2026-10-10T11:07:02 tripwire alive-or-done
+2026-10-10T11:07:02 watcher alive
+2026-10-10T11:07:02 merge not started
+2026-10-10T11:07:02 cycle done
+2026-10-10T11:08:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:08:02 shard 0 process ALIVE (log age 1.3 min) - no action
+2026-10-10T11:08:02 shard 1 process ALIVE (log age 1.1 min) - no action
+2026-10-10T11:08:02 tripwire alive-or-done
+2026-10-10T11:08:02 watcher alive
+2026-10-10T11:08:02 merge not started
+2026-10-10T11:08:02 cycle done
+2026-10-10T11:09:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:09:02 shard 0 process ALIVE (log age 2.3 min) - no action
+2026-10-10T11:09:02 shard 1 process ALIVE (log age 2.1 min) - no action
+2026-10-10T11:09:02 tripwire alive-or-done
+2026-10-10T11:09:02 watcher alive
+2026-10-10T11:09:02 merge not started
+2026-10-10T11:09:02 cycle done
+2026-10-10T11:10:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:10:02 shard 0 process ALIVE (log age 3.3 min) - no action
+2026-10-10T11:10:02 shard 1 process ALIVE (log age 3.1 min) - no action
+2026-10-10T11:10:02 tripwire alive-or-done
+2026-10-10T11:10:02 watcher alive
+2026-10-10T11:10:02 merge not started
+2026-10-10T11:10:02 cycle done
+2026-10-10T11:11:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:11:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T11:11:02 shard 1 process ALIVE (log age 0.5 min) - no action
+2026-10-10T11:11:02 tripwire alive-or-done
+2026-10-10T11:11:02 watcher alive
+2026-10-10T11:11:02 merge not started
+2026-10-10T11:11:02 cycle done
+2026-10-10T11:12:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:12:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T11:12:02 shard 1 process ALIVE (log age 1.5 min) - no action
+2026-10-10T11:12:02 tripwire alive-or-done
+2026-10-10T11:12:02 watcher alive
+2026-10-10T11:12:02 merge not started
+2026-10-10T11:12:02 cycle done
+2026-10-10T11:13:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:13:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T11:13:02 shard 1 process ALIVE (log age 2.5 min) - no action
+2026-10-10T11:13:02 tripwire alive-or-done
+2026-10-10T11:13:02 watcher alive
+2026-10-10T11:13:02 merge not started
+2026-10-10T11:13:02 cycle done
+2026-10-10T11:14:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:14:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T11:14:02 shard 1 process ALIVE (log age 3.5 min) - no action
+2026-10-10T11:14:02 tripwire alive-or-done
+2026-10-10T11:14:02 watcher alive
+2026-10-10T11:14:02 merge not started
+2026-10-10T11:14:02 cycle done
+2026-10-10T11:15:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:15:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T11:15:02 shard 1 process ALIVE (log age 0.6 min) - no action
+2026-10-10T11:15:02 tripwire alive-or-done
+2026-10-10T11:15:02 watcher alive
+2026-10-10T11:15:02 merge not started
+2026-10-10T11:15:02 cycle done
+2026-10-10T11:16:02 live: [('refresh', 0), ('refresh', 1), ('watch', -1)]
+2026-10-10T11:16:02 shard 0 process ALIVE (log age 3.6 min) - no action
+2026-10-10T11:16:02 shard 1 process ALIVE (log age 1.6 min) - no action
+2026-10-10T11:16:02 tripwire alive-or-done
+2026-10-10T11:16:02 watcher alive
+2026-10-10T11:16:02 merge not started
+2026-10-10T11:16:02 cycle done
+2026-10-10T11:17:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:17:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T11:17:02 shard 1 DONE, skip
+2026-10-10T11:17:02 tripwire alive-or-done
+2026-10-10T11:17:02 watcher alive
+2026-10-10T11:17:02 merge not started
+2026-10-10T11:17:02 cycle done
+2026-10-10T11:18:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:18:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T11:18:02 shard 1 DONE, skip
+2026-10-10T11:18:02 tripwire alive-or-done
+2026-10-10T11:18:02 watcher alive
+2026-10-10T11:18:02 merge not started
+2026-10-10T11:18:02 cycle done
+2026-10-10T11:19:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:19:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T11:19:02 shard 1 DONE, skip
+2026-10-10T11:19:02 tripwire alive-or-done
+2026-10-10T11:19:02 watcher alive
+2026-10-10T11:19:02 merge not started
+2026-10-10T11:19:02 cycle done
+2026-10-10T11:20:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:20:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T11:20:02 shard 1 DONE, skip
+2026-10-10T11:20:02 tripwire alive-or-done
+2026-10-10T11:20:02 watcher alive
+2026-10-10T11:20:02 merge not started
+2026-10-10T11:20:02 cycle done
+2026-10-10T11:21:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:21:02 shard 0 process ALIVE (log age 4.4 min) - no action
+2026-10-10T11:21:02 shard 1 DONE, skip
+2026-10-10T11:21:02 tripwire alive-or-done
+2026-10-10T11:21:02 watcher alive
+2026-10-10T11:21:02 merge not started
+2026-10-10T11:21:02 cycle done
+2026-10-10T11:22:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:22:02 shard 0 process ALIVE (log age 0.7 min) - no action
+2026-10-10T11:22:02 shard 1 DONE, skip
+2026-10-10T11:22:02 tripwire alive-or-done
+2026-10-10T11:22:02 watcher alive
+2026-10-10T11:22:02 merge not started
+2026-10-10T11:22:02 cycle done
+2026-10-10T11:23:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:23:02 shard 0 process ALIVE (log age 1.7 min) - no action
+2026-10-10T11:23:02 shard 1 DONE, skip
+2026-10-10T11:23:02 tripwire alive-or-done
+2026-10-10T11:23:02 watcher alive
+2026-10-10T11:23:02 merge not started
+2026-10-10T11:23:02 cycle done
+2026-10-10T11:24:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:24:02 shard 0 process ALIVE (log age 2.7 min) - no action
+2026-10-10T11:24:02 shard 1 DONE, skip
+2026-10-10T11:24:02 tripwire alive-or-done
+2026-10-10T11:24:02 watcher alive
+2026-10-10T11:24:02 merge not started
+2026-10-10T11:24:02 cycle done
+2026-10-10T11:25:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:25:02 shard 0 process ALIVE (log age 0.2 min) - no action
+2026-10-10T11:25:02 shard 1 DONE, skip
+2026-10-10T11:25:02 tripwire alive-or-done
+2026-10-10T11:25:02 watcher alive
+2026-10-10T11:25:02 merge not started
+2026-10-10T11:25:02 cycle done
+2026-10-10T11:26:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:26:02 shard 0 process ALIVE (log age 1.2 min) - no action
+2026-10-10T11:26:02 shard 1 DONE, skip
+2026-10-10T11:26:02 tripwire alive-or-done
+2026-10-10T11:26:02 watcher alive
+2026-10-10T11:26:02 merge not started
+2026-10-10T11:26:02 cycle done
+2026-10-10T11:27:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:27:02 shard 0 process ALIVE (log age 2.2 min) - no action
+2026-10-10T11:27:02 shard 1 DONE, skip
+2026-10-10T11:27:02 tripwire alive-or-done
+2026-10-10T11:27:02 watcher alive
+2026-10-10T11:27:02 merge not started
+2026-10-10T11:27:02 cycle done
+2026-10-10T11:28:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:28:02 shard 0 process ALIVE (log age 3.2 min) - no action
+2026-10-10T11:28:02 shard 1 DONE, skip
+2026-10-10T11:28:02 tripwire alive-or-done
+2026-10-10T11:28:02 watcher alive
+2026-10-10T11:28:02 merge not started
+2026-10-10T11:28:02 cycle done
+2026-10-10T11:29:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:29:02 shard 0 process ALIVE (log age 0.6 min) - no action
+2026-10-10T11:29:02 shard 1 DONE, skip
+2026-10-10T11:29:02 tripwire alive-or-done
+2026-10-10T11:29:02 watcher alive
+2026-10-10T11:29:02 merge not started
+2026-10-10T11:29:02 cycle done
+2026-10-10T11:30:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:30:02 shard 0 process ALIVE (log age 1.6 min) - no action
+2026-10-10T11:30:02 shard 1 DONE, skip
+2026-10-10T11:30:02 tripwire alive-or-done
+2026-10-10T11:30:02 watcher alive
+2026-10-10T11:30:02 merge not started
+2026-10-10T11:30:02 cycle done
+2026-10-10T11:31:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:31:02 shard 0 process ALIVE (log age 2.6 min) - no action
+2026-10-10T11:31:02 shard 1 DONE, skip
+2026-10-10T11:31:02 tripwire alive-or-done
+2026-10-10T11:31:02 watcher alive
+2026-10-10T11:31:02 merge not started
+2026-10-10T11:31:02 cycle done
+2026-10-10T11:32:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:32:02 shard 0 process ALIVE (log age 3.6 min) - no action
+2026-10-10T11:32:02 shard 1 DONE, skip
+2026-10-10T11:32:02 tripwire alive-or-done
+2026-10-10T11:32:02 watcher alive
+2026-10-10T11:32:02 merge not started
+2026-10-10T11:32:02 cycle done
+2026-10-10T11:33:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:33:02 shard 0 process ALIVE (log age 0.8 min) - no action
+2026-10-10T11:33:02 shard 1 DONE, skip
+2026-10-10T11:33:02 tripwire alive-or-done
+2026-10-10T11:33:02 watcher alive
+2026-10-10T11:33:02 merge not started
+2026-10-10T11:33:02 cycle done
+2026-10-10T11:34:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:34:02 shard 0 process ALIVE (log age 1.8 min) - no action
+2026-10-10T11:34:02 shard 1 DONE, skip
+2026-10-10T11:34:02 tripwire alive-or-done
+2026-10-10T11:34:02 watcher alive
+2026-10-10T11:34:02 merge not started
+2026-10-10T11:34:02 cycle done
+2026-10-10T11:35:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:35:02 shard 0 process ALIVE (log age 2.8 min) - no action
+2026-10-10T11:35:02 shard 1 DONE, skip
+2026-10-10T11:35:02 tripwire alive-or-done
+2026-10-10T11:35:02 watcher alive
+2026-10-10T11:35:02 merge not started
+2026-10-10T11:35:02 cycle done
+2026-10-10T11:36:02 live: [('refresh', 0), ('watch', -1)]
+2026-10-10T11:36:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T11:36:02 shard 1 DONE, skip
+2026-10-10T11:36:02 tripwire alive-or-done
+2026-10-10T11:36:02 watcher alive
+2026-10-10T11:36:02 merge not started
+2026-10-10T11:36:02 cycle done
+2026-10-10T11:37:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:37:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T11:37:02 shard 1 DONE, skip
+2026-10-10T11:37:02 tripwire alive-or-done
+2026-10-10T11:37:02 watcher alive
+2026-10-10T11:37:02 merge not started
+2026-10-10T11:37:02 cycle done
+2026-10-10T11:38:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:38:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T11:38:02 shard 1 DONE, skip
+2026-10-10T11:38:02 tripwire alive-or-done
+2026-10-10T11:38:02 watcher alive
+2026-10-10T11:38:02 merge not started
+2026-10-10T11:38:02 cycle done
+2026-10-10T11:39:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:39:02 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T11:39:02 shard 1 DONE, skip
+2026-10-10T11:39:02 tripwire alive-or-done
+2026-10-10T11:39:02 watcher alive
+2026-10-10T11:39:02 merge not started
+2026-10-10T11:39:02 cycle done
+2026-10-10T11:40:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:40:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T11:40:02 shard 1 DONE, skip
+2026-10-10T11:40:02 tripwire alive-or-done
+2026-10-10T11:40:02 watcher alive
+2026-10-10T11:40:02 merge not started
+2026-10-10T11:40:02 cycle done
+2026-10-10T11:41:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:41:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T11:41:02 shard 1 DONE, skip
+2026-10-10T11:41:02 tripwire alive-or-done
+2026-10-10T11:41:02 watcher alive
+2026-10-10T11:41:02 merge not started
+2026-10-10T11:41:02 cycle done
+2026-10-10T11:42:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:42:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T11:42:02 shard 1 DONE, skip
+2026-10-10T11:42:02 tripwire alive-or-done
+2026-10-10T11:42:02 watcher alive
+2026-10-10T11:42:02 merge not started
+2026-10-10T11:42:02 cycle done
+2026-10-10T11:43:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:43:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T11:43:02 shard 1 DONE, skip
+2026-10-10T11:43:02 tripwire alive-or-done
+2026-10-10T11:43:02 watcher alive
+2026-10-10T11:43:02 merge not started
+2026-10-10T11:43:02 cycle done
+2026-10-10T11:44:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:44:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T11:44:02 shard 1 DONE, skip
+2026-10-10T11:44:02 tripwire alive-or-done
+2026-10-10T11:44:02 watcher alive
+2026-10-10T11:44:02 merge not started
+2026-10-10T11:44:02 cycle done
+2026-10-10T11:45:03 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:45:03 shard 0 process ALIVE (log age 2.5 min) - no action
+2026-10-10T11:45:03 shard 1 DONE, skip
+2026-10-10T11:45:03 tripwire alive-or-done
+2026-10-10T11:45:03 watcher alive
+2026-10-10T11:45:03 merge not started
+2026-10-10T11:45:03 cycle done
+2026-10-10T11:46:06 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:46:06 shard 0 process ALIVE (log age -0.0 min) - no action
+2026-10-10T11:46:06 shard 1 DONE, skip
+2026-10-10T11:46:06 tripwire alive-or-done
+2026-10-10T11:46:06 watcher alive
+2026-10-10T11:46:06 merge not started
+2026-10-10T11:46:06 cycle done
+2026-10-10T11:47:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:47:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T11:47:02 shard 1 DONE, skip
+2026-10-10T11:47:02 tripwire alive-or-done
+2026-10-10T11:47:02 watcher alive
+2026-10-10T11:47:02 merge not started
+2026-10-10T11:47:02 cycle done
+2026-10-10T11:48:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:48:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T11:48:02 shard 1 DONE, skip
+2026-10-10T11:48:02 tripwire alive-or-done
+2026-10-10T11:48:02 watcher alive
+2026-10-10T11:48:02 merge not started
+2026-10-10T11:48:02 cycle done
+2026-10-10T11:49:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:49:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T11:49:02 shard 1 DONE, skip
+2026-10-10T11:49:02 tripwire alive-or-done
+2026-10-10T11:49:02 watcher alive
+2026-10-10T11:49:02 merge not started
+2026-10-10T11:49:02 cycle done
+2026-10-10T11:50:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:50:02 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T11:50:02 shard 1 DONE, skip
+2026-10-10T11:50:02 tripwire alive-or-done
+2026-10-10T11:50:02 watcher alive
+2026-10-10T11:50:02 merge not started
+2026-10-10T11:50:02 cycle done
+2026-10-10T11:51:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:51:02 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T11:51:02 shard 1 DONE, skip
+2026-10-10T11:51:02 tripwire alive-or-done
+2026-10-10T11:51:02 watcher alive
+2026-10-10T11:51:02 merge not started
+2026-10-10T11:51:02 cycle done
+2026-10-10T11:52:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:52:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T11:52:02 shard 1 DONE, skip
+2026-10-10T11:52:02 tripwire alive-or-done
+2026-10-10T11:52:02 watcher alive
+2026-10-10T11:52:02 merge not started
+2026-10-10T11:52:02 cycle done
+2026-10-10T11:53:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:53:03 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T11:53:03 shard 1 DONE, skip
+2026-10-10T11:53:03 tripwire alive-or-done
+2026-10-10T11:53:03 watcher alive
+2026-10-10T11:53:03 merge not started
+2026-10-10T11:53:03 cycle done
+2026-10-10T11:54:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:54:02 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T11:54:02 shard 1 DONE, skip
+2026-10-10T11:54:02 tripwire alive-or-done
+2026-10-10T11:54:02 watcher alive
+2026-10-10T11:54:02 merge not started
+2026-10-10T11:54:02 cycle done
+2026-10-10T11:55:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:55:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T11:55:02 shard 1 DONE, skip
+2026-10-10T11:55:02 tripwire alive-or-done
+2026-10-10T11:55:02 watcher alive
+2026-10-10T11:55:02 merge not started
+2026-10-10T11:55:02 cycle done
+2026-10-10T11:56:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:56:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T11:56:02 shard 1 DONE, skip
+2026-10-10T11:56:02 tripwire alive-or-done
+2026-10-10T11:56:02 watcher alive
+2026-10-10T11:56:02 merge not started
+2026-10-10T11:56:02 cycle done
+2026-10-10T11:57:03 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:57:03 shard 0 process ALIVE (log age 0.4 min) - no action
+2026-10-10T11:57:03 shard 1 DONE, skip
+2026-10-10T11:57:03 tripwire alive-or-done
+2026-10-10T11:57:03 watcher alive
+2026-10-10T11:57:03 merge not started
+2026-10-10T11:57:03 cycle done
+2026-10-10T11:58:03 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:58:03 shard 0 process ALIVE (log age 1.4 min) - no action
+2026-10-10T11:58:03 shard 1 DONE, skip
+2026-10-10T11:58:03 tripwire alive-or-done
+2026-10-10T11:58:03 watcher alive
+2026-10-10T11:58:03 merge not started
+2026-10-10T11:58:03 cycle done
+2026-10-10T11:59:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T11:59:02 shard 0 process ALIVE (log age 2.4 min) - no action
+2026-10-10T11:59:02 shard 1 DONE, skip
+2026-10-10T11:59:02 tripwire alive-or-done
+2026-10-10T11:59:02 watcher alive
+2026-10-10T11:59:02 merge not started
+2026-10-10T11:59:02 cycle done
+2026-10-10T12:00:03 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T12:00:03 shard 0 process ALIVE (log age 3.4 min) - no action
+2026-10-10T12:00:03 shard 1 DONE, skip
+2026-10-10T12:00:03 tripwire alive-or-done
+2026-10-10T12:00:03 watcher alive
+2026-10-10T12:00:03 merge not started
+2026-10-10T12:00:03 cycle done
+2026-10-10T12:01:03 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T12:01:03 shard 0 process ALIVE (log age 0.9 min) - no action
+2026-10-10T12:01:03 shard 1 DONE, skip
+2026-10-10T12:01:03 tripwire alive-or-done
+2026-10-10T12:01:03 watcher alive
+2026-10-10T12:01:03 merge not started
+2026-10-10T12:01:03 cycle done
+2026-10-10T12:02:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T12:02:02 shard 0 process ALIVE (log age 1.9 min) - no action
+2026-10-10T12:02:02 shard 1 DONE, skip
+2026-10-10T12:02:02 tripwire alive-or-done
+2026-10-10T12:02:02 watcher alive
+2026-10-10T12:02:02 merge not started
+2026-10-10T12:02:02 cycle done
+2026-10-10T12:03:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T12:03:02 shard 0 process ALIVE (log age 2.9 min) - no action
+2026-10-10T12:03:02 shard 1 DONE, skip
+2026-10-10T12:03:02 tripwire alive-or-done
+2026-10-10T12:03:02 watcher alive
+2026-10-10T12:03:02 merge not started
+2026-10-10T12:03:02 cycle done
+2026-10-10T12:04:02 live: [('refresh', 0), ('tripwire', -1), ('watch', -1)]
+2026-10-10T12:04:02 shard 0 process ALIVE (log age 0.1 min) - no action
+2026-10-10T12:04:02 shard 1 DONE, skip
+2026-10-10T12:04:02 tripwire alive-or-done
+2026-10-10T12:04:02 watcher alive
+2026-10-10T12:04:02 merge not started
+2026-10-10T12:04:02 cycle done
+2026-10-10T12:05:04 live: [('tripwire', -1)]
+2026-10-10T12:05:04 shard 0 DONE, skip
+2026-10-10T12:05:04 shard 1 DONE, skip
+2026-10-10T12:05:04 tripwire alive-or-done
+2026-10-10T12:05:04 watcher alive
+2026-10-10T12:05:04 merge not started
+2026-10-10T12:05:04 cycle done
+2026-10-10T12:06:03 live: [('tripwire', -1)]
+2026-10-10T12:06:03 shard 0 DONE, skip
+2026-10-10T12:06:03 shard 1 DONE, skip
+2026-10-10T12:06:03 tripwire alive-or-done
+2026-10-10T12:06:03 watcher alive
+2026-10-10T12:06:03 merge not started
+2026-10-10T12:06:03 cycle done
+2026-10-10T12:07:03 live: [('merge', 1), ('tripwire', -1)]
+2026-10-10T12:07:03 shard 0 DONE, skip
+2026-10-10T12:07:03 shard 1 DONE, skip
+2026-10-10T12:07:03 tripwire alive-or-done
+2026-10-10T12:07:03 watcher alive
+2026-10-10T12:07:03 merge process alive
+2026-10-10T12:07:03 cycle done
+2026-10-10T12:08:03 live: [('tripwire', -1)]
+2026-10-10T12:08:03 shard 0 DONE, skip
+2026-10-10T12:08:03 shard 1 DONE, skip
+2026-10-10T12:08:03 tripwire alive-or-done
+2026-10-10T12:08:03 watcher alive
+2026-10-10T12:08:03 merge done
+2026-10-10T12:08:03 launching pack build
+2026-10-10T12:08:03 cycle done
+2026-10-10T12:09:03 live: [('tripwire', -1)]
+2026-10-10T12:09:03 shard 0 DONE, skip
+2026-10-10T12:09:03 shard 1 DONE, skip
+2026-10-10T12:09:03 tripwire alive-or-done
+2026-10-10T12:09:03 watcher alive
+2026-10-10T12:09:03 merge done
+2026-10-10T12:09:03 pack running
+2026-10-10T12:09:03 cycle done
+2026-10-10T12:10:03 live: [('tripwire', -1)]
+2026-10-10T12:10:03 shard 0 DONE, skip
+2026-10-10T12:10:03 shard 1 DONE, skip
+2026-10-10T12:10:03 tripwire alive-or-done
+2026-10-10T12:10:03 watcher alive
+2026-10-10T12:10:03 merge done
+2026-10-10T12:10:03 pack done
+2026-10-10T12:10:03 cycle done
+2026-10-10T12:11:04 live: [('tripwire', -1)]
+2026-10-10T12:11:04 shard 0 DONE, skip
+2026-10-10T12:11:04 shard 1 DONE, skip
+2026-10-10T12:11:04 tripwire alive-or-done
+2026-10-10T12:11:04 watcher alive
+2026-10-10T12:11:04 merge done
+2026-10-10T12:11:04 pack done
+2026-10-10T12:11:04 cycle done
+2026-10-10T12:12:04 live: [('tripwire', -1)]
+2026-10-10T12:12:04 shard 0 DONE, skip
+2026-10-10T12:12:04 shard 1 DONE, skip
+2026-10-10T12:12:04 tripwire alive-or-done
+2026-10-10T12:12:04 watcher alive
+2026-10-10T12:12:04 merge done
+2026-10-10T12:12:04 pack done
+2026-10-10T12:12:04 cycle done
+2026-10-10T12:13:04 live: [('tripwire', -1)]
+2026-10-10T12:13:04 shard 0 DONE, skip
+2026-10-10T12:13:04 shard 1 DONE, skip
+2026-10-10T12:13:04 tripwire alive-or-done
+2026-10-10T12:13:04 watcher alive
+2026-10-10T12:13:04 merge done
+2026-10-10T12:13:04 pack done
+2026-10-10T12:13:04 cycle done
+2026-10-10T12:14:04 live: [('tripwire', -1)]
+2026-10-10T12:14:04 shard 0 DONE, skip
+2026-10-10T12:14:04 shard 1 DONE, skip
+2026-10-10T12:14:04 tripwire alive-or-done
+2026-10-10T12:14:04 watcher alive
+2026-10-10T12:14:04 merge done
+2026-10-10T12:14:04 pack done
+2026-10-10T12:14:04 cycle done
+2026-10-10T12:15:04 live: [('tripwire', -1)]
+2026-10-10T12:15:04 shard 0 DONE, skip
+2026-10-10T12:15:04 shard 1 DONE, skip
+2026-10-10T12:15:04 tripwire alive-or-done
+2026-10-10T12:15:04 watcher stale+dead -> relaunch
+2026-10-10T12:15:04 merge done
+2026-10-10T12:15:04 pack done
+2026-10-10T12:15:04 cycle done
+2026-10-10T12:16:04 live: [('merge', 1), ('tripwire', -1)]
+2026-10-10T12:16:04 shard 0 DONE, skip
+2026-10-10T12:16:04 shard 1 DONE, skip
+2026-10-10T12:16:04 tripwire alive-or-done
+2026-10-10T12:16:04 watcher alive
+2026-10-10T12:16:04 merge done
+2026-10-10T12:16:04 pack done
+2026-10-10T12:16:04 cycle done
+2026-10-10T12:17:04 live: [('tripwire', -1)]
+2026-10-10T12:17:05 shard 0 DONE, skip
+2026-10-10T12:17:05 shard 1 DONE, skip
+2026-10-10T12:17:05 tripwire alive-or-done
+2026-10-10T12:17:05 watcher alive
+2026-10-10T12:17:05 merge done
+2026-10-10T12:17:05 pack done
+2026-10-10T12:17:05 cycle done
+2026-10-10T12:18:04 live: [('tripwire', -1)]
+2026-10-10T12:18:04 shard 0 DONE, skip
+2026-10-10T12:18:04 shard 1 DONE, skip
+2026-10-10T12:18:04 tripwire alive-or-done
+2026-10-10T12:18:04 watcher alive
+2026-10-10T12:18:04 merge done
+2026-10-10T12:18:04 pack done
+2026-10-10T12:18:04 cycle done
+2026-10-10T12:19:04 live: [('tripwire', -1)]
+2026-10-10T12:19:04 shard 0 DONE, skip
+2026-10-10T12:19:04 shard 1 DONE, skip
+2026-10-10T12:19:04 tripwire alive-or-done
+2026-10-10T12:19:04 watcher alive
+2026-10-10T12:19:04 merge done
+2026-10-10T12:19:04 pack done
+2026-10-10T12:19:04 cycle done
+2026-10-10T12:20:04 live: [('tripwire', -1)]
+2026-10-10T12:20:05 shard 0 DONE, skip
+2026-10-10T12:20:05 shard 1 DONE, skip
+2026-10-10T12:20:05 tripwire alive-or-done
+2026-10-10T12:20:05 watcher alive
+2026-10-10T12:20:05 merge done
+2026-10-10T12:20:05 pack done
+2026-10-10T12:20:05 cycle done
+2026-10-10T12:21:04 live: [('tripwire', -1)]
+2026-10-10T12:21:04 shard 0 DONE, skip
+2026-10-10T12:21:04 shard 1 DONE, skip
+2026-10-10T12:21:04 tripwire alive-or-done
+2026-10-10T12:21:04 watcher alive
+2026-10-10T12:21:04 merge done
+2026-10-10T12:21:04 pack done
+2026-10-10T12:21:04 cycle done
+2026-10-10T12:22:04 live: [('tripwire', -1)]
+2026-10-10T12:22:04 shard 0 DONE, skip
+2026-10-10T12:22:04 shard 1 DONE, skip
+2026-10-10T12:22:04 tripwire alive-or-done
+2026-10-10T12:22:04 watcher alive
+2026-10-10T12:22:04 merge done
+2026-10-10T12:22:04 pack done
+2026-10-10T12:22:04 cycle done
+2026-10-10T12:23:04 live: [('tripwire', -1)]
+2026-10-10T12:23:04 shard 0 DONE, skip
+2026-10-10T12:23:04 shard 1 DONE, skip
+2026-10-10T12:23:04 tripwire alive-or-done
+2026-10-10T12:23:04 watcher alive
+2026-10-10T12:23:04 merge done
+2026-10-10T12:23:04 pack done
+2026-10-10T12:23:04 cycle done
+2026-10-10T12:24:04 live: [('tripwire', -1)]
+2026-10-10T12:24:04 shard 0 DONE, skip
+2026-10-10T12:24:04 shard 1 DONE, skip
+2026-10-10T12:24:04 tripwire alive-or-done
+2026-10-10T12:24:04 watcher alive
+2026-10-10T12:24:04 merge done
+2026-10-10T12:24:04 pack done
+2026-10-10T12:24:04 cycle done
+2026-10-10T12:25:04 live: [('tripwire', -1)]
+2026-10-10T12:25:04 shard 0 DONE, skip
+2026-10-10T12:25:04 shard 1 DONE, skip
+2026-10-10T12:25:04 tripwire alive-or-done
+2026-10-10T12:25:04 watcher alive
+2026-10-10T12:25:04 merge done
+2026-10-10T12:25:04 pack done
+2026-10-10T12:25:04 cycle done
+2026-10-10T12:26:04 live: [('tripwire', -1)]
+2026-10-10T12:26:04 shard 0 DONE, skip
+2026-10-10T12:26:04 shard 1 DONE, skip
+2026-10-10T12:26:04 tripwire alive-or-done
+2026-10-10T12:26:04 watcher stale+dead -> relaunch
+2026-10-10T12:26:04 merge done
+2026-10-10T12:26:04 pack done
+2026-10-10T12:26:04 cycle done
+2026-10-10T12:27:03 live: [('tripwire', -1)]
+2026-10-10T12:27:04 shard 0 DONE, skip
+2026-10-10T12:27:04 shard 1 DONE, skip
+2026-10-10T12:27:04 tripwire alive-or-done
+2026-10-10T12:27:04 watcher alive
+2026-10-10T12:27:04 merge done
+2026-10-10T12:27:04 pack done
+2026-10-10T12:27:04 cycle done
+2026-10-10T12:28:04 live: [('tripwire', -1)]
+2026-10-10T12:28:04 shard 0 DONE, skip
+2026-10-10T12:28:04 shard 1 DONE, skip
+2026-10-10T12:28:04 tripwire alive-or-done
+2026-10-10T12:28:04 watcher alive
+2026-10-10T12:28:04 merge done
+2026-10-10T12:28:04 pack done
+2026-10-10T12:28:04 cycle done
+2026-10-10T12:29:04 live: [('tripwire', -1)]
+2026-10-10T12:29:04 shard 0 DONE, skip
+2026-10-10T12:29:04 shard 1 DONE, skip
+2026-10-10T12:29:04 tripwire alive-or-done
+2026-10-10T12:29:04 watcher alive
+2026-10-10T12:29:04 merge done
+2026-10-10T12:29:04 pack done
+2026-10-10T12:29:04 cycle done
+2026-10-10T12:30:04 live: [('tripwire', -1)]
+2026-10-10T12:30:05 shard 0 DONE, skip
+2026-10-10T12:30:05 shard 1 DONE, skip
+2026-10-10T12:30:05 tripwire alive-or-done
+2026-10-10T12:30:05 watcher alive
+2026-10-10T12:30:05 merge done
+2026-10-10T12:30:05 pack done
+2026-10-10T12:30:05 cycle done

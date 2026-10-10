@@ -1,0 +1,13 @@
+field,value
+symbol,LUTS
+description,Lotus For Agricultural Investments And Development
+isin,EGS07661C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,lotus-for-agricultural-investments-and-development
+found_by_isin,False
+provider,ice

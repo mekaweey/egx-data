@@ -1,0 +1,13 @@
+field,value
+symbol,GTEX
+description,G-TEX for Commercial and Industrial Investments S.A.E
+isin,EGS59U92C011
+type,stock
+typespecs,common
+currency,USD
+is_primary,True
+exchange,EGX
+country,EG
+logoid,gtex-for-commercial-and-industrial
+found_by_isin,False
+provider,ice

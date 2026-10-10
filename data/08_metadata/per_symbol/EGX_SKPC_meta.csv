@@ -1,0 +1,13 @@
+field,value
+symbol,SKPC
+description,Sidi Kerir Petrochemicals
+isin,EGS380S1C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,sidi-kerir-petrochemicals-sidpec
+found_by_isin,False
+provider,ice

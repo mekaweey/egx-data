@@ -1,0 +1,13 @@
+field,value
+symbol,HBCO
+description,Heibco for Commercial Investments & Real Estate Development
+isin,EGS23OD1C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,heibco-for-commercial-investments-and-real-estate-development
+found_by_isin,False
+provider,ice

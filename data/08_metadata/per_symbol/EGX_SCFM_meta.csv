@@ -1,0 +1,13 @@
+field,value
+symbol,SCFM
+description,South Cairo & Giza Mills & Bakeries
+isin,EGS30411C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,south-cairo-and-giza-mills-and-bakeries
+found_by_isin,False
+provider,ice

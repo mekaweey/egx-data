@@ -1,0 +1,13 @@
+field,value
+symbol,UBEE
+description,United Bank SAE
+isin,EGS600M1C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,the-united-bank
+found_by_isin,False
+provider,ice

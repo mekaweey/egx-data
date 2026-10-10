@@ -1,0 +1,13 @@
+field,value
+symbol,MASR
+description,Madinet Masr for Housing & Development
+isin,EGS65571C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,medinet-nasr-housing
+found_by_isin,False
+provider,ice

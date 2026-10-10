@@ -1,0 +1,13 @@
+field,value
+symbol,TRTO
+description,TransOceans Tours
+isin,EGS79072C012
+type,stock
+typespecs,common
+currency,USD
+is_primary,True
+exchange,EGX
+country,EG
+logoid,transoceans-tours
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,EGCH
+description,Egyptian Chemical Industries
+isin,EGS38201C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egyptian-chemical-industries-kima
+found_by_isin,False
+provider,ice

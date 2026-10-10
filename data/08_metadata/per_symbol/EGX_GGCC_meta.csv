@@ -1,0 +1,13 @@
+field,value
+symbol,GGCC
+description,Giza General Contracting & Real Estate Investment
+isin,EGS21541C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,giza-general-contracting
+found_by_isin,False
+provider,ice

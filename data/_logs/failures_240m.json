@@ -1,0 +1,22 @@
+[
+ {
+  "sym": "ACRO",
+  "res": "240m",
+  "err": "symbol_error: ['cs_323957785', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "EIUD",
+  "res": "240m",
+  "err": "symbol_error: ['cs_323970286', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "FCMD",
+  "res": "240m",
+  "err": "symbol_error: ['cs_323986435', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "EHDR",
+  "res": "240m",
+  "err": "no data"
+ }
+]

@@ -1,0 +1,13 @@
+field,value
+symbol,EPCO
+description,Egypt for Poultry Co.
+isin,EGS02211C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egypt-for-poultry
+found_by_isin,False
+provider,ice

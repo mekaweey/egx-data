@@ -1,0 +1,13 @@
+field,value
+symbol,MENA
+description,Mena Touristic & Real Estate Investment
+isin,EGS65441C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,mena-touristic-and-real-estate-investment
+found_by_isin,False
+provider,ice

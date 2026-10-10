@@ -1,0 +1,13 @@
+field,value
+symbol,IRAX
+description,El Ezz Aldekhela Steel-Alexandria
+isin,EGS3D041C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,ezz-steel
+found_by_isin,False
+provider,ice

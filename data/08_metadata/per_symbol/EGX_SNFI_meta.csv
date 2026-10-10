@@ -1,0 +1,13 @@
+field,value
+symbol,SNFI
+description,Souhag National Food Industries
+isin,EGS30301C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,souhag-national-food-industries
+found_by_isin,False
+provider,ice

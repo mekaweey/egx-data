@@ -1,0 +1,13 @@
+field,value
+symbol,INEG
+description,Integrated Engineering Group S.A.E
+isin,EGS3E3B1C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,integrated-engineering-sae
+found_by_isin,False
+provider,ice

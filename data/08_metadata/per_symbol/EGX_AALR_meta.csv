@@ -1,0 +1,13 @@
+field,value
+symbol,AALR
+description,General Co. for Land Reclamation Development & Reconstruction
+isin,EGS01081C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,general-company-for-land-reclamationdevelopment-and-reconstru
+found_by_isin,False
+provider,ice

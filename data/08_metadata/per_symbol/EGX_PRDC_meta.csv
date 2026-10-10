@@ -1,0 +1,13 @@
+field,value
+symbol,PRDC
+description,Pioneers Properties for Urban Development
+isin,EGS21FW1C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,pioneers-properties-for-urban-development-predco
+found_by_isin,False
+provider,ice

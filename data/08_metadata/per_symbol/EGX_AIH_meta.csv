@@ -1,0 +1,13 @@
+field,value
+symbol,AIH
+description,Arabia Investments Holding SAE
+isin,EGS21351C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arabia-investments
+found_by_isin,False
+provider,ice

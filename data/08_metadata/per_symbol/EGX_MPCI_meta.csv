@@ -1,0 +1,13 @@
+field,value
+symbol,MPCI
+description,Memphis Pharmaceutical & Chemical Industries
+isin,EGS38351C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,memphis-pharmaceuticals
+found_by_isin,False
+provider,ice

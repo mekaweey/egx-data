@@ -1,0 +1,13 @@
+field,value
+symbol,DSCW
+description,Dice Sports & Casual Wear Manufacturers SAE
+isin,EGS33321C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,dice-sport-and-casual-wear
+found_by_isin,False
+provider,ice

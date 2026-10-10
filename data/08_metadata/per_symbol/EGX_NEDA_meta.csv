@@ -1,0 +1,13 @@
+field,value
+symbol,NEDA
+description,Northern Upper Egypt Development & Agricultural Production
+isin,EGS52041C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,northern-upper-egypt-development-and-agricultural-production
+found_by_isin,False
+provider,ice

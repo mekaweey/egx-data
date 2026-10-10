@@ -1,0 +1,13 @@
+field,value
+symbol,ORHD
+description,Orascom Development Egypt (S.A.E)
+isin,EGS70321C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,orascom-development-egypt
+found_by_isin,False
+provider,ice

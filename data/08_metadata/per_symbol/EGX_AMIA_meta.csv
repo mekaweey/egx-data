@@ -1,0 +1,13 @@
+field,value
+symbol,AMIA
+description,Arab Moltaqa Investments Company
+isin,EGS67221C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arab-moltaka-investments-co
+found_by_isin,False
+provider,ice

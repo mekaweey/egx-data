@@ -1,0 +1,13 @@
+field,value
+symbol,RKAZ
+description,REKAZ Financial Holding
+isin,EGS521T1C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,port-saied-for-agricultural-development-and-construction
+found_by_isin,False
+provider,ice

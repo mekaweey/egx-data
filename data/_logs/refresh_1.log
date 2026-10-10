@@ -1,0 +1,251 @@
+2026-10-09T14:35:39 shard 1/8 syms=34
+2026-10-09T15:22:12 progress 10/34 {'ok': 0, 'empty': 0, 'fail': 90}
+2026-10-09T15:53:24 shard 1/4 syms=68
+2026-10-09T15:54:17 cooldown 60s (throttle?)
+2026-10-09T15:56:13 cooldown 60s (throttle?)
+2026-10-09T15:58:08 cooldown 60s (throttle?)
+2026-10-09T16:00:59 cooldown 60s (throttle?)
+2026-10-09T16:03:57 cooldown 60s (throttle?)
+2026-10-09T16:06:45 cooldown 60s (throttle?)
+2026-10-09T16:07:50 sym 2/68 {'ok': 0, 'empty': 0, 'fail': 18} last=ACRO
+2026-10-09T16:08:45 cooldown 60s (throttle?)
+2026-10-09T16:10:44 cooldown 60s (throttle?)
+2026-10-09T16:12:37 cooldown 60s (throttle?)
+2026-10-09T16:14:36 cooldown 60s (throttle?)
+2026-10-09T16:16:32 cooldown 60s (throttle?)
+2026-10-09T16:18:24 cooldown 60s (throttle?)
+2026-10-09T16:19:29 sym 4/68 {'ok': 0, 'empty': 0, 'fail': 36} last=AIDC
+2026-10-09T16:20:24 cooldown 60s (throttle?)
+2026-10-09T16:22:24 cooldown 60s (throttle?)
+2026-10-09T16:24:18 cooldown 60s (throttle?)
+2026-10-09T16:26:18 cooldown 60s (throttle?)
+2026-10-09T16:28:17 cooldown 60s (throttle?)
+2026-10-09T16:30:14 cooldown 60s (throttle?)
+2026-10-09T16:31:19 sym 6/68 {'ok': 0, 'empty': 0, 'fail': 54} last=AMES
+2026-10-09T16:32:35 cooldown 60s (throttle?)
+2026-10-09T16:34:35 cooldown 60s (throttle?)
+2026-10-09T16:36:27 cooldown 60s (throttle?)
+2026-10-09T16:37:15 shard 1/2 syms=135
+2026-10-09T16:38:25 cooldown 60s (throttle?)
+2026-10-09T16:39:36 sym 2/135 {'ok': 18, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-09T16:40:19 cooldown 60s (throttle?)
+2026-10-09T16:41:32 cooldown 60s (throttle?)
+2026-10-09T16:42:32 cooldown 60s (throttle?)
+2026-10-09T16:43:37 sym 8/68 {'ok': 0, 'empty': 0, 'fail': 72} last=ARBLAND
+2026-10-09T16:44:20 cooldown 60s (throttle?)
+2026-10-09T16:44:36 cooldown 60s (throttle?)
+2026-10-09T17:04:22 shard 1/2 syms=135
+2026-10-09T17:11:09 sym 2/135 {'ok': 18, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-09T17:13:24 cooldown 120s (throttle?)
+2026-10-09T17:17:57 cooldown 120s (throttle?)
+2026-10-09T17:22:40 cooldown 120s (throttle?)
+2026-10-09T17:28:26 sym 4/135 {'ok': 27, 'empty': 0, 'fail': 9} last=ADCI
+2026-10-09T17:35:21 sym 6/135 {'ok': 45, 'empty': 0, 'fail': 9} last=AFDI
+2026-10-09T17:43:01 sym 8/135 {'ok': 62, 'empty': 0, 'fail': 10} last=AIH
+2026-10-09T17:50:47 progress 10/135 {'ok': 79, 'empty': 0, 'fail': 11}
+2026-10-09T17:58:05 sym 12/135 {'ok': 97, 'empty': 0, 'fail': 11} last=AMII
+2026-10-09T18:04:58 sym 14/135 {'ok': 115, 'empty': 0, 'fail': 11} last=APSW
+2026-10-09T18:12:37 sym 16/135 {'ok': 132, 'empty': 0, 'fail': 12} last=AREH
+2026-10-09T18:20:14 sym 18/135 {'ok': 149, 'empty': 0, 'fail': 13} last=ATQA
+2026-10-09T19:22:31 shard 1/2 syms=135
+2026-10-09T19:22:34 sym 2/135 {'ok': 0, 'empty': 0, 'fail': 0, 'skip': 14} last=ACAP
+2026-10-09T19:24:34 cooldown 120s (throttle?)
+2026-10-09T19:28:43 cooldown 120s (throttle?)
+2026-10-09T19:31:41 sym 4/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 21} last=ADCI
+2026-10-09T19:31:47 sym 6/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 35} last=AFDI
+2026-10-09T19:31:53 sym 8/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 49} last=AIH
+2026-10-09T19:31:59 progress 10/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 63}
+2026-10-09T19:32:05 sym 12/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 77} last=AMII
+2026-10-09T19:32:11 sym 14/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 91} last=APSW
+2026-10-09T19:32:17 sym 16/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 105} last=AREH
+2026-10-09T19:32:23 sym 18/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 119} last=ATQA
+2026-10-09T19:32:29 progress 20/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 133}
+2026-10-09T19:32:35 sym 22/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 147} last=CAED
+2026-10-09T19:34:29 sym 24/135 {'ok': 7, 'empty': 0, 'fail': 7, 'skip': 154} last=CCRS
+2026-10-09T19:38:02 sym 26/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 154} last=CICH
+2026-10-09T19:41:32 sym 28/135 {'ok': 35, 'empty': 0, 'fail': 7, 'skip': 154} last=CNFN
+2026-10-09T19:45:03 progress 30/135 {'ok': 49, 'empty': 0, 'fail': 7, 'skip': 154}
+2026-10-09T19:49:26 sym 32/135 {'ok': 62, 'empty': 0, 'fail': 8, 'skip': 154} last=DAPH
+2026-10-09T19:52:59 sym 34/135 {'ok': 76, 'empty': 0, 'fail': 8, 'skip': 154} last=DOMT
+2026-10-09T19:56:31 sym 36/135 {'ok': 90, 'empty': 0, 'fail': 8, 'skip': 154} last=EASB
+2026-10-09T20:00:02 sym 38/135 {'ok': 104, 'empty': 0, 'fail': 8, 'skip': 154} last=EDFM
+2026-10-09T20:03:30 progress 40/135 {'ok': 118, 'empty': 0, 'fail': 8, 'skip': 154}
+2026-10-09T20:07:01 sym 42/135 {'ok': 132, 'empty': 0, 'fail': 8, 'skip': 154} last=EGCH
+2026-10-09T20:10:29 sym 44/135 {'ok': 146, 'empty': 0, 'fail': 8, 'skip': 154} last=EGS3I0S1C019
+2026-10-09T20:14:01 sym 46/135 {'ok': 160, 'empty': 0, 'fail': 8, 'skip': 154} last=EGX30ETF
+2026-10-09T20:17:51 sym 48/135 {'ok': 174, 'empty': 0, 'fail': 8, 'skip': 154} last=ELEC
+2026-10-09T20:21:47 progress 50/135 {'ok': 188, 'empty': 0, 'fail': 8, 'skip': 154}
+2026-10-09T20:25:23 sym 52/135 {'ok': 202, 'empty': 0, 'fail': 8, 'skip': 154} last=EPCO
+2026-10-09T20:29:21 sym 54/135 {'ok': 216, 'empty': 0, 'fail': 8, 'skip': 154} last=EXPA
+2026-10-09T20:32:52 sym 56/135 {'ok': 230, 'empty': 0, 'fail': 8, 'skip': 154} last=FERC
+2026-10-09T20:36:25 sym 58/135 {'ok': 244, 'empty': 0, 'fail': 8, 'skip': 154} last=FWRY
+2026-10-09T20:40:40 progress 60/135 {'ok': 258, 'empty': 0, 'fail': 8, 'skip': 154}
+2026-10-09T20:44:15 sym 62/135 {'ok': 272, 'empty': 0, 'fail': 8, 'skip': 154} last=GPIM
+2026-10-09T20:47:50 sym 64/135 {'ok': 286, 'empty': 0, 'fail': 8, 'skip': 154} last=GTEX
+2026-10-09T20:51:19 sym 66/135 {'ok': 300, 'empty': 0, 'fail': 8, 'skip': 154} last=HBCO
+2026-10-09T20:55:18 sym 68/135 {'ok': 314, 'empty': 0, 'fail': 8, 'skip': 154} last=IBCT
+2026-10-09T20:58:52 progress 70/135 {'ok': 328, 'empty': 0, 'fail': 8, 'skip': 154}
+2026-10-09T21:02:34 sym 72/135 {'ok': 342, 'empty': 0, 'fail': 8, 'skip': 154} last=INFI
+2026-10-09T21:06:06 sym 74/135 {'ok': 356, 'empty': 0, 'fail': 8, 'skip': 154} last=ISMQ
+2026-10-09T21:09:37 sym 76/135 {'ok': 370, 'empty': 0, 'fail': 8, 'skip': 154} last=KASABF
+2026-10-09T21:13:08 sym 78/135 {'ok': 384, 'empty': 0, 'fail': 8, 'skip': 154} last=KZPC
+2026-10-10T00:40:59 shard 1/2 syms=135
+2026-10-10T00:44:23 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T00:46:23 cooldown 120s (throttle?)
+2026-10-10T00:50:32 cooldown 120s (throttle?)
+2026-10-10T00:55:11 sym 4/135 {'ok': 21, 'empty': 0, 'fail': 7} last=ADCI
+2026-10-10T00:59:27 sym 6/135 {'ok': 34, 'empty': 0, 'fail': 8} last=AFDI
+2026-10-10T01:03:16 sym 8/135 {'ok': 48, 'empty': 0, 'fail': 8} last=AIH
+2026-10-10T01:07:12 progress 10/135 {'ok': 62, 'empty': 0, 'fail': 8}
+2026-10-10T01:11:04 sym 12/135 {'ok': 76, 'empty': 0, 'fail': 8} last=AMII
+2026-10-10T01:15:23 sym 14/135 {'ok': 90, 'empty': 0, 'fail': 8} last=APSW
+2026-10-10T01:18:46 sym 16/135 {'ok': 104, 'empty': 0, 'fail': 8} last=AREH
+2026-10-10T01:22:25 sym 18/135 {'ok': 118, 'empty': 0, 'fail': 8} last=ATQA
+2026-10-10T01:25:56 progress 20/135 {'ok': 132, 'empty': 0, 'fail': 8}
+2026-10-10T01:30:09 sym 22/135 {'ok': 146, 'empty': 0, 'fail': 8} last=CAED
+2026-10-10T01:33:40 sym 24/135 {'ok': 160, 'empty': 0, 'fail': 8} last=CCRS
+2026-10-10T01:37:42 sym 26/135 {'ok': 174, 'empty': 0, 'fail': 8} last=CICH
+2026-10-10T01:41:11 sym 28/135 {'ok': 188, 'empty': 0, 'fail': 8} last=CNFN
+2026-10-10T02:42:12 shard 1/2 syms=135
+2026-10-10T02:45:41 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T02:47:42 cooldown 120s (throttle?)
+2026-10-10T02:48:38 shard 1/2 syms=135
+2026-10-10T02:52:05 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T02:54:06 cooldown 120s (throttle?)
+2026-10-10T02:58:15 cooldown 120s (throttle?)
+2026-10-10T03:03:03 shard 1/2 syms=135
+2026-10-10T03:06:33 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T03:08:33 cooldown 120s (throttle?)
+2026-10-10T03:12:42 cooldown 120s (throttle?)
+2026-10-10T03:17:03 shard 1/2 syms=135
+2026-10-10T03:20:30 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T03:22:30 cooldown 120s (throttle?)
+2026-10-10T03:26:38 cooldown 120s (throttle?)
+2026-10-10T03:31:16 sym 4/135 {'ok': 21, 'empty': 0, 'fail': 7} last=ADCI
+2026-10-10T03:34:51 sym 6/135 {'ok': 35, 'empty': 0, 'fail': 7} last=AFDI
+2026-10-10T03:38:23 sym 8/135 {'ok': 49, 'empty': 0, 'fail': 7} last=AIH
+2026-10-10T03:41:58 progress 10/135 {'ok': 63, 'empty': 0, 'fail': 7}
+2026-10-10T03:45:24 sym 12/135 {'ok': 77, 'empty': 0, 'fail': 7} last=AMII
+2026-10-10T03:48:58 sym 14/135 {'ok': 91, 'empty': 0, 'fail': 7} last=APSW
+2026-10-10T03:50:03 shard 1/2 syms=135
+2026-10-10T03:53:55 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T03:55:54 cooldown 120s (throttle?)
+2026-10-10T04:00:03 cooldown 120s (throttle?)
+2026-10-10T04:04:41 sym 4/135 {'ok': 21, 'empty': 0, 'fail': 7} last=ADCI
+2026-10-10T04:08:10 sym 6/135 {'ok': 35, 'empty': 0, 'fail': 7} last=AFDI
+2026-10-10T04:12:01 sym 8/135 {'ok': 49, 'empty': 0, 'fail': 7} last=AIH
+2026-10-10T04:15:35 progress 10/135 {'ok': 63, 'empty': 0, 'fail': 7}
+2026-10-10T04:19:08 sym 12/135 {'ok': 77, 'empty': 0, 'fail': 7} last=AMII
+2026-10-10T04:22:40 sym 14/135 {'ok': 91, 'empty': 0, 'fail': 7} last=APSW
+2026-10-10T04:26:03 sym 16/135 {'ok': 105, 'empty': 0, 'fail': 7} last=AREH
+2026-10-10T04:29:32 sym 18/135 {'ok': 119, 'empty': 0, 'fail': 7} last=ATQA
+2026-10-10T04:33:49 progress 20/135 {'ok': 133, 'empty': 0, 'fail': 7}
+2026-10-10T04:37:15 sym 22/135 {'ok': 147, 'empty': 0, 'fail': 7} last=CAED
+2026-10-10T04:41:13 sym 24/135 {'ok': 161, 'empty': 0, 'fail': 7} last=CCRS
+2026-10-10T04:44:44 sym 26/135 {'ok': 175, 'empty': 0, 'fail': 7} last=CICH
+2026-10-10T04:48:15 sym 28/135 {'ok': 189, 'empty': 0, 'fail': 7} last=CNFN
+2026-10-10T04:51:45 progress 30/135 {'ok': 203, 'empty': 0, 'fail': 7}
+2026-10-10T04:56:31 sym 32/135 {'ok': 217, 'empty': 0, 'fail': 7} last=DAPH
+2026-10-10T05:00:02 sym 34/135 {'ok': 231, 'empty': 0, 'fail': 7} last=DOMT
+2026-10-10T05:03:32 sym 36/135 {'ok': 245, 'empty': 0, 'fail': 7} last=EASB
+2026-10-10T05:07:06 sym 38/135 {'ok': 259, 'empty': 0, 'fail': 7} last=EDFM
+2026-10-10T05:10:38 progress 40/135 {'ok': 273, 'empty': 0, 'fail': 7}
+2026-10-10T05:14:12 sym 42/135 {'ok': 287, 'empty': 0, 'fail': 7} last=EGCH
+2026-10-10T05:17:40 sym 44/135 {'ok': 301, 'empty': 0, 'fail': 7} last=EGS3I0S1C019
+2026-10-10T05:21:12 sym 46/135 {'ok': 315, 'empty': 0, 'fail': 7} last=EGX30ETF
+2026-10-10T05:24:36 sym 48/135 {'ok': 329, 'empty': 0, 'fail': 7} last=ELEC
+2026-10-10T05:28:58 progress 50/135 {'ok': 342, 'empty': 0, 'fail': 8}
+2026-10-10T05:32:58 sym 52/135 {'ok': 356, 'empty': 0, 'fail': 8} last=EPCO
+2026-10-10T05:37:19 sym 54/135 {'ok': 369, 'empty': 0, 'fail': 9} last=EXPA
+2026-10-10T05:40:46 sym 56/135 {'ok': 383, 'empty': 0, 'fail': 9} last=FERC
+2026-10-10T05:44:16 sym 58/135 {'ok': 397, 'empty': 0, 'fail': 9} last=FWRY
+2026-10-10T05:48:06 progress 60/135 {'ok': 411, 'empty': 0, 'fail': 9}
+2026-10-10T05:51:37 sym 62/135 {'ok': 425, 'empty': 0, 'fail': 9} last=GPIM
+2026-10-10T05:55:04 sym 64/135 {'ok': 439, 'empty': 0, 'fail': 9} last=GTEX
+2026-10-10T05:58:38 sym 66/135 {'ok': 453, 'empty': 0, 'fail': 9} last=HBCO
+2026-10-10T06:02:31 sym 68/135 {'ok': 467, 'empty': 0, 'fail': 9} last=IBCT
+2026-10-10T06:06:04 progress 70/135 {'ok': 481, 'empty': 0, 'fail': 9}
+2026-10-10T06:09:59 sym 72/135 {'ok': 495, 'empty': 0, 'fail': 9} last=INFI
+2026-10-10T06:13:51 sym 74/135 {'ok': 509, 'empty': 0, 'fail': 9} last=ISMQ
+2026-10-10T06:17:16 sym 76/135 {'ok': 523, 'empty': 0, 'fail': 9} last=KASABF
+2026-10-10T06:20:42 sym 78/135 {'ok': 537, 'empty': 0, 'fail': 9} last=KZPC
+2026-10-10T06:24:07 progress 80/135 {'ok': 551, 'empty': 0, 'fail': 9}
+2026-10-10T06:27:42 sym 82/135 {'ok': 565, 'empty': 0, 'fail': 9} last=MCQE
+2026-10-10T06:31:06 sym 84/135 {'ok': 579, 'empty': 0, 'fail': 9} last=MEPA
+2026-10-10T06:35:07 sym 86/135 {'ok': 593, 'empty': 0, 'fail': 9} last=MICH
+2026-10-10T06:38:41 sym 88/135 {'ok': 607, 'empty': 0, 'fail': 9} last=MKIT
+2026-10-10T06:42:11 progress 90/135 {'ok': 621, 'empty': 0, 'fail': 9}
+2026-10-10T09:29:27 shard 1/2 syms=135
+2026-10-10T09:32:57 sym 2/135 {'ok': 14, 'empty': 0, 'fail': 0} last=ACAP
+2026-10-10T09:34:56 cooldown 120s (throttle?)
+2026-10-10T09:36:03 shard 1/2 syms=135
+2026-10-10T09:36:06 sym 2/135 {'ok': 0, 'empty': 0, 'fail': 0, 'skip': 14} last=ACAP
+2026-10-10T09:38:06 cooldown 120s (throttle?)
+2026-10-10T09:42:15 cooldown 120s (throttle?)
+2026-10-10T09:45:12 sym 4/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 21} last=ADCI
+2026-10-10T09:45:18 sym 6/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 35} last=AFDI
+2026-10-10T09:45:24 sym 8/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 49} last=AIH
+2026-10-10T09:45:30 progress 10/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 63}
+2026-10-10T09:45:36 sym 12/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 77} last=AMII
+2026-10-10T09:45:42 sym 14/135 {'ok': 0, 'empty': 0, 'fail': 7, 'skip': 91} last=APSW
+2026-10-10T09:47:24 sym 16/135 {'ok': 7, 'empty': 0, 'fail': 7, 'skip': 98} last=AREH
+2026-10-10T09:47:30 sym 18/135 {'ok': 7, 'empty': 0, 'fail': 7, 'skip': 112} last=ATQA
+2026-10-10T09:49:18 progress 20/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 119}
+2026-10-10T09:49:24 sym 22/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 133} last=CAED
+2026-10-10T09:49:30 sym 24/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 147} last=CCRS
+2026-10-10T09:49:36 sym 26/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 161} last=CICH
+2026-10-10T09:49:42 sym 28/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 175} last=CNFN
+2026-10-10T09:49:48 progress 30/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 189}
+2026-10-10T09:49:54 sym 32/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 203} last=DAPH
+2026-10-10T09:50:00 sym 34/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 217} last=DOMT
+2026-10-10T09:50:06 sym 36/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 231} last=EASB
+2026-10-10T09:50:12 sym 38/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 245} last=EDFM
+2026-10-10T09:50:18 progress 40/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 259}
+2026-10-10T09:50:24 sym 42/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 273} last=EGCH
+2026-10-10T09:50:30 sym 44/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 287} last=EGS3I0S1C019
+2026-10-10T09:50:36 sym 46/135 {'ok': 14, 'empty': 0, 'fail': 7, 'skip': 301} last=EGX30ETF
+2026-10-10T09:52:42 sym 48/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 308} last=ELEC
+2026-10-10T09:52:48 progress 50/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 322}
+2026-10-10T09:52:54 sym 52/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 336} last=EPCO
+2026-10-10T09:53:00 sym 54/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 350} last=EXPA
+2026-10-10T09:53:06 sym 56/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 364} last=FERC
+2026-10-10T09:53:12 sym 58/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 378} last=FWRY
+2026-10-10T09:53:18 progress 60/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 392}
+2026-10-10T09:53:24 sym 62/135 {'ok': 21, 'empty': 0, 'fail': 7, 'skip': 406} last=GPIM
+2026-10-10T09:55:07 sym 64/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 413} last=GTEX
+2026-10-10T09:55:13 sym 66/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 427} last=HBCO
+2026-10-10T09:55:19 sym 68/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 441} last=IBCT
+2026-10-10T09:55:25 progress 70/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 455}
+2026-10-10T09:55:31 sym 72/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 469} last=INFI
+2026-10-10T09:55:37 sym 74/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 483} last=ISMQ
+2026-10-10T09:55:43 sym 76/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 497} last=KASABF
+2026-10-10T09:55:49 sym 78/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 511} last=KZPC
+2026-10-10T09:55:55 progress 80/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 525}
+2026-10-10T09:56:01 sym 82/135 {'ok': 28, 'empty': 0, 'fail': 7, 'skip': 539} last=MCQE
+2026-10-10T09:57:41 sym 84/135 {'ok': 35, 'empty': 0, 'fail': 7, 'skip': 546} last=MEPA
+2026-10-10T09:57:47 sym 86/135 {'ok': 35, 'empty': 0, 'fail': 7, 'skip': 560} last=MICH
+2026-10-10T09:57:53 sym 88/135 {'ok': 35, 'empty': 0, 'fail': 7, 'skip': 574} last=MKIT
+2026-10-10T09:57:59 progress 90/135 {'ok': 35, 'empty': 0, 'fail': 7, 'skip': 588}
+2026-10-10T09:59:20 sym 92/135 {'ok': 40, 'empty': 0, 'fail': 7, 'skip': 597} last=MPRC
+2026-10-10T10:02:46 sym 94/135 {'ok': 54, 'empty': 0, 'fail': 7, 'skip': 597} last=NBKE
+2026-10-10T10:06:10 sym 96/135 {'ok': 68, 'empty': 0, 'fail': 7, 'skip': 597} last=NEDA
+2026-10-10T10:09:41 sym 98/135 {'ok': 82, 'empty': 0, 'fail': 7, 'skip': 597} last=OBRI
+2026-10-10T10:13:09 progress 100/135 {'ok': 96, 'empty': 0, 'fail': 7, 'skip': 597}
+2026-10-10T10:17:03 sym 102/135 {'ok': 110, 'empty': 0, 'fail': 7, 'skip': 597} last=ORHD
+2026-10-10T10:20:30 sym 104/135 {'ok': 124, 'empty': 0, 'fail': 7, 'skip': 597} last=PHDC
+2026-10-10T10:24:52 sym 106/135 {'ok': 137, 'empty': 0, 'fail': 8, 'skip': 597} last=PRCL
+2026-10-10T10:28:46 sym 108/135 {'ok': 151, 'empty': 0, 'fail': 8, 'skip': 597} last=RACC
+2026-10-10T10:32:16 progress 110/135 {'ok': 165, 'empty': 0, 'fail': 8, 'skip': 597}
+2026-10-10T10:35:48 sym 112/135 {'ok': 179, 'empty': 0, 'fail': 8, 'skip': 597} last=RTVC
+2026-10-10T10:39:11 sym 114/135 {'ok': 193, 'empty': 0, 'fail': 8, 'skip': 597} last=SCEM
+2026-10-10T10:42:42 sym 116/135 {'ok': 207, 'empty': 0, 'fail': 8, 'skip': 597} last=SEIG
+2026-10-10T10:46:15 sym 118/135 {'ok': 221, 'empty': 0, 'fail': 8, 'skip': 597} last=SMFR
+2026-10-10T10:49:37 progress 120/135 {'ok': 235, 'empty': 0, 'fail': 8, 'skip': 597}
+2026-10-10T10:53:06 sym 122/135 {'ok': 249, 'empty': 0, 'fail': 8, 'skip': 597} last=SUGR
+2026-10-10T10:56:36 sym 124/135 {'ok': 263, 'empty': 0, 'fail': 8, 'skip': 597} last=TANM
+2026-10-10T11:00:00 sym 126/135 {'ok': 277, 'empty': 0, 'fail': 8, 'skip': 597} last=TOUR
+2026-10-10T11:03:23 sym 128/135 {'ok': 291, 'empty': 0, 'fail': 8, 'skip': 597} last=UBEE
+2026-10-10T11:06:56 progress 130/135 {'ok': 305, 'empty': 0, 'fail': 8, 'skip': 597}
+2026-10-10T11:10:29 sym 132/135 {'ok': 319, 'empty': 0, 'fail': 8, 'skip': 597} last=VERT
+2026-10-10T11:14:23 sym 134/135 {'ok': 333, 'empty': 0, 'fail': 8, 'skip': 597} last=WCDF
+2026-10-10T11:16:13 DONE {'ok': 340, 'empty': 0, 'fail': 8, 'skip': 597}

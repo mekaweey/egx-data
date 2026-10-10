@@ -1,0 +1,13 @@
+field,value
+symbol,SWDY
+description,El Sewedy Electric Company
+isin,EGS3G0Z1C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,elswedy-electric
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,ROTO
+description,Rowad Tourism (Al Rowad) Co
+isin,EGS70281C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,rowad-tourism-al-rowad
+found_by_isin,False
+provider,ice

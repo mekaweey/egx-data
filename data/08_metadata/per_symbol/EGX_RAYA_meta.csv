@@ -1,0 +1,13 @@
+field,value
+symbol,RAYA
+description,Raya Holding for Financial Investments SAE
+isin,EGS690C1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,raya-for-financial-investments
+found_by_isin,False
+provider,ice

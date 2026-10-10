@@ -1,0 +1,13 @@
+field,value
+symbol,MBSC
+description,Misr Beni Suef Cement Co. SAE
+isin,EGS3C371C019
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,misr-beni-suef-cement
+found_by_isin,False
+provider,ice

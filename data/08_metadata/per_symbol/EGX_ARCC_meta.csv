@@ -1,0 +1,13 @@
+field,value
+symbol,ARCC
+description,Arabian Cement Company
+isin,EGS3C0O1C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arabian-cement-company
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,OCDI
+description,Six of October Development & Investment (SODIC)
+isin,EGS65851C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,six-of-october-development-and-investment-sodic
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,PHGC
+description,Premium Healthcare Group
+isin,EGS72XL1C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,rights-issue-of-premium-healthcare-1
+found_by_isin,False
+provider,ice

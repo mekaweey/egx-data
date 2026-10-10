@@ -1,0 +1,13 @@
+field,value
+symbol,MBEG
+description,MB for Engineering & Contracting
+isin,EGS221V1C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,mb-engineering
+found_by_isin,False
+provider,ice

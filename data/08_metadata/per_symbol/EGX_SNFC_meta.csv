@@ -1,0 +1,13 @@
+field,value
+symbol,SNFC
+description,Sharkia National Food
+isin,EGS30291C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,sharkia-national-food
+found_by_isin,False
+provider,ice

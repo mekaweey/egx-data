@@ -1,0 +1,13 @@
+field,value
+symbol,ELKA
+description,El Kahera Housing
+isin,EGS65071C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-kahera-housing
+found_by_isin,False
+provider,ice

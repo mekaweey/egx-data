@@ -1,0 +1,13 @@
+field,value
+symbol,VLMRA
+description,Valmore Holding
+isin,EGS69081C023
+type,stock
+typespecs,common
+currency,EGP
+is_primary,
+exchange,EGX
+country,EG
+logoid,egyptian-kuwaiti
+found_by_isin,False
+provider,ice

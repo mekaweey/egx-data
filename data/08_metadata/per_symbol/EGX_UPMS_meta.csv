@@ -1,0 +1,13 @@
+field,value
+symbol,UPMS
+description,Union Pharmacist Company For Medical Services And Investment
+isin,EGS3I1D1C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,union-pharmacist-company-for-medical-services-and-investment
+found_by_isin,False
+provider,ice

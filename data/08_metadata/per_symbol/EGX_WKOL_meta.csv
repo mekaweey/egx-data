@@ -1,0 +1,13 @@
+field,value
+symbol,WKOL
+description,Wadi Kom Ombo Land Reclamation
+isin,EGS01071C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,wadi-kom-ombo-land-reclamation
+found_by_isin,False
+provider,ice

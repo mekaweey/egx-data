@@ -1,0 +1,13 @@
+field,value
+symbol,MOED
+description,Egyptian Modern Education Systems
+isin,EGS729F1C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,the-egyptian-modern-education-systems
+found_by_isin,False
+provider,ice

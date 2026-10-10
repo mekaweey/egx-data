@@ -1,0 +1,13 @@
+field,value
+symbol,DTPP
+description,Delta for Printing & Packaging
+isin,EGS370W1C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,delta-for-printing-and-packaging
+found_by_isin,False
+provider,ice

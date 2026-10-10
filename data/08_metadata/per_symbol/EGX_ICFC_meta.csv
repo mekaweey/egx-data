@@ -1,0 +1,13 @@
+field,value
+symbol,ICFC
+description,International Co. for Fertilizers & Chemicals
+isin,EGS520D1C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,international-company-for-fertilizers-and-chemicals
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,LKGP
+description,The Holding Company for Financial Investment - The Lakah Group
+isin,EGS69071C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,the-company-for-financial-investment-the-lakah
+found_by_isin,False
+provider,ice

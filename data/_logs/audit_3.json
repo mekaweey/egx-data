@@ -1,0 +1,233 @@
+[
+{
+"sym": "ACAP",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:3/43"
+]
+},
+{
+"sym": "AFDI",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:2/43"
+]
+},
+{
+"sym": "ALUM",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:4/42"
+]
+},
+{
+"sym": "APSW",
+"issues": [
+"60m-narrower:8/31",
+"1m-narrower:3/35"
+]
+},
+{
+"sym": "ATQA",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "CAED",
+"issues": [
+"60m-narrower:18/31",
+"1m-narrower:3/32"
+]
+},
+{
+"sym": "CICH",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:1/56"
+]
+},
+{
+"sym": "CPCI",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:2/47"
+]
+},
+{
+"sym": "DOMT",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:2/52"
+]
+},
+{
+"sym": "EDFM",
+"issues": [
+"60m-narrower:17/31",
+"1m-narrower:3/39"
+]
+},
+{
+"sym": "EGCH",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "EGX30ETF",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:1/38"
+]
+},
+{
+"sym": "ELWA",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:2/34"
+]
+},
+{
+"sym": "EXPA",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:1/28"
+]
+},
+{
+"sym": "FWRY",
+"issues": [
+"60m-narrower:3/31"
+]
+},
+{
+"sym": "GPIM",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:4/32"
+]
+},
+{
+"sym": "HBCO",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:4/28",
+"1m-CONTRADICTION:1/28"
+]
+},
+{
+"sym": "IDRE",
+"issues": [
+"60m-narrower:6/31"
+]
+},
+{
+"sym": "ISMQ",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/28"
+]
+},
+{
+"sym": "KZPC",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:3/37"
+]
+},
+{
+"sym": "MCQE",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:2/28"
+]
+},
+{
+"sym": "MICH",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:2/37"
+]
+},
+{
+"sym": "MOIN",
+"issues": [
+"60m-narrower:16/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:4/32"
+]
+},
+{
+"sym": "NBKE",
+"issues": []
+},
+{
+"sym": "OBRI",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:3/32"
+]
+},
+{
+"sym": "ORHD",
+"issues": [
+"1m-narrower:2/23"
+]
+},
+{
+"sym": "PRCL",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:1/42"
+]
+},
+{
+"sym": "RMDA",
+"issues": []
+},
+{
+"sym": "SCEM",
+"issues": [
+"60m-narrower:15/31",
+"1m-narrower:2/28"
+]
+},
+{
+"sym": "SMFR",
+"issues": [
+"60m-narrower:7/31",
+"1m-narrower:4/47"
+]
+},
+{
+"sym": "SUGR",
+"issues": [
+"60m-narrower:2/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:3/32"
+]
+},
+{
+"sym": "TOUR",
+"issues": [
+"60m-narrower:15/32",
+"1m-narrower:15/32"
+]
+},
+{
+"sym": "UNIT",
+"issues": [
+"60m-narrower:5/31"
+]
+},
+{
+"sym": "WCDF",
+"issues": [
+"60m-narrower:15/31",
+"1m-narrower:4/42"
+]
+}
+]

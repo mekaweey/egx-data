@@ -1,0 +1,13 @@
+field,value
+symbol,COMI
+description,Commercial International Bank - Egypt (CIB) S.A.E.
+isin,EGS60121C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,commercial-international-bank-egypt
+found_by_isin,False
+provider,ice

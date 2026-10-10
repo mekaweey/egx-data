@@ -1,0 +1,13 @@
+field,value
+symbol,EALR
+description,El Arabia for Land Reclamation
+isin,EGS65771C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-arabia-for-land-reclamation
+found_by_isin,False
+provider,ice

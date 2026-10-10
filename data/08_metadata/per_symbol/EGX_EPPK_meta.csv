@@ -1,0 +1,13 @@
+field,value
+symbol,EPPK
+description,El Ahram Co. for Printing & Packing
+isin,EGS360A1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-ahram-co-for-printing-and-packing
+found_by_isin,False
+provider,ice

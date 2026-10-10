@@ -1,0 +1,13 @@
+field,value
+symbol,BINV
+description,B Investments Holding SAE
+isin,EGS691T1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,b-investments
+found_by_isin,False
+provider,ice

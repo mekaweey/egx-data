@@ -1,0 +1,33 @@
+2026-10-09T14:35:39 shard 2/8 syms=34
+2026-10-09T15:21:21 progress 10/34 {'ok': 0, 'empty': 0, 'fail': 90}
+2026-10-09T15:53:24 shard 2/4 syms=68
+2026-10-09T15:54:15 cooldown 60s (throttle?)
+2026-10-09T15:56:11 cooldown 60s (throttle?)
+2026-10-09T15:58:05 cooldown 60s (throttle?)
+2026-10-09T16:00:06 cooldown 60s (throttle?)
+2026-10-09T16:02:04 cooldown 60s (throttle?)
+2026-10-09T16:03:56 cooldown 60s (throttle?)
+2026-10-09T16:05:01 sym 2/68 {'ok': 0, 'empty': 0, 'fail': 18} last=ACTF
+2026-10-09T16:05:57 cooldown 60s (throttle?)
+2026-10-09T16:07:57 cooldown 60s (throttle?)
+2026-10-09T16:09:49 cooldown 60s (throttle?)
+2026-10-09T16:11:51 cooldown 60s (throttle?)
+2026-10-09T16:13:51 cooldown 60s (throttle?)
+2026-10-09T16:15:44 cooldown 60s (throttle?)
+2026-10-09T16:16:49 sym 4/68 {'ok': 0, 'empty': 0, 'fail': 36} last=AIFI
+2026-10-09T16:17:43 cooldown 60s (throttle?)
+2026-10-09T16:19:36 cooldown 60s (throttle?)
+2026-10-09T16:21:28 cooldown 60s (throttle?)
+2026-10-09T16:23:30 cooldown 60s (throttle?)
+2026-10-09T16:25:26 cooldown 60s (throttle?)
+2026-10-09T16:27:20 cooldown 60s (throttle?)
+2026-10-09T16:28:25 sym 6/68 {'ok': 0, 'empty': 0, 'fail': 54} last=AMIA
+2026-10-09T16:29:21 cooldown 60s (throttle?)
+2026-10-09T16:31:35 cooldown 60s (throttle?)
+2026-10-09T16:33:27 cooldown 60s (throttle?)
+2026-10-09T16:35:30 cooldown 60s (throttle?)
+2026-10-09T16:37:28 cooldown 60s (throttle?)
+2026-10-09T16:39:21 cooldown 60s (throttle?)
+2026-10-09T16:40:26 sym 8/68 {'ok': 0, 'empty': 0, 'fail': 72} last=ARCC
+2026-10-09T16:41:46 cooldown 60s (throttle?)
+2026-10-09T16:43:44 cooldown 60s (throttle?)

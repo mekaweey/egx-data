@@ -1,0 +1,13 @@
+field,value
+symbol,WATP
+description,Modern Co. for Water Proofing
+isin,EGS3J041C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,
+exchange,EGX
+country,EG
+logoid,modern-co-for-water-proofing
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,EHDR
+description,Egyptians Housing Development & Reconstruction
+isin,EGS65341C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egyptians-housing-development-and-reconstruction
+found_by_isin,False
+provider,ice

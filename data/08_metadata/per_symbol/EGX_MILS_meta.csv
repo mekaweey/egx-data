@@ -1,0 +1,13 @@
+field,value
+symbol,MILS
+description,North Cairo Mills Co.
+isin,EGS30361C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,north-cairo-mills
+found_by_isin,False
+provider,ice

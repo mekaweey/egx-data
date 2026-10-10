@@ -1,0 +1,13 @@
+field,value
+symbol,ETRS
+description,Egyptian Transport And Commercial Services Co. (Egytrans Nosco)
+isin,EGS42051C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egyptian-transport-egytrans
+found_by_isin,False
+provider,ice

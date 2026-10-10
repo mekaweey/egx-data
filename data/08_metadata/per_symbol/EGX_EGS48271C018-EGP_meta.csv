@@ -1,0 +1,13 @@
+field,value
+symbol,EGS48271C018-EGP
+description,Egypt - South Africa for Communication
+isin,EGS48271C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,
+exchange,EGX
+country,EG
+logoid,egypt-south-africa-for-communication
+found_by_isin,False
+provider,ice

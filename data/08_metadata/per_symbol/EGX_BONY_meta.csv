@@ -1,0 +1,13 @@
+field,value
+symbol,BONY
+description,Bonyan for Development and Trade
+isin,EGS656M1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,bonyan-for-development-and-trade
+found_by_isin,False
+provider,ice

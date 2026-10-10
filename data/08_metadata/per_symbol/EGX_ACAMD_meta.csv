@@ -1,0 +1,13 @@
+field,value
+symbol,ACAMD
+description,Arab Co. for Asset Management & Development
+isin,EGS72AQ1C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arab-co-for-asset-management-and-development
+found_by_isin,False
+provider,ice

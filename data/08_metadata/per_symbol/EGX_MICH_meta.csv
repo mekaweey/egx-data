@@ -1,0 +1,13 @@
+field,value
+symbol,MICH
+description,Misr Chemical Industries Ltd.
+isin,EGS38211C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,misr-chemical-industries
+found_by_isin,False
+provider,ice

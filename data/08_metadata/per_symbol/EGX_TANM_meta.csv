@@ -1,0 +1,13 @@
+field,value
+symbol,TANM
+description,Tanmiya for Real Estate Investment
+isin,EGS21EB1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,tanmiya-for-real-estate-investment
+found_by_isin,False
+provider,ice

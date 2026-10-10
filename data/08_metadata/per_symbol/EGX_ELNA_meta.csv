@@ -1,0 +1,13 @@
+field,value
+symbol,ELNA
+description,El Nasr for Manufacturing Agricultural Crops
+isin,EGS300L1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-nasr-for-manufacturing-agricultural-crops
+found_by_isin,False
+provider,ice

@@ -1,0 +1,13 @@
+field,value
+symbol,CAED
+description,Cairo Educational Services
+isin,EGS72201C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,cairo-educational-services
+found_by_isin,False
+provider,ice

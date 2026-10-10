@@ -1,0 +1,13 @@
+field,value
+symbol,FIRE
+description,First Investment & Real Estate Development
+isin,EGS65AL1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,first-investment-company-and-real-estate-development
+found_by_isin,False
+provider,ice

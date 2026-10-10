@@ -1,0 +1,13 @@
+field,value
+symbol,IDRE
+description,Ismailia Development & Real Estate Co.
+isin,EGS214Q1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,ismailia-development-and-real-estate-co
+found_by_isin,False
+provider,ice

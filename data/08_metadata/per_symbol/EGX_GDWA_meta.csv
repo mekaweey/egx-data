@@ -1,0 +1,13 @@
+field,value
+symbol,GDWA
+description,Gadwa For Industrial Development
+isin,EGS3JM11C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,gadwa-for-industrial-development
+found_by_isin,False
+provider,ice

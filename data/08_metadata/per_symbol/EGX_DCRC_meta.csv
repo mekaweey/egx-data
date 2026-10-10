@@ -1,0 +1,13 @@
+field,value
+symbol,DCRC
+description,Delta Construction & Rebuilding Co.
+isin,EGS21451C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,delta-construction-and-rebuilding
+found_by_isin,False
+provider,ice

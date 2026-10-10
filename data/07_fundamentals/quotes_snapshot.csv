@@ -1,0 +1,61 @@
+q.base_currency_logo_id,q.country,q.currency_logo_id,q.data_frequency,q.exchange,q.instrument_name,q.logo_id,q.pricescale,q.pro_symbol,q.short_name,q.ticker_title,q.type,symbol
+,eg,country/EG,,EGX,General Co. for Land Reclamation Development & Reconstruction,general-company-for-land-reclamationdevelopment-and-reconstru,100,EGX:AALR,AALR,General Co. for Land Reclamation Development & Reconstruction,stock,AALR
+,eg,country/EG,,EGX,Abou Kir Fertilizers & Chemical Industries Co.,abou-kir-fertilizers,100,EGX:ABUK,ABUK,Abou Kir Fertilizers & Chemical Industries Co.,stock,ABUK
+,eg,country/EG,,EGX,Arab Co. for Asset Management & Development,arab-co-for-asset-management-and-development,100,EGX:ACAMD,ACAMD,Arab Co. for Asset Management & Development,stock,ACAMD
+,eg,country/EG,,EGX,A Capital Holding,a-capital,100,EGX:ACAP,ACAP,A Capital Holding,stock,ACAP
+,eg,country/EG,,EGX,Arab Cotton Ginning Co.,arab-cotton-ginning,100,EGX:ACGC,ACGC,Arab Cotton Ginning Co.,stock,ACGC
+,eg,country/EG,,EGX,Act Financial,act-financial,100,EGX:ACTF,ACTF,Act Financial,stock,ACTF
+,eg,country/EG,,EGX,Arab Pharmaceuticals,arab-pharmaceuticals,100,EGX:ADCI,ADCI,Arab Pharmaceuticals,stock,ADCI
+,eg,country/EG,,EGX,Abu Dhabi Islamic Bank-Egypt,abu-dhabi-islamic-bank-egypt,100,EGX:ADIB,ADIB,Abu Dhabi Islamic Bank-Egypt,stock,ADIB
+,eg,country/EG,,EGX,Arab Dairy Products Co. Arab Dairy - Panda,the-arab-dairy-products-co-arab-dairy-panda,100,EGX:ADPC,ADPC,Arab Dairy Products Co. Arab Dairy - Panda,stock,ADPC
+,eg,country/EG,,EGX,Arab Development & Real Estate Investment,arab-development-and-real-estate-investment,100,EGX:ADRI,ADRI,Arab Development & Real Estate Investment,stock,ADRI
+,eg,country/EG,,EGX,Alahly For Development & Investment,el-ahli-investment-and-development,100,EGX:AFDI,AFDI,Alahly For Development & Investment,stock,AFDI
+,eg,country/EG,,EGX,Alexandria Flour Mills Co.,alexandria-flour-mills,100,EGX:AFMC,AFMC,Alexandria Flour Mills Co.,stock,AFMC
+,eg,country/EG,,EGX,Arabia for Investment and Development,arabia-for-investment-and-development,1000,EGX:AIDC,AIDC,Arabia for Investment and Development,stock,AIDC
+,eg,country/EG,,EGX,Atlas for Investment & Food Industries SAE,atlas-for-investment-and-food-industries,100,EGX:AIFI,AIFI,Atlas for Investment & Food Industries SAE,stock,AIFI
+,eg,country/EG,,EGX,Arabia Investments Holding SAE,arabia-investments,1000,EGX:AIH,AIH,Arabia Investments Holding SAE,stock,AIH
+,eg,country/EG,,EGX,Ajwa for Food Industries Co. Egypt,ajwa-for-food-industries-company-egypt,100,EGX:AJWA,AJWA,Ajwa for Food Industries Co. Egypt,stock,AJWA
+,eg,country/EG,,EGX,Alexandria Containers & Goods,alexandria-containers-and-goods,100,EGX:ALCN,ALCN,Alexandria Containers & Goods,stock,ALCN
+,eg,country/EG,,EGX,Alexandria Cement Co.,alexandria-cement-co,100,EGX:ALEX,ALEX,Alexandria Cement Co.,stock,ALEX
+,eg,country/EG,,EGX,Arab Aluminum Co. SAE,arab-aluminum,100,EGX:ALUM,ALUM,Arab Aluminum Co. SAE,stock,ALUM
+,eg,country/EG,,EGX,Amer Group Holding,amer,100,EGX:AMER,AMER,Amer Group Holding,stock,AMER
+,eg,country/EG,,EGX,Alexandria New Medical Center Co.,alexandria-new-medical-center,100,EGX:AMES,AMES,Alexandria New Medical Center Co.,stock,AMES
+,eg,country/EG,,EGX,Arab Moltaqa Investments Company,arab-moltaka-investments-co,100,EGX:AMIA,AMIA,Arab Moltaqa Investments Company,stock,AMIA
+,eg,country/EG,,EGX,Arabian Metal Industries and Industrial Investments,arab-valves-company,100,EGX:AMII,AMII,Arabian Metal Industries and Industrial Investments,stock,AMII
+,eg,country/EG,,EGX,Alexandria Mineral Oils Co.,alexandria-mineral-oils-company,100,EGX:AMOC,AMOC,Alexandria Mineral Oils Co.,stock,AMOC
+,eg,country/EG,,EGX,AL Moasher Pay for Electronic Payment and Collection (S.A.E),al-moasher-for-programming-and-information-dissemination,100,EGX:AMPI,AMPI,AL Moasher Pay for Electronic Payment and Collection (S.A.E),stock,AMPI
+,eg,country/EG,,EGX,Advanced Pharmaceutical Packaging Co.,advanced-pharmaceutical-packaging-co,100,EGX:APPC,APPC,Advanced Pharmaceutical Packaging Co.,stock,APPC
+,eg,country/EG,,EGX,Arab Polvara Spinning & Weaving Co.,arab-polvara-spinning-and-weaving-co,100,EGX:APSW,APSW,Arab Polvara Spinning & Weaving Co.,stock,APSW
+,eg,country/EG,,EGX,Arab Developers Holding,arab-developers,1000,EGX:ARAB,ARAB,Arab Developers Holding,stock,ARAB
+,eg,country/EG,,EGX,Arabian Cement Company,arabian-cement-company,100,EGX:ARCC,ARCC,Arabian Cement Company,stock,ARCC
+,eg,country/EG,,EGX,Egyptian Real Estate Group,egyptian-real-estate,100,EGX:AREH,AREH,Egyptian Real Estate Group,stock,AREH
+,eg,country/EG,,EGX,ASEC Co. for Mining,asek-company-for-mining-ascom,100,EGX:ASCM,ASCM,ASEC Co. for Mining,stock,ASCM
+,eg,country/EG,,EGX,Aspire Capital Holding for Financial Investments,aspire-capital-for-financial-investments,1000,EGX:ASPI,ASPI,Aspire Capital Holding for Financial Investments,stock,ASPI
+,eg,country/EG,,EGX,Al Tawfeek Leasing Company-A.T.LEASE,rights-issue-of-al-tawfeek-leasing-company-atlease-1,100,EGX:ATLC,ATLC,Al Tawfeek Leasing Company-A.T.LEASE,stock,ATLC
+,eg,country/EG,,EGX,Misr National Steel,misr-national-steel-ataqa,100,EGX:ATQA,ATQA,Misr National Steel,stock,ATQA
+,eg,country/EG,,EGX,Alexandria Company for Pharmaceuticals and Chemical Industries,alexandria-pharmaceuticals,100,EGX:AXPH,AXPH,Alexandria Company for Pharmaceuticals and Chemical Industries,stock,AXPH
+,eg,country/EG,,EGX,El Badr Investment and Development - BID,el-badr-investment-and-development-bid,100,EGX:BIDI,BIDI,El Badr Investment and Development - BID,stock,BIDI
+,eg,country/EG,,EGX,ElBarbary Investment Group,barbary-investment-big,1000,EGX:BIGP,BIGP,ElBarbary Investment Group,stock,BIGP
+,eg,country/EG,,EGX,B Investments Holding SAE,b-investments,100,EGX:BINV,BINV,B Investments Holding SAE,stock,BINV
+,eg,country/EG,,EGX,GlaxoSmithKline S.A.E.,glaxosmithkline,100,EGX:BIOC,BIOC,GlaxoSmithKline S.A.E.,stock,BIOC
+,eg,country/EG,,EGX,Bonyan for Development and Trade,bonyan-for-development-and-trade,100,EGX:BONY,BONY,Bonyan for Development and Trade,stock,BONY
+,eg,country/EG,,EGX,Beltone Holding,belton-financial,100,EGX:BTFH,BTFH,Beltone Holding,stock,BTFH
+,eg,country/EG,,EGX,Cairo Educational Services,cairo-educational-services,100,EGX:CAED,CAED,Cairo Educational Services,stock,CAED
+,eg,country/EG,,EGX,Suez Canal Bank SAE,suez-canal-bank-sae,100,EGX:CANA,CANA,Suez Canal Bank SAE,stock,CANA
+,eg,country/EG,,EGX,QALA For Financial Investments,citadel-capital-common-shares,100,EGX:CCAP,CCAP,QALA For Financial Investments,stock,CCAP
+,eg,country/EG,,EGX,Gulf Canadian Real Estate Investment Co.,gulf-canadian-real-estate-investment-co,100,EGX:CCRS,CCRS,Gulf Canadian Real Estate Investment Co.,stock,CCRS
+,eg,country/EG,,EGX,Middle Egypt Flour Mills,middle-egypt-flour-mills,100,EGX:CEFM,CEFM,Middle Egypt Flour Mills,stock,CEFM
+,eg,country/EG,,EGX,Arab Ceramic Co. - Ceramica Remas,the-arab-ceramic-co-ceramica-remas,100,EGX:CERA,CERA,Arab Ceramic Co. - Ceramica Remas,stock,CERA
+,eg,country/US,,EGX,Concrete Fashion Group for Commercial and Industrial Investments S.A.E,al-arafa-for-investment-and-consultancies,1000,EGX:CFGH,CFGH,Concrete Fashion Group for Commercial and Industrial Investments S.A.E,stock,CFGH
+,eg,country/EG,,EGX,CI Capital Holding for Financial Investments,ci-capital-for-financial-investments,100,EGX:CICH,CICH,CI Capital Holding for Financial Investments,stock,CICH
+,eg,country/EG,,EGX,Credit Agricole Egypt,credit-agricole-egypt,100,EGX:CIEB,CIEB,Credit Agricole Egypt,stock,CIEB
+,eg,country/EG,,EGX,Cairo For Investment And Real Estate Developments -CIRA Education,cairo-for-investment-and-real-estate-development,100,EGX:CIRA,CIRA,Cairo For Investment And Real Estate Developments -CIRA Education,stock,CIRA
+,eg,country/EG,,EGX,Cleopatra Hospital Company,cleopatra-hospital-company,100,EGX:CLHO,CLHO,Cleopatra Hospital Company,stock,CLHO
+,eg,country/EG,,EGX,Contact Financial Holding SAE,contact-financial,100,EGX:CNFN,CNFN,Contact Financial Holding SAE,stock,CNFN
+,eg,country/EG,,EGX,Commercial International Bank - Egypt (CIB) S.A.E.,commercial-international-bank-egypt,100,EGX:COMI,COMI,Commercial International Bank - Egypt (CIB) S.A.E.,stock,COMI
+,eg,country/EG,,EGX,Cooper for Commercial Investment & Real Estate Development,national-real-estate-bank-for-development,1000,EGX:COPR,COPR,Cooper for Commercial Investment & Real Estate Development,stock,COPR
+,eg,country/EG,,EGX,Cairo Oils & Soap,cairo-oils-and-soap,100,EGX:COSG,COSG,Cairo Oils & Soap,stock,COSG
+,eg,country/EG,,EGX,Kahira Pharmaceuticals & Chemical Industries Co.,cairo-pharmaceuticals,100,EGX:CPCI,CPCI,Kahira Pharmaceuticals & Chemical Industries Co.,stock,CPCI
+,eg,country/EG,,EGX,Catalyst Partners Middle East,catalyst-parteners-middle-east-cpme,100,EGX:CPME,CPME,Catalyst Partners Middle East,stock,CPME
+,eg,country/EG,,EGX,Creast Mark For Contracting And Real Estate Development,the-egyptian-company-for-construction-development-lift-slab,100,EGX:CRST,CRST,Creast Mark For Contracting And Real Estate Development,stock,CRST
+,eg,country/EG,,EGX,Canal Shipping Agencies Co.,canal-shipping-agencies,100,EGX:CSAG,CSAG,Canal Shipping Agencies Co.,stock,CSAG

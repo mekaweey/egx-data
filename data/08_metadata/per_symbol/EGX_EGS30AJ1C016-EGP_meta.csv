@@ -1,0 +1,13 @@
+field,value
+symbol,EGS30AJ1C016-EGP
+description,International Dry Ice Co.
+isin,EGS30AJ1C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,international-dry-ice-co
+found_by_isin,False
+provider,ice

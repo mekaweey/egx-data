@@ -1,0 +1,17 @@
+[
+ {
+  "sym": "FCMD",
+  "res": "30m",
+  "err": "symbol_error: ['cs_323785318', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "EIUD",
+  "res": "30m",
+  "err": "symbol_error: ['cs_323785798', 'sds_sym_1', 'invalid symbol']"
+ },
+ {
+  "sym": "ACRO",
+  "res": "30m",
+  "err": "symbol_error: ['cs_323786298', 'sds_sym_1', 'invalid symbol']"
+ }
+]

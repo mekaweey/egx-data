@@ -1,0 +1,13 @@
+field,value
+symbol,EFIH
+description,e-finance for Digital and Financial Investments S.A.E.
+isin,EGS743O1C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,e-finance-for-digital-and-financial-investments
+found_by_isin,False
+provider,ice

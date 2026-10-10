@@ -1,0 +1,13 @@
+field,value
+symbol,AMER
+description,Amer Group Holding
+isin,EGS675S1C011
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,amer
+found_by_isin,False
+provider,ice

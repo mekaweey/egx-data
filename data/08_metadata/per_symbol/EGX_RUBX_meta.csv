@@ -1,0 +1,13 @@
+field,value
+symbol,RUBX
+description,Rubex International for Plastic & Acrylic Manufacturing
+isin,EGS3A221C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,rubex-international-for-plastic-and-acrylic-manufacturing
+found_by_isin,False
+provider,ice

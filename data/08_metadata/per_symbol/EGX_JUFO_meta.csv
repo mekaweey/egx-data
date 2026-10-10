@@ -1,0 +1,13 @@
+field,value
+symbol,JUFO
+description,Juhayna Food Industries
+isin,EGS30901C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,juhayna-food-industries
+found_by_isin,False
+provider,ice

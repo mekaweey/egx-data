@@ -1,0 +1,13 @@
+field,value
+symbol,UEFM
+description,Upper Egypt Flour Mills Co.
+isin,EGS30451C016
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,upper-egypt-flour-mills
+found_by_isin,False
+provider,ice

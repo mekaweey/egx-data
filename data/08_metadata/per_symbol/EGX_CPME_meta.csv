@@ -1,0 +1,13 @@
+field,value
+symbol,CPME
+description,Catalyst Partners Middle East
+isin,EGS698X1C017
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,catalyst-parteners-middle-east-cpme
+found_by_isin,False
+provider,ice

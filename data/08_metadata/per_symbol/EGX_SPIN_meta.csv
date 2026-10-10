@@ -1,0 +1,13 @@
+field,value
+symbol,SPIN
+description,Alexandria Spinning & Weaving
+isin,EGS32041C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,alexandria-spinning-and-weaving-spinalex
+found_by_isin,False
+provider,ice

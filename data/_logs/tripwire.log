@@ -1,0 +1,242 @@
+2026-10-09T23:06:56 watch ok=693 fail=35
+2026-10-09T23:06:56 spotcheck bad-rows=0
+2026-10-09T23:08:56 watch ok=693 fail=35
+2026-10-09T23:08:56 spotcheck bad-rows=0
+2026-10-09T23:10:56 watch ok=693 fail=35
+2026-10-09T23:10:56 spotcheck bad-rows=0
+2026-10-09T23:12:56 watch ok=693 fail=35
+2026-10-09T23:12:56 spotcheck bad-rows=0
+2026-10-09T23:14:56 watch ok=693 fail=35
+2026-10-09T23:14:56 spotcheck bad-rows=0
+2026-10-09T23:16:56 watch ok=693 fail=35
+2026-10-09T23:16:56 spotcheck bad-rows=0
+2026-10-09T23:18:56 watch ok=693 fail=35
+2026-10-09T23:18:56 spotcheck bad-rows=0
+2026-10-09T23:20:56 watch ok=693 fail=35
+2026-10-09T23:20:56 spotcheck bad-rows=0
+2026-10-09T23:22:56 watch ok=693 fail=35
+2026-10-09T23:22:56 spotcheck bad-rows=0
+2026-10-09T23:24:56 watch ok=693 fail=35
+2026-10-09T23:24:56 spotcheck bad-rows=0
+2026-10-09T23:26:56 watch ok=693 fail=35
+2026-10-09T23:26:57 spotcheck bad-rows=0
+2026-10-09T23:28:57 watch ok=693 fail=35
+2026-10-09T23:28:57 spotcheck bad-rows=0
+2026-10-09T23:30:57 watch ok=693 fail=35
+2026-10-09T23:30:57 spotcheck bad-rows=0
+2026-10-09T23:32:57 watch ok=693 fail=35
+2026-10-09T23:32:57 spotcheck bad-rows=0
+2026-10-09T23:34:57 watch ok=693 fail=35
+2026-10-09T23:34:57 spotcheck bad-rows=0
+2026-10-09T23:36:57 watch ok=693 fail=35
+2026-10-09T23:36:57 spotcheck bad-rows=0
+2026-10-09T23:38:57 watch ok=693 fail=35
+2026-10-09T23:38:57 spotcheck bad-rows=0
+2026-10-09T23:40:57 watch ok=693 fail=35
+2026-10-09T23:40:57 spotcheck bad-rows=0
+2026-10-09T23:42:57 watch ok=693 fail=35
+2026-10-09T23:42:57 spotcheck bad-rows=0
+2026-10-09T23:44:57 watch ok=693 fail=35
+2026-10-09T23:44:57 spotcheck bad-rows=0
+2026-10-09T23:46:57 watch ok=693 fail=35
+2026-10-09T23:46:57 spotcheck bad-rows=0
+2026-10-09T23:48:57 watch ok=693 fail=35
+2026-10-09T23:48:57 spotcheck bad-rows=0
+2026-10-09T23:50:57 watch ok=693 fail=35
+2026-10-09T23:50:57 spotcheck bad-rows=0
+2026-10-09T23:52:57 watch ok=693 fail=35
+2026-10-09T23:52:57 spotcheck bad-rows=0
+2026-10-09T23:54:57 watch ok=693 fail=35
+2026-10-09T23:54:57 spotcheck bad-rows=0
+2026-10-09T23:56:57 watch ok=693 fail=35
+2026-10-09T23:56:57 spotcheck bad-rows=0
+2026-10-09T23:58:57 watch ok=693 fail=35
+2026-10-09T23:58:57 spotcheck bad-rows=0
+2026-10-10T00:00:57 watch ok=693 fail=35
+2026-10-10T00:00:57 spotcheck bad-rows=0
+2026-10-10T00:02:57 watch ok=693 fail=35
+2026-10-10T00:02:57 spotcheck bad-rows=0
+2026-10-10T00:04:57 watch ok=693 fail=35
+2026-10-10T00:04:57 spotcheck bad-rows=0
+2026-10-10T00:06:57 watch ok=693 fail=35
+2026-10-10T00:06:57 spotcheck bad-rows=0
+2026-10-10T00:40:57 watch ok=693 fail=35
+2026-10-10T00:40:57 spotcheck bad-rows=0
+2026-10-10T00:42:57 watch ok=693 fail=35
+2026-10-10T00:42:57 spotcheck bad-rows=0
+2026-10-10T00:44:57 watch ok=28 fail=0
+2026-10-10T00:44:57 spotcheck bad-rows=0
+2026-10-10T00:46:57 watch ok=28 fail=0
+2026-10-10T00:46:57 spotcheck bad-rows=0
+2026-10-10T00:48:57 watch ok=42 fail=0
+2026-10-10T00:48:57 spotcheck bad-rows=0
+2026-10-10T00:50:57 watch ok=42 fail=0
+2026-10-10T00:50:57 spotcheck bad-rows=0
+2026-10-10T00:52:57 watch ok=56 fail=0
+2026-10-10T00:52:57 spotcheck bad-rows=0
+2026-10-10T00:54:57 watch ok=56 fail=0
+2026-10-10T00:54:57 spotcheck bad-rows=0
+2026-10-10T00:56:57 watch ok=77 fail=7
+2026-10-10T00:56:57 spotcheck bad-rows=0
+2026-10-10T00:58:57 watch ok=91 fail=7
+2026-10-10T00:58:57 spotcheck bad-rows=0
+2026-10-10T01:00:57 watch ok=104 fail=8
+2026-10-10T01:00:57 spotcheck bad-rows=0
+2026-10-10T01:02:57 watch ok=118 fail=8
+2026-10-10T01:02:57 spotcheck bad-rows=0
+2026-10-10T01:04:57 watch ok=132 fail=8
+2026-10-10T01:04:57 spotcheck bad-rows=0
+2026-10-10T01:06:57 watch ok=146 fail=8
+2026-10-10T01:06:57 spotcheck bad-rows=0
+2026-10-10T01:08:57 watch ok=160 fail=8
+2026-10-10T01:08:58 spotcheck bad-rows=0
+2026-10-10T01:10:58 watch ok=174 fail=8
+2026-10-10T01:10:58 spotcheck bad-rows=0
+2026-10-10T01:12:58 watch ok=188 fail=8
+2026-10-10T01:12:58 spotcheck bad-rows=0
+2026-10-10T01:14:58 watch ok=201 fail=9
+2026-10-10T01:14:58 spotcheck bad-rows=0
+2026-10-10T01:16:58 watch ok=215 fail=9
+2026-10-10T01:16:58 spotcheck bad-rows=0
+2026-10-10T01:18:58 watch ok=243 fail=9
+2026-10-10T01:18:58 spotcheck bad-rows=0
+2026-10-10T01:20:58 watch ok=243 fail=9
+2026-10-10T01:20:58 spotcheck bad-rows=0
+2026-10-10T01:22:58 watch ok=271 fail=9
+2026-10-10T01:22:58 spotcheck bad-rows=0
+2026-10-10T01:24:58 watch ok=285 fail=9
+2026-10-10T01:24:58 spotcheck bad-rows=0
+2026-10-10T01:26:58 watch ok=299 fail=9
+2026-10-10T01:26:58 spotcheck bad-rows=0
+2026-10-10T01:28:58 watch ok=313 fail=9
+2026-10-10T01:28:58 spotcheck bad-rows=0
+2026-10-10T01:30:58 watch ok=327 fail=9
+2026-10-10T01:30:58 spotcheck bad-rows=0
+2026-10-10T01:32:58 watch ok=341 fail=9
+2026-10-10T01:32:58 spotcheck bad-rows=0
+2026-10-10T01:34:58 watch ok=355 fail=9
+2026-10-10T01:34:58 spotcheck bad-rows=0
+2026-10-10T01:36:58 watch ok=369 fail=9
+2026-10-10T01:36:58 spotcheck bad-rows=0
+2026-10-10T01:38:58 watch ok=383 fail=9
+2026-10-10T01:38:58 spotcheck bad-rows=0
+2026-10-10T01:40:58 watch ok=397 fail=9
+2026-10-10T01:40:58 spotcheck bad-rows=0
+2026-10-10T02:42:11 watch ok=411 fail=9
+2026-10-10T02:42:11 spotcheck bad-rows=0
+2026-10-10T02:44:11 watch ok=411 fail=9
+2026-10-10T02:44:11 spotcheck bad-rows=0
+2026-10-10T02:46:11 watch ok=28 fail=0
+2026-10-10T02:46:11 spotcheck bad-rows=0
+2026-10-10T02:48:11 watch ok=28 fail=0
+2026-10-10T02:48:11 spotcheck bad-rows=0
+2026-10-10T02:50:11 watch ok=42 fail=0
+2026-10-10T02:50:12 spotcheck bad-rows=0
+2026-10-10T02:52:12 watch ok=42 fail=0
+2026-10-10T02:52:12 spotcheck bad-rows=0
+2026-10-10T02:54:12 watch ok=56 fail=0
+2026-10-10T02:54:12 spotcheck bad-rows=0
+2026-10-10T02:56:12 watch ok=56 fail=0
+2026-10-10T02:56:12 spotcheck bad-rows=0
+2026-10-10T02:58:12 watch ok=70 fail=0
+2026-10-10T02:58:12 spotcheck bad-rows=0
+2026-10-10T03:00:12 watch ok=84 fail=0
+2026-10-10T03:00:12 spotcheck bad-rows=0
+2026-10-10T03:02:12 watch ok=84 fail=0
+2026-10-10T03:02:12 spotcheck bad-rows=0
+2026-10-10T03:13:03 watch ok=42 fail=0
+2026-10-10T03:13:03 spotcheck bad-rows=0
+2026-10-10T03:15:03 watch ok=56 fail=0
+2026-10-10T03:15:03 spotcheck bad-rows=0
+2026-10-10T03:17:03 watch ok=56 fail=0
+2026-10-10T03:17:03 spotcheck bad-rows=0
+2026-10-10T03:19:03 watch ok=56 fail=0
+2026-10-10T03:19:03 spotcheck bad-rows=0
+2026-10-10T03:21:03 watch ok=28 fail=0
+2026-10-10T03:21:03 spotcheck bad-rows=0
+2026-10-10T03:23:03 watch ok=28 fail=0
+2026-10-10T03:23:03 spotcheck bad-rows=0
+2026-10-10T03:25:03 watch ok=42 fail=0
+2026-10-10T03:25:03 spotcheck bad-rows=0
+2026-10-10T03:27:03 watch ok=42 fail=0
+2026-10-10T03:27:03 spotcheck bad-rows=0
+2026-10-10T03:29:03 watch ok=56 fail=0
+2026-10-10T03:29:03 spotcheck bad-rows=0
+2026-10-10T03:31:03 watch ok=70 fail=0
+2026-10-10T03:31:03 spotcheck bad-rows=0
+2026-10-10T03:33:03 watch ok=77 fail=7
+2026-10-10T03:33:03 spotcheck bad-rows=0
+2026-10-10T03:35:03 watch ok=105 fail=7
+2026-10-10T03:35:03 spotcheck bad-rows=0
+2026-10-10T03:37:03 watch ok=105 fail=7
+2026-10-10T03:37:03 spotcheck bad-rows=0
+2026-10-10T03:39:03 watch ok=133 fail=7
+2026-10-10T03:39:03 spotcheck bad-rows=0
+2026-10-10T03:41:03 watch ok=133 fail=7
+2026-10-10T03:41:03 spotcheck bad-rows=0
+2026-10-10T03:43:03 watch ok=161 fail=7
+2026-10-10T03:43:04 spotcheck bad-rows=0
+2026-10-10T03:45:04 watch ok=161 fail=7
+2026-10-10T03:45:04 spotcheck bad-rows=0
+2026-10-10T03:47:04 watch ok=189 fail=7
+2026-10-10T03:47:04 spotcheck bad-rows=0
+2026-10-10T03:49:04 watch ok=217 fail=7
+2026-10-10T03:49:04 spotcheck bad-rows=1
+2026-10-10T03:49:04 SPOTCHECK-FAIL -> killing workers
+2026-10-10T03:49:04 tripwire exit
+2026-10-10T11:36:33 watch ok=638 fail=39
+2026-10-10T11:36:33 spotcheck bad-rows=0
+2026-10-10T11:38:33 watch ok=638 fail=39
+2026-10-10T11:38:33 spotcheck bad-rows=0
+2026-10-10T11:40:33 watch ok=652 fail=39
+2026-10-10T11:40:33 spotcheck bad-rows=0
+2026-10-10T11:42:33 watch ok=652 fail=39
+2026-10-10T11:42:33 spotcheck bad-rows=0
+2026-10-10T11:44:33 watch ok=666 fail=39
+2026-10-10T11:44:33 spotcheck bad-rows=0
+2026-10-10T11:46:33 watch ok=680 fail=39
+2026-10-10T11:46:33 spotcheck bad-rows=0
+2026-10-10T11:48:33 watch ok=680 fail=39
+2026-10-10T11:48:33 spotcheck bad-rows=0
+2026-10-10T11:50:33 watch ok=694 fail=39
+2026-10-10T11:50:33 spotcheck bad-rows=0
+2026-10-10T11:52:33 watch ok=694 fail=39
+2026-10-10T11:52:33 spotcheck bad-rows=0
+2026-10-10T11:54:33 watch ok=708 fail=39
+2026-10-10T11:54:33 spotcheck bad-rows=0
+2026-10-10T11:56:33 watch ok=708 fail=39
+2026-10-10T11:56:33 spotcheck bad-rows=0
+2026-10-10T11:58:33 watch ok=722 fail=39
+2026-10-10T11:58:33 spotcheck bad-rows=0
+2026-10-10T12:00:33 watch ok=736 fail=39
+2026-10-10T12:00:33 spotcheck bad-rows=0
+2026-10-10T12:02:33 watch ok=736 fail=39
+2026-10-10T12:02:33 spotcheck bad-rows=0
+2026-10-10T12:04:33 watch ok=750 fail=39
+2026-10-10T12:04:33 spotcheck bad-rows=0
+2026-10-10T12:06:34 watch ok=750 fail=39
+2026-10-10T12:06:34 spotcheck bad-rows=0
+2026-10-10T12:08:34 watch ok=750 fail=39
+2026-10-10T12:08:34 spotcheck bad-rows=0
+2026-10-10T12:10:34 watch ok=750 fail=39
+2026-10-10T12:10:34 spotcheck bad-rows=0
+2026-10-10T12:12:34 watch ok=750 fail=39
+2026-10-10T12:12:34 spotcheck bad-rows=0
+2026-10-10T12:14:34 watch ok=750 fail=39
+2026-10-10T12:14:34 spotcheck bad-rows=0
+2026-10-10T12:16:34 watch ok=750 fail=39
+2026-10-10T12:16:34 spotcheck bad-rows=0
+2026-10-10T12:18:34 watch ok=750 fail=39
+2026-10-10T12:18:34 spotcheck bad-rows=0
+2026-10-10T12:20:34 watch ok=750 fail=39
+2026-10-10T12:20:34 spotcheck bad-rows=0
+2026-10-10T12:22:34 watch ok=750 fail=39
+2026-10-10T12:22:34 spotcheck bad-rows=0
+2026-10-10T12:24:34 watch ok=750 fail=39
+2026-10-10T12:24:34 spotcheck bad-rows=0
+2026-10-10T12:26:34 watch ok=750 fail=39
+2026-10-10T12:26:34 spotcheck bad-rows=0
+2026-10-10T12:28:34 watch ok=750 fail=39
+2026-10-10T12:28:34 spotcheck bad-rows=0
+2026-10-10T12:30:34 watch ok=750 fail=39
+2026-10-10T12:30:34 spotcheck bad-rows=0

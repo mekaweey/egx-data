@@ -1,0 +1,13 @@
+field,value
+symbol,MPCO
+description,Mansourah Poultry Co.
+isin,EGS02091C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,mansourah-poultry
+found_by_isin,False
+provider,ice

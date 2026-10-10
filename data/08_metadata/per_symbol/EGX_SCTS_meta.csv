@@ -1,0 +1,13 @@
+field,value
+symbol,SCTS
+description,Sues Canal Co. for Technology Settling
+isin,EGS740C1C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,sues-canal-company-for-technology-settling
+found_by_isin,False
+provider,ice

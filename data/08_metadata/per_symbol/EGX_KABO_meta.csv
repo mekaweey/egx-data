@@ -1,0 +1,13 @@
+field,value
+symbol,KABO
+description,El Nasr Clothing & Textiles Co.
+isin,EGS33061C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,el-nasr-clothes-and-textiles-kabo
+found_by_isin,False
+provider,ice

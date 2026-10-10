@@ -1,0 +1,13 @@
+field,value
+symbol,SEIG
+description,Saudi Egyptian Investment & Finance Co. SAE
+isin,EGS67031C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,saudi-egyptian-investment-and-finance
+found_by_isin,False
+provider,ice

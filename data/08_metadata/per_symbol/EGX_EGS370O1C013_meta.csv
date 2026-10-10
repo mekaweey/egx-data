@@ -1,0 +1,13 @@
+field,value
+symbol,EGS370O1C013
+description,National Printing
+isin,EGS370O1C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,national-printing
+found_by_isin,True
+provider,ice

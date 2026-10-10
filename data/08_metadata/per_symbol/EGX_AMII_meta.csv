@@ -1,0 +1,13 @@
+field,value
+symbol,AMII
+description,Arabian Metal Industries and Industrial Investments
+isin,EGS3E1E1C013
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arab-valves-company
+found_by_isin,False
+provider,ice

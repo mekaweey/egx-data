@@ -1,0 +1,13 @@
+field,value
+symbol,GBCO
+description,GB Corp
+isin,EGS673T1C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,gb-auto
+found_by_isin,False
+provider,ice

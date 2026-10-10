@@ -1,0 +1,13 @@
+field,value
+symbol,ADRI
+description,Arab Development & Real Estate Investment
+isin,EGS65AN1C018
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,arab-development-and-real-estate-investment
+found_by_isin,False
+provider,ice

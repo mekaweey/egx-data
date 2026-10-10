@@ -1,0 +1,13 @@
+field,value
+symbol,DGTZ
+description,Digitize for Investment And Technology
+isin,EGS74F71C015
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,digitize-for-investment-and-technology
+found_by_isin,False
+provider,ice

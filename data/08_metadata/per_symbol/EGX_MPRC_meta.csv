@@ -1,0 +1,13 @@
+field,value
+symbol,MPRC
+description,Egyptian Media Production City
+isin,EGS78021C010
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,egyptian-media-production-city
+found_by_isin,False
+provider,ice

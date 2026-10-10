@@ -1,0 +1,13 @@
+field,value
+symbol,GGRN
+description,Gogreen for Agricultural Investment and Development Company
+isin,EGS07DR1C012
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,gogreen-for-agricultural-investment
+found_by_isin,False
+provider,ice

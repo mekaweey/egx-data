@@ -1,0 +1,235 @@
+[
+{
+"sym": "ACAMD",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/29"
+]
+},
+{
+"sym": "ADRI",
+"issues": [
+"60m-narrower:3/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:2/38"
+]
+},
+{
+"sym": "ALEX",
+"issues": [
+"60m-narrower:4/32",
+"1m-narrower:4/32"
+]
+},
+{
+"sym": "APPC",
+"issues": [
+"60m-narrower:1/32",
+"1m-narrower:1/32"
+]
+},
+{
+"sym": "ATLC",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:2/37"
+]
+},
+{
+"sym": "BTFH",
+"issues": [
+"60m-narrower:3/31"
+]
+},
+{
+"sym": "CFGH",
+"issues": [
+"60m-narrower:12/31",
+"1m-narrower:14/31"
+]
+},
+{
+"sym": "COSG",
+"issues": [
+"60m-narrower:7/31",
+"1m-narrower:1/28"
+]
+},
+{
+"sym": "DGTZ",
+"issues": [
+"60m-narrower:7/32",
+"1m-narrower:2/52"
+]
+},
+{
+"sym": "ECAP",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:3/52"
+]
+},
+{
+"sym": "EGBE",
+"issues": [
+"60m-narrower:3/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:6/34"
+]
+},
+{
+"sym": "EGTS",
+"issues": [
+"60m-narrower:6/31",
+"1m-narrower:1/37"
+]
+},
+{
+"sym": "ELSH",
+"issues": [
+"60m-narrower:3/31"
+]
+},
+{
+"sym": "ETRS",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/37"
+]
+},
+{
+"sym": "FTNS",
+"issues": [
+"60m-narrower:3/31",
+"1m-narrower:4/35"
+]
+},
+{
+"sym": "GOUR",
+"issues": [
+"60m-narrower:1/32"
+]
+},
+{
+"sym": "HALN",
+"issues": [
+"missing-60m",
+"missing-1m"
+]
+},
+{
+"sym": "ICLE",
+"issues": [
+"60m-narrower:14/32",
+"1m-narrower:14/32"
+]
+},
+{
+"sym": "ISMA",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:1/32"
+]
+},
+{
+"sym": "KWIN",
+"issues": [
+"60m-narrower:12/31"
+]
+},
+{
+"sym": "MBSC",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:2/28"
+]
+},
+{
+"sym": "MHOT",
+"issues": [
+"60m-narrower:6/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:4/42"
+]
+},
+{
+"sym": "MOIL",
+"issues": [
+"60m-narrower:5/31",
+"1m-narrower:2/34"
+]
+},
+{
+"sym": "NARE",
+"issues": [
+"60m-narrower:9/31",
+"1m-narrower:2/47"
+]
+},
+{
+"sym": "NIPH",
+"issues": [
+"60m-narrower:13/31",
+"1m-narrower:3/23"
+]
+},
+{
+"sym": "ORAS",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "POUL",
+"issues": [
+"60m-narrower:2/31",
+"1m-narrower:1/25"
+]
+},
+{
+"sym": "RKAZ",
+"issues": [
+"60m-narrower:14/31",
+"1m-narrower:3/38"
+]
+},
+{
+"sym": "SAUD",
+"issues": [
+"60m-narrower:5/31",
+"60m-CONTRADICTION:1/31",
+"1m-narrower:1/37"
+]
+},
+{
+"sym": "SKPC",
+"issues": [
+"60m-narrower:1/31",
+"1m-narrower:1/23"
+]
+},
+{
+"sym": "SUCE",
+"issues": [
+"60m-narrower:4/31"
+]
+},
+{
+"sym": "TORA",
+"issues": [
+"60m-narrower:2/32"
+]
+},
+{
+"sym": "UNIP",
+"issues": [
+"60m-narrower:4/31",
+"1m-narrower:2/32"
+]
+},
+{
+"sym": "WATP",
+"issues": []
+}
+]

@@ -1,0 +1,13 @@
+field,value
+symbol,MTIE
+description,MM Group for Industry & International Trade
+isin,EGS75011C014
+type,stock
+typespecs,common
+currency,EGP
+is_primary,True
+exchange,EGX
+country,EG
+logoid,mm-for-industry-and-international-trade
+found_by_isin,False
+provider,ice
