@@ -1,0 +1,15 @@
+symbol,date,ratio_chg_pct,method
+QNBE,2001-06-19,-0.118,ratio-drop
+QNBE,2001-06-26,-0.111,ratio-drop
+QNBE,2001-08-30,-0.13,ratio-drop
+QNBE,2001-10-02,-0.117,ratio-drop
+QNBE,2001-12-12,-0.136,ratio-drop
+QNBE,2001-12-24,-0.106,ratio-drop
+QNBE,2002-01-23,-0.134,ratio-drop
+QNBE,2002-02-11,-0.103,ratio-drop
+QNBE,2002-02-20,-0.107,ratio-drop
+QNBE,2002-03-11,-0.107,ratio-drop
+QNBE,2002-06-17,-0.115,ratio-drop
+QNBE,2002-06-27,-0.128,ratio-drop
+SAIB,2019-11-04,-52.421,ratio-drop
+UNIP,2002-02-19,-0.11,ratio-drop

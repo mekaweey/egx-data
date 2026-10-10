@@ -1,0 +1,85 @@
+{
+ "cfg": {
+  "price_basis": "open",
+  "k": 5,
+  "mom_lo": 0.05,
+  "mom_hi": 2.0,
+  "min_price": 0.5,
+  "gap_lo": -1.0,
+  "gap_hi": 1.0,
+  "fill_basis": "trailing",
+  "fill_mode": "dynamic",
+  "regime_on": true,
+  "regime_weeks": 10,
+  "regime_min": 0.0,
+  "tbill_wk": 0.0,
+  "use_flags": false,
+  "capital": 100000.0,
+  "max_size_frac": 0.1,
+  "cap_base": 100000.0,
+  "setup": "breakout",
+  "brk_L": 20,
+  "brk_tol": 0.995,
+  "N": 3,
+  "H": 1,
+  "min_money": 50000.0
+ },
+ "report": {
+  "A_base": {
+   "years_pnl": {
+    "2021": 191931.0,
+    "2022": 161536.0,
+    "2023": 133686.0,
+    "2024": 156478.0,
+    "2025": 327296.0
+   },
+   "worst": 133686.0,
+   "n": 829,
+   "replay_ok": 829,
+   "replay_bad": 0,
+   "locked": 0
+  },
+  "A_stress": {
+   "years_pnl": {
+    "2021": 171963.0,
+    "2022": 134889.0,
+    "2023": 93552.0,
+    "2024": 120042.0,
+    "2025": 254985.0
+   },
+   "worst": 93552.0,
+   "n": 829,
+   "replay_ok": 829,
+   "replay_bad": 0,
+   "locked": 0
+  },
+  "B_base": {
+   "years_pnl": {
+    "2021": 191931.0,
+    "2022": 156939.0,
+    "2023": 136235.0,
+    "2024": 133605.0,
+    "2025": 326723.0
+   },
+   "worst": 133605.0,
+   "n": 825,
+   "replay_ok": 571,
+   "replay_bad": 254,
+   "locked": 0
+  },
+  "B_stress": {
+   "years_pnl": {
+    "2021": 171963.0,
+    "2022": 130312.0,
+    "2023": 96490.0,
+    "2024": 98060.0,
+    "2025": 254414.0
+   },
+   "worst": 96490.0,
+   "n": 825,
+   "replay_ok": 571,
+   "replay_bad": 254,
+   "locked": 0
+  }
+ }
+}

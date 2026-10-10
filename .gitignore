@@ -1,0 +1,5 @@
+*.tmp
+*.out
+__pycache__/
+*.zip
+data/06_indicators/
