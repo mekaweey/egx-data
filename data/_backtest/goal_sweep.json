@@ -1,0 +1,4094 @@
+[
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 149787.0,
+    "wwin": 48.1,
+    "d2win": 34.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 154112.0,
+    "wwin": 35.8,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 291657.0,
+    "wwin": 58.5,
+    "d2win": 64.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 236041.0,
+    "wwin": 51.2,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 149787.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 103188.0,
+    "wwin": 40.4,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 111289.0,
+    "wwin": 30.2,
+    "d2win": 28.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 216478.0,
+    "wwin": 56.6,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 183953.0,
+    "wwin": 39.0,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 103188.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 147778.0,
+    "wwin": 48.1,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 159349.0,
+    "wwin": 35.8,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 292069.0,
+    "wwin": 58.5,
+    "d2win": 63.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 236041.0,
+    "wwin": 51.2,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 147778.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 101587.0,
+    "wwin": 40.4,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 116905.0,
+    "wwin": 30.2,
+    "d2win": 28.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 216889.0,
+    "wwin": 56.6,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 183953.0,
+    "wwin": 39.0,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 101587.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 141491.0,
+    "wwin": 50.0,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 158177.0,
+    "wwin": 32.1,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 263843.0,
+    "wwin": 56.6,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 226924.0,
+    "wwin": 46.3,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 141491.0,
+  "minwwin_base": 32.1,
+  "stress": {
+   "2023": {
+    "pnl": 94925.0,
+    "wwin": 42.3,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 114537.0,
+    "wwin": 30.2,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 188776.0,
+    "wwin": 54.7,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 174846.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 94925.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 140957.0,
+    "wwin": 50.0,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 156604.0,
+    "wwin": 32.1,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 261334.0,
+    "wwin": 56.6,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 226924.0,
+    "wwin": 46.3,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 140957.0,
+  "minwwin_base": 32.1,
+  "stress": {
+   "2023": {
+    "pnl": 94394.0,
+    "wwin": 42.3,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 112971.0,
+    "wwin": 30.2,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 186277.0,
+    "wwin": 54.7,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 174846.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 94394.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 133686.0,
+    "wwin": 42.3,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 156478.0,
+    "wwin": 37.7,
+    "d2win": 28.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 327296.0,
+    "wwin": 66.0,
+    "d2win": 68.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 252826.0,
+    "wwin": 51.2,
+    "d2win": 53.3,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 133686.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 93552.0,
+    "wwin": 36.5,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 120042.0,
+    "wwin": 32.1,
+    "d2win": 26.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 254985.0,
+    "wwin": 58.5,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 203474.0,
+    "wwin": 41.5,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 93552.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 127024.0,
+    "wwin": 42.3,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 149446.0,
+    "wwin": 37.7,
+    "d2win": 29.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 326883.0,
+    "wwin": 66.0,
+    "d2win": 69.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 252826.0,
+    "wwin": 51.2,
+    "d2win": 53.3,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 127024.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 86916.0,
+    "wwin": 36.5,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 112638.0,
+    "wwin": 32.1,
+    "d2win": 27.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 254574.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 203474.0,
+    "wwin": 41.5,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 86916.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 110960.0,
+    "wwin": 42.3,
+    "d2win": 39.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 241096.0,
+    "wwin": 45.3,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 244668.0,
+    "wwin": 60.4,
+    "d2win": 54.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 114448.0,
+    "wwin": 43.9,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 110960.0,
+  "minwwin_base": 42.3,
+  "stress": {
+   "2023": {
+    "pnl": 84418.0,
+    "wwin": 38.5,
+    "d2win": 38.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 215927.0,
+    "wwin": 43.4,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 205706.0,
+    "wwin": 54.7,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 87443.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 84418.0,
+  "minwwin_stress": 38.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 110528.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 261219.0,
+    "wwin": 47.2,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 224058.0,
+    "wwin": 58.5,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 112109.0,
+    "wwin": 48.8,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 110528.0,
+  "minwwin_base": 44.2,
+  "stress": {
+   "2023": {
+    "pnl": 83987.0,
+    "wwin": 40.4,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 235769.0,
+    "wwin": 47.2,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 185178.0,
+    "wwin": 54.7,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 85091.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 83987.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 110058.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 259882.0,
+    "wwin": 47.2,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 223205.0,
+    "wwin": 58.5,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 112109.0,
+    "wwin": 48.8,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 110058.0,
+  "minwwin_base": 44.2,
+  "stress": {
+   "2023": {
+    "pnl": 83519.0,
+    "wwin": 40.4,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 234438.0,
+    "wwin": 47.2,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 184329.0,
+    "wwin": 54.7,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 85091.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 83519.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 104013.0,
+    "wwin": 48.1,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 238546.0,
+    "wwin": 39.6,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 264248.0,
+    "wwin": 60.4,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 140501.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 104013.0,
+  "minwwin_base": 39.6,
+  "stress": {
+   "2023": {
+    "pnl": 83397.0,
+    "wwin": 44.2,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 217987.0,
+    "wwin": 39.6,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 233393.0,
+    "wwin": 56.6,
+    "d2win": 50.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 117983.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 83397.0,
+  "minwwin_stress": 39.6,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 108625.0,
+    "wwin": 44.2,
+    "d2win": 38.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 242504.0,
+    "wwin": 45.3,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 245158.0,
+    "wwin": 60.4,
+    "d2win": 54.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 114448.0,
+    "wwin": 43.9,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 108625.0,
+  "minwwin_base": 43.9,
+  "stress": {
+   "2023": {
+    "pnl": 82292.0,
+    "wwin": 38.5,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 217329.0,
+    "wwin": 43.4,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 206194.0,
+    "wwin": 54.7,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 87443.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 82292.0,
+  "minwwin_stress": 38.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 101763.0,
+    "wwin": 48.1,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 234344.0,
+    "wwin": 41.5,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 262628.0,
+    "wwin": 60.4,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 140501.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 101763.0,
+  "minwwin_base": 41.5,
+  "stress": {
+   "2023": {
+    "pnl": 81156.0,
+    "wwin": 44.2,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 213602.0,
+    "wwin": 41.5,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 231779.0,
+    "wwin": 56.6,
+    "d2win": 50.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 117983.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 81156.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 119853.0,
+    "wwin": 44.2,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 155837.0,
+    "wwin": 34.0,
+    "d2win": 28.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 286478.0,
+    "wwin": 62.3,
+    "d2win": 65.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 247552.0,
+    "wwin": 48.8,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 119853.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 79773.0,
+    "wwin": 38.5,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 118604.0,
+    "wwin": 30.2,
+    "d2win": 27.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 214330.0,
+    "wwin": 54.7,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 198194.0,
+    "wwin": 41.5,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 79773.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 119853.0,
+    "wwin": 44.2,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 154264.0,
+    "wwin": 34.0,
+    "d2win": 28.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 284685.0,
+    "wwin": 62.3,
+    "d2win": 65.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 247552.0,
+    "wwin": 48.8,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 119853.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 79773.0,
+    "wwin": 38.5,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 117037.0,
+    "wwin": 30.2,
+    "d2win": 27.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 212544.0,
+    "wwin": 54.7,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 198194.0,
+    "wwin": 41.5,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 79773.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 94274.0,
+    "wwin": 53.8,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 240374.0,
+    "wwin": 45.3,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 256702.0,
+    "wwin": 60.4,
+    "d2win": 63.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 95509.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 94274.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 78764.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 225143.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 235146.0,
+    "wwin": 56.6,
+    "d2win": 60.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 79769.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 78764.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 111923.0,
+    "wwin": 42.3,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 178886.0,
+    "wwin": 34.0,
+    "d2win": 25.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 281308.0,
+    "wwin": 66.0,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 263248.0,
+    "wwin": 51.2,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 111923.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 77475.0,
+    "wwin": 40.4,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 145563.0,
+    "wwin": 34.0,
+    "d2win": 23.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 225182.0,
+    "wwin": 62.3,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 222449.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 77475.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 90302.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 247897.0,
+    "wwin": 37.7,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 266873.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 96357.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 90302.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 76675.0,
+    "wwin": 42.3,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 234368.0,
+    "wwin": 37.7,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 246480.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 81214.0,
+    "wwin": 41.5,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 76675.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 94100.0,
+    "wwin": 40.4,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 233291.0,
+    "wwin": 34.0,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 268361.0,
+    "wwin": 58.5,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 153449.0,
+    "wwin": 48.8,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 94100.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 76324.0,
+    "wwin": 38.5,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 215551.0,
+    "wwin": 34.0,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 239090.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 131578.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 76324.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 96997.0,
+    "wwin": 46.2,
+    "d2win": 39.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 252032.0,
+    "wwin": 43.4,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 249214.0,
+    "wwin": 58.5,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 135591.0,
+    "wwin": 48.8,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 96997.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 76209.0,
+    "wwin": 40.4,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 231019.0,
+    "wwin": 43.4,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 218419.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 113092.0,
+    "wwin": 43.9,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 76209.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 96545.0,
+    "wwin": 46.2,
+    "d2win": 39.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 252143.0,
+    "wwin": 43.4,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 247920.0,
+    "wwin": 58.5,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 135591.0,
+    "wwin": 48.8,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 96545.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 75759.0,
+    "wwin": 40.4,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 231130.0,
+    "wwin": 43.4,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 217130.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 113092.0,
+    "wwin": 43.9,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 75759.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 91004.0,
+    "wwin": 53.8,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 230530.0,
+    "wwin": 45.3,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 254842.0,
+    "wwin": 60.4,
+    "d2win": 63.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 95509.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 91004.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 75507.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 215338.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 233293.0,
+    "wwin": 56.6,
+    "d2win": 60.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 79769.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 75507.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N3_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 109717.0,
+    "wwin": 42.3,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 171691.0,
+    "wwin": 34.0,
+    "d2win": 25.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 279954.0,
+    "wwin": 66.0,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 263248.0,
+    "wwin": 51.2,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 109717.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 75279.0,
+    "wwin": 40.4,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 138398.0,
+    "wwin": 34.0,
+    "d2win": 23.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 223834.0,
+    "wwin": 62.3,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 222449.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 75279.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 88260.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 240845.0,
+    "wwin": 37.7,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 244581.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 95247.0,
+    "wwin": 48.8,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 88260.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 74641.0,
+    "wwin": 42.3,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 227343.0,
+    "wwin": 37.7,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 224278.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 80100.0,
+    "wwin": 43.9,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 74641.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 109026.0,
+    "wwin": 44.2,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 167126.0,
+    "wwin": 35.8,
+    "d2win": 26.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 267890.0,
+    "wwin": 64.2,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 255749.0,
+    "wwin": 53.7,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 109026.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 74190.0,
+    "wwin": 38.5,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 133051.0,
+    "wwin": 34.0,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 211818.0,
+    "wwin": 60.4,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 214980.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 74190.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 91831.0,
+    "wwin": 40.4,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 221876.0,
+    "wwin": 34.0,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 266741.0,
+    "wwin": 58.5,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 153449.0,
+    "wwin": 48.8,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 91831.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 74063.0,
+    "wwin": 38.5,
+    "d2win": 30.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 204182.0,
+    "wwin": 34.0,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 237477.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 131578.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 74063.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 108862.0,
+    "wwin": 44.2,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 167126.0,
+    "wwin": 35.8,
+    "d2win": 26.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 267890.0,
+    "wwin": 64.2,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 255749.0,
+    "wwin": 53.7,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 108862.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 74026.0,
+    "wwin": 38.5,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 133051.0,
+    "wwin": 34.0,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 211818.0,
+    "wwin": 60.4,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 214980.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 74026.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 87245.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 242612.0,
+    "wwin": 37.7,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 265012.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 96357.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 87245.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 73630.0,
+    "wwin": 42.3,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 229104.0,
+    "wwin": 37.7,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 244627.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 81214.0,
+    "wwin": 41.5,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 73630.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 88847.0,
+    "wwin": 53.8,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 224667.0,
+    "wwin": 45.3,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 239149.0,
+    "wwin": 62.3,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 93375.0,
+    "wwin": 46.3,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 88847.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 73359.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 209498.0,
+    "wwin": 43.4,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 217663.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 77635.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 73359.0,
+  "minwwin_stress": 43.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 90469.0,
+    "wwin": 40.4,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 220937.0,
+    "wwin": 34.0,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 244769.0,
+    "wwin": 56.6,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 149765.0,
+    "wwin": 51.2,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 90469.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 72707.0,
+    "wwin": 38.5,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 203247.0,
+    "wwin": 34.0,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 215592.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 127909.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 72707.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 90469.0,
+    "wwin": 40.4,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 220826.0,
+    "wwin": 34.0,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 246062.0,
+    "wwin": 56.6,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 149765.0,
+    "wwin": 51.2,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 90469.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 72707.0,
+    "wwin": 38.5,
+    "d2win": 30.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 203136.0,
+    "wwin": 34.0,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 216880.0,
+    "wwin": 54.7,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 127909.0,
+    "wwin": 46.3,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 72707.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 86099.0,
+    "wwin": 44.2,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 238943.0,
+    "wwin": 37.7,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 248706.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 95247.0,
+    "wwin": 48.8,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 86099.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 72488.0,
+    "wwin": 42.3,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 225449.0,
+    "wwin": 37.7,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 228386.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 80100.0,
+    "wwin": 43.9,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 72488.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol1.0_N5_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 86366.0,
+    "wwin": 53.8,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 222765.0,
+    "wwin": 45.3,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 243707.0,
+    "wwin": 62.3,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 93375.0,
+    "wwin": 46.3,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 86366.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 70888.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 207604.0,
+    "wwin": 43.4,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 222203.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 77635.0,
+    "wwin": 43.9,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 70888.0,
+  "minwwin_stress": 43.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 86095.0,
+    "wwin": 53.8,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 217091.0,
+    "wwin": 45.3,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 207914.0,
+    "wwin": 64.2,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 88329.0,
+    "wwin": 43.9,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 86095.0,
+  "minwwin_base": 43.9,
+  "stress": {
+   "2023": {
+    "pnl": 66952.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 199019.0,
+    "wwin": 43.4,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 181362.0,
+    "wwin": 60.4,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 69584.0,
+    "wwin": 41.5,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 66952.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 87076.0,
+    "wwin": 53.8,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 233234.0,
+    "wwin": 43.4,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 232578.0,
+    "wwin": 64.2,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 85656.0,
+    "wwin": 43.9,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 85656.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 68063.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 215098.0,
+    "wwin": 43.4,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 205928.0,
+    "wwin": 64.2,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 66945.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 66945.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N3_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 87108.0,
+    "wwin": 53.8,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 220846.0,
+    "wwin": 43.4,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 231928.0,
+    "wwin": 64.2,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 85656.0,
+    "wwin": 43.9,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 85656.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 67961.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 202759.0,
+    "wwin": 43.4,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 205281.0,
+    "wwin": 64.2,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 66945.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 66945.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L10_tol0.995_N5_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 83357.0,
+    "wwin": 53.8,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 213007.0,
+    "wwin": 45.3,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 209706.0,
+    "wwin": 64.2,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 88329.0,
+    "wwin": 43.9,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 83357.0,
+  "minwwin_base": 43.9,
+  "stress": {
+   "2023": {
+    "pnl": 64226.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 194951.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 183148.0,
+    "wwin": 60.4,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 69584.0,
+    "wwin": 41.5,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 64226.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 87530.0,
+    "wwin": 44.2,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 248565.0,
+    "wwin": 43.4,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 266831.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 123334.0,
+    "wwin": 43.9,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 87530.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 64081.0,
+    "wwin": 38.5,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 226364.0,
+    "wwin": 41.5,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 229285.0,
+    "wwin": 54.7,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 97890.0,
+    "wwin": 43.9,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 64081.0,
+  "minwwin_stress": 38.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 79376.0,
+    "wwin": 48.1,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 233546.0,
+    "wwin": 43.4,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 245447.0,
+    "wwin": 64.2,
+    "d2win": 62.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 91195.0,
+    "wwin": 43.9,
+    "d2win": 51.1,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 79376.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 62127.0,
+    "wwin": 44.2,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 217141.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 219886.0,
+    "wwin": 56.6,
+    "d2win": 60.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 73660.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 62127.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 83050.0,
+    "wwin": 42.3,
+    "d2win": 35.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 246118.0,
+    "wwin": 43.4,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 266341.0,
+    "wwin": 58.5,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 123334.0,
+    "wwin": 43.9,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 83050.0,
+  "minwwin_base": 42.3,
+  "stress": {
+   "2023": {
+    "pnl": 59619.0,
+    "wwin": 38.5,
+    "d2win": 32.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 223926.0,
+    "wwin": 41.5,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 228797.0,
+    "wwin": 54.7,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 97890.0,
+    "wwin": 43.9,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 59619.0,
+  "minwwin_stress": 38.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H2_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 82495.0,
+    "wwin": 42.3,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 248435.0,
+    "wwin": 43.4,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 238445.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 124824.0,
+    "wwin": 46.3,
+    "d2win": 54.4,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 82495.0,
+  "minwwin_base": 42.3,
+  "stress": {
+   "2023": {
+    "pnl": 59067.0,
+    "wwin": 40.4,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 226234.0,
+    "wwin": 41.5,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 201013.0,
+    "wwin": 50.9,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 99353.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 59067.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H2_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 82495.0,
+    "wwin": 42.3,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 247098.0,
+    "wwin": 43.4,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 238077.0,
+    "wwin": 56.6,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 124824.0,
+    "wwin": 46.3,
+    "d2win": 54.4,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 82495.0,
+  "minwwin_base": 42.3,
+  "stress": {
+   "2023": {
+    "pnl": 59067.0,
+    "wwin": 40.4,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 224903.0,
+    "wwin": 41.5,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 200646.0,
+    "wwin": 50.9,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 99353.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 59067.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H3_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 74990.0,
+    "wwin": 46.2,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 219954.0,
+    "wwin": 43.4,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 218117.0,
+    "wwin": 56.6,
+    "d2win": 62.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 93414.0,
+    "wwin": 43.9,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 74990.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 57758.0,
+    "wwin": 42.3,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 203603.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 192666.0,
+    "wwin": 54.7,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 75847.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 57758.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N3_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 74574.0,
+    "wwin": 48.1,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 222429.0,
+    "wwin": 43.4,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 244797.0,
+    "wwin": 64.2,
+    "d2win": 62.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 91195.0,
+    "wwin": 43.9,
+    "d2win": 51.1,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 74574.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 57344.0,
+    "wwin": 44.2,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 206068.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 219239.0,
+    "wwin": 56.6,
+    "d2win": 60.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 73660.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 57344.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol0.995_N5_H3_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 72541.0,
+    "wwin": 46.2,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 218926.0,
+    "wwin": 43.4,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 220984.0,
+    "wwin": 56.6,
+    "d2win": 62.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 93414.0,
+    "wwin": 43.9,
+    "d2win": 52.2,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 72541.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": 55319.0,
+    "wwin": 42.3,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 202579.0,
+    "wwin": 43.4,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 195521.0,
+    "wwin": 54.7,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 75847.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 55319.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 84104.0,
+    "wwin": 38.5,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 165749.0,
+    "wwin": 34.0,
+    "d2win": 25.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 288562.0,
+    "wwin": 62.3,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 289400.0,
+    "wwin": 48.8,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 84104.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 54968.0,
+    "wwin": 34.6,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 138476.0,
+    "wwin": 32.1,
+    "d2win": 22.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 235207.0,
+    "wwin": 60.4,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 249697.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 54968.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N3_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 81899.0,
+    "wwin": 38.5,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 158448.0,
+    "wwin": 34.0,
+    "d2win": 25.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 287208.0,
+    "wwin": 62.3,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 289400.0,
+    "wwin": 48.8,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 81899.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": 52771.0,
+    "wwin": 34.6,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 131204.0,
+    "wwin": 32.1,
+    "d2win": 22.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 233858.0,
+    "wwin": 60.4,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 249697.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 52771.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H1_mm50000",
+  "base": {
+   "2023": {
+    "pnl": 81364.0,
+    "wwin": 38.5,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 153378.0,
+    "wwin": 35.8,
+    "d2win": 25.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 263499.0,
+    "wwin": 60.4,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 283185.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 81364.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 52239.0,
+    "wwin": 34.6,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 125755.0,
+    "wwin": 32.1,
+    "d2win": 22.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 210245.0,
+    "wwin": 58.5,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 243507.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 52239.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "BRK_L20_tol1.0_N5_H1_mm100000",
+  "base": {
+   "2023": {
+    "pnl": 81364.0,
+    "wwin": 38.5,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 153378.0,
+    "wwin": 35.8,
+    "d2win": 25.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 263499.0,
+    "wwin": 60.4,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 283185.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 81364.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 52239.0,
+    "wwin": 34.6,
+    "d2win": 24.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 125755.0,
+    "wwin": 32.1,
+    "d2win": 22.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 210245.0,
+    "wwin": 58.5,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 243507.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 52239.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N5_H3",
+  "base": {
+   "2023": {
+    "pnl": 96153.0,
+    "wwin": 57.7,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 99960.0,
+    "wwin": 39.6,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 167864.0,
+    "wwin": 62.3,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 54341.0,
+    "wwin": 48.8,
+    "d2win": 53.3,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 54341.0,
+  "minwwin_base": 39.6,
+  "stress": {
+   "2023": {
+    "pnl": 66969.0,
+    "wwin": 53.8,
+    "d2win": 53.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 74335.0,
+    "wwin": 35.8,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 135056.0,
+    "wwin": 60.4,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 32416.0,
+    "wwin": 43.9,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 32416.0,
+  "minwwin_stress": 35.8,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N3_H3",
+  "base": {
+   "2023": {
+    "pnl": 115905.0,
+    "wwin": 50.0,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 172398.0,
+    "wwin": 49.1,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 256945.0,
+    "wwin": 71.7,
+    "d2win": 60.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 53614.0,
+    "wwin": 51.2,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 53614.0,
+  "minwwin_base": 49.1,
+  "stress": {
+   "2023": {
+    "pnl": 87447.0,
+    "wwin": 48.1,
+    "d2win": 50.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 146608.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 223783.0,
+    "wwin": 66.0,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 31654.0,
+    "wwin": 51.2,
+    "d2win": 41.1,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 31654.0,
+  "minwwin_stress": 43.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N3_H2",
+  "base": {
+   "2023": {
+    "pnl": 80486.0,
+    "wwin": 48.1,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 161737.0,
+    "wwin": 47.2,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 290685.0,
+    "wwin": 69.8,
+    "d2win": 65.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 53300.0,
+    "wwin": 48.8,
+    "d2win": 47.8,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 53300.0,
+  "minwwin_base": 47.2,
+  "stress": {
+   "2023": {
+    "pnl": 39167.0,
+    "wwin": 40.4,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 123654.0,
+    "wwin": 41.5,
+    "d2win": 41.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 241319.0,
+    "wwin": 62.3,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 20469.0,
+    "wwin": 43.9,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 20469.0,
+  "minwwin_stress": 40.4,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N3_H3",
+  "base": {
+   "2023": {
+    "pnl": 87147.0,
+    "wwin": 51.9,
+    "d2win": 54.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 144150.0,
+    "wwin": 39.6,
+    "d2win": 46.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 207832.0,
+    "wwin": 60.4,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 41588.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 41588.0,
+  "minwwin_base": 39.6,
+  "stress": {
+   "2023": {
+    "pnl": 58004.0,
+    "wwin": 48.1,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 118342.0,
+    "wwin": 35.8,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 174861.0,
+    "wwin": 60.4,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 19715.0,
+    "wwin": 48.8,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 19715.0,
+  "minwwin_stress": 35.8,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N5_H3",
+  "base": {
+   "2023": {
+    "pnl": 69072.0,
+    "wwin": 46.2,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 97767.0,
+    "wwin": 41.5,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 160961.0,
+    "wwin": 62.3,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 36698.0,
+    "wwin": 51.2,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 36698.0,
+  "minwwin_base": 41.5,
+  "stress": {
+   "2023": {
+    "pnl": 39988.0,
+    "wwin": 44.2,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 72031.0,
+    "wwin": 41.5,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 128181.0,
+    "wwin": 62.3,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 14577.0,
+    "wwin": 48.8,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 14577.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N5_H2",
+  "base": {
+   "2023": {
+    "pnl": 76170.0,
+    "wwin": 51.9,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 113182.0,
+    "wwin": 45.3,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 191465.0,
+    "wwin": 62.3,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 46637.0,
+    "wwin": 48.8,
+    "d2win": 53.3,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 46637.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 32868.0,
+    "wwin": 48.1,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 74905.0,
+    "wwin": 41.5,
+    "d2win": 38.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 142496.0,
+    "wwin": 58.5,
+    "d2win": 55.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 13872.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 13872.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N5_H3",
+  "base": {
+   "2023": {
+    "pnl": 80717.0,
+    "wwin": 50.0,
+    "d2win": 51.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 125989.0,
+    "wwin": 45.3,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 218860.0,
+    "wwin": 71.7,
+    "d2win": 65.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 31769.0,
+    "wwin": 51.2,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 31769.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 52255.0,
+    "wwin": 46.2,
+    "d2win": 50.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 100272.0,
+    "wwin": 41.5,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 185854.0,
+    "wwin": 69.8,
+    "d2win": 62.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 9896.0,
+    "wwin": 51.2,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 9896.0,
+  "minwwin_stress": 41.5,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N5_H2",
+  "base": {
+   "2023": {
+    "pnl": 51644.0,
+    "wwin": 46.2,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 90398.0,
+    "wwin": 39.6,
+    "d2win": 47.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 148991.0,
+    "wwin": 62.3,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 43763.0,
+    "wwin": 53.7,
+    "d2win": 53.3,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 43763.0,
+  "minwwin_base": 39.6,
+  "stress": {
+   "2023": {
+    "pnl": 8232.0,
+    "wwin": 38.5,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 52023.0,
+    "wwin": 35.8,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 100193.0,
+    "wwin": 58.5,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 10612.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 8232.0,
+  "minwwin_stress": 35.8,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N5_H2",
+  "base": {
+   "2023": {
+    "pnl": 52385.0,
+    "wwin": 44.2,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 146988.0,
+    "wwin": 47.2,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 257379.0,
+    "wwin": 75.5,
+    "d2win": 65.8,
+    "pass": true
+   },
+   "2026": {
+    "pnl": 33067.0,
+    "wwin": 56.1,
+    "d2win": 51.1,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 33067.0,
+  "minwwin_base": 44.2,
+  "stress": {
+   "2023": {
+    "pnl": 10570.0,
+    "wwin": 42.3,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 108587.0,
+    "wwin": 43.4,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 208149.0,
+    "wwin": 66.0,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 321.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": 321.0,
+  "minwwin_stress": 42.3,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N3_H2",
+  "base": {
+   "2023": {
+    "pnl": 66050.0,
+    "wwin": 51.9,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 138933.0,
+    "wwin": 41.5,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 219675.0,
+    "wwin": 58.5,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 32369.0,
+    "wwin": 51.2,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 32369.0,
+  "minwwin_base": 41.5,
+  "stress": {
+   "2023": {
+    "pnl": 22994.0,
+    "wwin": 42.3,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 100758.0,
+    "wwin": 37.7,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 170588.0,
+    "wwin": 58.5,
+    "d2win": 54.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -350.0,
+    "wwin": 43.9,
+    "d2win": 43.3,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -350.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N3_H1",
+  "base": {
+   "2023": {
+    "pnl": 84600.0,
+    "wwin": 53.8,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 171275.0,
+    "wwin": 45.3,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 206360.0,
+    "wwin": 60.4,
+    "d2win": 56.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 61904.0,
+    "wwin": 48.8,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 61904.0,
+  "minwwin_base": 45.3,
+  "stress": {
+   "2023": {
+    "pnl": 1051.0,
+    "wwin": 44.2,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 98175.0,
+    "wwin": 37.7,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 109131.0,
+    "wwin": 54.7,
+    "d2win": 52.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -3566.0,
+    "wwin": 39.0,
+    "d2win": 35.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -3566.0,
+  "minwwin_stress": 37.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k5_N5_H1",
+  "base": {
+   "2023": {
+    "pnl": 77204.0,
+    "wwin": 51.9,
+    "d2win": 50.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 102750.0,
+    "wwin": 47.2,
+    "d2win": 44.2,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 184429.0,
+    "wwin": 60.4,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 55691.0,
+    "wwin": 48.8,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 55691.0,
+  "minwwin_base": 47.2,
+  "stress": {
+   "2023": {
+    "pnl": -9102.0,
+    "wwin": 44.2,
+    "d2win": 39.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 26721.0,
+    "wwin": 34.0,
+    "d2win": 37.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 87285.0,
+    "wwin": 50.9,
+    "d2win": 55.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -9707.0,
+    "wwin": 41.5,
+    "d2win": 37.8,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -9707.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N3_H3",
+  "base": {
+   "2023": {
+    "pnl": 72062.0,
+    "wwin": 44.2,
+    "d2win": 48.3,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 108470.0,
+    "wwin": 37.7,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 184015.0,
+    "wwin": 62.3,
+    "d2win": 60.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 11892.0,
+    "wwin": 41.5,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 11892.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": 42968.0,
+    "wwin": 36.5,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 82690.0,
+    "wwin": 34.0,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 151140.0,
+    "wwin": 60.4,
+    "d2win": 57.5,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -10106.0,
+    "wwin": 39.0,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -10106.0,
+  "minwwin_stress": 34.0,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N3_H2",
+  "base": {
+   "2023": {
+    "pnl": 45734.0,
+    "wwin": 36.5,
+    "d2win": 45.0,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 79509.0,
+    "wwin": 35.8,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 186183.0,
+    "wwin": 58.5,
+    "d2win": 60.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 18044.0,
+    "wwin": 46.3,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 18044.0,
+  "minwwin_base": 35.8,
+  "stress": {
+   "2023": {
+    "pnl": 2543.0,
+    "wwin": 32.7,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 41182.0,
+    "wwin": 30.2,
+    "d2win": 40.0,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 137229.0,
+    "wwin": 54.7,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -14981.0,
+    "wwin": 41.5,
+    "d2win": 45.6,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -14981.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N3_H1",
+  "base": {
+   "2023": {
+    "pnl": 55796.0,
+    "wwin": 36.5,
+    "d2win": 39.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 144100.0,
+    "wwin": 34.0,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 288499.0,
+    "wwin": 69.8,
+    "d2win": 61.7,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 65717.0,
+    "wwin": 48.8,
+    "d2win": 50.0,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 55796.0,
+  "minwwin_base": 34.0,
+  "stress": {
+   "2023": {
+    "pnl": -24418.0,
+    "wwin": 30.8,
+    "d2win": 31.7,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 70707.0,
+    "wwin": 30.2,
+    "d2win": 38.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 190938.0,
+    "wwin": 58.5,
+    "d2win": 58.3,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 242.0,
+    "wwin": 41.5,
+    "d2win": 44.4,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -24418.0,
+  "minwwin_stress": 30.2,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N3_H1",
+  "base": {
+   "2023": {
+    "pnl": 28021.0,
+    "wwin": 44.2,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 95562.0,
+    "wwin": 43.4,
+    "d2win": 43.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 182376.0,
+    "wwin": 50.9,
+    "d2win": 55.0,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 13102.0,
+    "wwin": 46.3,
+    "d2win": 46.7,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 13102.0,
+  "minwwin_base": 43.4,
+  "stress": {
+   "2023": {
+    "pnl": -57706.0,
+    "wwin": 32.7,
+    "d2win": 34.2,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 22362.0,
+    "wwin": 34.0,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 85233.0,
+    "wwin": 47.2,
+    "d2win": 50.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -52900.0,
+    "wwin": 34.1,
+    "d2win": 41.1,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -57706.0,
+  "minwwin_stress": 32.7,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k8_N5_H1",
+  "base": {
+   "2023": {
+    "pnl": 25529.0,
+    "wwin": 50.0,
+    "d2win": 45.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 57872.0,
+    "wwin": 37.7,
+    "d2win": 40.8,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 131795.0,
+    "wwin": 60.4,
+    "d2win": 55.8,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 36711.0,
+    "wwin": 56.1,
+    "d2win": 48.9,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 25529.0,
+  "minwwin_base": 37.7,
+  "stress": {
+   "2023": {
+    "pnl": -60979.0,
+    "wwin": 34.6,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": -18371.0,
+    "wwin": 32.1,
+    "d2win": 33.3,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 34843.0,
+    "wwin": 52.8,
+    "d2win": 49.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -29414.0,
+    "wwin": 41.5,
+    "d2win": 38.9,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -60979.0,
+  "minwwin_stress": 32.1,
+  "pass_both": false
+ },
+ {
+  "cfg": "MOM_k3_N5_H1",
+  "base": {
+   "2023": {
+    "pnl": 21986.0,
+    "wwin": 44.2,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 114748.0,
+    "wwin": 41.5,
+    "d2win": 42.5,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 267892.0,
+    "wwin": 69.8,
+    "d2win": 64.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": 44644.0,
+    "wwin": 56.1,
+    "d2win": 51.1,
+    "pass": false
+   }
+  },
+  "pass_base": false,
+  "minpnl_base": 21986.0,
+  "minwwin_base": 41.5,
+  "stress": {
+   "2023": {
+    "pnl": -61310.0,
+    "wwin": 32.7,
+    "d2win": 35.8,
+    "pass": false
+   },
+   "2024": {
+    "pnl": 38676.0,
+    "wwin": 37.7,
+    "d2win": 36.7,
+    "pass": false
+   },
+   "2025": {
+    "pnl": 170414.0,
+    "wwin": 62.3,
+    "d2win": 59.2,
+    "pass": false
+   },
+   "2026": {
+    "pnl": -20747.0,
+    "wwin": 46.3,
+    "d2win": 41.1,
+    "pass": false
+   }
+  },
+  "pass_stress": false,
+  "minpnl_stress": -61310.0,
+  "minwwin_stress": 32.7,
+  "pass_both": false
+ }
+]
