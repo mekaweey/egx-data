@@ -78,9 +78,10 @@ def main():
     trycp(os.path.join(BASE, "11_reference", "data_quality_flags.csv"), os.path.join(OUT, "universe", "data_quality_flags.csv"))
     for f in ["inflation_annual_fred.csv", "cpi_annual_fred.csv", "cpi_reo_fred.csv"]:
         trycp(os.path.join(SRC, "macro", f), os.path.join(OUT, "macro", f))
-    nw = os.path.join(BASE, "10_news", "mubasher_all_news.csv")
-    if os.path.exists(nw):
-        trycp(nw, os.path.join(OUT, "news", "mubasher_all_news.csv"))
+    for f in ["mubasher_news_snapshot.csv", "news_all.csv"]:
+        trycp(os.path.join(BASE, "10_news", f), os.path.join(OUT, "news", f))
+    for f in ["mubasher_news_snapshot.csv", "news_all.csv"]:
+        trycp(os.path.join(SRC, "news", f), os.path.join(OUT, "news", f))
     # reference table from fundamentals snapshot
     try:
         with open(os.path.join(OUT, "fundamentals", "data", "fundamentals_wide.csv"), encoding="utf-8", errors="replace", newline="") as fh:
