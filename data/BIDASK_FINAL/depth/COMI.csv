@@ -1,0 +1,3 @@
+time_utc,best_bid,best_bid_qty,best_ask,best_ask_qty,spread,bids_depth_json,asks_depth_json
+2026-09-17T18:28:22.211+00:00,85,100,85.5,100,0.5,"[{""qty"":100,""price"":85}]","[{""qty"":100,""price"":85.5}]"
+2026-09-17T18:28:43.944+00:00,85,100,85.5,100,0.5,"[{""qty"":100,""price"":85}]","[{""qty"":100,""price"":85.5}]"
