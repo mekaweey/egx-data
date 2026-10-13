@@ -1,0 +1,18 @@
+PASS 3: no sparse days since 2026-04-14
+PASS 4: DB = user file exactly (21440 rows checked)
+PASS 5: no absurd moves on tiny volume
+PASS 6: data fresh (last candle 2026-10-03)
+
+=== AUDIT RESULT: FAIL (2 findings) ===
+  FAIL: GHOST ROWS: 308 rows with volume=0 and flat price (BUG F returned)
+  FAIL: WEEKEND CANDLES: 296 rows dated Fri/Sat (2026-10-03..2026-10-03)
+telegram alert sent: 200
+PASS 3: no sparse days since 2026-04-14
+PASS 4: DB = user file exactly (21440 rows checked)
+PASS 5: no absurd moves on tiny volume
+PASS 6: data fresh (last candle 2026-10-11)
+
+=== AUDIT RESULT: FAIL (2 findings) ===
+  FAIL: GHOST ROWS: 711 rows with volume=0 and flat price (BUG F returned)
+  FAIL: WEEKEND CANDLES: 888 rows dated Fri/Sat (2026-10-03..2026-10-10)
+telegram alert sent: 200

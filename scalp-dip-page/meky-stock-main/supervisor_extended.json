@@ -1,0 +1,24 @@
+{
+ "time": "2026-09-26T08:35:15.000Z",
+ "checks": {
+  "breadth": {
+   "total": "0",
+   "up": "0",
+   "breadth": null
+  },
+  "profit_concentration": {
+   "top_symbol": "CRST",
+   "share": 0.46981549557953733
+  },
+  "slippage": {
+   "available": false
+  },
+  "open_positions": [
+   "MCRO"
+  ],
+  "candidates": {
+   "today": 0,
+   "avg30": 10.333333333333334
+  }
+ }
+}

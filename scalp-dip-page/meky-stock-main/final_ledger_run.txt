@@ -1,0 +1,58 @@
+=== FINAL_LEDGER_v1 ===
+[0] run at: 2026-09-27T19:15:38.275Z (UTC) / 27/09/2026, 22:15:38 Cairo
+[0] code sha256-16: momentum-weekly.server.ts=899e88a8c18caa80 | momentum-weekly-run.ts=67cfa77a0caac394 | FINAL_LEDGER_v1.cjs=485a82ce806dee61
+[0] data source: daily_candles (BUG F ghosts removed 2026-09-26; replanted from user minute file <=09-09; scanner >=09-20)
+
+[A] === THE LEDGER (every week, BUG F applied, per-pick entry->exit prices, cost 0.05%) ===
+2026-04-26: +4.76% = +4,764 EGP | PRCL 20.20->18.93 -6.34% [dayLiq 73.2M] | RREI 3.81->3.75 -1.62% [dayLiq 40.5M] | RUBX 10.84->11.62 +7.15% [dayLiq 14.5M] | NEDA 2.68->2.89 +7.79% [dayLiq 1.3M] | ISMA 16.51->19.30 +16.85% [dayLiq 53.0M]
+2026-05-03: +6.93% = +7,259 EGP | FNAR 10.33->11.11 +7.50% [dayLiq 5.0M] | ISMA 19.30->20.49 +6.12% [dayLiq 20.1M] | OCPH 175.50->196.00 +11.63% [dayLiq 70.1M] | CLHO 15.00->14.95 -0.38% [dayLiq 33.7M] | AMII 8.34->9.16 +9.78% [dayLiq 41.1M]
+2026-05-10: +1.21% = +1,355 EGP | NINH 18.68->19.20 +2.72% [dayLiq 15.1M] | AMES 57.91->55.09 -4.92% [dayLiq 6.9M] | AALR 220.00->218.02 -0.95% [dayLiq 13.2M] | PRCL 23.04->22.52 -2.31% [dayLiq 42.9M] | MILS 129.98->145.00 +11.51% [dayLiq 30.6M]
+2026-05-17: -4.02% = -4,558 EGP | AXPH 1166.51->1144.93 -1.90% [dayLiq 5.1M] | MPCI 217.02->200.00 -7.89% [dayLiq 69.0M] | VERT 6.41->6.15 -4.11% [dayLiq 0.5M] | CAED 77.00->74.72 -3.01% [dayLiq 6.0M] | ACAMD 2.23->2.16 -3.19% [dayLiq 115.3M]
+2026-05-24: +0.96% = +1,044 EGP | FIRE 3.60->3.55 -1.44% [dayLiq 0.9M] | BIDI 1.39->1.38 -0.77% [dayLiq 1.4M] | ISMA 25.11->26.40 +5.09% [dayLiq 70.3M]
+2026-06-01: +1.96% = +2,155 EGP | BIDI 1.38->1.40 +1.40% [dayLiq 0.1M] | ISMA 26.40->27.79 +5.22% [dayLiq 22.1M] | POUL 38.24->37.98 -0.73% [dayLiq 42.7M]
+2026-06-07: -0.41% = -460 EGP | AMII 10.58->11.99 +13.28% [dayLiq 46.0M] | UPMS 11.49->10.46 -9.01% [dayLiq 0.9M] | ETRS 9.21->9.15 -0.70% [dayLiq 46.1M] | EHDR 2.73->2.74 +0.32% [dayLiq 72.7M] | MPCO 1.87->1.76 -5.93% [dayLiq 213.3M]
+2026-06-14: +4.21% = +4,698 EGP | FIRE 4.50->4.47 -0.72% [dayLiq 4.5M] | AMII 11.99->10.83 -9.72% [dayLiq 61.2M] | AJWA 152.01->185.02 +21.67% [dayLiq 45.3M] | GPIM 1.04->1.16 +11.49% [dayLiq 66.8M] | ISMA 30.49->30.00 -1.66% [dayLiq 37.5M]
+2026-06-21: -3.89% = -4,528 EGP | ZEOT 12.18->10.90 -10.56% [dayLiq 97.1M] | AJWA 185.02->176.53 -4.64% [dayLiq 30.7M] | GPIM 1.16->1.08 -6.95% [dayLiq 14.1M] | MPCO 1.96->1.83 -6.68% [dayLiq 41.7M] | ETRS 10.42->11.40 +9.35% [dayLiq 112.3M]
+2026-06-28: -3.79% = -4,230 EGP | VERT 9.67->8.25 -14.73% [dayLiq 2.8M] | PRCL 30.55->32.90 +7.64% [dayLiq 30.3M] | ETRS 11.40->10.61 -6.98% [dayLiq 114.8M] | POUL 39.10->38.70 -1.07% [dayLiq 22.9M]
+2026-07-05: +10.75% = +11,557 EGP | AMES 61.00->76.50 +25.36% [dayLiq 36.2M] | UPMS 12.15->13.20 +8.59% [dayLiq 1.0M] | PRCL 32.90->36.50 +10.89% [dayLiq 74.2M] | AXPH 1229.00->1207.00 -1.84% [dayLiq 4.8M]
+2026-07-12: +14.02% = +16,698 EGP | AMES 76.50->119.01 +55.52% [dayLiq 138.0M] | IEEC 0.57->0.65 +13.51% [dayLiq 34.8M] | GIHD 51.59->49.70 -3.71% [dayLiq 78.6M] | KABO 7.50->7.65 +1.95% [dayLiq 57.0M] | FIRE 5.15->5.30 +2.86% [dayLiq 1.5M]
+2026-07-19: +5.87% = +7,972 EGP | NINH 21.89->22.29 +1.78% [dayLiq 126.5M] | OCPH 217.50->235.60 +8.27% [dayLiq 16.1M] | EPCO 10.43->11.30 +8.29% [dayLiq 63.1M] | CPCI 462.30->470.00 +1.62% [dayLiq 6.1M] | IEEC 0.65->0.71 +9.41% [dayLiq 20.7M]
+2026-07-26: +0.45% = +653 EGP | SCEM 83.00->81.25 -2.16% [dayLiq 89.6M] | MILS 172.10->197.75 +14.85% [dayLiq 12.1M] | IEEC 0.71->0.65 -7.42% [dayLiq 37.3M] | KABO 8.77->8.08 -7.92% [dayLiq 36.4M] | CAED 121.00->127.00 +4.91% [dayLiq 19.5M]
+2026-08-02: +3.27% = +4,716 EGP | RREI 4.67->4.60 -1.55% [dayLiq 40.0M] | CRST 1.92->2.28 +18.70% [dayLiq 124.4M] | EALR 398.99->379.20 -5.01% [dayLiq 84.4M] | ISMA 30.75->31.05 +0.93% [dayLiq 8.0M]
+2026-08-09: +7.02% = +10,466 EGP | CRST 2.28->2.92 +28.02% [dayLiq 398.4M] | EFID 31.98->32.88 +2.76% [dayLiq 87.7M] | SIPC 4.70->4.79 +1.86% [dayLiq 31.8M] | MTIE 9.25->9.57 +3.41% [dayLiq 42.2M] | SMFR 275.00->272.50 -0.96% [dayLiq 59.5M]
+2026-08-16: +4.59% = +7,330 EGP | IEEC 0.90->1.17 +29.95% [dayLiq 95.5M] | MCQE 250.04->223.00 -10.86% [dayLiq 143.6M] | CRST 2.92->3.28 +12.28% [dayLiq 215.7M] | ADRI 9.90->10.41 +5.10% [dayLiq 29.0M] | OCPH 290.15->251.13 -13.50% [dayLiq 14.0M]
+2026-08-23: +0.76% = +1,276 EGP | CAED 166.00->151.10 -9.03% [dayLiq 34.1M] | AMES 149.60->146.50 -2.12% [dayLiq 104.9M] | MOED 0.83->0.79 -5.93% [dayLiq 247.0M] | FIRE 5.14->6.01 +16.88% [dayLiq 1.7M] | SPIN 18.43->19.18 +4.02% [dayLiq 47.9M]
+2026-08-30: +1.29% = +2,169 EGP | AXPH 1689.02->1682.01 -0.47% [dayLiq 16.3M] | IEEC 1.10->1.01 -8.50% [dayLiq 112.7M] | GPIM 1.57->1.57 -0.05% [dayLiq 105.2M] | NINH 24.50->24.19 -1.32% [dayLiq 23.3M] | ICFC 21.09->24.64 +16.78% [dayLiq 137.5M]
+2026-09-06: +0.49% = +835 EGP | ATLC 7.03->7.20 +2.37% [dayLiq 68.0M] | AMOC 13.50->13.60 +0.69% [dayLiq 125.7M] | MFPC 46.21->47.75 +3.28% [dayLiq 109.3M] | ICFC 24.64->23.60 -4.27% [dayLiq 32.2M] | FNAR 13.90->13.96 +0.38% [dayLiq 5.0M]
+2026-09-13: +4.66% = +7,976 EGP | NCCW 7.60->8.18 +7.58% [dayLiq 152.4M] | INEG 0.65->0.71 +9.84% [dayLiq 105.7M] | MPCO 2.60->2.75 +5.72% [dayLiq 428.1M] | SIPC 5.90->5.88 -0.39% [dayLiq 168.1M] | MCRO 1.68->1.69 +0.55% [dayLiq 113.9M]
+2026-09-20: -4.72% = -8,459 EGP | TALM 22.18->20.39 -8.12% [dayLiq 41.6M] | INEG 0.71->0.70 -1.60% [dayLiq 23.9M] | MPCO 2.75->2.57 -6.60% [dayLiq 436.9M] | NCCW 8.18->7.40 -9.59% [dayLiq 62.0M] | FNAR 14.54->14.88 +2.29% [dayLiq 5.3M]
+2026-09-27: -4.84% = -8,264 EGP (OPEN - marked latest close 2026-09-27) | RUBX 17.65->16.26 -7.93% [dayLiq 63.4M] | BIDI 2.12->2.12 -0.05% [dayLiq 0.0M] | ADRI 12.76->12.40 -2.87% [dayLiq 45.6M] | TANM 7.23->6.66 -7.93% [dayLiq 17.3M] | CRST 3.72->3.52 -5.43% [dayLiq 87.0M]
+
+[A] SUMMARY: closed weeks 22 | winners 17 | losers 5 | win rate 77.3%
+[A] COMPOUNDED TOTAL on 100k: +62,426 EGP (final 162,426)
+
+[B] === LIVE PAPER-GATE AUDIT LOG (2026-09-20 -> now) - real-time events only ===
+#1 09-20 21:21:16 UTC | MW_WEEKLY_SCAN | - | - | -
+#2 09-21 15:49:22 UTC | MW_WEEKLY_SCAN | - | - | -
+#3 09-21 16:32:07 UTC | MW_WEEKLY_SCAN | - | - | -
+#4 09-21 16:50:17 UTC | MW_WEEKLY_SCAN | - | - | -
+#5 09-21 16:52:41 UTC | MW_WEEKLY_SCAN | - | - | -
+#6 09-22 07:06:04 UTC | MW_WEEKLY_SCAN | - | - | -
+#7 09-22 11:41:07 UTC | MW_WEEKLY_SCAN | - | - | -
+#8 09-27 11:45:56 UTC | MW_WEEKLY_SCAN | - | - | -
+#9 09-27 11:45:57 UTC | MW_WEEKLY_BUY | RUBX | 17.65 | -
+#10 09-27 11:45:59 UTC | MW_WEEKLY_EXIT | RUBX | 17.65 | 8.43%
+#11 09-27 11:46:00 UTC | MW_WEEKLY_EXIT | MPCO | 2.57 | -12.63%
+#12 09-27 11:46:01 UTC | MW_WEEKLY_EXIT | INEG | 0.70 | -0.05%
+#13 09-27 15:00:19 UTC | MW_WEEKLY_SCAN | - | - | -
+
+[C] === EXECUTION FEASIBILITY: entry-day liquidity for EVERY pick in the window ===
+  picks checked: 7 | pos/day-money ratio: p50 3.15% | p90 11.55% | max 0.12% | cases >5%: 0
+
+[D] === CORPORATE-ACTION SCAN: |daily move| > 20% inside any holding week ===
+  FLAG: RUBX 2026-09-23 daily move 20.1% (limit is ±20%) — possible corporate action / data spike
+
+[E] === HALAL UNIVERSE STALENESS (last candle date per symbol) ===
+  halal symbols with candles in window: 93 | stale (no candle since 2026-06-01): 0
+
+=== FINAL_LEDGER_v1 COMPLETE ===

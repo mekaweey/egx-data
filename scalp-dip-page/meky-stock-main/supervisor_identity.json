@@ -1,0 +1,11 @@
+{
+  "heartbeat_job_id": "944eebb8-92e4-429c-b2a9-418740720ad2",
+  "heartbeat_job_name": "EGX AI supervisor heartbeat (always-on watcher)",
+  "host_program": "AutoClaw",
+  "agent": "main (the same agent the owner chats with)",
+  "model": "AutoClaw-configured default = GLM 5.3 flash (paid credits of this program)",
+  "credentials": "AutoClaw's own configured model credentials — no separate API keys",
+  "schedule": "every 20 min, 9:00-15:00 Cairo, Sun-Thu",
+  "sessions_visible_in": "AutoClaw → sessions list (isolated heartbeat sessions)",
+  "established": "2026-09-15"
+}

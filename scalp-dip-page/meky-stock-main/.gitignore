@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# LiteLLM & Secrets
+config.yaml
+litellm_config.yaml
+run_proxy.py
+test_proxy.py
+
+
+# Environment files
+.env
+.env.*
+*.env
+
+# dist-archive build output — only the wrapper (.ps1) and task XML are tracked.
+# The 94MB compiled exe, probe leftovers and runtime logs must never enter git.
+dist-archive/daily-archive.exe
+dist-archive/_probe*
+dist-archive/logs/
+
+

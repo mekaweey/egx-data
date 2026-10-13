@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Lovable Chat Logger",
+  "version": "1.0.0",
+  "description": "يرصد رسائل شات Lovable لحظياً ويرسلها لـ session-log endpoint (مع outbox retry).",
+  "permissions": ["storage", "alarms", "notifications"],
+  "host_permissions": [
+    "https://lovable.dev/*",
+    "https://*.lovable.dev/*",
+    "https://meky-stock.lovable.app/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Lovable Chat Logger" },
+  "content_scripts": [
+    {
+      "matches": ["https://lovable.dev/*", "https://*.lovable.dev/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

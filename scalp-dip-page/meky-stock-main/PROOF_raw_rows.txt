@@ -1,0 +1,58 @@
+DATABASE HOST: aws-0-eu-central-1.pooler.supabase.com
+DB NOW: 2026-09-17T10:50:45.801Z
+
+marketwatch last 60 seconds: rows=568 distinct_symbols=175
+   first=2026-09-17T10:50:13.279Z  last=2026-09-17T10:50:35.587Z
+marketwatch last 5 minutes: rows=2800 distinct_symbols=223
+   first=2026-09-17T10:46:11.918Z  last=2026-09-17T10:50:35.587Z
+
+LATEST SNAPSHOT: 2026-09-17T10:50:35.587Z
+ROWS IN THAT SNAPSHOT: 136  (distinct symbols: 136)
+
+--- 25 RAW ROWS (verbatim from the table) ---
+  AALR       price=315       vol=435095       trades=3775    same_day=true  at=2026-09-17T10:50:35.587Z
+  ABUK       price=92.95     vol=2642616      trades=4789    same_day=true  at=2026-09-17T10:50:35.587Z
+  ACAMD      price=2.06      vol=17909518     trades=620     same_day=true  at=2026-09-17T10:50:35.587Z
+  ADIB       price=53        vol=1162383      trades=1729    same_day=true  at=2026-09-17T10:50:35.587Z
+  ADPC       price=3.89      vol=3148095      trades=469     same_day=true  at=2026-09-17T10:50:35.587Z
+  ADRI       price=11.35     vol=1157159      trades=344     same_day=true  at=2026-09-17T10:50:35.587Z
+  AIDC       price=0.724     vol=23206063     trades=468     same_day=true  at=2026-09-17T10:50:35.587Z
+  AIHC       price=0.785     vol=44155064     trades=475     same_day=true  at=2026-09-17T10:50:35.587Z
+  ALCN       price=33.35     vol=1502885      trades=1614    same_day=true  at=2026-09-17T10:50:35.587Z
+  AMER       price=5.48      vol=6948217      trades=1478    same_day=true  at=2026-09-17T10:50:35.587Z
+  AMES       price=52.44     vol=1056388      trades=2980    same_day=true  at=2026-09-17T10:50:35.587Z
+  AMIA       price=17.99     vol=906048       trades=613     same_day=true  at=2026-09-17T10:50:35.587Z
+  AMII       price=14.28     vol=2459697      trades=437     same_day=true  at=2026-09-17T10:50:35.587Z
+  AMOC       price=13.6      vol=10848098     trades=3315    same_day=true  at=2026-09-17T10:50:35.587Z
+  ARCC       price=72.79     vol=218082       trades=1066    same_day=true  at=2026-09-17T10:50:35.587Z
+  ASCM       price=61.6      vol=127321       trades=308     same_day=true  at=2026-09-17T10:50:35.587Z
+  ASPI       price=0.456     vol=168418058    trades=1540    same_day=true  at=2026-09-17T10:50:35.587Z
+  ATLC       price=7.4       vol=6573749      trades=1347    same_day=true  at=2026-09-17T10:50:35.587Z
+  ATQA       price=12.68     vol=1701695      trades=529     same_day=true  at=2026-09-17T10:50:35.587Z
+  BIGP       price=0.271     vol=12960853     trades=449     same_day=false  at=2026-09-17T10:50:35.587Z
+  BINV       price=62.4      vol=1600690      trades=3699    same_day=true  at=2026-09-17T10:50:35.587Z
+  BIOC       price=281.55    vol=46406        trades=844     same_day=true  at=2026-09-17T10:50:35.587Z
+  CANA       price=44        vol=933687       trades=810     same_day=true  at=2026-09-17T10:50:35.587Z
+  CCAP       price=6.95      vol=68429463     trades=2500    same_day=true  at=2026-09-17T10:50:35.587Z
+  CCRS       price=2.71      vol=20278043     trades=1867    same_day=true  at=2026-09-17T10:50:35.587Z
+
+--- THE COMPLETE SYMBOL LIST IN THAT SNAPSHOT ---
+  AALR ABUK ACAMD ADIB ADPC ADRI AIDC AIHC ALCN AMER AMES AMIA
+  AMII AMOC ARCC ASCM ASPI ATLC ATQA BIGP BINV BIOC CANA CCAP
+  CCRS CEFM CIEB CLHO CNFN COMI COPR CRST CSAG DAPH DTPP EASB
+  EAST EDFM EFIC EFID EFIH EGAL EGAS EGX30 EGX30ETF EGX35-LV ELEC ELKA
+  ELSH ENGC ETEL ETRS EXPA FAIT FCMD FERC FWRY GBCO GIHD GOUR
+  GRCA GSSC GTWL HBCO HDBK HELI ICFC IDRE IEEC INFI ISMA ISMQ
+  ISPH KABO KASABF KORA KRDI LCSW LUTS MASR MBSC MCRO MFPC MFSC
+  MIPH MOED MOIN MPCI MPCO MPRC MTIE NAPR NARE NCCW NINH NIPH
+  OBRI OCDI OCPH OFH OIH OLFI ORAS ORWE PHAR PHDC POUL PRCL
+  PRDC RAYA RREI RUBX SAUD SCEM SCFM SDTI SEIG SHARIAH SIPC SMFR
+  SPIN SPMD SVCE SWDY TALM TAMAYUZ TANM TAQA UEFM UNIP VALU VERT
+  VLMRA WKOL ZEOT ZMID
+
+SHARIA UNIVERSE: 68 / 122 covered in the latest snapshot = 55.7%
+
+live_ticks (all time): rows=148 symbols=11 last=2026-09-17T10:50:11.687Z
+live_quotes (all time): rows=8899 symbols=1 last=2026-09-17T10:50:43.398Z
+   live_quotes symbols: [{"symbol":"MCRO","c":"8899"}]
+   live_ticks symbols: [{"symbol":"MCRO","c":"18"},{"symbol":"EGX35-LV","c":"13"},{"symbol":"SPY","c":"13"},{"symbol":"QQQ","c":"13"},{"symbol":"FADX15","c":"13"},{"symbol":"FADGI","c":"13"},{"symbol":"EGX30","c":"13"},{"symbol":"SHARIAH","c":"13"},{"symbol":"FADXI15","c":"13"},{"symbol":"DIA","c":"13"},{"symbol":"EGGOLD","c":"13"}]

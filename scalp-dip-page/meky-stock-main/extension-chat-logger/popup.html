@@ -1,0 +1,32 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8" />
+<title>Lovable Chat Logger</title>
+<style>
+  body { font-family: system-ui, sans-serif; width: 340px; padding: 12px; }
+  h1 { font-size: 14px; margin: 0 0 8px; }
+  label { display: block; font-size: 12px; margin-top: 8px; }
+  input { width: 100%; box-sizing: border-box; padding: 6px; font-size: 12px; direction: ltr; }
+  button { margin-top: 10px; padding: 6px 12px; font-size: 12px; cursor: pointer; }
+  .stats { margin-top: 12px; font-size: 12px; background: #f5f5f5; padding: 8px; border-radius: 4px; }
+  .stats div { margin: 2px 0; }
+  .err { color: #c00; word-break: break-all; }
+  .ok { color: #080; }
+</style>
+</head>
+<body>
+<h1>Lovable Chat Logger</h1>
+<label>Endpoint
+  <input id="endpoint" placeholder="https://meky-stock.onrender.com/api/public/hooks/session-log" />
+</label>
+<label>x-thunder-token
+  <input id="token" type="password" placeholder="THUNDER_INGEST_TOKEN" />
+</label>
+<button id="save">حفظ</button>
+<button id="test">Test الآن</button>
+<button id="drain">Drain outbox</button>
+<div class="stats" id="stats">…</div>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Thunder Proactive v3.5 (100% Coverage)",
+  "version": "3.5.0",
+  "description": "Proactive 100% Coverage Build: No DOM Scraping. Fetches full market data + targeted L2/Tape from API.",
+  "permissions": ["storage", "alarms", "tabs", "offscreen"],
+  "host_permissions": [
+    "https://*.thndr.app/*",
+    "https://meky-stock.lovable.app/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "content_scripts": [
+    {
+      "matches": ["https://x.thndr.app/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

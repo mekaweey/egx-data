@@ -1,0 +1,95 @@
+
+> dev
+> vite dev
+
+
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m17043[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.102:[1m8080[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.19.208.1:[1m8080[22m/[39m
+[vite] connected.
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m4:06:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m4:06:50 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m4:06:50 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m4:06:51 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts:20:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts[39m
+[2m4:06:53 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts:25:40 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m4:06:58 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/scan/dashboard.functions.ts:226:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/scan/dashboard.functions.ts[39m
+[2m4:06:58 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/today/live-quote.functions.ts:65:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/today/live-quote.functions.ts[39m
+[2m4:06:58 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/today/live-quote.functions.ts:196:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/today/live-quote.functions.ts[39m
+[2m4:07:02 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m4:07:02 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m4:07:04 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m

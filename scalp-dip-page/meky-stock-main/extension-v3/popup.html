@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thunder Live v3</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; width: 380px; padding: 14px; margin: 0; background: #0f172a; color: #e2e8f0; }
+    h1 { font-size: 14px; margin: 0 0 10px; color: #f1f5f9; }
+    .row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid #1e293b; font-size: 12px; }
+    .row b { color: #facc15; font-weight: 600; }
+    button { width: 100%; padding: 10px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; font-weight: 600; cursor: pointer; margin-top: 8px; font-size: 13px; }
+    button.danger { background: #dc2626; }
+    button.muted { background: #334155; }
+    input { width: 100%; padding: 8px; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: #f1f5f9; font-size: 12px; box-sizing: border-box; margin-top: 4px; }
+    label { font-size: 11px; color: #94a3b8; display: block; margin-top: 8px; }
+    .err { color: #f87171; font-size: 11px; margin-top: 6px; word-break: break-all; }
+    .note { font-size: 10px; color: #94a3b8; margin-top: 8px; line-height: 1.5; background: #1e293b; padding: 8px; border-radius: 6px; }
+    .discovery { max-height: 120px; overflow-y: auto; background: #1e293b; padding: 6px; border-radius: 6px; font-size: 10px; margin-top: 6px; font-family: ui-monospace, monospace; direction: ltr; text-align: left; }
+    .discovery div { padding: 2px 0; border-bottom: 1px solid #0f172a; word-break: break-all; }
+    .on { color: #4ade80; }
+    .off { color: #f87171; }
+  </style>
+</head>
+<body>
+  <h1>Thunder Live Ticks v3.1.8 (Debugger)</h1>
+
+  <div class="row"><span>الحالة</span><b id="attached" class="off">غير متصل</b></div>
+  <div class="row"><span>Frames</span><b id="frames">0</b></div>
+  <div class="row"><span>Ticks</span><b id="ticks">0</b></div>
+  <div class="row"><span>Symbols</span><b id="symbols">0</b></div>
+  <div class="row"><span>مرسل للسيرفر</span><b id="sent">0</b></div>
+  <div class="row"><span>آخر سعر</span><b id="lastTick">—</b></div>
+  <div class="row"><span>آخر flush</span><b id="lastFlush">—</b></div>
+  <div class="err" id="err"></div>
+
+  <label>Token (من backend)</label>
+  <input id="token" placeholder="ضع THUNDER_INGEST_TOKEN هنا" />
+  <button id="saveToken" class="muted">حفظ الـ Token</button>
+
+  <button id="attach">اتصال بتاب ثاندر النشط</button>
+  <button id="detach" class="danger">قطع الاتصال</button>
+
+  <div class="note">
+    Chrome هيعرض bar أصفر فوق الصفحة: "is being debugged" — ده طبيعي وضروري.
+    لا تضغط <b>Cancel</b> أو الاكستنشن هتتفصل. اقفل DevTools على نفس التاب قبل الاتصال.
+  </div>
+
+  <label>Discovery (آخر URLs اتلقطت)</label>
+  <div class="discovery" id="discovery">—</div>
+  <button id="clearDisc" class="muted">مسح الـ Discovery log</button>
+
+  <label>Raw WS Frames (آخر 8 — لتشخيص الـ schema)</label>
+  <div class="discovery" id="rawSamples">—</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

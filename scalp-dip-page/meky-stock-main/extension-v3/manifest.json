@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Thunder Live Ticks (Debugger v3)",
+  "version": "3.1.8",
+  "description": "يقرأ الأسعار اللحظية من ثاندر عبر Chrome Debugger API — مستقل عن الـ DOM وعن CSP. Read-only.",
+  "permissions": [
+    "debugger",
+    "storage",
+    "tabs",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://web.thndr.app/*",
+    "https://*.thndr.app/*",
+    "https://meky-stock.lovable.app/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.thndr.app/*",
+        "https://*.thndr.app/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Thunder Live (v3)"
+  },
+  "icons": {}
+}

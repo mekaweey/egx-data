@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <title>Thunder Proactive v3.5</title>
+  <style>
+    body { font-family: sans-serif; width: 320px; padding: 15px; background: #0f172a; color: #f1f5f9; }
+    h1 { font-size: 14px; margin: 0 0 10px; color: #8b5cf6; }
+    .box { background: #1e293b; padding: 10px; border-radius: 8px; margin-bottom: 10px; font-size: 12px; }
+    label { display: block; margin: 8px 0 4px; color: #94a3b8; font-size: 11px; }
+    input { width: 100%; box-sizing: border-box; padding: 6px; border-radius: 4px; border: 1px solid #334155; background: #0f172a; color: #fff; margin-bottom: 10px; }
+    button { width: 100%; padding: 8px; border-radius: 4px; border: 0; background: #3b82f6; color: #fff; font-weight: bold; cursor: pointer; }
+    .stats { font-size: 11px; line-height: 1.6; color: #cbd5e1; }
+    .stats b { color: #fff; }
+    .watchlist-item { display: flex; justify-content: space-between; align-items: center; background: #334155; padding: 4px 8px; border-radius: 4px; margin-bottom: 4px; }
+    .remove-btn { color: #ef4444; cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Thunder Proactive v3.5</h1>
+  <div class="box">
+    <label>Ingest Token</label>
+    <input id="token" type="password" placeholder="Token..." />
+    <button id="saveToken">حفظ</button>
+  </div>
+  <div class="box">
+    <label>إضافة سهم للمتابعة (L2/Tape)</label>
+    <div style="display:flex;gap:5px">
+      <input id="newSymbol" type="text" placeholder="COMI" style="margin-bottom:0;flex:1" />
+      <button id="addSymbol" style="width:auto">إضافة</button>
+    </div>
+    <div id="watchlist" style="margin-top:10px"></div>
+  </div>
+  <div class="box stats">
+    <div>الحالة: <b id="statusText">...</b></div>
+    <div>تم الإرسال: <b id="sentCount">0</b></div>
+    <div>آخر Marketwatch: <b id="mwAssets">0 أسهم</b></div>
+    <div>آخر تحديث: <b id="lastOk">--:--</b></div>
+    <div id="errorText" style="color:#ef4444;margin-top:5px;font-size:10px"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

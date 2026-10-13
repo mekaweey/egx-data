@@ -1,0 +1,27 @@
+name: EGX market sync (momentum-weekly data backbone)
+
+on:
+  schedule:
+    # EOD candle: 12:45 UTC = 15:45 Cairo (DST) / 14:45 Cairo (winter)
+    # — always AFTER the 14:30 close in both DST regimes.
+    - cron: "45 12 * * 0-4"
+    # Sunday entry snapshot: 08:40 UTC = 11:40 Cairo (DST) / 10:40 (winter)
+    # — always AFTER the 10:00 open in both DST regimes.
+    - cron: "40 8 * * 0"
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install Supabase client
+        run: npm install --no-save @supabase/supabase-js@2
+      - name: Sync whole EGX market into daily_candles
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node tv_market_sync.cjs

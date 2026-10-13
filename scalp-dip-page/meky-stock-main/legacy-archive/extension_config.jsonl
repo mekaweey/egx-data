@@ -1,0 +1,9 @@
+{"key":"kill_switch","value":false,"description":"لو true: الإضافة توقف Semi-Auto فوراً لكل المستخدمين","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"semi_auto_enabled","value":true,"description":"تفعيل ميزة Semi-Auto عامة (المستخدم لازم برضو يفعّلها من popup)","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"poll_interval_ms","value":3000,"description":"كل قد إيه الإضافة تسأل السيرفر عن أوامر pending","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"tick_interval_ms","value":2000,"description":"كل قد إيه ترسل ticks الأسعار للسيرفر","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"order_expire_seconds","value":60,"description":"بعد قد إيه الأمر يعتبر منتهي لو محدش نفّذه","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"human_delay_min_ms","value":800,"description":"أقل تأخير عشوائي بين الـ actions (محاكاة سلوك بشري)","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"human_delay_max_ms","value":2500,"description":"أكبر تأخير عشوائي بين الـ actions","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"thunder_selectors","value":{"buy_button":"[data-testid=\"buy-button\"], button[aria-label*=\"شراء\"]","review_button":"[data-testid=\"review-order\"], button[aria-label*=\"مراجعة\"]","quantity_input":"input[name=\"quantity\"], input[aria-label*=\"كمية\"]","market_price_option":"[data-testid=\"market-price\"], label[for=\"market\"]"},"description":"CSS selectors لعناصر صفحة ثاندر — لو ثاندر غيّر الـ UI نعدّل هنا فوراً","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
+{"key":"config_version","value":1,"description":"رقم نسخة الإعدادات — يزيد مع كل تحديث","updated_at":"2026-08-22T05:34:47.76072+00:00","updated_by":null}
