@@ -1,0 +1,21 @@
+-- Audit Oct-4 batch 3 (A2): candle source tracking.
+-- STATUS: PROPOSED ONLY. DO NOT APPLY without the user's explicit approval.
+--
+-- Problem: daily_candles rows carry no provenance — a scanner row, an
+-- extension first-snapshot fill, and a user-file backfill look identical,
+-- so the screen cannot tell a filler row (volume 0, first-print open) from
+-- a real session row. Until applied, the screen treats volume-0 rows as
+-- ABSENT (code-level guard, no schema needed).
+--
+-- Proposal: record where each candle came from and when it was fetched.
+--   ALTER TABLE daily_candles
+--     ADD COLUMN source text NOT NULL DEFAULT 'scanner',
+--     ADD COLUMN fetched_at timestamptz NOT NULL DEFAULT now();
+-- Backfill existing rows AFTER approval (values up to the user;
+-- suggestion: leave existing rows as 'scanner' only where a tv_ticks row
+-- with source='tv' exists for the same symbol+date, else 'backfill').
+-- Then: writers set source explicitly ('scanner' | 'extension_fill' |
+-- 'backfill'), and the screen requires source IN ('scanner','backfill').
+--
+-- DEPLOY STEPS (after approval): (1) backup, (2) run the ALTERs,
+-- (3) backfill review, (4) update writers + screen, (5) re-run audit tests.

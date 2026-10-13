@@ -1,0 +1,1 @@
+DELETE FROM public.backtest_trades WHERE backtest_id IN ('73c65d14-ddfe-4d40-b268-22cee594d864','f8983fcd-f295-45ce-877a-bd8b442140f4');

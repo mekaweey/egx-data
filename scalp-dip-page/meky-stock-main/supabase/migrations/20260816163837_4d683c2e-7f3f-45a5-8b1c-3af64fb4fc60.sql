@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.gap_liquidity_scores(int, int) FROM PUBLIC, anon, authenticated;

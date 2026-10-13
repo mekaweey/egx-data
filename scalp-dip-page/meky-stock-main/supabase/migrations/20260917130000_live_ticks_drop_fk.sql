@@ -1,0 +1,1 @@
+ALTER TABLE public.live_ticks DROP CONSTRAINT IF EXISTS live_ticks_symbol_fkey;

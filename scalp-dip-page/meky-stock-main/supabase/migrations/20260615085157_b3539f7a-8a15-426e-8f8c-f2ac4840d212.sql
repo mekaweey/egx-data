@@ -1,0 +1,1 @@
+GRANT SELECT ON public.paper_trades TO anon, authenticated;

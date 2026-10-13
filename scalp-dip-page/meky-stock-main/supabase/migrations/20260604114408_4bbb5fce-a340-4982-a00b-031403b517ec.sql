@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_ensemble_votes_scan_symbol ON public.ensemble_votes (scan_id, symbol) WHERE recommendation_id IS NULL;

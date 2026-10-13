@@ -1,0 +1,1 @@
+UPDATE public.daily_picks SET status='open', exit_price=NULL, exit_date=NULL, pnl_pct=NULL WHERE pick_date='2026-06-23' AND symbol='PRCL'; DELETE FROM public.pick_notifications WHERE pick_date='2026-06-23' AND symbol='PRCL' AND kind='monitor:stop_hit';

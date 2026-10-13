@@ -1,0 +1,1 @@
+UPDATE public.stocks SET is_active = false WHERE symbol = 'IRAX';

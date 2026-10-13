@@ -1,0 +1,1 @@
+ALTER TABLE public.sniper_picks ADD COLUMN IF NOT EXISTS trailing_plan JSONB;

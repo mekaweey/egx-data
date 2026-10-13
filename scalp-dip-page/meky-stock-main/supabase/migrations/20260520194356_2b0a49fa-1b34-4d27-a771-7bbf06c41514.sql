@@ -1,0 +1,1 @@
+UPDATE public.scans SET started_at = now() - interval '1 day' WHERE started_at > now() - interval '1 hour';

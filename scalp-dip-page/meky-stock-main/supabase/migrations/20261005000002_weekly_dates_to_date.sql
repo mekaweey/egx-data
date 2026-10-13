@@ -1,0 +1,25 @@
+-- Audit Oct-4 task 11 (DATE vs timestamptz): prefer DATE for weekly boundaries.
+-- STATUS: PROPOSED ONLY. DO NOT APPLY without the user's explicit approval.
+--
+-- Problem: scan_date/entry_date/exit_date are timestamptz holding Cairo
+-- midnights, so every UTC display (and every naive string comparison) reads
+-- one day early ("2026-09-30T21:00:00.000Z" IS the Cairo Oct-1 session).
+-- daily_candles.date is already a plain DATE and matches Cairo sessions.
+--
+-- Proposal: convert the three columns to DATE, interpreting existing values
+-- in Africa/Cairo (midnight Cairo stays the same calendar day):
+--   ALTER TABLE momentum_weekly_signals
+--     ALTER COLUMN scan_date TYPE DATE USING (scan_date AT TIME ZONE 'Africa/Cairo')::date,
+--     ALTER COLUMN entry_date TYPE DATE USING (entry_date AT TIME ZONE 'Africa/Cairo')::date,
+--     ALTER COLUMN exit_date TYPE DATE USING (exit_date AT TIME ZONE 'Africa/Cairo')::date;
+-- Then the code must write YYYY-MM-DD strings (it already does) and compare
+-- plain dates (cairoDayOfRow becomes the identity for these columns).
+--
+-- Until applied, the documented dependency is: ALL reads/writes of these
+-- columns go through cairoDayOfRow() normalization (tested: timestamptz and
+-- plain-date forms bucket identically). No code change needed after apply
+-- except deleting the normalization calls.
+--
+-- DEPLOY STEPS (after approval): (1) full-table backup, (2) run the ALTERs,
+-- (3) verify distinct scan_dates unchanged in Cairo terms, (4) re-run the
+-- audit DATE-bucketing test.

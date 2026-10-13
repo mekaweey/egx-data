@@ -1,0 +1,6 @@
+symbol,signal_close,buy_band,mom5,mom_sess,liq_sess,v20,eligibility,oct4_O,oct4_H,oct4_L,oct4_C,gap_final,in_band,ret_O_to_C,limit_fill,system_did
+AIFI,2.34,2.27-2.39,0.078,6/6,20/20,11072690,FAIL-mom,2.34,2.34,2.24,2.27,0.0,yes,-0.03,yes,BOUGHT@2.27
+GPIM,1.84,1.78-1.88,0.172,6/6,15/20,16255853,FAIL-liq,1.84,2.15,1.82,1.95,0.0,yes,0.06,yes,BOUGHTx2@1.83
+MMAT,5.69,5.52-5.80,0.27,6/6,14/20,546360,FAIL-liq,5.69,5.97,5.42,5.51,0.0,yes,-0.032,yes,SKIP-then-BOUGHTx2@5.69
+NCCW,7.2,6.98-7.34,-0.028,6/6,20/20,75589130,FAIL-mom,7.2,7.47,7.2,7.46,0.0,yes,0.036,yes,BOUGHT@7.03
+UEFM,509,493.73-519.18,0.111,6/6,20/20,4066433,PASS,509.97,514.59,500,506.51,0.0019,yes,-0.007,yes,SKIP-then-BOUGHTx2@509.97

@@ -1,0 +1,1 @@
+ALTER VIEW public.fill_analysis_v SET (security_invoker = on);

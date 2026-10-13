@@ -1,0 +1,2 @@
+ALTER TABLE public.stocks ADD COLUMN IF NOT EXISTS sharia_source TEXT;
+COMMENT ON COLUMN public.stocks.sharia_source IS 'egx33 = verified from official EGX 33 Shariah index; thndr_unverified = from Thndr broader list, needs manual review';

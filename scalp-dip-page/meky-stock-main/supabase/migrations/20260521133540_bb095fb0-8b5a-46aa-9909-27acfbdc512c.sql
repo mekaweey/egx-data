@@ -1,0 +1,36 @@
+ALTER TABLE public.stocks ADD COLUMN IF NOT EXISTS investing_slug TEXT;
+
+UPDATE public.stocks SET investing_slug = CASE symbol
+  WHEN 'COMI' THEN 'commercial-international-bank-(egypt)'
+  WHEN 'HRHO' THEN 'efg-hermes-holding-co'
+  WHEN 'EKHO' THEN 'egypt-kuwait-holding---egp'
+  WHEN 'EKHOA' THEN 'egypt-kuwait-holding---usd'
+  WHEN 'SWDY' THEN 'el-sewedy-electric'
+  WHEN 'ETEL' THEN 'telecom-egypt'
+  WHEN 'EAST' THEN 'eastern-co.'
+  WHEN 'TMGH' THEN 'talaat-moustafa'
+  WHEN 'PHDC' THEN 'palm-hills-developments'
+  WHEN 'HELI' THEN 'misr-helwan'
+  WHEN 'MNHD' THEN 'medinet-nasr-housing'
+  WHEN 'ORAS' THEN 'orascom-construction-plc'
+  WHEN 'ORWE' THEN 'oriental-weavers'
+  WHEN 'JUFO' THEN 'juhayna-food-industries'
+  WHEN 'EFIH' THEN 'efih'
+  WHEN 'FWRY' THEN 'fawry-for-banking-technology-and-electronic-payments-s.a.e'
+  WHEN 'CIEB' THEN 'credit-agricole-egypt-sae'
+  WHEN 'ADIB' THEN 'abu-dhabi-islamic-bank-egypt'
+  WHEN 'FAIT' THEN 'faisal-islamic-bank-of-egypt'
+  WHEN 'HDBK' THEN 'housing---development-bank'
+  WHEN 'SKPC' THEN 'sidi-kerir-petrochemicals'
+  WHEN 'AMOC' THEN 'alex-mineral-oils'
+  WHEN 'ABUK' THEN 'abou-kir-fertilizers'
+  WHEN 'MFPC' THEN 'misr-fertilizers-production-company-s.a.e'
+  WHEN 'ESRS' THEN 'ezz-steel-rebars'
+  WHEN 'OCDI' THEN 'six-of-october-development---investment'
+  WHEN 'EGCH' THEN 'egyptian-chemical-industries'
+  WHEN 'AUTO' THEN 'gb-auto'
+  WHEN 'CCAP' THEN 'qalaa-holdings-sae'
+  WHEN 'ISPH' THEN 'ibnsina-pharma'
+  ELSE investing_slug
+END
+WHERE symbol IN ('COMI','HRHO','EKHO','EKHOA','SWDY','ETEL','EAST','TMGH','PHDC','HELI','MNHD','ORAS','ORWE','JUFO','EFIH','FWRY','CIEB','ADIB','FAIT','HDBK','SKPC','AMOC','ABUK','MFPC','ESRS','OCDI','EGCH','AUTO','CCAP','ISPH');
