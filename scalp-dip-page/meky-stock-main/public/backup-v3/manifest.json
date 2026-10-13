@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "Thunder Live Ticks + Semi-Auto",
+  "version": "3.0.0",
+  "description": "Reads live EGX prices from Thunder, detects real fills, computes the closer of (strategy TP/SL) and (rescaled from your actual fill price), and either alerts you or auto-sells when TP/SL is hit.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://web.thndr.app/*",
+    "https://*.thndr.app/*",
+    "https://*.firebaseio.com/*",
+    "https://*.firebasedatabase.app/*",
+    "https://meky-stock.lovable.app/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Thunder Ticks"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.thndr.app/*",
+        "https://*.thndr.app/*",
+        "https://*.firebaseio.com/*",
+        "https://*.firebasedatabase.app/*"
+      ],
+      "js": [
+        "page-script.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true,
+      "match_about_blank": true,
+      "match_origin_as_fallback": true
+    },
+    {
+      "matches": [
+        "https://web.thndr.app/*",
+        "https://*.thndr.app/*",
+        "https://*.firebaseio.com/*",
+        "https://*.firebasedatabase.app/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": true,
+      "match_about_blank": true,
+      "match_origin_as_fallback": true
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "page-script.js"
+      ],
+      "matches": [
+        "https://web.thndr.app/*",
+        "https://*.thndr.app/*",
+        "https://*.firebaseio.com/*",
+        "https://*.firebasedatabase.app/*"
+      ]
+    }
+  ]
+}

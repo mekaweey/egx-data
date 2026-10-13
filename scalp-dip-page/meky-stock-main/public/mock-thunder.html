@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <title>Mock Thunder — Dry-Run Test</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "Segoe UI", "Cairo", system-ui, sans-serif;
+      background: #0b0b0c; color: #f3f4f6;
+      margin: 0; padding: 20px;
+      display: grid; grid-template-columns: 1fr 380px; gap: 20px;
+      min-height: 100vh;
+    }
+    .panel { background: #161618; border: 1px solid #2a2a2e; border-radius: 14px; padding: 18px; }
+    h1 { font-size: 18px; margin: 0 0 6px; }
+    h2 { font-size: 14px; margin: 0 0 12px; color: #a1a1aa; font-weight: 500; }
+    .row { display: flex; align-items: center; gap: 10px; margin: 10px 0; }
+    .label { font-size: 13px; color: #a1a1aa; min-width: 90px; }
+    .price-big { font-size: 42px; font-weight: 700; letter-spacing: -1px; }
+    .price-meta { color: #9ca3af; font-size: 13px; margin-top: 4px; }
+    .top-actions { display: flex; gap: 10px; margin-top: 16px; }
+    button {
+      font-family: inherit; font-size: 14px; cursor: pointer;
+      border-radius: 10px; padding: 10px 18px; border: 1px solid transparent;
+      transition: opacity .15s;
+    }
+    button:disabled { opacity: .4; cursor: not-allowed; }
+    .btn-buy   { background: #000; color: #fff; border-color: #000; min-width: 120px; }
+    .btn-sell  { background: transparent; color: #fff; border-color: #3f3f46; min-width: 120px; }
+    .btn-primary { background: #000; color: #fff; border-color: #000; width: 100%; padding: 14px; font-weight: 600; }
+    .btn-ghost   { background: transparent; color: #d4d4d8; border-color: #3f3f46; width: 100%; padding: 12px; }
+    .btn-max { background: #1f2937; color: #fff; border-color: #374151; padding: 8px 14px; font-size: 13px; }
+    input[type=number], input[type=text] {
+      width: 100%; padding: 10px 12px; font-size: 15px;
+      background: #0b0b0c; color: #fff; border: 1px solid #3f3f46; border-radius: 8px;
+      text-align: left; direction: ltr;
+    }
+    .dropdown { position: relative; }
+    .dropdown-trigger {
+      width: 100%; text-align: right; padding: 10px 12px;
+      background: #0b0b0c; border: 1px solid #3f3f46; border-radius: 8px;
+      color: #d4d4d8; font-size: 14px;
+    }
+    .dropdown-menu {
+      position: absolute; top: 110%; right: 0; left: 0;
+      background: #1f2024; border: 1px solid #3f3f46; border-radius: 8px;
+      padding: 6px; display: none; z-index: 10;
+    }
+    .dropdown-menu.open { display: block; }
+    .dropdown-item { padding: 10px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+    .dropdown-item:hover { background: #2a2a2e; }
+    .sidebar { background: #161618; border: 1px solid #2a2a2e; border-radius: 14px; padding: 18px; }
+    .sidebar.hidden { display: none; }
+    .sidebar-title { font-size: 16px; font-weight: 600; margin-bottom: 14px; }
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: none; align-items: center; justify-content: center; z-index: 100;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal {
+      background: #161618; border: 1px solid #2a2a2e; border-radius: 14px;
+      padding: 22px; max-width: 420px; width: 92%;
+    }
+    .tabs { display: flex; gap: 6px; background: #0b0b0c; padding: 4px; border-radius: 10px; margin-bottom: 12px; }
+    .tab { flex: 1; padding: 8px; text-align: center; border-radius: 8px; cursor: pointer; font-size: 13px; color: #9ca3af; }
+    .tab.active { background: #2a2a2e; color: #fff; }
+    .scenario-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .pill {
+      font-size: 12px; padding: 6px 10px; border-radius: 999px;
+      background: #2a2a2e; border: 1px solid #3f3f46; cursor: pointer;
+    }
+    .pill.active { background: #2563eb; border-color: #2563eb; }
+    .log {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 11.5px;
+      background: #0b0b0c; border: 1px solid #2a2a2e; border-radius: 8px;
+      padding: 10px; max-height: 280px; overflow: auto; line-height: 1.55;
+    }
+    .log .ts { color: #6b7280; }
+    .log .ok { color: #10b981; }
+    .log .warn { color: #f59e0b; }
+    .log .err  { color: #ef4444; }
+    .success-card { background: #0f3a1f; border: 1px solid #166534; color: #bbf7d0; padding: 16px; border-radius: 10px; text-align: center; }
+    .kbd { font-family: ui-monospace, monospace; background: #2a2a2e; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+    a { color: #60a5fa; }
+  </style>
+</head>
+<body>
+
+  <!-- LEFT: Asset page mimicking Thunder -->
+  <div class="panel">
+    <h1>TEST.CA · سهم وهمي للاختبار</h1>
+    <h2>صفحة محاكاة لـ Thunder (محلية فقط — مفيش اتصال حقيقي)</h2>
+
+    <div class="price-big" id="price">10.00</div>
+    <div class="price-meta">
+      آخر تحديث: <span id="lastTick">—</span> ·
+      السعر يتحدث كل <span id="tickRate">200</span>ms
+    </div>
+
+    <div class="top-actions">
+      <button class="btn-buy"  id="openBuy">شراء</button>
+      <button class="btn-sell" id="openSell">بيع</button>
+    </div>
+
+    <div style="margin-top: 22px; padding-top: 18px; border-top: 1px solid #2a2a2e;">
+      <h2 style="margin-bottom: 6px;">سيناريو السعر</h2>
+      <div class="scenario-pills" id="scenarios">
+        <span class="pill active" data-s="flat">سعر ثابت</span>
+        <span class="pill" data-s="up">صعود تدريجي (يضرب TP)</span>
+        <span class="pill" data-s="down">هبوط تدريجي (يضرب SL)</span>
+        <span class="pill" data-s="volatile">تذبذب عالي (slippage)</span>
+      </div>
+      <div class="price-meta" style="margin-top: 10px;">
+        السعر الحالي: <span id="curPrice">10.00</span> ·
+        البداية: <span id="startPrice">10.00</span> ·
+        TP: <span id="tpPrice">10.20 (+2%)</span> ·
+        SL: <span id="slPrice">9.90 (-1%)</span>
+      </div>
+      <button class="pill" id="resetScenario" style="margin-top: 10px;">إعادة تعيين</button>
+    </div>
+
+    <div style="margin-top: 22px;">
+      <h2>سجل الأحداث</h2>
+      <div class="log" id="log"></div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Sidebar (buy/sell form) -->
+  <div>
+    <div class="sidebar hidden" id="sidebar">
+      <div class="sidebar-title" id="sidebarTitle">شراء TEST</div>
+      <div class="price-meta" style="margin-bottom: 14px;">الرصيد المتاح: <b>50,000.00 جنيه</b></div>
+
+      <!-- SELL tabs (only shown when side=sell) -->
+      <div class="tabs hidden" id="sellTabs">
+        <div class="tab active" data-tab="shares">أسهم</div>
+        <div class="tab" data-tab="amount">مبلغ</div>
+      </div>
+
+      <div class="row" style="flex-direction: column; align-items: stretch;">
+        <div class="label">نوع الطلب</div>
+        <div class="dropdown" id="orderTypeDropdown">
+          <button class="dropdown-trigger" id="orderTypeTrigger">اختار</button>
+          <div class="dropdown-menu" id="orderTypeMenu">
+            <div class="dropdown-item" data-val="market">سعر السوق</div>
+            <div class="dropdown-item" data-val="limit">سعر محدد</div>
+            <div class="dropdown-item" data-val="advanced">طلبات متقدمة</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="flex-direction: column; align-items: stretch;">
+        <div class="label">الكمية</div>
+        <input type="number" id="qtyInput" placeholder="0" min="0" step="1" />
+        <button class="btn-max hidden" id="maxBtn" style="margin-top: 8px; align-self: flex-end;">الحد الأقصى</button>
+      </div>
+
+      <div class="price-meta" id="estTotal">المجموع التقديري: —</div>
+
+      <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 8px;">
+        <button class="btn-primary" id="reviewBtn" disabled>مراجعة الطلب</button>
+        <button class="btn-ghost"   id="cancelBtn">إلغاء الطلب</button>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top: 16px;">
+      <h2 style="margin: 0 0 8px;">ملاحظات للاختبار</h2>
+      <div style="font-size: 12.5px; color: #a1a1aa; line-height: 1.7;">
+        • الصفحة محلية بالكامل — مفيش أي اتصال بثاندر.<br/>
+        • زرار <span class="kbd">أكد الطلب</span> النهائي بيظهر في مودال — لو حد ضغطه بيسجل في السجل بس مفيش أي شراء حقيقي.<br/>
+        • السعر بيتحرك حسب السيناريو المختار.<br/>
+        • في المرحلة القادمة هنوصل الـ Extension يشتغل على الصفحة دي ونقيس التوقيتات.
+      </div>
+    </div>
+  </div>
+
+  <!-- Review modal -->
+  <div class="modal-backdrop" id="reviewModal">
+    <div class="modal">
+      <div class="sidebar-title" id="reviewTitle">شراء TEST</div>
+      <div class="price-meta" style="background:#1e3a8a;color:#bfdbfe;padding:8px;border-radius:6px;margin-bottom:12px;font-size:12px;">
+        تبقى لديك عملية تداول مجانية
+      </div>
+      <div id="reviewSummary" style="font-size:14px;line-height:1.9;color:#d4d4d8;"></div>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:8px;">
+        <button class="btn-primary" id="confirmBtn">أكد الطلب</button>
+        <button class="btn-ghost"   id="cancelReviewBtn">إلغاء الطلب</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success modal -->
+  <div class="modal-backdrop" id="successModal">
+    <div class="modal">
+      <div class="success-card">
+        <div style="font-size:20px;margin-bottom:8px;">✓ تم إرسال الطلب بنجاح!</div>
+        <div style="font-size:12px;opacity:.8;">(محاكاة — مفيش شراء حقيقي)</div>
+      </div>
+      <button class="btn-primary" id="doneBtn" style="margin-top:14px;">تم!</button>
+    </div>
+  </div>
+
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const log = (msg, cls = "") => {
+    const el = $("log");
+    const t = new Date().toISOString().slice(11, 23);
+    el.innerHTML = `<div><span class="ts">${t}</span> <span class="${cls}">${msg}</span></div>` + el.innerHTML;
+  };
+
+  // ---------- Price engine ----------
+  const TICK_MS = 200;
+  const START = 10.00;
+  let price = START;
+  let scenario = "flat";
+  let scenarioStartedAt = Date.now();
+  const TP_PCT = 0.02;
+  const SL_PCT = -0.01;
+  const tp = +(START * (1 + TP_PCT)).toFixed(2);
+  const sl = +(START * (1 + SL_PCT)).toFixed(2);
+  $("tpPrice").textContent = `${tp.toFixed(2)} (+2%)`;
+  $("slPrice").textContent = `${sl.toFixed(2)} (-1%)`;
+  $("startPrice").textContent = START.toFixed(2);
+
+  function nextPrice() {
+    const elapsedSec = (Date.now() - scenarioStartedAt) / 1000;
+    let next = price;
+    if (scenario === "flat") {
+      next = START + (Math.random() - 0.5) * 0.01;        // ±0.5 piaster jitter
+    } else if (scenario === "up") {
+      // climb +2% over ~20s
+      next = START * (1 + Math.min(0.025, elapsedSec * 0.0012)) + (Math.random() - 0.5) * 0.005;
+    } else if (scenario === "down") {
+      next = START * (1 - Math.min(0.015, elapsedSec * 0.0008)) + (Math.random() - 0.5) * 0.005;
+    } else if (scenario === "volatile") {
+      next = price + (Math.random() - 0.5) * 0.08;
+      // mean-revert
+      next += (START - price) * 0.05;
+    }
+    price = +next.toFixed(2);
+  }
+
+  setInterval(() => {
+    nextPrice();
+    $("price").textContent = price.toFixed(2);
+    $("curPrice").textContent = price.toFixed(2);
+    $("lastTick").textContent = new Date().toISOString().slice(11, 19);
+    updateEstTotal();
+    // expose for the extension/test harness
+    window.__mockThunderTick = { price, ts: Date.now(), tp, sl };
+    window.dispatchEvent(new CustomEvent("mock-tick", { detail: window.__mockThunderTick }));
+  }, TICK_MS);
+
+  // Scenario pills
+  $("scenarios").addEventListener("click", (e) => {
+    const pill = e.target.closest(".pill");
+    if (!pill) return;
+    document.querySelectorAll("#scenarios .pill").forEach((p) => p.classList.remove("active"));
+    pill.classList.add("active");
+    scenario = pill.dataset.s;
+    scenarioStartedAt = Date.now();
+    log(`السيناريو: ${pill.textContent}`, "warn");
+  });
+  $("resetScenario").addEventListener("click", () => {
+    price = START;
+    scenarioStartedAt = Date.now();
+    log("تم إعادة تعيين السعر", "warn");
+  });
+
+  // ---------- Sidebar (buy/sell form) ----------
+  let currentSide = null; // "buy" | "sell"
+  let orderType = null;
+  let sellTab = "shares";
+
+  function openSidebar(side) {
+    currentSide = side;
+    orderType = null;
+    $("orderTypeTrigger").textContent = "اختار";
+    $("qtyInput").value = "";
+    $("reviewBtn").disabled = true;
+    $("sidebarTitle").textContent = side === "buy" ? "شراء TEST" : "بيع TEST";
+    $("sidebar").classList.remove("hidden");
+    $("sellTabs").classList.toggle("hidden", side !== "sell");
+    $("maxBtn").classList.toggle("hidden", side !== "sell");
+    log(`فتح فورم ${side === "buy" ? "شراء" : "بيع"} عند السعر ${price.toFixed(2)}`, "ok");
+    window.__mockThunderEvent = { kind: "sidebar_opened", side, price, ts: Date.now() };
+    window.dispatchEvent(new CustomEvent("mock-event", { detail: window.__mockThunderEvent }));
+  }
+
+  $("openBuy").addEventListener("click", () => openSidebar("buy"));
+  $("openSell").addEventListener("click", () => openSidebar("sell"));
+  $("cancelBtn").addEventListener("click", () => {
+    $("sidebar").classList.add("hidden");
+    log("إلغاء الفورم", "warn");
+  });
+
+  // Dropdown
+  $("orderTypeTrigger").addEventListener("click", () => {
+    $("orderTypeMenu").classList.toggle("open");
+  });
+  $("orderTypeMenu").addEventListener("click", (e) => {
+    const item = e.target.closest(".dropdown-item");
+    if (!item) return;
+    orderType = item.dataset.val;
+    $("orderTypeTrigger").textContent = item.textContent;
+    $("orderTypeMenu").classList.remove("open");
+    checkReadyToReview();
+    log(`اختار نوع الطلب: ${item.textContent}`, "ok");
+  });
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("#orderTypeDropdown")) $("orderTypeMenu").classList.remove("open");
+  });
+
+  // Sell tabs
+  $("sellTabs").addEventListener("click", (e) => {
+    const t = e.target.closest(".tab");
+    if (!t) return;
+    document.querySelectorAll("#sellTabs .tab").forEach((x) => x.classList.remove("active"));
+    t.classList.add("active");
+    sellTab = t.dataset.tab;
+    log(`تبويب البيع: ${t.textContent}`, "ok");
+  });
+
+  // Max button (sell only)
+  $("maxBtn").addEventListener("click", () => {
+    $("qtyInput").value = "100";  // pretend the user owns 100 shares
+    checkReadyToReview();
+    log("ضغط الحد الأقصى (100 سهم)", "ok");
+  });
+
+  $("qtyInput").addEventListener("input", () => {
+    checkReadyToReview();
+    updateEstTotal();
+  });
+
+  function checkReadyToReview() {
+    const qty = +$("qtyInput").value;
+    $("reviewBtn").disabled = !(orderType && qty > 0);
+  }
+
+  function updateEstTotal() {
+    const qty = +$("qtyInput").value;
+    if (qty > 0) {
+      $("estTotal").textContent = `المجموع التقديري: ${(qty * price).toFixed(2)} جنيه`;
+    } else {
+      $("estTotal").textContent = "المجموع التقديري: —";
+    }
+  }
+
+  // Review → modal
+  $("reviewBtn").addEventListener("click", () => {
+    const qty = +$("qtyInput").value;
+    $("reviewTitle").textContent = currentSide === "buy" ? "شراء TEST" : "بيع TEST";
+    $("reviewSummary").innerHTML = `
+      <div>الكمية: <b>${qty} سهم</b> @ ${price.toFixed(2)} جنيه</div>
+      <div>نوع الطلب: <b>${$("orderTypeTrigger").textContent}</b></div>
+      <div>رسوم Thndr: <b>0.00 جنيه</b></div>
+      <div>المجموع التقديري: <b>${(qty * price).toFixed(2)} جنيه</b></div>
+    `;
+    $("reviewModal").classList.add("open");
+    log(`ضغط مراجعة الطلب (qty=${qty} @ ${price.toFixed(2)})`, "ok");
+    window.__mockThunderEvent = { kind: "review_shown", side: currentSide, qty, price, ts: Date.now() };
+    window.dispatchEvent(new CustomEvent("mock-event", { detail: window.__mockThunderEvent }));
+  });
+
+  $("cancelReviewBtn").addEventListener("click", () => $("reviewModal").classList.remove("open"));
+
+  $("confirmBtn").addEventListener("click", () => {
+    log("⚠️ ضغط أكد الطلب — محاكاة فقط، مفيش شراء حقيقي", "err");
+    $("reviewModal").classList.remove("open");
+    $("successModal").classList.add("open");
+    window.__mockThunderEvent = { kind: "order_confirmed", side: currentSide, ts: Date.now() };
+    window.dispatchEvent(new CustomEvent("mock-event", { detail: window.__mockThunderEvent }));
+  });
+
+  $("doneBtn").addEventListener("click", () => {
+    $("successModal").classList.remove("open");
+    $("sidebar").classList.add("hidden");
+  });
+
+  log("الصفحة جاهزة — اختار سيناريو ودوس شراء/بيع", "ok");
+})();
+</script>
+</body>
+</html>

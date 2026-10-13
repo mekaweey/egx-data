@@ -1,0 +1,284 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <title>Thunder Ticks + Semi-Auto</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; width: 340px; margin: 0; padding: 14px; background: #0f172a; color: #f1f5f9; }
+    h1 { font-size: 13px; margin: 0 0 6px; font-weight: 700; }
+    h2 { font-size: 12px; margin: 12px 0 6px; font-weight: 600; color: #cbd5e1; border-top: 1px solid #1e293b; padding-top: 10px; }
+    label { display: block; font-size: 11px; color: #94a3b8; margin: 8px 0 3px; }
+    input { width: 100%; box-sizing: border-box; padding: 6px 8px; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: #f1f5f9; font-size: 12px; direction: ltr; }
+    button { width: 100%; padding: 8px; margin-top: 8px; border-radius: 6px; border: 0; font-size: 12px; font-weight: 600; cursor: pointer; }
+    .save { background: #3b82f6; color: #fff; }
+    .toggle-on { background: #10b981; color: #fff; }
+    .toggle-off { background: #ef4444; color: #fff; }
+    .row { display: flex; justify-content: space-between; font-size: 11px; margin: 4px 0; color: #cbd5e1; }
+    .row b { color: #fff; }
+    .row b.tick { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; direction: ltr; text-align: left; }
+    .err { color: #fca5a5; font-size: 11px; margin-top: 6px; word-break: break-all; }
+    .ok { color: #86efac; }
+    .warn { background: #422006; color: #fde68a; padding: 8px; border-radius: 6px; font-size: 11px; margin-top: 8px; line-height: 1.5; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .save-mini { width: 100%; padding: 6px; margin-top: 4px; border-radius: 6px; border: 0; font-size: 11px; font-weight: 600; cursor: pointer; background: #3b82f6; color: #fff; }
+    .save-mini.saved { background: #10b981; }
+  </style>
+</head>
+<body>
+  <h1>Thunder Proactive — v4.5.0 (100% Coverage)</h1>
+
+  <h2>⚙️ الإعدادات الأساسية</h2>
+  <label>Ingest Token</label>
+  <input id="token" type="password" placeholder="THUNDER_INGEST_TOKEN" />
+
+  <label>Endpoint URL</label>
+  <input id="endpoint" type="text" placeholder="http://localhost:8090/api/public/hooks/thunder-ticks" />
+
+  <label>🔒 لينك صفحة قائمة المراقبة (مصدر الأسعار الوحيد)</label>
+  <input id="priceSourceUrl" type="text" placeholder="https://web.thndr.app/ar/watchlist" />
+  <div class="warn" style="background:#082f49;color:#bae6fd;margin-top:4px;font-size:10px;line-height:1.5">
+    الاكستنشن هتسحب الأسعار من التاب اللي URL بتاعها يبدأ بالـ link ده فقط.
+    لو فتحت تابات تانية لثاندر (شراء/بيع/أصل) مش هتأثر على مصدر الأسعار.
+    اتركه فاضي علشان تقبل أي تاب ثاندر (السلوك القديم).
+  </div>
+
+  <button id="save" class="save">حفظ</button>
+  <button id="toggle" class="toggle-on">شغّال ✓</button>
+
+  <h2>📊 Phase 1 — قراءة الأسعار</h2>
+  <div class="row"><span>أسهم متعرّف عليها</span><b id="mapped">0</b></div>
+  <div class="row"><span>ticks في الـ buffer</span><b id="buffered">0</b></div>
+  <div class="row"><span>JSONP calls (pRTLPCB)</span><b id="jsonpCalls">0</b></div>
+  <div class="row"><span>JSONP فيها أسعار</span><b id="jsonpWithFeed">0</b></div>
+  <div class="row"><span>WebSocket رسائل</span><b id="wsMessages">0</b></div>
+  <div class="row"><span>WebSocket فيها أسعار</span><b id="wsWithFeed">0</b></div>
+  <div class="row"><span>CDP Frames</span><b id="cdpFrames">0</b></div>
+  <div class="row"><span>CDP Ticks</span><b id="cdpTicks">0</b></div>
+  <div class="row"><span>CDP Bid/Ask Quotes</span><b id="cdpQuotes">0</b></div>
+  <div class="row"><span>CDP L2 Snapshots</span><b id="cdpL2">0</b></div>
+  <div class="row"><span>Offscreen watchdog</span><b id="offscreenStatus">—</b></div>
+  <div class="row"><span>قراءة من الصفحة</span><b id="domTicks">0</b></div>
+  <div class="row"><span>حقن تلقائي في ثندر</span><b id="injectedTabs">0</b></div>
+  <div class="row"><span>Backend poll للأسعار</span><b id="backendPolls">0</b></div>
+  <div class="row"><span>Marketwatch volume</span><b id="mwStatus">Passive — يلتقط من شبكة ثاندر</b></div>
+  <div class="row"><span>أسهم snapshot</span><b id="mwAssets">0</b></div>
+  <div class="row"><span>آخر سعر مقروء</span><b id="lastTick" class="tick">—</b></div>
+  <div class="row"><span>اتبعت للسيرفر</span><b id="sent" class="ok">0</b></div>
+  <div class="row"><span>اتسقط</span><b id="dropped">0</b></div>
+  <div class="row"><span>اتسقط من تابات تانية</span><b id="crossTabDropped">0</b></div>
+  <div class="row"><span>آخر flush</span><b id="lastFlush">—</b></div>
+  <div class="err" id="err"></div>
+
+  <h2>⚡ Phase 2 — Semi-Auto (تجهيز الطلب)</h2>
+  <div class="warn">
+    لما تطلع إشارة، الـ Extension هيفتح ثاندر، يختار "سعر السوق"، ويكتب الكمية —
+    <b>وانت اللي تضغط "مراجعة الطلب"</b>. مفيش تنفيذ تلقائي للنهاية.
+  </div>
+
+  <div class="grid2">
+    <div>
+      <label>مبلغ كل صفقة (ج.م)</label>
+      <input id="egpPerTrade" type="number" min="1000" step="100" />
+      <button id="saveEgp" class="save-mini" type="button">حفظ المبلغ</button>
+    </div>
+    <div>
+      <label>أقصى صفقات/يوم</label>
+      <input id="maxPerDay" type="number" min="1" max="50" />
+      <button id="saveMax" class="save-mini" type="button">حفظ العدد</button>
+    </div>
+  </div>
+
+  <label style="margin-top:10px">طريقة حساب عدد الأسهم للشراء</label>
+  <select id="qtyMode" style="width:100%;box-sizing:border-box;padding:6px 8px;border-radius:6px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:12px">
+    <option value="auto">تلقائي: المبلغ ÷ سعر السهم (الافتراضي)</option>
+    <option value="fixed">يدوي: عدد أسهم ثابت أحدده بنفسي</option>
+  </select>
+  <div id="fixedQtyWrap" style="display:none;margin-top:6px">
+    <label>عدد الأسهم الثابت</label>
+    <input id="fixedQty" type="number" min="1" step="1" />
+  </div>
+  <button id="saveQtyMode" class="save-mini" type="button">حفظ طريقة الحساب</button>
+
+  <label style="margin-top:10px">سلوك فتح ثاندر عند الإشارة</label>
+  <select id="alwaysNewTab" style="width:100%;box-sizing:border-box;padding:6px 8px;border-radius:6px;border:1px solid #334155;background:#1e293b;color:#f1f5f9;font-size:12px">
+    <option value="true">افتح تاب جديدة لكل إشارة دائماً ✓</option>
+  </select>
+  <button id="saveTabMode" class="save-mini" type="button">حفظ</button>
+
+  <button id="autoExecBtn" class="toggle-off">Semi-Auto: متوقف ✗</button>
+  <div class="warn" style="background:#14532d;color:#bbf7d0;margin-top:6px;font-size:10px;line-height:1.6">
+    ✅ الوضع الصارم: تجهيز الطلب فقط بدون الضغط على مراجعة الطلب. L2 قراءة فقط لو ثاندر جابه بنفسه.
+  </div>
+  <div class="warn" style="background:#14532d;color:#bbf7d0;margin-top:6px;font-size:10px;line-height:1.6">
+    🔒 v4.1.67: البيع التلقائي عبر API اتشال نهائياً. عند لمس الهدف أو وقف الخسارة بيوصلك تنبيه بس، وانت اللي تبيع يدوياً.
+  </div>
+
+  <div class="row" style="margin-top:10px"><span>⚡ Instant-Bracket (تحضير بيع limit فور الشراء)</span></div>
+  <button id="toggleInstantBracket" class="toggle-off" type="button">Instant-Bracket: متوقف ✗</button>
+  <div class="warn" style="background:#1e293b;color:#bae6fd;margin-top:6px;font-size:10px;line-height:1.6">
+    بمجرد تأكيد الشراء الحقيقي على ثاندر، الإكستنشن يفتح فوراً تاب بيع مُحضّرة عند سعر الهدف (limit، الطلبات المتقدمة + T0). أنت بتضغط "مراجعة" + "أكد الطلب" مرة واحدة، وبعدها ثاندر يمسك التنفيذ عند TP.
+  </div>
+  <button id="localTest" class="save">اختبار محلي بسهم من قائمة المراقبة</button>
+  <button id="localSellTest" class="save" style="background:#f59e0b">اختبر البيع (أسهم + الحد الأقصى)</button>
+  <button id="openTabTest" class="save" style="background:#0ea5e9">🧪 اختبار فتح تاب ثاندر فقط (Dry-Run)</button>
+  <div class="warn" style="background:#082f49;color:#bae6fd;margin-top:4px;font-size:10px">
+    بيفتح تاب جديدة في ثاندر لأول سهم في قائمة المراقبة بدون أي تعبئة. للتأكد إن الإشارات الحقيقية هتعرف تفتح تاب.
+  </div>
+
+  <div class="row" style="margin-top:8px"><span>صفقات اليوم</span><b id="executedToday">0</b></div>
+  <div class="row"><span>آخر poll للأوامر</span><b id="lastOrderPoll">—</b></div>
+  <div class="err" id="orderErr"></div>
+
+  <h2>🎨 v4 — وحدات إضافية</h2>
+  <div class="row"><span>الشاشة العائمة (Overlay)</span></div>
+  <button id="toggleOverlay" class="toggle-on" type="button">Overlay: شغّال ✓</button>
+
+  <div class="row" style="margin-top:8px"><span>CDP Debugger (متقدّم)</span></div>
+  <button id="toggleCdp" class="toggle-off" type="button">CDP: متوقف ✗</button>
+  <div class="warn" style="background:#422006;color:#fde68a;margin-top:6px;font-size:10px">
+    ⚠️ تفعيل CDP يعرض شريط أصفر "is being debugged" أعلى صفحة ثاندر. هذا طبيعي ولا يمكن إخفاؤه.
+    في v4.2.24: CDP يلتقط السعر + Bid/Ask لحظياً من Firebase، والـ Volume/L2 قراءة passive مع watchdog أذكى لقائمة المراقبة.
+  </div>
+  <button id="cdpAttach" class="save" style="background:#7c3aed;display:none">اتصل بتاب ثاندر</button>
+  <button id="cdpDetach" class="save" style="background:#64748b;display:none">قطع الاتصال</button>
+  <div class="err" id="cdpStatus"></div>
+
+  <div class="row" style="margin-top:8px"><span>L2 Auto-Cycle</span></div>
+  <button id="toggleL2Cycle" class="toggle-off" type="button" disabled>L2 Auto-Tabs: متوقف ✗</button>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;margin-top:6px;font-size:10px;line-height:1.6">
+    ممنوع فتح تابات L2 تلقائيًا. لو ثاندر جاب market-depth من لوحة L2 المفتوحة، الإكستنشن يخزنها فقط.
+  </div>
+
+  <h2>📊 تشخيص L2</h2>
+  <div class="warn" style="background:#082f49;color:#bae6fd;font-size:10px;line-height:1.6">
+    L2 passive فقط في v4.2.24: لا تابات تلقائية، لكن تظهر snapshots لو لوحة L2 مفتوحة وثاندر أرسل market-depth.
+  </div>
+  <button id="refreshDiag" class="save-mini" type="button" style="margin-top:6px">🔄 تحديث التشخيص</button>
+  <div id="diagSummary" style="margin-top:6px;font-size:11px;color:#cbd5e1"></div>
+  <div id="diagList" style="margin-top:6px;max-height:260px;overflow-y:auto;font-size:10px;font-family:monospace"></div>
+
+  <h2>📒 يوميات الصفقات (ربح كل صفقة + إجمالي اليوم)</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    كل صفقة شراء/بيع بتترصد تلقائياً من ثاندر. العمولة محسوبة بالمعادلة:
+    <b style="color:#fde68a">3 ج ثابت + 0.03% × القيمة</b> لكل اتجاه.
+    صافي الربح = (سعر البيع × الكمية − عمولة البيع) − (سعر الشراء × الكمية + عمولة الشراء).
+  </div>
+  <div id="journalSummary" style="margin-top:8px;padding:8px;background:#1e293b;border-radius:6px;font-size:11px">
+    <div class="row"><span>صفقات اليوم</span><b id="jCount">0</b></div>
+    <div class="row"><span>مفتوحة / مغلقة</span><b id="jOpenClosed">0 / 0</b></div>
+    <div class="row"><span>كاسبة / خاسرة</span><b id="jWinLoss">0 / 0</b></div>
+    <div class="row"><span>إجمالي العمولات</span><b id="jFees">0.00 ج</b></div>
+    <div class="row" style="margin-top:6px;border-top:1px solid #334155;padding-top:6px"><span>💰 صافي ربح/خسارة اليوم</span><b id="jRealised" style="font-size:14px">0.00 ج</b></div>
+  </div>
+  <div id="journalList" style="margin-top:8px;max-height:280px;overflow-y:auto;font-size:10px"></div>
+  <button id="refreshJournal" class="save-mini" type="button" style="margin-top:6px">🔄 تحديث</button>
+
+  <h2>🧪 محاكي السعر للتتبع (اختبار آمن)</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    للاختبار فقط على ثاندر الحقيقي والسوق مقفول. بيخلي خانة السعر تتحرك زي ما السعر اللحظي بيتغير.
+    <b style="color:#fde68a">مفيش أي ضغط على مراجعة/تأكيد</b> — مجرد كتابة في خانة السعر علشان تشوف التتبع بعينك.
+    ينتهي تلقائياً بعد 5 دقايق.
+  </div>
+  <div class="row" style="margin-top:8px">
+    <input id="simPrice" type="number" step="0.01" placeholder="السعر الوهمي (جنيه)" style="flex:1;padding:6px;border-radius:4px;border:1px solid #334155;background:#0f172a;color:#e2e8f0">
+  </div>
+  <button id="simStart" class="save-mini" type="button" style="margin-top:6px;background:#8b5cf6">▶️ ابدأ المحاكاة في تاب ثاندر النشطة</button>
+  <button id="simStop" class="save-mini" type="button" style="margin-top:6px;background:#ef4444">⏹ إلغاء المحاكاة</button>
+  <div class="err" id="simStatus"></div>
+
+  <h2>🧪 صفقة تجريبية (TP/SL Bars بدون شراء حقيقي)</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    بيحقن صفقة وهمية في القائمة العائمة بنفس شريطين TP/SL الحقيقيين.
+    استخدم محاكي السعر فوق علشان تحرّك السعر وتشوف الشريط يمتلي لحد "بيع الآن!".
+    <b style="color:#fde68a">مفيش أي شراء أو بيع حقيقي</b> — مجرد عرض. ينتهي بعد 15 دقيقة.
+  </div>
+  <div class="grid2" style="margin-top:6px">
+    <div>
+      <label>رمز السهم</label>
+      <input id="demoSymbol" type="text" placeholder="COMI" style="text-transform:uppercase" />
+    </div>
+    <div>
+      <label>سعر الدخول</label>
+      <input id="demoEntry" type="number" step="0.01" placeholder="40.00" />
+    </div>
+    <div>
+      <label>الهدف (TP)</label>
+      <input id="demoTp" type="number" step="0.01" placeholder="40.80" />
+    </div>
+    <div>
+      <label>وقف الخسارة (SL)</label>
+      <input id="demoSl" type="number" step="0.01" placeholder="39.80" />
+    </div>
+  </div>
+  <button id="demoStart" class="save-mini" type="button" style="margin-top:6px;background:#8b5cf6">▶️ ابدأ الصفقة التجريبية</button>
+  <button id="demoStop" class="save-mini" type="button" style="margin-top:6px;background:#ef4444">⏹ امسح الصفقة التجريبية</button>
+  <div class="err" id="demoStatus"></div>
+
+  <h2>🎯 جلسة التقاط FILLED (لاختبار حقيقي بسهم واحد)</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    لاختبار 100% يقين على صفقة حقيقية واحدة فقط.
+    بيفتح تاب ثاندر على السهم المختار + يبدأ تسجيل <b style="color:#fde68a">كل</b> ردود ثاندر
+    (orders/positions/portfolio) بكامل البودي والـ headers (مع تحرير تلقائي للتوكنات).
+    أنت تشتري سهم 1 + تبيع يدوي. الاكستنشن تلتقط كل حاجة.
+    مدة الجلسة: 20 دقيقة. التخزين محلي في جهازك فقط.
+  </div>
+  <label style="margin-top:6px">رمز السهم (الأرخص دلوقتي COPR ≈ 0.36 ج)</label>
+  <input id="capSymbol" type="text" value="COPR" style="text-transform:uppercase" />
+  <button id="capStart" class="save-mini" type="button" style="margin-top:6px;background:#10b981">▶️ ابدأ الجلسة (افتح السهم + ابدأ التسجيل)</button>
+  <button id="capStop" class="save-mini" type="button" style="margin-top:6px;background:#ef4444">⏹ أوقف الجلسة</button>
+  <button id="capExport" class="save-mini" type="button" style="margin-top:6px;background:#3b82f6">📥 صدّر JSON كامل (محرّر)</button>
+  <button id="capClear" class="save-mini" type="button" style="margin-top:6px;background:#64748b">🗑 امسح اللقطات</button>
+  <div id="capStatus" style="margin-top:8px;padding:8px;background:#1e293b;border-radius:6px;font-size:11px;line-height:1.7">
+    <div class="row"><span>الحالة</span><b id="capActive">متوقفة</b></div>
+    <div class="row"><span>السهم</span><b id="capSym">—</b></div>
+    <div class="row"><span>الأحداث الملتقطة</span><b id="capCount">0</b></div>
+    <div class="row"><span>POST /orders</span><b id="capOrdersPost">0</b></div>
+    <div class="row"><span>GET /orders</span><b id="capOrdersGet">0</b></div>
+    <div class="row"><span>/positions</span><b id="capPositions">0</b></div>
+    <div class="row"><span>/portfolio · /accounts</span><b id="capPortfolio">0</b></div>
+    <div class="row"><span>آخر حدث</span><b id="capLast">—</b></div>
+    <div class="row"><span>تنتهي خلال</span><b id="capExpires">—</b></div>
+  </div>
+  <div class="err" id="capErr"></div>
+
+  <h2>🔎 اختبار تغطية Marketwatch</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    طلب واحد فقط من تاب ثاندر X المسجّل دخولها. يعمل بعد الإغلاق، لا يرسل البيانات للسيرفر ولا يغيّر التجميع الطبيعي.
+  </div>
+  <button id="mwDiagRun" class="save-mini" type="button" style="margin-top:6px;background:#0ea5e9">اختبر الآن</button>
+  <div id="mwDiagBox" style="margin-top:8px;padding:8px;background:#1e293b;border-radius:6px;font-size:11px;line-height:1.7">
+    <div class="row"><span>HTTP / الزمن</span><b id="mwdHttp">—</b></div>
+    <div class="row"><span>أسهم الرد / المقروءة</span><b id="mwdAssets">—</b></div>
+    <div class="row"><span>Price / Volume / Trades</span><b id="mwdCore">—</b></div>
+    <div class="row"><span>Bid / Ask</span><b id="mwdBook">—</b></div>
+    <div class="row"><span>BidQty / AskQty</span><b id="mwdQty">—</b></div>
+    <div class="row"><span>High / Low</span><b id="mwdRange">—</b></div>
+  </div>
+  <div id="mwDiagVerdict" style="margin-top:6px;font-size:11px;line-height:1.6"></div>
+
+
+  <h2>🧪 اختبار "التاب مش بتنام" (مؤكد بالقياس)</h2>
+  <div class="warn" style="background:#1e293b;color:#94a3b8;font-size:10px;line-height:1.6">
+    شغّل الاختبار وبعدها <b style="color:#fde68a">سيب تاب ثاندر أكس في الخلفية</b> واشتغل عادي.
+    الإكستنشن بتقيس كل ثانية: انحراف المؤقّت (كروم بيخنق تابات الخلفية لتيك/دقيقة)،
+    هل الصفحة شايفة نفسها focused، وهل حصل freeze/discard. مفيش تخمين — أرقام فقط.
+  </div>
+  <label>مدة الاختبار (دقيقة)</label>
+  <input id="bgProofMin" type="number" min="1" max="30" value="5" />
+  <button id="bgProofStart" class="save-mini" type="button" style="margin-top:6px;background:#10b981">▶️ ابدأ الاختبار</button>
+  <button id="bgProofClear" class="save-mini" type="button" style="margin-top:6px;background:#64748b">🗑 مسح النتيجة</button>
+  <div id="bgProofBox" style="margin-top:8px;padding:8px;background:#1e293b;border-radius:6px;font-size:11px;line-height:1.7">
+    <div class="row"><span>الحالة</span><b id="bpState">لم يبدأ</b></div>
+    <div class="row"><span>focus emulation</span><b id="bpFocus">—</b></div>
+    <div class="row"><span>ثواني في الخلفية</span><b id="bpHidden">0</b></div>
+    <div class="row"><span>تيكات / متوقّع</span><b id="bpTicks">0 / 0</b></div>
+    <div class="row"><span>أكبر فجوة مؤقّت</span><b id="bpGap">—</b></div>
+    <div class="row"><span>freeze / discard</span><b id="bpFreeze">0 / لا</b></div>
+    <div class="row"><span>requests من الصفحة</span><b id="bpNet">0</b></div>
+    <div class="row"><span>CDP frames خلال الاختبار</span><b id="bpFrames">0</b></div>
+  </div>
+  <div id="bpVerdict" style="margin-top:6px;font-size:11px;line-height:1.6"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
