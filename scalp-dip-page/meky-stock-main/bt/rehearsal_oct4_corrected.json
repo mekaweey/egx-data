@@ -1,0 +1,22 @@
+{
+  "when": "2026-10-03T21:38:20.250Z",
+  "candidates": [
+    {
+      "symbol": "GPIM",
+      "mom5": 17.2,
+      "v20": 28775571,
+      "close": 1.84,
+      "lastDate": "2026-10-01",
+      "spanD": 7
+    },
+    {
+      "symbol": "UEFM",
+      "mom5": 11.1,
+      "v20": 4066433,
+      "close": 509,
+      "lastDate": "2026-10-01",
+      "spanD": 7
+    }
+  ],
+  "rejectedCount": 85
+}
