@@ -1,0 +1,8 @@
+2026-10-03T22:21:13.161Z WS BURST TEST: ~25s streaming (dry-run, no DB)
+2026-10-03T22:21:13.607Z symbols: 296
+2026-10-03T22:21:14.079Z WS CONNECTED, streaming...
+2026-10-03T22:21:39.091Z BURST DONE: wall=25.5s symbols=296 ticksIn=296 dbWrites=0 snapshots=0
+2026-10-03T22:21:46.375Z WS BURST TEST: ~8s streaming
+2026-10-03T22:21:46.624Z symbols: 296
+2026-10-03T22:21:47.094Z WS CONNECTED, streaming...
+2026-10-03T22:21:55.110Z BURST DONE: wall=8.5s symbols=296 ticksIn=296 dbWrites=296 snapshots=0

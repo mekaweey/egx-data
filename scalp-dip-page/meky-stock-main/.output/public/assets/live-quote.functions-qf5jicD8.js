@@ -1,0 +1,1 @@
+import{c as e,a}from"./index-B5-eQYsV.js";const c=e({method:"GET"}).handler(a("a0f88cdb691910792e5ff92c10d3682aabad833482cc13bf7dad52d831f06357")),t=e({method:"POST"}).handler(a("7edf0edde40b0f1612d8ec3843c45c71b3276755691ee91223ab77f16f68441b"));export{c as a,t as g};

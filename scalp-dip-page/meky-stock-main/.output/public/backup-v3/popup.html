@@ -1,0 +1,43 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <title>Thunder Ticks v3.0</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; width: 340px; margin: 0; padding: 14px; background: #0f172a; color: #f1f5f9; }
+    h1 { font-size: 13px; margin: 0 0 6px; font-weight: 700; }
+    h2 { font-size: 12px; margin: 12px 0 6px; font-weight: 600; color: #cbd5e1; border-top: 1px solid #1e293b; padding-top: 10px; }
+    label { display: block; font-size: 11px; color: #94a3b8; margin: 8px 0 3px; }
+    input, textarea { width: 100%; box-sizing: border-box; padding: 6px 8px; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: #f1f5f9; font-size: 12px; direction: ltr; }
+    button { width: 100%; padding: 8px; margin-top: 8px; border-radius: 6px; border: 0; font-size: 12px; font-weight: 600; cursor: pointer; }
+    .save { background: #3b82f6; color: #fff; }
+    .toggle-on { background: #10b981; color: #fff; }
+    .toggle-off { background: #ef4444; color: #fff; }
+    .row { display: flex; justify-content: space-between; font-size: 11px; margin: 4px 0; color: #cbd5e1; }
+    .row b { color: #fff; }
+    .ok { color: #86efac; }
+    .err { color: #fca5a5; font-size: 11px; margin-top: 6px; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <h1>Thunder Proactive v3.0</h1>
+
+  <h2>⚙️ الإعدادات</h2>
+  <label>Ingest Token</label>
+  <input id="token" type="password" placeholder="TOKEN" />
+  
+  <label>قائمة المراقبة (Asset IDs مفصولة بفواصل)</label>
+  <textarea id="watchlist" rows="3" placeholder="123, 456, 789"></textarea>
+  
+  <button id="save" class="save">حفظ</button>
+  <button id="toggle" class="toggle-on">شغّال ✓</button>
+
+  <h2>📊 الإحصائيات</h2>
+  <div class="row"><span>Watchlist Count</span><b id="wCount">0</b></div>
+  <div class="row"><span>Sent to Server</span><b id="sent">0</b></div>
+  <div class="row"><span>آخر Marketwatch</span><b id="mwTime">—</b></div>
+  <div class="err" id="err"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

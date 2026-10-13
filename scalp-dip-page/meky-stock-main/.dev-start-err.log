@@ -1,0 +1,1532 @@
+$ vite dev
+[2m7:35:48 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:35:48 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:35:48 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:35:48 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:35:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:35:49 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:35:50 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m7:35:50 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m7:35:51 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts:20:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts[39m
+[2m7:35:52 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts:25:40 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts[39m
+[2m7:42:52 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m7:42:53 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:42:55 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m9:16:20 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: [33mDuplicate key "mode" in object literal[33m
+28 |  
+29 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+30 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+   |  ^
+31 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+32 |  });
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts[39m
+[2m9:16:20 AM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: [33mDuplicate key "mode" in object literal[33m
+29 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+30 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+31 |  mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),
+   |  ^
+32 |  });
+33 |  
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts[39m
+Error: Error transforming route file D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts: SyntaxError: Unexpected token, expected "," (98:14)
+    at file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/router-generator/dist/esm/generator.js:143:13
+    at async generate (file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:39:4)
+    at async PluginContext.watchChange (file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/router-plugin/dist/esm/core/router-generator-plugin.js:49:4)
+    at async Promise.all (index 2)
+    at async EnvironmentPluginContainer.hookParallel (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/chunks/config.js:28665:3)
+    at async EnvironmentPluginContainer.watchChange (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/chunks/config.js:28825:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/chunks/config.js:25582:3)
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+SyntaxError: Unexpected token, expected "," (98:14)
+    at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+    ... 48 lines matching cause stack trace ...
+    at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+  cause: Error [SyntaxError]: Unexpected token, expected "," (98:14)
+      at constructor (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.unexpected (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6619:16)
+      at TypeScriptParserMixin.expect (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:6899:12)
+      at TypeScriptParserMixin.parseObjectLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11822:14)
+      at TypeScriptParserMixin.parseExprAtom (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11339:23)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12426:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10800:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12493:17)
+      at TypeScriptParserMixin.parseExprListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12175:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11252:22)
+      at TypeScriptParserMixin.parseCoverCallAndAsyncArrowHead (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11186:29)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11120:19)
+      at TypeScriptParserMixin.parseSubscript (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9272:18)
+      at TypeScriptParserMixin.parseSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11094:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11085:17)
+      at TypeScriptParserMixin.parseUpdate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10831:21)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9786:20)
+      at TypeScriptParserMixin.parseExpressionBase (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseReturnStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13142:28)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12798:21)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseStatementListItem (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12747:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13316:61)
+      at TypeScriptParserMixin.parseBlockBody (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseBlock (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13297:10)
+      at D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:72
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12403:14)
+      at TypeScriptParserMixin.parseTryStatement (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:13218:26)
+      at TypeScriptParserMixin.parseStatementContent (D:\meky-stock-main\meky-stock-main\node_modules\@babel\parser\lib\index.js:12804:21) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: Position { line: 98, column: 14, index: 3143 },
+    pos: 3143,
+    syntaxPlugin: undefined,
+    plugin: 'tanstack-router:code-splitter:compile-reference-file',
+    id: 'D:/meky-stock-main/meky-stock-main/src/routes/api/public/hooks/export-history.ts',
+    pluginCode: 'import { createFileRoute } from "@tanstack/react-router";\n' +
+      'import { z } from "zod";\n' +
+      'import {\n' +
+      '  isLocalRuntime,\n' +
+      '  runExport,\n' +
+      '  type ExportResult,\n' +
+      '} from "@/lib/history-export.server";\n' +
+      '\n' +
+      '/**\n' +
+      ' * Local-only historical export hook used by the marketwatch-health page.\n' +
+      ' * All Supabase access inside runExport() is read-only SELECT; the only writes\n' +
+      ' * are new cache partition files (never overwrite) and the browser-side save.\n' +
+      ' */\n' +
+      '\n' +
+      'const ALLOWED = [\n' +
+      '  "live_ticks",\n' +
+      '  "marketwatch_snapshots",\n' +
+      '  "orderbook_snapshots",\n' +
+      '  "live_quotes",\n' +
+      '  "smart_exit_log",\n' +
+      '  "thunder_auth_events",\n' +
+      '];\n' +
+      '\n' +
+      'const BodySchema = z.object({\n' +
+      '  tables: z.array(z.string().trim().min(1)).min(1).max(10),\n' +
+      '  start: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '  end: z.string().regex(/^\\d{4}-\\d{2}-\\d{2}$/),\n' +
+      '\n' +
+      'mode: z.union([z.literal("separate"), z.literal("unified")]).default("separate"),\n' +
+      '});\n' +
+      '\n' +
+      'function json(body: unknown, status = 200): Response {\n' +
+      '  return new Response(JSON.stringify(body), {\n' +
+      '    status,\n' +
+      '    headers: { "Content-Type": "application/json" },\n' +
+      '  });\n' +
+      '}\n' +
+      '\n' +
+      'export const Route = createFileRoute("/api/public/hooks/export-history")({\n' +
+      '  server: {\n' +
+      '    handlers: {\n' +
+      '      OPTIONS: async () => new Response(null, { status: 204 }),\n' +
+      '      GET: async () => {\n' +
+      '        const local = await isLocalRuntime();\n' +
+      '        return json({ local, reason: local ? null : "PROD" });\n' +
+      '      },\n' +
+      '      POST: async ({ request }) => {\n' +
+      '        try {\n' +
+      '          // Tell the client clearly if this is running on production (not local).\n' +
+      '          const local = await isLocalRuntime();\n' +
+      '          if (!local) {\n' +
+      '            return json(\n' +
+      '              { ok: false, local: false, reason: "PROD" },\n' +
+      '              200,\n' +
+      '            );\n' +
+      '          }\n' +
+      '\n' +
+      '          let raw: unknown;\n' +
+      '          try {\n' +
+      '            raw = await request.json();\n' +
+      '          } catch {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_JSON" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const parsed = BodySchema.safeParse(raw);\n' +
+      '          if (!parsed.success) {\n' +
+      '            return json({ ok: false, local: true, reason: "BAD_BODY" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          // Resolve "all" (expand) before running, keeping only allowed tables.\n' +
+      '          const set = new Set<string>();\n' +
+      '          for (const t of parsed.data.tables) {\n' +
+      '            if (t.toLowerCase() === "all") {\n' +
+      '              for (const a of ALLOWED) set.add(a);\n' +
+      '            } else if (ALLOWED.includes(t)) {\n' +
+      '              set.add(t);\n' +
+      '            }\n' +
+      '          }\n' +
+      '          const tables = ALLOWED.filter((t) => set.has(t));\n' +
+      '          if (tables.length === 0) {\n' +
+      '            return json({ ok: false, local: true, reason: "NO_TABLE" }, 400);\n' +
+      '          }\n' +
+      '\n' +
+      '          const result = await runExport(\n' +
+      '            { tables, start: parsed.data.start, end: parsed.data.end, mode: parsed.data.mode },\n' +
+      '            undefined,\n' +
+      '          );\n' +
+      '          return json(result, 200);\n' +
+      '        } catch (e) {\n' +
+      '          // NEVER let an unhandled exception bubble up into an HTML error page.\n' +
+      '          // Always return valid JSON with a readable message.\n' +
+      '          console.error("[export-history] handler error:", e);\n' +
+      '          return json(\n' +
+      '            {\n' +
+      '              ok: false,\n' +
+      '              local: true,\n' +
+      'TEST\n' +
+      '              reason: "INTERNAL",\n' +
+      '              errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '            },\n' +
+      '            200,\n' +
+      '          );\n' +
+      '        }\n' +
+      '      },\n' +
+      '    },\n' +
+      '  },\n' +
+      '});',
+    frame: '96 |                local: true,\n' +
+      '97 |  TEST\n' +
+      '98 |                reason: "INTERNAL",\n' +
+      '   |                ^\n' +
+      '99 |                errorMessage: String((e as Error)?.message || e).slice(0, 300),\n' +
+      '100|              },',
+    runnerError: Error: RunnerError
+        at reviveInvokeError (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:476:64)
+        at Object.invoke (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:549:11)
+        at async ModuleRunner.getModuleInformation (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1086:7)
+        at async request (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1103:83)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\routeTree.gen.ts:71:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async eval (D:\meky-stock-main\meky-stock-main\src\router.tsx:3:1)
+        at async ESModulesEvaluator.runInlinedModule (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:913:3)
+        at async ModuleRunner.directRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1146:59)
+        at async ModuleRunner.cachedRequest (file:///D:/meky-stock-main/meky-stock-main/node_modules/vite/dist/node/module-runner.js:1053:73)
+        at async Promise.all (index 0)
+        at async loadEntries (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:115:53)
+        at async startRequestResolver (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\start-server-core\src\createStartHandler.ts:418:23)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\node_modules\@tanstack\react-start\src\default-entry\server.ts:16:14)
+        at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:82:24)
+        at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36
+  },
+  status: 500,
+  statusText: undefined,
+  headers: undefined,
+  data: undefined,
+  body: undefined,
+  unhandled: true
+}
+Error: h3 swallowed SSR error: {"status":500,"unhandled":true,"message":"HTTPError"}
+    at normalizeCatastrophicSsrResponse (D:\meky-stock-main\meky-stock-main\src\server.ts:65:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.fetch (D:\meky-stock-main\meky-stock-main\src\server.ts:83:14)
+    at async file:///D:/meky-stock-main/meky-stock-main/node_modules/@tanstack/start-plugin-core/dist/esm/vite/dev-server-plugin/plugin.js:79:36

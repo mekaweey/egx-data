@@ -1,0 +1,138 @@
+[2m7:03:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m19630[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8090[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.102:[1m8090[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.128.1:[1m8090[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[vite] connected.
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:04:08 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:04:09 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m7:04:09 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m7:04:10 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts:20:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/backtest/walk-forward.functions.ts[39m
+[2m7:04:12 PM[22m [33m[1m[vite][22m[39m [33m[2m(ssr)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts:25:40 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:ssr[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/scalp-feasibility/compute.functions.ts[39m
+[2m7:16:26 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m7:16:26 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m7:16:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ new dependencies optimized: [33m@tanstack/router-core/isServer, @tanstack/router-core/ssr/client, @tanstack/router-core, seroval[32m[39m
+[2m7:16:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m7:16:28 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:40:36 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:16:28 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts:96:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/hybrid/deep-analysis.functions.ts[39m
+[2m7:16:30 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx:116:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp.tsx[39m
+[2m7:16:31 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx:37:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/routes/scalp-feasibility.tsx[39m
+[2m7:16:32 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:136:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:16:32 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:211:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:16:32 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:247:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+[2m7:16:32 PM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: D:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts:259:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.[39m
+  Plugin: [35mtanstack-start-core::server-fn:client[39m
+  File: [36mD:/meky-stock-main/meky-stock-main/src/lib/positions/positions.functions.ts[39m
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m7:23:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css?direct[22m
+[2m7:23:50 PM[22m [36m[1m[vite][22m[39m [34m[2m(ssr)[22m[39m [32mpage reload [39m[2msrc/routes/api/public/hooks/market-state.ts[22m
+[vite] program reload
+TanStack Start server functions are not protected by the CSRF middleware.
+
+Server functions are same-origin RPC endpoints and should be protected from cross-site requests.
+
+Add the CSRF middleware in src/start.ts:
+
+  const csrfMiddleware = createCsrfMiddleware({
+    filter: (ctx) => ctx.handlerType === 'serverFn',
+  })
+
+  export const startInstance = createStart(() => ({
+    requestMiddleware: [csrfMiddleware],
+  }))
+
+If you intentionally handle CSRF another way, disable this warning:
+
+  tanstackStart({
+    serverFns: {
+      disableCsrfMiddlewareWarning: true,
+    },
+  })
+[2m7:53:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/offscreen.html[22m
+[2m7:53:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/popup.html[22m
+[2m7:53:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/offscreen.html[22m
+[2m7:53:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/popup.html[22m
+[2m7:53:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/extension/offscreen.html[22m
+[2m7:53:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpublic/thunder-extension-v4/extension/popup.html[22m
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,199 @@
+[2026-09-03 20:38:41] ===== task started =====
+[2026-09-03 20:38:43] attempt 1 exit=0 secs=2 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-03 20:38:43] SUCCESS on attempt 1
+[2026-09-03 20:38:43] ===== task finished OK =====
+[2026-09-04 17:00:02] ===== task started =====
+[2026-09-04 17:00:02] attempt 1/3 starting
+[2026-09-04 17:00:05] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-04 17:00:05] SUCCESS on attempt 1
+[2026-09-04 17:00:05] ===== task finished OK =====
+[2026-09-05 17:00:03] ===== task started =====
+[2026-09-05 17:00:03] attempt 1/3 starting
+[2026-09-05 17:00:09] attempt 1 exit=0 secs=5 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-05 17:00:09] SUCCESS on attempt 1
+[2026-09-05 17:00:09] ===== task finished OK =====
+[2026-09-06 17:00:02] ===== task started =====
+[2026-09-06 17:00:02] attempt 1/3 starting
+[2026-09-06 17:00:08] attempt 1 exit=0 secs=6 tail: Gצי 3 Gצי live_quotes           Gצי 7884     Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-06 17:00:08] SUCCESS on attempt 1
+[2026-09-06 17:00:08] ===== task finished OK =====
+[2026-09-07 17:00:02] ===== task started =====
+[2026-09-07 17:00:02] attempt 1/3 starting
+[2026-09-07 17:02:40] attempt 1 exit=0 secs=158 tail: Gצי 3 Gצי live_quotes           Gצי 16671    Gצי 7884              Gצי 7884           Gצי 7884             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-07 17:02:40] SUCCESS on attempt 1
+[2026-09-07 17:02:40] ===== task finished OK =====
+[2026-09-08 17:00:03] ===== task started =====
+[2026-09-08 17:00:03] attempt 1/3 starting
+[2026-09-08 17:01:49] attempt 1 exit=0 secs=107 tail: Gצי 3 Gצי live_quotes           Gצי 19125    Gצי 8787              Gצי 0              Gצי 8787             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-08 17:01:49] SUCCESS on attempt 1
+[2026-09-08 17:01:49] ===== task finished OK =====
+[2026-09-09 17:00:03] ===== task started =====
+[2026-09-09 17:00:03] attempt 1/3 starting
+[2026-09-09 17:07:42] attempt 1 exit=0 secs=459 tail: Gצי 3 Gצי live_quotes           Gצי 19029    Gצי 10338             Gצי 10338          Gצי 10338            Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-09 17:07:42] SUCCESS on attempt 1
+[2026-09-09 17:07:42] ===== task finished OK =====
+[2026-09-10 17:00:04] ===== task started =====
+[2026-09-10 17:00:04] attempt 1/3 starting
+[2026-09-10 17:07:28] attempt 1 exit=0 secs=444 tail: Gצי 3 Gצי live_quotes           Gצי 15761    Gצי 8691              Gצי 8691           Gצי 8691             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-10 17:07:28] SUCCESS on attempt 1
+[2026-09-10 17:07:28] ===== task finished OK =====
+[2026-09-11 17:00:04] ===== task started =====
+[2026-09-11 17:00:04] attempt 1/3 starting
+[2026-09-11 17:02:20] attempt 1 exit=0 secs=136 tail: Gצי 3 Gצי live_quotes           Gצי 7070     Gצי 7070              Gצי 7070           Gצי 7070             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-11 17:02:20] SUCCESS on attempt 1
+[2026-09-11 17:02:20] ===== task finished OK =====
+[2026-09-12 17:00:03] ===== task started =====
+[2026-09-12 17:00:03] attempt 1/3 starting
+[2026-09-12 17:00:07] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-12 17:00:07] SUCCESS on attempt 1
+[2026-09-12 17:00:07] ===== task finished OK =====
+[2026-09-13 17:00:04] ===== task started =====
+[2026-09-13 17:00:04] attempt 1/3 starting
+[2026-09-13 17:00:11] attempt 1 exit=0 secs=7 tail: Gצי 3 Gצי live_quotes           Gצי 7818     Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-13 17:00:11] SUCCESS on attempt 1
+[2026-09-13 17:00:11] ===== task finished OK =====
+[2026-09-14 17:00:03] ===== task started =====
+[2026-09-14 17:00:03] attempt 1/3 starting
+[2026-09-14 17:01:09] attempt 1 exit=0 secs=66 tail: Gצי 3 Gצי live_quotes           Gצי 15681    Gצי 7818              Gצי 7818           Gצי 7818             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-14 17:01:09] SUCCESS on attempt 1
+[2026-09-14 17:01:09] ===== task finished OK =====
+[2026-09-15 17:00:02] ===== task started =====
+[2026-09-15 17:00:02] attempt 1/3 starting
+[2026-09-15 17:01:44] attempt 1 exit=0 secs=102 tail: Gצי 3 Gצי live_quotes           Gצי 16278    Gצי 7863              Gצי 7863           Gצי 7863             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-15 17:01:44] SUCCESS on attempt 1
+[2026-09-15 17:01:44] ===== task finished OK =====
+[2026-09-16 17:00:02] ===== task started =====
+[2026-09-16 17:00:02] attempt 1/3 starting
+[2026-09-16 17:03:07] attempt 1 exit=0 secs=185 tail: Gצי 3 Gצי live_quotes           Gצי 11350    Gצי 8415              Gצי 8415           Gצי 8415             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-16 17:03:07] SUCCESS on attempt 1
+[2026-09-16 17:03:07] ===== task finished OK =====
+[2026-09-17 17:00:02] ===== task started =====
+[2026-09-17 17:00:02] attempt 1/3 starting
+[2026-09-17 17:00:19] attempt 1 exit=0 secs=17 tail: Gצי 3 Gצי live_quotes           Gצי 10127    Gצי 2935              Gצי 2935           Gצי 2935             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-17 17:00:19] SUCCESS on attempt 1
+[2026-09-17 17:00:19] ===== task finished OK =====
+[2026-09-18 17:00:02] ===== task started =====
+[2026-09-18 17:00:02] attempt 1/3 starting
+[2026-09-18 17:02:12] attempt 1 exit=0 secs=130 tail: Gצי 3 Gצי live_quotes           Gצי 8026     Gצי 8026              Gצי 8026           Gצי 8026             Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-18 17:02:12] SUCCESS on attempt 1
+[2026-09-18 17:02:12] ===== task finished OK =====
+[2026-09-19 17:00:01] ===== task started =====
+[2026-09-19 17:00:01] attempt 1/3 starting
+[2026-09-19 17:00:06] attempt 1 exit=0 secs=5 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-19 17:00:06] SUCCESS on attempt 1
+[2026-09-19 17:00:06] ===== task finished OK =====
+[2026-09-20 17:00:02] ===== task started =====
+[2026-09-20 17:00:02] attempt 1/3 starting
+[2026-09-20 17:00:10] attempt 1 exit=0 secs=8 tail: Gצי 3 Gצי live_quotes           Gצי 207924   Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-20 17:00:10] SUCCESS on attempt 1
+[2026-09-20 17:00:10] ===== task finished OK =====
+[2026-09-21 17:00:03] ===== task started =====
+[2026-09-21 17:00:03] attempt 1/3 starting
+[2026-09-21 17:06:05] attempt 1 exit=0 secs=362 tail: Gצי 3 Gצי live_quotes           Gצי 207924   Gצי 207924            Gצי 207924         Gצי 207924           Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-21 17:06:05] SUCCESS on attempt 1
+[2026-09-21 17:06:05] ===== task finished OK =====
+[2026-09-22 17:00:02] ===== task started =====
+[2026-09-22 17:00:02] attempt 1/3 starting
+[2026-09-22 17:00:08] attempt 1 exit=0 secs=6 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-22 17:00:08] SUCCESS on attempt 1
+[2026-09-22 17:00:08] ===== task finished OK =====
+[2026-09-23 17:00:01] ===== task started =====
+[2026-09-23 17:00:01] attempt 1/3 starting
+[2026-09-23 17:00:04] attempt 1 exit=0 secs=2 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-23 17:00:04] SUCCESS on attempt 1
+[2026-09-23 17:00:04] ===== task finished OK =====
+[2026-09-24 17:00:02] ===== task started =====
+[2026-09-24 17:00:02] attempt 1/3 starting
+[2026-09-24 17:00:04] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-24 17:00:04] SUCCESS on attempt 1
+[2026-09-24 17:00:04] ===== task finished OK =====
+[2026-09-25 17:00:03] ===== task started =====
+[2026-09-25 17:00:03] attempt 1/3 starting
+[2026-09-25 17:00:06] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-25 17:00:06] SUCCESS on attempt 1
+[2026-09-25 17:00:06] ===== task finished OK =====
+[2026-09-26 17:00:02] ===== task started =====
+[2026-09-26 17:00:03] attempt 1/3 starting
+[2026-09-26 17:00:07] attempt 1 exit=0 secs=4 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-26 17:00:07] SUCCESS on attempt 1
+[2026-09-26 17:00:07] ===== task finished OK =====
+[2026-09-27 17:00:03] ===== task started =====
+[2026-09-27 17:00:03] attempt 1/3 starting
+[2026-09-27 17:00:06] attempt 1 exit=0 secs=4 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-27 17:00:06] SUCCESS on attempt 1
+[2026-09-27 17:00:06] ===== task finished OK =====
+[2026-09-28 17:00:02] ===== task started =====
+[2026-09-28 17:00:02] attempt 1/3 starting
+[2026-09-28 17:00:05] attempt 1 exit=0 secs=4 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-28 17:00:05] SUCCESS on attempt 1
+[2026-09-28 17:00:05] ===== task finished OK =====
+[2026-09-29 17:00:03] ===== task started =====
+[2026-09-29 17:00:03] attempt 1/3 starting
+[2026-09-29 17:00:06] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-29 17:00:06] SUCCESS on attempt 1
+[2026-09-29 17:00:06] ===== task finished OK =====
+[2026-09-30 17:00:03] ===== task started =====
+[2026-09-30 17:00:03] attempt 1/3 starting
+[2026-09-30 17:00:08] attempt 1 exit=0 secs=4 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-09-30 17:00:08] SUCCESS on attempt 1
+[2026-09-30 17:00:08] ===== task finished OK =====
+[2026-10-01 17:00:05] ===== task started =====
+[2026-10-01 17:00:05] attempt 1/3 starting
+[2026-10-01 17:00:15] attempt 1 exit=0 secs=9 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-01 17:00:15] SUCCESS on attempt 1
+[2026-10-01 17:00:15] ===== task finished OK =====
+[2026-10-02 17:00:02] ===== task started =====
+[2026-10-02 17:00:02] attempt 1/3 starting
+[2026-10-02 17:01:32] attempt 1 exit=0 secs=90 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-02 17:01:32] SUCCESS on attempt 1
+[2026-10-02 17:01:32] ===== task finished OK =====
+[2026-10-03 17:00:02] ===== task started =====
+[2026-10-03 17:00:02] attempt 1/3 starting
+[2026-10-03 17:00:05] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-03 17:00:05] SUCCESS on attempt 1
+[2026-10-03 17:00:05] ===== task finished OK =====
+[2026-10-04 17:00:02] ===== task started =====
+[2026-10-04 17:00:02] attempt 1/3 starting
+[2026-10-04 17:01:10] attempt 1 exit=0 secs=68 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-04 17:01:10] SUCCESS on attempt 1
+[2026-10-04 17:01:10] ===== task finished OK =====
+[2026-10-05 17:00:05] ===== task started =====
+[2026-10-05 17:00:05] attempt 1/3 starting
+[2026-10-05 17:00:12] attempt 1 exit=0 secs=7 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-05 17:00:12] SUCCESS on attempt 1
+[2026-10-05 17:00:12] ===== task finished OK =====
+[2026-10-06 17:00:03] ===== task started =====
+[2026-10-06 17:00:03] attempt 1/3 starting
+[2026-10-06 17:00:07] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-06 17:00:07] SUCCESS on attempt 1
+[2026-10-06 17:00:07] ===== task finished OK =====
+[2026-10-07 17:00:02] ===== task started =====
+[2026-10-07 17:00:02] attempt 1/3 starting
+[2026-10-07 17:00:04] attempt 1 exit=0 secs=3 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-07 17:00:04] SUCCESS on attempt 1
+[2026-10-07 17:00:04] ===== task finished OK =====
+[2026-10-08 17:00:03] ===== task started =====
+[2026-10-08 17:00:03] attempt 1/3 starting
+[2026-10-08 17:00:10] attempt 1 exit=0 secs=7 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-08 17:00:10] SUCCESS on attempt 1
+[2026-10-08 17:00:10] ===== task finished OK =====
+[2026-10-09 17:00:05] ===== task started =====
+[2026-10-09 17:00:05] attempt 1/3 starting
+[2026-10-09 17:00:20] attempt 1 exit=0 secs=14 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-09 17:00:20] SUCCESS on attempt 1
+[2026-10-09 17:00:20] ===== task finished OK =====
+[2026-10-10 17:00:04] ===== task started =====
+[2026-10-10 17:00:04] attempt 1/3 starting
+[2026-10-10 17:00:09] attempt 1 exit=0 secs=5 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-10 17:00:09] SUCCESS on attempt 1
+[2026-10-10 17:00:09] ===== task finished OK =====
+[2026-10-11 17:00:05] ===== task started =====
+[2026-10-11 17:00:05] attempt 1/3 starting
+[2026-10-11 17:00:09] attempt 1 exit=0 secs=4 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-11 17:00:09] SUCCESS on attempt 1
+[2026-10-11 17:00:09] ===== task finished OK =====
+[2026-10-12 17:00:03] ===== task started =====
+[2026-10-12 17:00:03] attempt 1/3 starting
+[2026-10-12 17:00:09] attempt 1 exit=0 secs=6 tail: Gצי 3 Gצי live_quotes           Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 4 Gצי smart_exit_log        Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | Gצי 5 Gצי thunder_auth_events   Gצי 0        Gצי 0                 Gצי 0              Gצי 0                Gצי FALSE Gצי | GצצGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצַGצ¦GצַGצַGצַGצַGצַGצַGצַGצÿ | =======================================================
+[2026-10-12 17:00:09] SUCCESS on attempt 1
+[2026-10-12 17:00:09] ===== task finished OK =====

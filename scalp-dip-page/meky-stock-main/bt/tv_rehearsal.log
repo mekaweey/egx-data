@@ -1,0 +1,4 @@
+2026-09-28T23:23:03.146Z pruned old tv_ticks
+2026-09-28T23:23:03.147Z session started, sampling every 5s
+2026-09-28T23:23:03.540Z samples=1 dbWrites=296 lastDiff=296
+2026-09-28T23:25:03.900Z DONE: samples=23 dbWrites=296

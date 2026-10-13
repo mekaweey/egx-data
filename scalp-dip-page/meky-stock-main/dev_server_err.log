@@ -1,0 +1,2 @@
+[2m11:22:12 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'D:\meky-stock-main\meky-stock-main\node_modules\.vite\deps_temp_4b8f5216' -> 'D:\meky-stock-main\meky-stock-main\node_modules\.vite\deps'[39m

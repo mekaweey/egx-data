@@ -1,0 +1,9 @@
+
+> dev:safe
+> node scripts/dev-server.cjs
+
+[dev-safe] Starting Vite dev server … (attempt 1)
+[dev-safe] ✓ Server is ready and responding on http://localhost:8080/
+[dev-safe] ❌ Vite crashed (exit 4294967295). Restarting in 1s …
+[dev-safe] Starting Vite dev server … (attempt 2)
+[dev-safe] ✓ Server is ready and responding on http://localhost:8080/
