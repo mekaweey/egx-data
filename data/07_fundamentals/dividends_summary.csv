@@ -1,248 +1,248 @@
-symbol,dividendType,amountRecent,exDateRecent,amountUpcoming,exDateUpcoming,yield
-AALR,,,,,,0.0
-ABUK,Other,2.29999995,,,,9.55340699815838
-ACAMD,Annual,0.100000001,,,,4.92610837438424
-ACAP,,,,,,0.0
-ACGC,Annual,,,,,0.0
-ACTF,Other,0.179463997,,,,13.2058490566038
-ADCI,Annual,8.33300018,,,,3.06360294117647
-ADIB,,,,,,0.0
-ADPC,,,,,,0.0
-AFDI,,,,,,0.0
-AFMC,Annual,0.75,,,,0.461822660098522
-AIFI,,,,,,0.0
-AIH,,,,,,0.0
-AJWA,,,,,,0.0
-ALCN,Annual,0.991132021,,,,8.45225263758198
-ALEX,,,,,,0.0
-ALUM,Annual,,,,,0.0
-AMER,,,,,,0.0
-AMES,Annual,,,,,0.0
-AMIA,Annual,0.100000001,,,,0.518134715025907
-AMII,Annual,,,,,0.0
-AMOC,Annual,0.400000006,,,,8.54092526690392
-AMPI,,,,,,0.0
-APPC,,,,,,0.0
-APSW,,,,,,0.0
-ARAB,,,,,,0.0
-ARCC,Annual,5.34000015,,,,7.39304997923301
-AREH,Annual,,,,,0.0
-ASCM,,,,,,0.0
-ASPI,,,,,,0.0
-ATLC,Annual,0.346516013,,,,5.65278955954323
-ATQA,,,,,,0.0
-AXPH,Annual,62.9500008,,,,4.12597496231238
-BIDI,,,,,,0.0
-BIGP,,,,,,0.0
-BINV,Annual,1.5567733,,,,2.60591396049548
-BIOC,Annual,1.0,,,,0.285624518008626
-BONY,,,,,,0.0
-BTFH,,,,,,0.0
-CAED,Annual,1.39999998,,,,1.13719437901064
-CANA,,,,,,0.0
-CCAP,,,,,,0.0
-CCRS,,,,,,0.0
-CEFM,Annual,5.0,,,,3.5458478122119
-CERA,Annual,,,,,0.0
-CFGH,,,,,,0.0
-CICH,Annual,0.569999993,,,,4.74604496253122
-CIEB,Annual,3.32333708,,,,13.8761461377871
-CIRA,Annual,0.343176007,,,,0.873446169508781
-CLHO,,,,,,0.0
-CNFN,Annual,,,,,0.0
-COMI,Annual,6.0,,,,4.76001586671956
-COPR,,,,,,0.0
-COSG,,,,,,0.0
-CPCI,Annual,16.7399998,,,,2.78026905829596
-CPME,,,,,,0.0
-CRST,,,,,,0.0
-CSAG,Annual,2.89953399,,,,7.94393150684932
-DAPH,,,,,,0.0
-DCRC,Other,,,,,0.0
-DOMT,Annual,0.850000024,,,,3.36767036450079
-DSCW,Annual,,,,,0.0
-DTPP,Annual,10.0,,,,3.42243061021938
-EALR,,,,,,0.0
-EASB,Semi-Annual,0.0500000007,,,,0.598404255319149
-EAST,Annual,1.449999988,,,,14.8173673328739
-EBSC,,,,,,0.0
-ECAP,Annual,,,,,0.0
-EDFM,Annual,23.0,,,,5.7356608478803
-EEII,Annual,,,,,0.0
-EFIC,Other,2.0,,,,1.16550116550117
-EFID,Annual,0.863918006,,,,2.98572317262831
-EFIH,Semi-Annual,0.119011998,,,,1.21069777043765
-EGAL,Annual,8.0,,,,2.31220555507385
-EGAS,Annual,0.5,,,,0.876731544800982
-EGBE,Annual,0.0156638529,,,,3.0007662835249
-EGCH,,,,,,0.0
-EGREF,,,,,,0.0
-EGS30AJ1C016-EGP,,,,,,0.0
-EGS3I0S1C019,,,,,,0.0
-EGSA,Annual,0.649999976,,,,7.34463276836158
-EGTS,,,,,,0.0
-EHDR,Annual,0.100000001,,,,3.98406374501992
-EITP,Annual,,,,,
-ELEC,,,,,,0.0
-ELKA,,,,,,0.0
-ELNA,,,,,,0.0
-ELSH,Annual,0.0500000007,,,,0.421585160202361
-ELWA,,,,,,0.0
-EMFD,,,,,,0.0
-ENGC,Annual,1.25,,,,3.3665499596014
-EOSB,,,,,,0.0
-EPCO,,,,,,0.0
-EPPK,,,,,,0.0
-ETEL,Annual,1.5,,,,1.08139283397015
-ETRS,Annual,0.350000009,,,,3.18471337579618
-EXPA,Annual,,,,,0.0
-FAIT,Annual,1.90684795,,,,4.25256021409456
-FAITA,Annual,0.0399999991,,,,4.05679513184584
-FERC,Other,5.91884756,,,,7.74110384514779
-FIRE,,,,,,0.0
-FNAR,,,,,,0.0
-FWRY,,,,,,0.0
-GBCO,Other,0.350000009,,,,1.09786700125471
-GDWA,,,,,,0.0
-GGCC,,,,,,0.0
-GIHD,,,,,,0.0
-GMCI,,,,,,0.0
-GOUR,Annual,0.216914997,,,,1.35741551939925
-GPIM,,,,,,0.0
-GRCA,,,,,,0.0
-GSSC,Annual,4.25,,,,1.5625
-GTHE,,,,,,0.0
-GTWL,,,,,,0.0
-HDBK,Annual,8.0,,,,3.61925443358668
-HELI,Annual,0.446038008,,,,5.97906166219839
-HRHO,Annual,0.277999997,,,,1.14876033057851
-IBCT,,,,,,0.0
-ICFC,,,,,,0.0
-ICID,,,,,,0.0
-IDRE,,,,,,0.0
-IEEC,,,,,,0.0
-IFAP,Other,,,,,0.0
-INFI,Other,0.25,,1.0,1797163140,0.142776045414568
-IRAX,Quarterly,,,,,
-IRON,,,,,,0.0
-ISMA,,,,,,0.0
-ISMQ,Annual,0.419999987,,,,5.05415162454874
-ISPH,Annual,0.130004004,,0.130004004,1791806340,1.36752136752137
-JUFO,Quarterly,0.400000006,,,,2.0414673046252
-KABO,,,,,,0.0
-KRDI,,,,,,0.0
-KWIN,,,,,,0.0
-KZPC,Annual,0.449999988,,,,2.92056074766355
-LCSW,,,,,,0.0
-MAAL,Other,,,,,0.0
-MASR,Other,0.150000006,,,,1.9404915912031
-MBEG,,,,,,0.0
-MBSC,Annual,20.0,,,,6.72947510094213
-MCQE,Annual,10.0,,,,4.80792345785855
-MCRO,Annual,,,,,0.0
-MENA,,,,,,0.0
-MEPA,,,,,,0.0
-MFPC,Other,3.93859994,,,,8.6316020162174
-MFSC,Annual,2.89515209,,,,7.15407852392191
-MHOT,Annual,1.5,,1.20000005,1791892740,4.31282346175963
-MICH,Annual,4.0,,3.25,1791979140,8.70890485521446
-MILS,Annual,3.0,,,,1.64221589664988
-MIPH,Annual,2.5,,,,0.308177806267104
-MISR,,,,,,0.0
-MKIT,,,,,,0.0
-MMAT,,,,,,0.0
-MOED,,,,,,0.0
-MOIL,,,,,,0.0
-MOIN,Other,,,,,0.0
-MOSC,Annual,0.5,,,,0.175340159910226
-MPCI,Annual,13.1870003,,,,3.80566217425183
-MPCO,,,,,,0.0
-MPRC,Annual,0.5,,,,1.23456790123457
-MTIE,,,,,,0.0
-NAHO,,,,,,0.0
-NARE,,,,,,0.0
-NBKE,Annual,,,,,0.0
-NCCW,Annual,,,,,0.0
-NCGC,,,,,,
-NEDA,,,,,,0.0
-NHPS,Other,3.5,,,,4.73292765382015
-NINH,Annual,0.100000001,,,,0.378184631253223
-NIPH,Annual,2.0,,,,0.617283950617284
-OBRI,Annual,,,,,0.0
-OCDI,Annual,,,,,0.0
-OCPH,Annual,,,,,0.0
-ODIN,Annual,0.075000003,,,,2.9296875
-OFH,,,,,,0.0
-OIH,,,,,,0.0
-OLFI,Annual,1.75,,,,8.10185185185185
-ORAS,Other,12.2321253,,,,3.03131694468832
-ORHD,Annual,0.384346992,,,,0.988038560411311
-ORWE,Annual,1.5,,,,5.466472303207
-PACH,Semi-Annual,,,,,0.0
-PHAR,Other,3.5,,,,3.02245250431779
-PHDC,Annual,,,,,0.0
-PHTV,Annual,4.0,,,,1.19075970469159
-POUL,Annual,0.330000013,,,,0.886719524281467
-PRCL,,,,,,0.0
-PRDC,,,,,,0.0
-PRMH,,,,,,0.0
-QNBE,Annual,2.0,,,,3.37552742616034
-RACC,,,,,,0.0
-RAKT,,,,,,0.0
-RAYA,Annual,0.0399999991,,,,0.603318250377074
-RKAZ,,,,,,0.0
-RMDA,Other,0.0299999993,,,,0.55045871559633
-ROTO,Quarterly,,,,,0.0
-RREI,,,,,,0.0
-RTVC,,,,,,0.0
-RUBX,,,,,,0.0
-SAUD,Annual,1.10000002,,,,4.7230571060541
-SCEM,,,,,,0.0
-SCFM,,,,,,0.0
-SCTS,Semi-Annual,13.0,,,,2.48885256968254
-SDTI,,,,,,0.0
-SEIG,Annual,2.0,,,,0.881989768918681
-SIPC,,,,,,0.0
-SKPC,Annual,1.0,,,,4.87804878048781
-SMFR,Annual,3.83453298,,,,1.72944840339167
-SMPP,Annual,,,,,
-SNFC,,,,,,0.0
-SPHT,,,,,,0.0
-SPIN,Annual,,,,,0.0
-SPMD,,,,,,0.0
-SUCE,,,,,,0.0
-SUGR,Annual,,,,,0.0
-SVCE,,,,,,0.0
-SWDY,Annual,1.85000002,,,,1.54166666666667
-TALM,,,,,,0.0
-TANM,,,,,,0.0
-TAQA,,,,,,0.0
-TMGH,Other,0.300000012,,,,0.342075256556442
-TORA,,,,,,
-TRTO,Annual,,,,,0.0
-TWSA,Other,0.0713440031,,,,
-TYCN,,,,,,0.0
-UBEE,Annual,0.75,,,,4.62962962962963
-UEFM,Annual,20.0,,,,4.00064010241639
-UEGC,,,,,,0.0
-UNIP,Annual,,,,,0.0
-UNIT,Annual,0.125,,,,0.713063320022818
-UTOP,Annual,2.0,,,,2.06377050871943
-VALU,,,,,,0.0
-VERT,Annual,,,,,0.0
-VLMR,Annual,0.0450000018,,,,6.71641791044776
-VLMRA,Annual,2.36475015,,,,6.71641791044776
-WATP,Other,,,,,
-WCDF,Annual,36.0,,38.0,1791892740,5.49651887138146
-WKOL,Annual,15.07080889,,,,5.15876257958513
-ZEOT,Annual,0.0500000007,,,,0.398406374501992
-ZMID,Other,0.250000007,,,,3.28083989501312
-DEIN,Annual,2.0,,,,0.0
-SAIB,Annual,0.300000012,,,,11.8577075098814
-GPPL,,,,,,0.0
-ICLE,Annual,,,,,0.0
-NDRL,,,,,,0.0
-MEGM,Annual,6.34206676,,,,42.1679986702128
-CCAPP,,,,,,0.0
-SEIGA,Annual,0.0377358496,,,,0.881989768918681
-TOUR,,,,,,
+symbol,dividendType,amountRecent,exDateRecent,amountUpcoming,exDateUpcoming,yield,ex_date_status,amount_status,yield_status,source,verification_status,as_of
+AALR,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ABUK,Other,2.29999995,,,,9.55340699815838,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ACAMD,Annual,0.1,2026-08-10,,,4.92610837438424,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ACAP,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ACGC,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ACTF,Other,0.179463997,,,,13.2058490566038,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ADCI,Annual,8.333,2025-10-28,,,3.06360294117647,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ADIB,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ADPC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AFDI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AFMC,Annual,0.75,,,,0.461822660098522,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AIFI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AIH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AJWA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ALCN,Annual,0.991132021,,,,8.45225263758198,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ALEX,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ALUM,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AMER,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AMES,Annual,0.1,2022-06-13,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+AMIA,Annual,0.100000001,,,,0.518134715025907,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AMII,Annual,0.1,2024-05-13,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+AMOC,Annual,0.4,2026-04-20,,,8.54092526690392,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+AMPI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+APPC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+APSW,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ARAB,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ARCC,Annual,5.34,2026-04-14,,,7.39304997923301,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+AREH,Annual,0.05,2020-07-16,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ASCM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ASPI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ATLC,Annual,0.34652,2026-04-09,,,5.65278955954323,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ATQA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+AXPH,Annual,62.95,2025-11-04,,,4.12597496231238,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+BIDI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+BIGP,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+BINV,Annual,1.5567733,,,,2.60591396049548,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+BIOC,Annual,1.0,,,,0.285624518008626,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+BONY,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+BTFH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CAED,Annual,1.4,2026-01-19,,,1.13719437901064,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+CANA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CCAP,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CCRS,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CEFM,Annual,5.0,,,,3.5458478122119,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CERA,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CFGH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CICH,Annual,0.569999993,,,,4.74604496253122,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CIEB,Annual,3.32333708,,,,13.8761461377871,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CIRA,Annual,0.343176007,,,,0.873446169508781,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CLHO,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CNFN,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+COMI,Annual,6.0,2026-04-07,,,4.98,source_verified_secondary,match,stockanalysis_2026-10-29,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+COPR,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+COSG,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CPCI,Annual,16.74,2025-11-12,,,2.78026905829596,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+CPME,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CRST,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CSAG,Annual,2.89953399,,,,7.94393150684932,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DAPH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DCRC,Other,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DOMT,Annual,0.850000024,,,,3.36767036450079,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DSCW,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DTPP,Annual,10.0,,,,3.42243061021938,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EALR,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EASB,Semi-Annual,0.0500000007,,,,0.598404255319149,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EAST,Annual,1.45,2026-05-21,,,8.79,source_verified_secondary,match,stockanalysis_2026-10-29,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EBSC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ECAP,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EDFM,Annual,23.0,2025-11-05,,,5.7356608478803,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EEII,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EFIC,Other,2.0,,,,1.16550116550117,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EFID,Annual,0.57594,2026-05-12,,,2.98572317262831,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EFIH,Semi-Annual,0.11901,2026-06-25,,,1.21069777043765,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EGAL,Annual,8.0,2025-10-14,,,2.31220555507385,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EGAS,Annual,0.5,2026-05-04,,,0.876731544800982,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EGBE,Annual,0.0156638529,,,,3.0007662835249,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGCH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGREF,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGS30AJ1C016-EGP,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGS3I0S1C019,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGSA,Annual,0.649999976,,,,7.34463276836158,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EGTS,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EHDR,Annual,0.1,2026-04-14,,,3.98406374501992,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EITP,Annual,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ELEC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ELKA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ELNA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ELSH,Annual,0.0500000007,,,,0.421585160202361,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ELWA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EMFD,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ENGC,Annual,1.25,,,,3.3665499596014,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EOSB,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EPCO,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+EPPK,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ETEL,Annual,1.5,,,,1.08139283397015,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ETRS,Annual,0.35,2026-07-29,,,3.18471337579618,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+EXPA,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+FAIT,Annual,1.90684795,,,,4.25256021409456,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+FAITA,Annual,0.04,2026-04-14,,,4.05679513184584,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+FERC,Other,5.91884756,,,,7.74110384514779,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+FIRE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+FNAR,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+FWRY,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GBCO,Other,0.350000009,,,,1.09786700125471,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GDWA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GGCC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GIHD,,0.2,2018-06-11,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+GMCI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GOUR,Annual,0.216914997,,,,1.35741551939925,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GPIM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GRCA,,,,,,0.0,no_dividend_record,no_data,no_dividend_record,StockAnalysis 404 / no record,no_dividend_record,2026-10-30
+GSSC,Annual,4.25,2025-12-17,,,1.5625,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+GTHE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GTWL,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+HDBK,Annual,8.0,,,,3.61925443358668,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+HELI,Annual,0.446038008,,,,5.97906166219839,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+HRHO,Annual,0.277999997,,,,1.14876033057851,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+IBCT,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ICFC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ICID,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+IDRE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+IEEC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+IFAP,Other,0.24326,2023-10-24,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+INFI,Other,0.17857,2025-04-28,1.0,1797163140.0,0.142776045414568,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+IRAX,Quarterly,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+IRON,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ISMA,,0.1,2019-08-14,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ISMQ,Annual,0.42,2025-10-14,,,5.05415162454874,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ISPH,Annual,0.130004004,,0.130004004,1791806340.0,1.36752136752137,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+JUFO,Quarterly,0.400000006,,,,2.0414673046252,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+KABO,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+KRDI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+KWIN,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+KZPC,Annual,0.449999988,,,,2.92056074766355,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+LCSW,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MAAL,Other,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MASR,Other,0.150000006,,,,1.9404915912031,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MBEG,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MBSC,Annual,20.0,2026-06-16,,,6.72947510094213,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MCQE,Annual,10.0,2026-04-23,,,4.80792345785855,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MCRO,Annual,0.10674,2023-04-18,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MENA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MEPA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MFPC,Other,3.93863,2026-05-04,,,8.6316020162174,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MFSC,Annual,2.89515209,,,,7.15407852392191,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MHOT,Annual,1.5,,1.20000005,1791892740.0,4.31282346175963,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MICH,Annual,3.25,2026-10-14,3.25,1791979140.0,8.70890485521446,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MILS,Annual,3.0,2025-11-04,,,1.64221589664988,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MIPH,Annual,2.5,,,,0.308177806267104,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MISR,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MKIT,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MMAT,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MOED,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MOIL,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MOIN,Other,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MOSC,Annual,0.5,2026-01-27,,,0.175340159910226,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MPCI,Annual,13.187,2025-10-27,,,3.80566217425183,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MPCO,,0.009119,2017-05-29,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+MPRC,Annual,0.5,,,,1.23456790123457,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MTIE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NAHO,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NARE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NBKE,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NCCW,Annual,0.02976,2020-04-27,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+NCGC,,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NEDA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NHPS,Other,3.5,,,,4.73292765382015,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NINH,Annual,0.07333,2025-04-28,,,0.378184631253223,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+NIPH,Annual,2.0,,,,0.617283950617284,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+OBRI,Annual,0.3,2020-08-27,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+OCDI,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+OCPH,Annual,1.25,2024-05-28,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ODIN,Annual,0.075000003,,,,2.9296875,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+OFH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+OIH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+OLFI,Annual,1.75,,,,8.10185185185185,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ORAS,Other,12.2321253,,,,3.03131694468832,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ORHD,Annual,0.384346992,,,,0.988038560411311,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ORWE,Annual,1.5,,,,5.466472303207,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+PACH,Semi-Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+PHAR,Other,3.5,,,,3.02245250431779,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+PHDC,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+PHTV,Annual,4.0,,,,1.19075970469159,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+POUL,Annual,0.33,2026-04-27,,,0.886719524281467,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+PRCL,,0.09,2017-11-06,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+PRDC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+PRMH,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+QNBE,Annual,2.0,,,,3.37552742616034,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RACC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RAKT,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RAYA,Annual,0.0399999991,,,,0.603318250377074,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RKAZ,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RMDA,Other,0.0299999993,,,,0.55045871559633,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ROTO,Quarterly,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RREI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RTVC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+RUBX,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SAUD,Annual,1.1,2026-04-14,,,4.7230571060541,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+SCEM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SCFM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SCTS,Semi-Annual,13.0,,,,2.48885256968254,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SDTI,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SEIG,Annual,2.0,,,,0.881989768918681,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SIPC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SKPC,Annual,0.8,2025-05-27,,,4.87804878048781,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+SMFR,Annual,3.835,2026-04-28,,,1.72944840339167,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+SMPP,Annual,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SNFC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SPHT,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SPIN,Annual,0.04444,2023-12-12,,,0.0,source_verified_secondary,corrected_from_latest_event,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+SPMD,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SUCE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SUGR,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SVCE,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SWDY,Annual,1.85000002,,,,1.54166666666667,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TALM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TANM,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TAQA,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TMGH,Other,0.300000012,,,,0.342075256556442,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TORA,,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TRTO,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TWSA,Other,0.0713440031,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TYCN,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+UBEE,Annual,0.75,,,,4.62962962962963,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+UEFM,Annual,20.0,2025-12-09,,,4.00064010241639,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+UEGC,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+UNIP,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+UNIT,Annual,0.125,,,,0.713063320022818,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+UTOP,Annual,2.0,,,,2.06377050871943,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+VALU,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+VERT,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+VLMR,Annual,0.0450000018,,,,6.71641791044776,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+VLMRA,Annual,2.36475015,,,,6.71641791044776,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+WATP,Other,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+WCDF,Annual,36.0,,38.0,1791892740.0,5.49651887138146,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+WKOL,Annual,15.07080889,,,,5.15876257958513,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ZEOT,Annual,0.05,2025-04-07,,,0.398406374501992,source_verified_secondary,match,original_unverified,StockAnalysis/S&P Global (secondary),secondary_source,2026-10-30
+ZMID,Other,0.250000007,,,,3.28083989501312,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+DEIN,Annual,2.0,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SAIB,Annual,0.300000012,,,,11.8577075098814,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+GPPL,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+ICLE,Annual,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+NDRL,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+MEGM,Annual,6.34206676,,,,42.1679986702128,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+CCAPP,,,,,,0.0,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+SEIGA,Annual,0.0377358496,,,,0.881989768918681,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30
+TOUR,,,,,,,no_verified_ex_date,no_data,original_unverified,none,no_verified_ex_date,2026-10-30

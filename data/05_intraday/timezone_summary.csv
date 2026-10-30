@@ -1,0 +1,3 @@
+timeframe,files,timezone_aligned,strict_full_window_aligned,first_1000_median,first_1000_p10,last_window_median,last_window_p10,outside_session_rows,note
+1m,267,267,65,0.896551724137931,0.05206235856172996,0.9302325581395348,0.04535103311890522,0,"timezone_aligned means no bars outside 10:00-14:30 Cairo and +02/+03 offset; full-window gaps are data completeness, not DST"
+60m,267,267,108,0.9730668983492616,0.27800755531570426,0.8829141370338248,0.3099053708439899,0,"timezone_aligned means no bars outside 10:00-14:30 Cairo and +02/+03 offset; full-window gaps are data completeness, not DST"

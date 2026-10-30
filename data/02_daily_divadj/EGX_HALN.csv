@@ -1,2 +1,2 @@
-time,datetime_utc,open,high,low,close,volume
-1789344000,2026-09-14 08:00,0.100000,0.100000,0.100000,0.100000,0.00
+time,datetime_utc,open,high,low,close,volume,open_raw,open_true,open_is_fake,has_true_open,limit_up_locked_10,limit_down_locked_10,no_trade,is_suspended_row,is_usable
+1789344000,2026-09-14 08:00,,0.1,0.1,0.1,0,0.1,,0,0,0,0,1,1,0

@@ -1,0 +1,2 @@
+symbols,median_coverage,p90_coverage,symbols_ge_50pct,symbols_ge_90pct,auction_data_available,note
+267,0.1034482758620689,0.5416666666666666,35,2,NO,1m bars 14:25-14:29 only; no ticks/after-close auction data; 2023-2024 1m absent

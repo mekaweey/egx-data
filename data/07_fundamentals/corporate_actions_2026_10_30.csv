@@ -1,0 +1,441 @@
+symbol,date,action_type,amount,record_date,pay_date,source,source_type,verification_status,notes
+AALR,2023-10-29,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+AALR,2023-10-29,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ABUK,2024-02-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ABUK,2024-02-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ACAMD,2019-11-26,CASH_DIVIDEND,0.028,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ACAMD,2026-08-10,CASH_DIVIDEND,0.1,2026-08-11,2026-08-12,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ADCI,2016-10-19,CASH_DIVIDEND,0.675,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ADCI,2017-10-24,CASH_DIVIDEND,1.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ADCI,2018-10-24,CASH_DIVIDEND,1.5,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+ADCI,2019-10-23,CASH_DIVIDEND,1.9,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ADCI,2021-11-08,CASH_DIVIDEND,2.5,2021-11-07,2021-11-10,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+ADCI,2022-11-13,CASH_DIVIDEND,2.4,2022-11-10,2022-11-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ADCI,2023-11-02,CASH_DIVIDEND,2.25,2023-11-01,2023-11-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ADCI,2024-10-28,CASH_DIVIDEND,4.175,2024-10-27,2024-10-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ADCI,2025-10-28,CASH_DIVIDEND,8.333,2025-10-29,2025-10-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ADPC,2021-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+ADPC,2021-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ADPC,2021-11-21,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ADPC,2021-11-21,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+AFMC,2026-08-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+AFMC,2026-08-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ALCN,2022-04-11,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+ALCN,2022-04-11,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ALCN,2024-02-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ALCN,2024-02-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+AMES,2019-07-29,CASH_DIVIDEND,0.04231,2019-07-28,2019-07-31,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+AMES,2022-06-13,CASH_DIVIDEND,0.1,2022-06-12,2022-06-15,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+AMES,2026-09-01,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+AMES,2026-09-01,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+AMII,2024-05-13,CASH_DIVIDEND,0.1,2024-05-12,2024-05-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AMOC,2016-10-17,CASH_DIVIDEND,0.366667,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AMOC,2017-10-16,CASH_DIVIDEND,0.566667,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AMOC,2018-10-01,CASH_DIVIDEND,0.85,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AMOC,2019-10-22,CASH_DIVIDEND,0.35,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AMOC,2021-10-18,CASH_DIVIDEND,0.15,2021-10-17,2021-10-24,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AMOC,2022-10-18,CASH_DIVIDEND,0.55,2022-10-17,2023-02-22,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AMOC,2023-11-06,CASH_DIVIDEND,0.65,2023-11-05,2024-03-07,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AMOC,2024-10-10,CASH_DIVIDEND,0.75,2024-10-09,2024-10-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AMOC,2025-10-13,CASH_DIVIDEND,0.8,2025-10-14,2026-02-18,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AMOC,2026-04-20,CASH_DIVIDEND,0.4,2026-04-21,2026-04-22,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ARAB,2024-09-09,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ARAB,2024-09-09,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ARCC,2016-06-13,CASH_DIVIDEND,0.13,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ARCC,2017-12-06,CASH_DIVIDEND,0.53,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ARCC,2018-12-17,CASH_DIVIDEND,0.53,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ARCC,2019-12-17,CASH_DIVIDEND,0.47,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ARCC,2023-01-10,CASH_DIVIDEND,0.66,2023-01-09,2023-01-12,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ARCC,2024-01-09,CASH_DIVIDEND,0.262,2024-01-08,2024-01-11,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ARCC,2025-01-08,CASH_DIVIDEND,1.585,2025-01-09,2025-01-12,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ARCC,2025-12-22,CASH_DIVIDEND,2.94,2025-12-23,2025-12-24,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ARCC,2026-04-14,CASH_DIVIDEND,5.34,2026-04-15,2026-04-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AREH,2018-06-26,CASH_DIVIDEND,0.025,2018-06-25,2018-06-28,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+AREH,2020-07-16,CASH_DIVIDEND,0.05,2020-07-15,2020-07-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+AREH,2021-11-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.4096 -> 0.512 ratio=1.25
+AREH,2021-11-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+AREH,2021-11-04,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+AREH,2021-11-04,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+AREH,2021-11-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+AREH,2021-11-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+AREH,2021-11-21,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+AREH,2021-11-21,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ATLC,2018-04-18,CASH_DIVIDEND,0.288354,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ATLC,2019-04-22,CASH_DIVIDEND,0.128255,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+ATLC,2021-04-20,CASH_DIVIDEND,0.19594,2021-04-19,2021-04-22,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+ATLC,2022-04-19,CASH_DIVIDEND,0.00929,2022-04-18,2022-04-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=small; overlap=True
+ATLC,2023-01-09,CASH_DIVIDEND,0.37844,2023-01-05,2023-01-11,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ATLC,2023-04-12,CASH_DIVIDEND,0.307768,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ATLC,2024-12-24,CASH_DIVIDEND,0.59868,2024-12-25,2024-12-26,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ATLC,2025-04-16,CASH_DIVIDEND,0.47,2025-04-17,2025-04-22,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ATLC,2026-04-09,CASH_DIVIDEND,0.34652,2026-04-12,2026-04-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AXPH,2016-10-19,CASH_DIVIDEND,6.3,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+AXPH,2017-10-24,CASH_DIVIDEND,7.5,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+AXPH,2018-10-24,CASH_DIVIDEND,9.0,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+AXPH,2019-10-23,CASH_DIVIDEND,11.2,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+AXPH,2020-11-02,CASH_DIVIDEND,15.5,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+AXPH,2021-11-08,CASH_DIVIDEND,10.0,2021-11-07,2021-11-10,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AXPH,2021-12-22,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+AXPH,2021-12-22,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+AXPH,2022-11-13,CASH_DIVIDEND,12.2,2022-11-10,2022-11-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AXPH,2023-11-13,CASH_DIVIDEND,13.0,2023-11-12,2023-11-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AXPH,2024-11-18,CASH_DIVIDEND,30.0,2024-11-19,2024-11-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+AXPH,2025-11-04,CASH_DIVIDEND,62.95,2025-11-05,2025-11-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+BINV,2025-07-01,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+BINV,2025-07-01,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+BIOC,2026-08-05,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+BIOC,2026-08-05,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+BTFH,2023-07-09,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+BTFH,2023-07-09,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+CAED,2016-11-08,CASH_DIVIDEND,0.5,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+CAED,2017-04-26,CASH_DIVIDEND,0.3,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CAED,2017-12-17,CASH_DIVIDEND,0.55,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CAED,2019-01-29,CASH_DIVIDEND,0.75,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CAED,2019-12-29,CASH_DIVIDEND,0.8,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+CAED,2020-12-30,CASH_DIVIDEND,0.9,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CAED,2021-12-26,CASH_DIVIDEND,1.0,2021-12-23,2021-12-28,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+CAED,2023-01-10,CASH_DIVIDEND,1.15,2023-01-09,2023-01-12,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+CAED,2024-01-17,CASH_DIVIDEND,1.15,2024-01-16,2024-01-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+CAED,2025-02-04,CASH_DIVIDEND,1.25,2025-02-05,2025-02-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+CAED,2026-01-19,CASH_DIVIDEND,1.4,2026-01-20,2026-01-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+CCRS,2021-09-06,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+CCRS,2021-09-06,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+CCRS,2021-09-07,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+CCRS,2021-09-07,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COMI,2022-04-05,CASH_DIVIDEND,0.81578,2022-04-04,2022-04-07,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+COMI,2023-04-04,CASH_DIVIDEND,0.48895,2023-04-03,2023-04-06,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+COMI,2024-04-22,CASH_DIVIDEND,0.5,2024-04-21,2024-04-24,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+COMI,2025-04-08,CASH_DIVIDEND,2.27273,2025-04-09,2025-04-10,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+COMI,2026-04-07,CASH_DIVIDEND,6.0,2026-04-08,2026-04-09,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+COPR,2021-10-20,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.32768 -> 0.4096 ratio=1.25
+COPR,2021-10-20,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COPR,2021-10-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.4096 -> 0.512 ratio=1.25
+COPR,2021-10-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COPR,2021-10-26,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+COPR,2021-10-26,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COPR,2021-10-28,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+COPR,2021-10-28,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COPR,2025-10-28,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+COPR,2025-10-28,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+COSG,2021-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+COSG,2021-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+CPCI,2016-10-20,CASH_DIVIDEND,1.32,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CPCI,2017-10-24,CASH_DIVIDEND,2.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+CPCI,2018-10-24,CASH_DIVIDEND,2.4,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+CPCI,2019-10-29,CASH_DIVIDEND,2.0,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+CPCI,2020-11-02,CASH_DIVIDEND,3.2,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+CPCI,2021-11-08,CASH_DIVIDEND,4.0,2021-11-07,2021-11-10,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+CPCI,2022-11-13,CASH_DIVIDEND,5.53,2022-11-10,2022-11-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+CPCI,2023-12-06,CASH_DIVIDEND,5.0,2023-12-05,2023-12-10,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+CPCI,2024-12-24,CASH_DIVIDEND,12.83,2024-12-25,2024-12-26,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+CPCI,2025-11-12,CASH_DIVIDEND,16.74,2025-11-13,2025-11-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+DAPH,2021-10-26,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+DAPH,2021-10-26,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+DTPP,2022-09-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+DTPP,2022-09-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+DTPP,2025-08-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+DTPP,2025-08-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+EALR,2021-10-12,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+EALR,2021-10-12,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+EALR,2025-08-31,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+EALR,2025-08-31,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+EAST,2021-11-29,CASH_DIVIDEND,1.18933,2021-11-28,2021-12-01,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EAST,2022-11-21,CASH_DIVIDEND,1.18933,2022-11-20,2022-11-23,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EAST,2023-10-24,CASH_DIVIDEND,2.7875,2023-10-23,2023-10-26,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EAST,2024-10-17,CASH_DIVIDEND,2.7,2024-10-20,2024-11-25,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EAST,2025-12-09,CASH_DIVIDEND,2.85,2025-12-10,2026-02-11,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EAST,2026-05-21,CASH_DIVIDEND,1.45,2026-05-24,2026-05-25,stockanalysis_spg,secondary_market_data,source_only_secondary,StockAnalysis/S&P Global page fetched 2026-10-30; official EGX/Mubasher not checked
+EBSC,2021-11-30,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+EBSC,2021-11-30,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+EDFM,2016-11-29,CASH_DIVIDEND,6.75,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EDFM,2017-11-27,CASH_DIVIDEND,11.25,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EDFM,2018-11-19,CASH_DIVIDEND,14.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EDFM,2019-12-16,CASH_DIVIDEND,14.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EDFM,2020-12-01,CASH_DIVIDEND,11.0,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+EDFM,2021-11-29,CASH_DIVIDEND,12.0,2021-11-28,2021-12-01,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+EDFM,2022-11-14,CASH_DIVIDEND,14.0,2022-11-13,2022-11-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EDFM,2023-11-21,CASH_DIVIDEND,17.0,2023-11-20,2023-11-23,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EDFM,2024-12-12,CASH_DIVIDEND,22.0,2024-12-15,2024-12-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EDFM,2025-11-05,CASH_DIVIDEND,23.0,2025-11-06,2025-11-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EEII,2021-10-20,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+EEII,2021-10-20,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+EEII,2021-10-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+EEII,2021-10-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+EEII,2021-10-27,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+EEII,2021-10-27,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+EFID,2016-04-19,CASH_DIVIDEND,0.037167,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EFID,2017-04-24,CASH_DIVIDEND,0.04995,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EFID,2018-04-22,CASH_DIVIDEND,0.039061,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EFID,2019-04-16,CASH_DIVIDEND,0.06939,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+EFID,2020-04-22,CASH_DIVIDEND,0.066667,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EFID,2021-04-20,CASH_DIVIDEND,0.069151,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EFID,2022-04-21,CASH_DIVIDEND,0.09233,2022-04-20,2022-04-27,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+EFID,2023-05-15,CASH_DIVIDEND,0.19047,2023-05-14,2023-05-17,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFID,2023-11-28,CASH_DIVIDEND,0.14271,2023-11-27,2023-11-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFID,2024-04-22,CASH_DIVIDEND,0.14285,2024-04-21,2024-04-24,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFID,2024-11-26,CASH_DIVIDEND,0.19047,2024-11-27,2024-11-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFID,2025-04-28,CASH_DIVIDEND,0.38099,2025-04-29,2025-09-10,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+EFID,2026-05-12,CASH_DIVIDEND,0.57594,2026-05-13,2026-05-14,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFIH,2022-04-19,CASH_DIVIDEND,0.05333,2022-04-18,2022-04-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFIH,2023-04-12,CASH_DIVIDEND,0.12013,2023-04-11,2023-04-18,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFIH,2023-11-07,CASH_DIVIDEND,0.09461,2023-11-06,2023-11-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFIH,2024-04-28,CASH_DIVIDEND,0.10009,2024-04-24,2024-04-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFIH,2024-12-25,CASH_DIVIDEND,0.13158,2024-12-26,2024-12-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EFIH,2025-06-23,CASH_DIVIDEND,0.1145,2025-06-24,2025-06-25,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFIH,2025-12-28,CASH_DIVIDEND,0.17422,2025-12-29,2025-12-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EFIH,2026-06-25,CASH_DIVIDEND,0.11901,2026-06-28,2026-06-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAL,2016-11-01,CASH_DIVIDEND,0.333333,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAL,2017-11-06,CASH_DIVIDEND,1.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAL,2018-05-28,CASH_DIVIDEND,4.666667,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAL,2018-11-06,CASH_DIVIDEND,2.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAL,2019-11-12,CASH_DIVIDEND,0.75,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAL,2022-11-22,CASH_DIVIDEND,4.49999,2022-11-21,2022-11-24,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAL,2023-11-21,CASH_DIVIDEND,6.5,2023-11-20,2023-11-23,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAL,2024-11-19,CASH_DIVIDEND,7.0,2024-11-20,2024-11-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAL,2025-10-14,CASH_DIVIDEND,8.0,2025-10-15,2025-10-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EGAS,2016-05-05,CASH_DIVIDEND,0.333333,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAS,2017-06-06,CASH_DIVIDEND,0.333333,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAS,2018-04-26,CASH_DIVIDEND,0.333333,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+EGAS,2019-04-22,CASH_DIVIDEND,0.416667,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+EGAS,2020-04-23,CASH_DIVIDEND,1.0,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+EGAS,2021-04-22,CASH_DIVIDEND,0.666667,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+EGAS,2022-04-19,CASH_DIVIDEND,1.0,2022-04-18,2022-04-21,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+EGAS,2023-04-11,CASH_DIVIDEND,0.83333,2023-04-10,2023-04-13,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAS,2025-04-28,CASH_DIVIDEND,0.5,2025-04-29,2025-04-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGAS,2026-05-04,CASH_DIVIDEND,0.5,2026-05-05,2026-05-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+EGREF,2026-08-31,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+EGREF,2026-08-31,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+EHDR,2024-04-02,CASH_DIVIDEND,0.1,2024-04-01,2024-04-04,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EHDR,2025-04-10,CASH_DIVIDEND,0.1,2025-04-13,2025-04-14,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+EHDR,2026-04-14,CASH_DIVIDEND,0.1,2026-04-15,2026-04-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ELEC,2024-01-31,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ELEC,2024-01-31,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ELKA,2021-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ELKA,2021-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ELSH,2021-09-09,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ELSH,2021-09-09,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ELWA,2021-10-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ELWA,2021-10-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ETRS,2017-06-20,CASH_DIVIDEND,0.14,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ETRS,2018-06-26,CASH_DIVIDEND,0.2,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ETRS,2019-04-23,CASH_DIVIDEND,0.1,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+ETRS,2020-04-28,CASH_DIVIDEND,0.2,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ETRS,2021-04-26,CASH_DIVIDEND,0.15,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+ETRS,2023-05-15,CASH_DIVIDEND,0.13,2023-05-14,2023-05-17,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+ETRS,2025-08-05,CASH_DIVIDEND,0.25,2025-08-06,2025-08-07,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ETRS,2026-07-29,CASH_DIVIDEND,0.35,2026-07-30,2026-08-02,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+FAITA,2016-04-20,CASH_DIVIDEND,0.053509,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+FAITA,2017-04-18,CASH_DIVIDEND,0.044948,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+FAITA,2018-04-17,CASH_DIVIDEND,0.039683,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+FAITA,2019-04-15,CASH_DIVIDEND,0.05291,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+FAITA,2020-04-14,CASH_DIVIDEND,0.063492,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+FAITA,2022-03-29,CASH_DIVIDEND,0.07619,2022-03-28,2022-03-31,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+FAITA,2023-04-04,CASH_DIVIDEND,0.07619,2023-04-03,2023-04-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+FAITA,2024-03-26,CASH_DIVIDEND,0.05714,2024-03-25,2024-03-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+FAITA,2025-03-16,CASH_DIVIDEND,0.05714,2025-03-17,2025-03-18,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+FAITA,2026-04-14,CASH_DIVIDEND,0.04,2026-04-15,2026-04-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+GIHD,2016-08-30,CASH_DIVIDEND,0.2,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+GIHD,2017-08-29,CASH_DIVIDEND,0.2,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+GIHD,2018-06-11,CASH_DIVIDEND,0.2,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+GRCA,,NO_DIVIDEND_RECORD,,,,stockanalysis_404,secondary_market_data,no_record_found,No StockAnalysis dividend page for EGX:GRCA on 2026-10-30; not proof of no dividend
+GSSC,2017-02-14,CASH_DIVIDEND,0.857143,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+GSSC,2017-12-17,CASH_DIVIDEND,1.142857,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+GSSC,2018-12-31,CASH_DIVIDEND,1.714286,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+GSSC,2019-12-23,CASH_DIVIDEND,1.914286,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+GSSC,2020-12-29,CASH_DIVIDEND,1.97143,2020-12-28,2020-12-31,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+GSSC,2022-01-26,CASH_DIVIDEND,0.42857,2022-01-25,2022-01-31,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+GSSC,2022-12-13,CASH_DIVIDEND,0.57143,2022-12-12,2022-12-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+GSSC,2024-01-11,CASH_DIVIDEND,3.0,2024-01-10,2024-01-15,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+GSSC,2024-12-17,CASH_DIVIDEND,4.0,2024-12-18,2024-12-19,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+GSSC,2025-12-17,CASH_DIVIDEND,4.25,2025-12-18,2025-12-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+GTWL,2026-09-29,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+GTWL,2026-09-29,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+HRHO,2022-04-14,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+HRHO,2022-04-14,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ICID,2021-09-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.4096 -> 0.512 ratio=1.25
+ICID,2021-09-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ICID,2021-10-19,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+ICID,2021-10-19,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ICID,2021-10-26,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+ICID,2021-10-26,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ICID,2021-10-27,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ICID,2021-10-27,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+IDRE,2021-10-20,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.4096 -> 0.512 ratio=1.25
+IDRE,2021-10-20,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+IDRE,2021-11-04,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+IDRE,2021-11-04,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+IDRE,2021-11-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+IDRE,2021-11-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+IDRE,2022-01-12,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+IDRE,2022-01-12,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+IFAP,2023-10-24,CASH_DIVIDEND,0.24326,2023-10-23,2023-12-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+INFI,2024-05-28,CASH_DIVIDEND,0.15528,2024-05-27,2024-05-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+INFI,2025-04-28,CASH_DIVIDEND,0.17857,2025-04-29,2025-04-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=small; overlap=True
+ISMA,2019-04-11,CASH_DIVIDEND,0.1,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+ISMA,2019-08-14,CASH_DIVIDEND,0.1,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+ISMQ,2022-11-15,CASH_DIVIDEND,0.03,2022-11-14,2022-11-17,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ISMQ,2023-11-21,CASH_DIVIDEND,0.1,2023-11-20,2023-11-23,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ISMQ,2024-11-19,CASH_DIVIDEND,0.1,2024-11-20,2024-11-21,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ISMQ,2025-10-14,CASH_DIVIDEND,0.42,2025-10-15,2025-10-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+KWIN,2025-06-19,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+KWIN,2025-06-19,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+MBSC,2016-09-26,CASH_DIVIDEND,1.5,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+MBSC,2017-09-26,CASH_DIVIDEND,2.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MBSC,2018-09-23,CASH_DIVIDEND,2.0,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MBSC,2019-09-23,CASH_DIVIDEND,2.5,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MBSC,2020-10-26,CASH_DIVIDEND,1.5,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MBSC,2021-09-01,CASH_DIVIDEND,1.5,2021-08-31,2021-09-05,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MBSC,2022-06-16,CASH_DIVIDEND,2.09,2022-06-15,2022-06-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MBSC,2025-07-16,CASH_DIVIDEND,6.0,2025-07-17,2025-07-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+MBSC,2026-06-16,CASH_DIVIDEND,20.0,2026-06-17,2026-10-01,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MCQE,2017-06-20,CASH_DIVIDEND,0.375092,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MCQE,2019-06-25,CASH_DIVIDEND,0.375,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+MCQE,2020-05-19,CASH_DIVIDEND,0.1875,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MCQE,2021-10-27,CASH_DIVIDEND,0.1875,2021-10-26,2021-10-31,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+MCQE,2022-10-23,CASH_DIVIDEND,0.375,2022-10-20,2022-10-25,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MCQE,2023-09-18,CASH_DIVIDEND,0.5625,2023-09-17,2023-09-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+MCQE,2024-09-26,CASH_DIVIDEND,0.5,2024-09-25,2024-09-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MCQE,2025-06-24,CASH_DIVIDEND,1.0,2025-06-25,2025-11-27,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MCQE,2026-04-23,CASH_DIVIDEND,10.0,2026-04-26,2026-04-27,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MCRO,2022-04-26,CASH_DIVIDEND,0.069,2022-04-21,2022-04-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+MCRO,2023-04-18,CASH_DIVIDEND,0.10674,2023-04-13,2023-04-20,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2017-05-16,CASH_DIVIDEND,1.449848,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2018-04-26,CASH_DIVIDEND,1.449848,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2019-05-20,CASH_DIVIDEND,1.631079,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2020-04-22,CASH_DIVIDEND,1.81231,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2021-04-26,CASH_DIVIDEND,2.537234,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MFPC,2022-04-07,CASH_DIVIDEND,0.79884,2022-04-06,2022-04-10,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MFPC,2023-05-10,CASH_DIVIDEND,1.19825,2023-05-09,2023-05-14,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MFPC,2024-04-03,CASH_DIVIDEND,1.44984,2024-04-02,2024-04-07,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MFPC,2024-08-27,CASH_DIVIDEND,2.71845,2024-08-26,2024-08-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MFPC,2025-05-05,CASH_DIVIDEND,2.53722,2025-05-06,2025-09-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MFPC,2026-05-04,CASH_DIVIDEND,3.93863,2026-05-05,2026-07-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2016-10-24,CASH_DIVIDEND,0.148148,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MICH,2018-10-24,CASH_DIVIDEND,0.651852,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MICH,2019-10-28,CASH_DIVIDEND,0.296296,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MICH,2020-11-17,CASH_DIVIDEND,0.666667,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MICH,2021-10-26,CASH_DIVIDEND,0.66667,2021-10-25,2021-10-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2022-10-25,CASH_DIVIDEND,1.0,2022-10-24,2022-12-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2023-10-24,CASH_DIVIDEND,1.0,2023-10-23,2024-01-31,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2024-11-26,CASH_DIVIDEND,4.0,2024-11-27,2024-11-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2025-11-04,CASH_DIVIDEND,4.0,2025-11-05,2025-11-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MICH,2026-10-14,CASH_DIVIDEND,3.25,2026-10-15,2027-02-25,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MILS,2016-11-13,CASH_DIVIDEND,1.0,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MILS,2017-11-14,CASH_DIVIDEND,2.35,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+MILS,2018-11-27,CASH_DIVIDEND,2.25,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+MILS,2019-11-18,CASH_DIVIDEND,0.6,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MILS,2020-12-17,CASH_DIVIDEND,0.5,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+MILS,2021-09-06,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+MILS,2021-09-06,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+MILS,2021-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+MILS,2021-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+MILS,2023-11-06,CASH_DIVIDEND,1.75,2023-11-05,2023-11-08,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MILS,2024-11-03,CASH_DIVIDEND,4.0,2024-11-04,2024-11-05,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MILS,2025-11-04,CASH_DIVIDEND,3.0,2025-11-05,2025-11-06,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+MOSC,2026-01-27,CASH_DIVIDEND,0.5,2026-01-28,2026-01-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=small; overlap=True
+MPCI,2023-11-07,CASH_DIVIDEND,2.0,2023-11-06,2023-11-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+MPCI,2024-11-13,CASH_DIVIDEND,4.0,2024-11-14,2024-11-17,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+MPCI,2025-10-27,CASH_DIVIDEND,13.187,2025-10-28,2025-10-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+MPCO,2016-04-27,CASH_DIVIDEND,0.009119,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+MPCO,2017-05-29,CASH_DIVIDEND,0.009119,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+NCCW,2019-05-07,CASH_DIVIDEND,0.01984,2019-05-06,2019-05-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+NCCW,2020-04-27,CASH_DIVIDEND,0.02976,2020-04-26,2020-04-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+NINH,2016-04-21,CASH_DIVIDEND,0.004167,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+NINH,2017-04-19,CASH_DIVIDEND,0.006,,,yahoo,secondary_market_data,price_checked_secondary,status=small; overlap=False
+NINH,2018-06-05,CASH_DIVIDEND,0.0144,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+NINH,2019-05-07,CASH_DIVIDEND,0.018,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+NINH,2020-05-18,CASH_DIVIDEND,0.0225,2020-05-17,2020-05-20,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+NINH,2021-04-26,CASH_DIVIDEND,0.01406,2021-04-25,2021-04-28,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=small; overlap=True
+NINH,2022-05-09,CASH_DIVIDEND,0.01758,2022-05-08,2022-05-11,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+NINH,2025-04-28,CASH_DIVIDEND,0.07333,2025-04-29,2025-04-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+OBRI,2020-08-27,CASH_DIVIDEND,0.3,2020-08-26,2020-08-31,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+OBRI,2021-11-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+OBRI,2021-11-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+OBRI,2022-02-07,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+OBRI,2022-02-07,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+OBRI,2022-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+OBRI,2022-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+OCDI,2021-12-13,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+OCDI,2021-12-13,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+OCPH,2016-05-11,CASH_DIVIDEND,0.5,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+OCPH,2017-05-09,CASH_DIVIDEND,0.875,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+OCPH,2018-05-15,CASH_DIVIDEND,1.001472,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+OCPH,2019-07-16,CASH_DIVIDEND,0.25,2019-07-15,2019-07-18,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+OCPH,2020-07-27,CASH_DIVIDEND,0.375,2020-07-26,2020-07-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+OCPH,2021-06-09,CASH_DIVIDEND,0.75,2021-06-08,2021-06-13,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+OCPH,2022-04-20,CASH_DIVIDEND,1.0,2022-04-19,2022-04-26,stockanalysis_spg,secondary_market_data,source_only_secondary,status=no_local_data_after; overlap=True
+OCPH,2024-05-28,CASH_DIVIDEND,1.25,2024-05-27,2024-05-30,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+ODIN,2021-10-26,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ODIN,2021-10-26,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+POUL,2016-03-15,CASH_DIVIDEND,0.363636,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+POUL,2017-04-10,CASH_DIVIDEND,0.08,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+POUL,2018-04-10,CASH_DIVIDEND,0.25,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+POUL,2019-07-15,CASH_DIVIDEND,0.25,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+POUL,2021-05-18,CASH_DIVIDEND,0.16,2021-05-17,2021-05-20,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+POUL,2024-10-22,CASH_DIVIDEND,0.84788,2024-10-23,2024-10-24,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+POUL,2026-04-27,CASH_DIVIDEND,0.33,2026-04-28,2026-04-29,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+PRCL,2016-10-26,CASH_DIVIDEND,0.15,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+PRCL,2017-11-06,CASH_DIVIDEND,0.09,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ROTO,2021-11-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+ROTO,2021-11-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ROTO,2021-11-04,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+ROTO,2021-11-04,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+ROTO,2021-11-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ROTO,2021-11-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+SAUD,2018-03-28,CASH_DIVIDEND,0.156763,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+SAUD,2019-03-14,CASH_DIVIDEND,0.193342,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+SAUD,2020-04-23,CASH_DIVIDEND,0.212676,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+SAUD,2025-04-14,CASH_DIVIDEND,0.85,2025-04-15,2025-04-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SAUD,2026-04-14,CASH_DIVIDEND,1.1,2026-04-15,2026-04-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SDTI,2021-11-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+SDTI,2021-11-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+SKPC,2016-05-17,CASH_DIVIDEND,0.185185,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+SKPC,2017-05-24,CASH_DIVIDEND,0.740741,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+SKPC,2018-05-29,CASH_DIVIDEND,0.648148,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+SKPC,2019-05-27,CASH_DIVIDEND,0.578704,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+SKPC,2020-07-20,CASH_DIVIDEND,0.13889,2020-07-19,2020-07-22,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+SKPC,2023-05-15,CASH_DIVIDEND,0.6,2023-05-14,2023-05-17,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+SKPC,2024-05-27,CASH_DIVIDEND,0.83333,2024-05-26,2024-05-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SKPC,2025-05-27,CASH_DIVIDEND,0.8,2025-05-28,2025-05-29,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SMFR,2023-04-11,CASH_DIVIDEND,0.27813,2023-04-10,2023-04-13,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+SMFR,2023-07-11,CASH_DIVIDEND,2.6,2023-07-10,2023-07-13,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SMFR,2024-06-06,CASH_DIVIDEND,3.3125,2024-06-05,2024-06-10,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+SMFR,2024-10-02,CASH_DIVIDEND,6.31152,2024-10-01,2024-10-07,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SMFR,2026-04-28,CASH_DIVIDEND,3.835,2026-04-29,2026-04-30,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SPHT,2026-09-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+SPHT,2026-09-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+SPIN,2023-12-12,CASH_DIVIDEND,0.04444,2023-12-11,2023-12-14,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+SPMD,2021-12-08,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+SPMD,2021-12-08,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+SPMD,2026-09-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+SPMD,2026-09-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+TRTO,2016-10-25,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+TRTO,2016-10-25,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+UEFM,2016-11-27,CASH_DIVIDEND,7.5,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+UEFM,2017-11-28,CASH_DIVIDEND,12.25,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+UEFM,2018-12-03,CASH_DIVIDEND,14.75,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+UEFM,2019-11-20,CASH_DIVIDEND,11.0,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+UEFM,2020-12-14,CASH_DIVIDEND,10.0,2020-12-13,2020-12-16,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+UEFM,2021-12-01,CASH_DIVIDEND,10.0,2021-11-30,2021-12-05,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+UEFM,2022-11-28,CASH_DIVIDEND,11.0,2022-11-27,2022-11-30,stockanalysis_spg,secondary_market_data,source_only_secondary,status=mismatch; overlap=True
+UEFM,2023-11-21,CASH_DIVIDEND,14.0,2023-11-20,2023-11-23,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+UEFM,2024-12-05,CASH_DIVIDEND,20.0,2024-12-08,2024-12-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+UEFM,2025-12-09,CASH_DIVIDEND,20.0,2025-12-10,2025-12-11,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+UNIP,2021-11-15,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+UNIP,2021-11-15,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+UNIP,2021-11-23,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+UNIP,2021-11-23,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE
+WKOL,2023-10-29,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+WKOL,2023-10-29,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ZEOT,2018-11-06,CASH_DIVIDEND,0.05,,,yahoo,secondary_market_data,source_only_secondary,status=mismatch; overlap=False
+ZEOT,2019-11-25,CASH_DIVIDEND,0.05,,,yahoo,secondary_market_data,price_checked_secondary,status=partial; overlap=False
+ZEOT,2020-11-24,CASH_DIVIDEND,0.06,,,yahoo,secondary_market_data,price_checked_secondary,status=match; overlap=False
+ZEOT,2022-11-23,CASH_DIVIDEND,0.05,2022-11-22,2022-11-27,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=match; overlap=True
+ZEOT,2023-12-06,CASH_DIVIDEND,0.09,2023-12-05,2023-12-10,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ZEOT,2025-04-07,CASH_DIVIDEND,0.05,2025-04-08,2025-04-09,stockanalysis_spg,secondary_market_data,price_checked_secondary,status=partial; overlap=True
+ZMID,2021-11-03,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.512 -> 0.64 ratio=1.25
+ZMID,2021-11-03,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ZMID,2021-11-04,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.64 -> 0.8 ratio=1.25
+ZMID,2021-11-04,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ
+ZMID,2021-11-16,CAPITAL_ACTION_CA_FACTOR,,,,egx_master_ca_factor,derived_from_price_adjustment,derived_unverified,ca_factor 0.8 -> 1.0 ratio=1.25
+ZMID,2021-11-16,CORP_ACTION_DAY_FLAG,,,,egx_master_flags,derived_from_data_flag,flag_only_unverified,flags=CORP_ACTION_DAY;RANGE_MISSING;NO_TRUE_OPEN;MAIN_SOURCE;DIV_ADJ

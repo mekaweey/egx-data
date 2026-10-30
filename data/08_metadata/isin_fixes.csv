@@ -1,0 +1,11 @@
+symbol,description,isin,isin_status,isin_source,in_metadata,data_status
+APPC,Advanced Pharmaceutical Packaging Co.,EGS38461C017,valid_check_digit,symbols_metadata,True,daily_and_intraday
+BIOQ,BIOQ,,missing,none,False,no_market_data
+EEI,EEI,,missing,none,False,no_market_data
+EITP,Egyptian International Tourism Projects,EGS70011C019,valid_check_digit,symbols_metadata,True,daily_and_intraday
+FCMD,International Company for Medical Industries (ICMI),EGS3I0S1C019,valid_check_digit,prior_audit_2026_10_30,True,daily_and_intraday
+GTHE,Global Telecom Holding S.A.E.,EGS74081C018,valid_check_digit,symbols_metadata,True,daily_and_intraday
+IUFO,IUFO,,missing,none,False,no_market_data
+MKIT,Egyptian Kuwaiti for Investment & Trade,EGS659O1C015,valid_check_digit,prior_audit_2026_10_30,True,daily_and_intraday
+NCGC,Nile Cotton Ginning,EGS32131C012,valid_check_digit,symbols_metadata,True,daily_and_intraday
+PACH,Paints & Chemical Industries Co.,EGS38311C014,valid_check_digit,symbols_metadata,True,daily_and_intraday

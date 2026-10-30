@@ -5,4 +5,4 @@
 - Structural audit 271 symbols: 0 dup/unsorted/impossible-OHLC/negative-volume/ratio anomalies.
 - Intraday-vs-daily: partial-coverage narrowness benign; 1 real case (GRCA Sep-2026 4:3 split missing in intraday) flagged; 4 symbols lack intraday entirely.
 - Open-field warning, T+2, limits history: regulatory/REGULATORY.md with sources.
-- Open flags for reviewer: COMI-2025, EAST-pre2023 adjustments; no TV refresh without session cookies; no financial history; 1m depth capped by nature.
+- Open flags for reviewer: COMI-2025, EAST-pre2023 adjustments; no TV refresh without session cookies; no financial history; 1m depth capped by nature.\n- 2026-10-30: daily open corrected to true-only; old open preserved as open_raw; see ../../DATA_FIXES_2026_10_30.md.\n
