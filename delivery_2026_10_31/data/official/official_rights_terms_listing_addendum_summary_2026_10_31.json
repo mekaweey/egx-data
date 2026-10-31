@@ -1,0 +1,25 @@
+{
+  "addendum_rows": 7,
+  "symbols": [
+    "BIGP.CA",
+    "BONY.CA",
+    "BQDC.CA",
+    "CCAP.CA",
+    "KABO.CA",
+    "KZPC.CA",
+    "OBRI.CA"
+  ],
+  "sections": {
+    "Listing Announcements": 6,
+    "General": 1
+  },
+  "terms_sources": {
+    "official_listing_announcement": 6,
+    "official_listing_announcement+mubasher_news": 1
+  },
+  "not_applicable": 1,
+  "source_base": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\official_rights_terms_all_sections_2022_2026_2026_10_31.csv",
+  "output": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\official_rights_terms_listing_addendum_2026_10_31.csv",
+  "note": "Rights terms recovered from EGX Listing Announcements / FRA releases that the structured all-sections parser missed. Each row cites its source code. Rows with not_applicable_reason are not used to adjust prices. The original official-rights file is not modified.",
+  "generated_at_utc": "2026-10-31T16:28:59+02:00"
+}

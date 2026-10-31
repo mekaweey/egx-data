@@ -1,0 +1,36 @@
+{
+  "rows": 72056,
+  "unique_codes": 72056,
+  "min_published_utc": "2022-01-02T08:12:52+00:00",
+  "max_published_utc": "2026-10-29T17:04:41+00:00",
+  "sections": {
+    "General": 41007,
+    "Members News": 277,
+    "Corporate Actions": 697,
+    "Listing Announcements": 8659,
+    "General Assemblies": 5496,
+    "Financial Results": 6835,
+    "Trading Notices": 979,
+    "Insider Trading Executions/Treasury Stocks": 3282,
+    "Shareholding Structure": 4809,
+    "Listing Committee Decisions": 8,
+    "Listing/Delisting Requests": 7
+  },
+  "missing_months": [],
+  "scraped_at_utc": "2026-10-31T13:38:06+00:00",
+  "source": "https://beta.egx.com.eg/api/bff/egx/news-search",
+  "sec_ids": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    16
+  ],
+  "note": "Official EGX beta BFF news archive; dateStamp treated as Cairo local time."
+}

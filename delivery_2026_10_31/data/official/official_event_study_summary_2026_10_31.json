@@ -1,0 +1,34 @@
+{
+  "trades": 24181,
+  "event_types": {
+    "financial_results": 16652,
+    "treasury_buyback": 4759,
+    "negative_news": 1554,
+    "cash_dividend": 763,
+    "stock_dividend": 239,
+    "mna": 128,
+    "rights": 86
+  },
+  "samples": {
+    "all": 13826,
+    "dedup5": 10355
+  },
+  "horizons": [
+    1,
+    5
+  ],
+  "cost_round_trip_pct": 0.36,
+  "entry_rule": "Financial/treasury/M&A/negative events: if published at/after 14:00 Cairo, enter next trading day close; otherwise enter same-day close. Corporate actions: enter at the ex-date close (or next trading day if the ex-date is not a trading day).",
+  "market_adjustment": "Equal-weight mean cross-sectional daily return of all raw-panel symbols is the main baseline; median and 10% trimmed mean are robustness checks. All are compounded over the holding window.",
+  "dedupe": "One event per symbol/date; dedup5 keeps the first event per symbol per 5 calendar days.",
+  "treasury_sales_rows": 4,
+  "recommendations": "The official disclosures contain no broker recommendation/target-price series (only one audit-committee 'recommendations' row); the prior Mubasher recommendation test remains the only recommendation evidence.",
+  "caveats": [
+    "Event study/backtest, not real execution.",
+    "Daily close-to-close; no intraday fill, partial fill, rejection or queue model.",
+    "Costs: 0.08%/side commission + 0.10%/side assumed slippage = 0.36% round trip; EGP 245/month not allocated.",
+    "Naive t-stats ignore overlapping windows and cross-sectional correlation; use the entry-date-clustered t-stat as descriptive.",
+    "Small samples (M&A, rights, splits) are inconclusive."
+  ],
+  "generated_at_utc": "2026-10-31T16:10:21+02:00"
+}

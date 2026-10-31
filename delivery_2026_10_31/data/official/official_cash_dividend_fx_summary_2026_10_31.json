@@ -1,0 +1,26 @@
+{
+  "rows_total": 697,
+  "cash_rows": 420,
+  "currency_counts": {
+    "EGP": 395,
+    "USD": 17,
+    "CENT_AMBIGUOUS": 6,
+    "PIASTER": 1,
+    "UNKNOWN": 1
+  },
+  "native_amount_missing": 1,
+  "egp_equiv_missing": 7,
+  "usd_rows": 17,
+  "usd_rows_converted": 17,
+  "fx_note_counts": {
+    "egp_native": 395,
+    "converted_at_usdegp": 17,
+    "ambiguous_cent_not_converted": 6,
+    "converted_from_piaster": 1,
+    "missing_amount": 1
+  },
+  "source": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\official_corporate_actions_2022_2026_2026_10_31.csv",
+  "macro_source": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\macro_daily_2022_2026_2026_10_31.csv",
+  "output": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\official_corporate_actions_with_fx_2022_2026_2026_10_31.csv",
+  "note": "cash_dividend_per_share remains the native amount; cash_dividend_per_share_egp is the converted EGP equivalent. USD conversion uses the last available usdegp on/before the ex-date (max 7 days back)."
+}

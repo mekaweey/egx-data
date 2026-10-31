@@ -1,0 +1,14 @@
+{
+  "candidate_rows_with_labels": 1262,
+  "complete_rights_rows": 65,
+  "symbols": 46,
+  "sections": {
+    "Corporate Actions": 47,
+    "General": 18
+  },
+  "date_min": "2021-11-30",
+  "date_max": "2026-10-13",
+  "source": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\egx_official_disclosures_2022_2026_2026_10_31.csv",
+  "note": "Rights terms parsed from all official EGX sections; only complete term sets kept.",
+  "generated_at_utc": "2026-10-31T15:57:07+02:00"
+}

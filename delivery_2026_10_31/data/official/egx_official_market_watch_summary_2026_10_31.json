@@ -1,0 +1,39 @@
+{
+  "rows": 223,
+  "unique_symbols": 223,
+  "unique_marketcodes": 2,
+  "pages": 1,
+  "last_trade_date_counts": {
+    "2026-10-28T00:00:00": 222,
+    "2026-10-26T00:00:00": 1
+  },
+  "sectors": {
+    "Non-bank financial services": 36,
+    "Real Estate": 33,
+    "Food, Beverages and Tobacco": 30,
+    "Health Care & Pharmaceuticals": 20,
+    "Basic Resources": 14,
+    "Contracting & Construction Engineering": 12,
+    "Banks": 12,
+    "Building Materials": 11,
+    "Travel & Leisure": 9,
+    "Textile & Durables": 8,
+    "IT , Media & Communication Services": 8,
+    "Industrial Goods , Services and Automobiles": 7,
+    "Trade & Distributors": 7,
+    "Education Services": 5,
+    "Shipping & Transportation Services": 3,
+    "Paper & Packaging": 3,
+    "Energy & Support Services": 2,
+    "Utilities": 2,
+    "": 1
+  },
+  "missing_isin": 0,
+  "missing_reuters": 0,
+  "min_last_trade_date": "2026-10-26T00:00:00",
+  "max_last_trade_date": "2026-10-28T00:00:00",
+  "max_write_time": "202610291538",
+  "source": "https://beta.egx.com.eg/api/bff/egx/market-watch",
+  "note": "Official current market-watch snapshot. It is not historical and has no bid/ask. lastTradeDate can be older than the snapshot date for non-traded symbols.",
+  "fetched_at_utc": "2026-10-31T13:16:31+00:00"
+}

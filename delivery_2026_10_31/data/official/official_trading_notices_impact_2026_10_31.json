@@ -1,0 +1,245 @@
+{
+  "candidates_selected": 7413,
+  "candidate_dates": 900,
+  "candidate_symbols": 68,
+  "halt_intervals": 469,
+  "unresolved_intervals": 17,
+  "resume_before_start_intervals": 0,
+  "blocked_content": 18,
+  "blocked_publication": 20,
+  "blocked_content_pct": 0.2428,
+  "blocked_publication_pct": 0.2698,
+  "examples_content": [
+    {
+      "date": "2022-03-29",
+      "symbol": "AREH",
+      "notice_code": 220383,
+      "heading": "Suspension of Trading on Egyptian Real Estate Group (AREH.CA) "
+    },
+    {
+      "date": "2022-09-13",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-10-18",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-19",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-20",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-21",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-22",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-28",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-02",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-05",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-12",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-19",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-22",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-29",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-30",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-31",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-06-01",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "ETRS",
+      "notice_code": 290693,
+      "heading": "Suspension of Trading on Egyptian Transport & Commercial Services Co. -EGYTRANS NOSCO (ETRS.CA) "
+    }
+  ],
+  "examples_publication": [
+    {
+      "date": "2022-03-29",
+      "symbol": "AREH",
+      "notice_code": 220383,
+      "heading": "Suspension of Trading on Egyptian Real Estate Group (AREH.CA) "
+    },
+    {
+      "date": "2022-09-13",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-10-18",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-19",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-20",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-21",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-22",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2022-12-28",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-02",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-05",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-12",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-19",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-01-22",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-29",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-30",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-05-31",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2023-06-01",
+      "symbol": "MOED",
+      "notice_code": 225036,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "date": "2026-02-02",
+      "symbol": "AJWA",
+      "notice_code": 283011,
+      "heading": "Suspension of Trading on AJWA for Food Industries company - Egypt (AJWA.CA) "
+    },
+    {
+      "date": "2026-06-30",
+      "symbol": "ETRS",
+      "notice_code": 290693,
+      "heading": "Suspension of Trading on Egyptian Transport & Commercial Services Co. -EGYTRANS NOSCO (ETRS.CA) "
+    },
+    {
+      "date": "2026-07-15",
+      "symbol": "AREH",
+      "notice_code": 291330,
+      "heading": "Suspension of Trading on Egyptian Real Estate Group (AREH.CA) "
+    }
+  ],
+  "note": "Impact audit only. The candidate ledger is the saved S6-14:00 selected set, not a fresh backtest. A blocked row means a 14:00 entry would have coincided with an official suspension; it does not estimate the P&L effect."
+}

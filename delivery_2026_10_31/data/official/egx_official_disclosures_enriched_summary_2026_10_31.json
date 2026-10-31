@@ -1,0 +1,57 @@
+{
+  "rows": 72056,
+  "mapped_rows": 43394,
+  "unmapped_rows": 28662,
+  "mapping_methods": {
+    "reuters": 41031,
+    "unmapped": 28662,
+    "isin": 2363
+  },
+  "unique_symbols": 223,
+  "unique_reuters": 321,
+  "unique_isins": 1827,
+  "market_watch_symbols": 223,
+  "gour_amii_checks": {
+    "GOUR": {
+      "official_rows": 35,
+      "mapped_symbols": [
+        "GOUR"
+      ],
+      "sections": {
+        "General": 18,
+        "Financial Results": 6,
+        "General Assemblies": 6,
+        "Shareholding Structure": 3,
+        "Listing Announcements": 1,
+        "Corporate Actions": 1
+      },
+      "min_date": "2026-01-21T10:44:09+02:00",
+      "max_date": "2026-10-11T10:58:50+03:00",
+      "ok": true
+    },
+    "AMII": {
+      "official_rows": 214,
+      "mapped_symbols": [
+        "AMII"
+      ],
+      "sections": {
+        "General": 147,
+        "Shareholding Structure": 19,
+        "General Assemblies": 19,
+        "Financial Results": 18,
+        "Trading Notices": 9,
+        "Corporate Actions": 1,
+        "Listing Announcements": 1
+      },
+      "min_date": "2022-01-11T09:29:32+02:00",
+      "max_date": "2026-10-28T15:07:57+03:00",
+      "ok": true
+    }
+  },
+  "outputs": {
+    "enriched": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\egx_official_disclosures_enriched_2022_2026_2026_10_31.csv",
+    "symbol_map": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\egx_official_disclosures_symbol_map_2026_10_31.csv"
+  },
+  "note": "Reuters mapping is normalized and primary; ISIN is the fallback. Rows with no matched code stay blank rather than being guessed by name. The full text remains in the original disclosures CSV; the enriched file keeps key columns plus symbol/mapping_method.",
+  "generated_at_utc": "2026-10-31T15:52:17+02:00"
+}

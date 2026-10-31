@@ -1,0 +1,152 @@
+{
+  "source": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\egx_official_disclosures_2022_2026_2026_10_31.csv",
+  "output": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\official_trading_notices_parsed_2022_2026_2026_10_31.csv",
+  "rows": 979,
+  "suspensions": 469,
+  "suspension_continuations": 28,
+  "resumes": 475,
+  "other_notices": 7,
+  "symbols": 170,
+  "paired_suspensions": 452,
+  "unresolved_suspensions": 17,
+  "continuations_linked": 28,
+  "orphan_resumes": 23,
+  "same_day_pairs": 309,
+  "halt_calendar_days_median": 0.0,
+  "halt_calendar_days_max": 405,
+  "halt_sessions_median": 1.0,
+  "halt_sessions_max": 266,
+  "resume_time_parsed": 475,
+  "suspension_date_from_content": 420,
+  "date_parse_notes": {
+    "day_first": 262,
+    "day_first_ambiguous": 208,
+    "day_first_intraday_published": 153,
+    "day_first_ambiguous_intraday_published": 108,
+    "day_first_intraday_published_resume_before_start_use_published_end": 66,
+    "day_first_ambiguous_intraday_published_resume_before_start_use_published_end": 54,
+    "no_content_date_use_published": 45,
+    "day_first_orphan_resume": 16,
+    "no_content_date_use_published_resume_before_start_use_published_end": 12,
+    "no_content_date": 6,
+    "day_first_ambiguous_orphan_resume": 6,
+    "month_first_intraday_published": 4,
+    "month_first": 3,
+    "no_content_date_use_published_continuation_duplicate_continuation_of_290104": 3,
+    "month_first_ambiguous": 2,
+    "month_first_ambiguous_intraday_published_resume_before_start_use_published_end": 2,
+    "month_first_ambiguous_intraday_published": 2,
+    "day_first_intraday_published_continuation_duplicate_continuation_of_220383": 1,
+    "no_content_date_use_published_continuation_duplicate_continuation_of_220383": 1,
+    "no_content_date_use_published_orphan_resume": 1
+  },
+  "top_longest": [
+    {
+      "symbol": "IDHC",
+      "published_cairo": "2022-04-21T11:16:15+02:00",
+      "halt_calendar_days": 405,
+      "halt_sessions": 266,
+      "heading": "Suspension of Trading on Integrated Diagnostics Holdings plc (IDHC.CA) "
+    },
+    {
+      "symbol": "MOED",
+      "published_cairo": "2022-06-02T11:13:07+02:00",
+      "halt_calendar_days": 369,
+      "halt_sessions": 247,
+      "heading": "Suspension of Trading on The Egyptian Modern Education Systems (MOED.CA) (SMEs Market)"
+    },
+    {
+      "symbol": "ICLE",
+      "published_cairo": "2023-03-30T13:38:42+02:00",
+      "halt_calendar_days": 361,
+      "halt_sessions": 239,
+      "heading": "Suspension of Trading on International Company For Leasing (IncoLEASE) (ICLE.CA) "
+    },
+    {
+      "symbol": "MOSC",
+      "published_cairo": "2023-08-31T12:24:37+03:00",
+      "halt_calendar_days": 335,
+      "halt_sessions": 220,
+      "heading": "Suspension of Trading on Misr Oils & Soap (MOSC.CA) "
+    },
+    {
+      "symbol": "LUTS",
+      "published_cairo": "2023-06-18T10:36:15+03:00",
+      "halt_calendar_days": 310,
+      "halt_sessions": 207,
+      "heading": "Suspension of Trading on Lotus For Agricultural Investments And Development (LUTS.CA) (SMEs Market)"
+    },
+    {
+      "symbol": "AREH",
+      "published_cairo": "2022-02-21T15:01:36+02:00",
+      "halt_calendar_days": 113,
+      "halt_sessions": 75,
+      "heading": "Suspension of Trading on Egyptian Real Estate Group (AREH.CA) "
+    },
+    {
+      "symbol": "PHGC",
+      "published_cairo": "2025-09-24T11:41:49+03:00",
+      "halt_calendar_days": 110,
+      "halt_sessions": 76,
+      "heading": "Suspension of Trading on  Premium Healthcare Group (PHGC.CA) "
+    },
+    {
+      "symbol": "VERT",
+      "published_cairo": "2023-08-13T12:56:59+03:00",
+      "halt_calendar_days": 91,
+      "halt_sessions": 64,
+      "heading": "Suspension of Trading on Vertika for Industry & Trade (VERT.CA) (SMEs Market)"
+    },
+    {
+      "symbol": "AREH",
+      "published_cairo": "2022-06-16T12:11:06+02:00",
+      "halt_calendar_days": 63,
+      "halt_sessions": 40,
+      "heading": "Suspension of Trading on  Egyptian Real Estate Group (AREH.CA)"
+    },
+    {
+      "symbol": "SVCE",
+      "published_cairo": "2024-08-08T12:12:13+03:00",
+      "halt_calendar_days": 62,
+      "halt_sessions": 43,
+      "heading": "Suspension of Trading on South Valley Cement (SVCE.CA) "
+    },
+    {
+      "symbol": "BIGP",
+      "published_cairo": "2023-09-21T11:15:52+03:00",
+      "halt_calendar_days": 53,
+      "halt_sessions": 36,
+      "heading": "Suspension of Trading on ElBarbary Investment Group ( BIG) (BIGP.CA) (SMEs Market)"
+    },
+    {
+      "symbol": "IDRE",
+      "published_cairo": "2022-06-15T11:20:36+02:00",
+      "halt_calendar_days": 50,
+      "halt_sessions": 31,
+      "heading": "Suspension of Trading on  Ismailia Development and Real Estate Co (IDRE.CA)"
+    },
+    {
+      "symbol": "MKIT",
+      "published_cairo": "2025-02-23T11:50:46+02:00",
+      "halt_calendar_days": 49,
+      "halt_sessions": 32,
+      "heading": "Suspension of Trading on Misr Kuwait Investment & Trading Co. (MKIT.CA) (SMEs Market)"
+    },
+    {
+      "symbol": "ANFI",
+      "published_cairo": "2026-06-21T13:12:29+03:00",
+      "halt_calendar_days": 42,
+      "halt_sessions": 29,
+      "heading": "Suspension of Trading on Tycoon Investments Holding (ANFI.CA) "
+    },
+    {
+      "symbol": "ICMI",
+      "published_cairo": "2022-06-23T11:01:51+02:00",
+      "halt_calendar_days": 42,
+      "halt_sessions": 25,
+      "heading": "Suspension of Trading on International company For Medical Industries -ICMI (ICMI.CA) (SMEs Market)"
+    }
+  ],
+  "note": "Official Trading Notices only. Times are Cairo local. Suspension start uses the content effective date at 09:30, or the publication time if the notice was published intraday on that date; resume uses the content time when present, otherwise the publication time. This is a halt/resume timeline, not a complete limit-up/down model.",
+  "generated_at_cairo": "2026-10-31T17:03:02.768236+02:00"
+}

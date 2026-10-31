@@ -1,0 +1,40 @@
+{
+  "mubasher_rights_events": 60,
+  "official_rights_rows": 72,
+  "official_rights_base_rows": 65,
+  "official_rights_addendum_rows": 7,
+  "not_applicable_events": 1,
+  "matched_events": 58,
+  "unmatched_events": 2,
+  "status_counts": {
+    "already_adjusted_no_drop": 26,
+    "partial_drop_not_adjusted": 11,
+    "out_of_the_money": 7,
+    "already_adjusted_or_inconsistent": 6,
+    "adjusted_consistent": 4,
+    "no_price_dates": 3,
+    "unmatched_official_terms": 2,
+    "restricted_offering_non_selling_shareholders_waived": 1
+  },
+  "applied_events": 4,
+  "applied_symbols": [
+    "ADIB",
+    "BTFH",
+    "EHDR",
+    "SCEM"
+  ],
+  "factor_theoretical_min": 0.1273209549071618,
+  "factor_theoretical_median": 0.826925771603594,
+  "factor_theoretical_max": 1.0,
+  "applied_factor_min": 0.8708771929824561,
+  "applied_factor_median": 0.9271813520280627,
+  "applied_factor_max": 0.9800795159471021,
+  "matched_raw_jumps_gt_15pct": 17,
+  "matched_adjusted_jumps_gt_15pct": 17,
+  "applied_events_abs_gt_15pct": 0,
+  "adjusted_rows": 250154,
+  "adjusted_symbols": 250,
+  "consistency_tolerance_pp": 5.0,
+  "note": "The Mubasher raw daily panel already appears adjusted for most rights/bonus events (no ex-date drop).  The theoretical TERP factor is applied only when the observed ex-date drop is negative and the residual return after applying the factor is within 5% (geometric test); otherwise the raw series is left unchanged and the event is labelled.  Out-of-the-money rights are capped at 1.0.  Unmatched/incomplete events are not guessed.  This adjusts rights only; cash dividends and bonus/split actions are separate.",
+  "generated_at_utc": "2026-10-31T16:30:30+02:00"
+}

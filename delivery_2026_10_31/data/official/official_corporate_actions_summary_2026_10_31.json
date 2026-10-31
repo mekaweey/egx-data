@@ -1,0 +1,30 @@
+{
+  "rows": 697,
+  "action_types": {
+    "cash_dividend": 420,
+    "stock_dividend": 171,
+    "rights": 61,
+    "other": 26,
+    "split": 19
+  },
+  "with_isin": 692,
+  "with_reuters": 691,
+  "parse_notes": {
+    "": 634,
+    "stock_dividend_ratio|ex_date": 25,
+    "reuters_code": 13,
+    "isin|reuters_code": 9,
+    "ex_date": 5,
+    "cash_dividend_per_share": 5,
+    "reuters_code|stock_dividend_ratio": 2,
+    "isin|reuters_code|stock_dividend_ratio|ex_date": 2,
+    "reuters_code|ex_date": 1,
+    "stock_dividend_ratio": 1
+  },
+  "rights_rows": 61,
+  "stock_dividend_rows": 171,
+  "cash_dividend_rows": 420,
+  "source": "C:\\Users\\Mekawey\\OneDrive\\Documents\\Default Project\\deliverables_2026_10_31\\data\\egx_official\\egx_official_disclosures_2022_2026_2026_10_31.csv",
+  "note": "Parsed from official EGX Corporate Actions disclosures; missing terms are left blank.",
+  "generated_at_utc": "2026-10-31T16:09:57+02:00"
+}

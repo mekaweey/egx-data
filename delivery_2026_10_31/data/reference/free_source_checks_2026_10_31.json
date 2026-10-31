@@ -1,0 +1,191 @@
+{
+  "generated_at_cairo": "2026-10-31T17:05:00+02:00",
+  "scope": "Free-source checks for EGX 1m 2023-2024, bid/ask/order book, historical snapshots, official financial statements archive, and recommendations. No paid signup and no account creation was performed.",
+  "official_egx_beta": {
+    "base": "https://beta.egx.com.eg/api/bff/egx",
+    "known_endpoints": [
+      "stock-categories",
+      "stock-info",
+      "market-watch",
+      "price-volume-points",
+      "index-data",
+      "news-search",
+      "market-status",
+      "gold-market-watch",
+      "silver-market-watch",
+      "gold-history",
+      "silver-history"
+    ],
+    "price_volume_points": {
+      "granularity": "daily",
+      "fields": ["isinCode", "name", "nameAr", "tradeDate", "closePrice", "tradeVolume"],
+      "max_days_tested": 1095,
+      "has_time_of_day": false,
+      "has_bid_ask": false,
+      "note": "The stock chart calls price-volume-points?isin=...&date=180; the response has tradeDate at 00:00 and no intraday bars."
+    },
+    "stock_info": {
+      "granularity": "current quote",
+      "has_bid_ask": false,
+      "has_history": false,
+      "note": "Fields include last trade/close/volume/market cap/PE/yield, plus intraday and with_history flags; no order book."
+    },
+    "market_watch": {
+      "granularity": "current daily quote table",
+      "has_bid_ask": false,
+      "has_history": false,
+      "rows_2026_10_29": 223
+    },
+    "candidate_endpoints_rejected": [
+      "company-info",
+      "company-profile",
+      "financial-statements",
+      "financials",
+      "stock-financials",
+      "stock-dividends",
+      "corporate-actions",
+      "recommendations",
+      "analyst-recommendations",
+      "target-prices",
+      "intraday",
+      "intraday-points",
+      "stock-intraday",
+      "tick-data",
+      "order-book",
+      "market-depth",
+      "best-bid-ask",
+      "bid-ask",
+      "stock-history",
+      "historical-prices",
+      "price-history",
+      "trading-notices",
+      "disclosures",
+      "stock-news",
+      "stock-details"
+    ],
+    "candidate_endpoint_result": "HTTP 200 with text/html 'Request Rejected' (WAF), not JSON. This is evidence the endpoint name is not a valid BFF route, not a valid empty result.",
+    "conclusion": "No free official stock 1m, bid/ask, order book, historical intraday, financial statements archive, or recommendations endpoint was found."
+  },
+  "mubasher": {
+    "historical_daily": {
+      "coverage": "2022-01-02..2026-10-29",
+      "rows": 250154,
+      "symbols": 250,
+      "granularity": "daily OHLCV"
+    },
+    "intraday": {
+      "coverage": "latest session only (2026-10-29)",
+      "files": 237,
+      "bars": 32184,
+      "url_type": "static per-symbol CSV (File.Delay_Stock_Intraday_Charts_Dir)",
+      "date_parameter": false,
+      "note": "The intraday file is overwritten for the latest session; adding a date query does not retrieve 2023-2024 1m."
+    },
+    "snapshots_2026_10_29": {
+      "rows": 1346,
+      "symbols": 225,
+      "times": ["10:00", "10:05", "14:00", "14:25", "14:28", "14:31_proxy"],
+      "exact": 701,
+      "proxy": 645,
+      "stale_symbols_kept_separately": 12
+    },
+    "conclusion": "No free historical 1m before 2026-10-29 and no historical bid/ask."
+  },
+  "egx_news": {
+    "url": "https://egx.news/ar/our-data",
+    "free_current": "Live quotes and Level 2 market depth are advertised via RapidAPI with a free developer tier; current only, requires account/API key.",
+    "paid_1m": {
+      "single_stock_usd_per_trading_day": 0.10,
+      "egx30_usd_per_trading_day": 1.50,
+      "egx70_usd_per_trading_day": 3.00,
+      "egx100_usd_per_trading_day": 4.00,
+      "full_market_usd_per_trading_day": 5.00,
+      "daily_history_usd_per_stock": 1.00,
+      "stock_1m_selected_range_trading_days": 64,
+      "index_1m_available": "2026-08-17..2026-10-29"
+    },
+    "conclusion": "Free current depth exists only with a RapidAPI account; historical 1m 2023-2024 is paid and not offered in the tested calculator range. Not used."
+  },
+  "egxapi": {
+    "main_site": "https://egxapi.com",
+    "main_status": 200,
+    "main_title": "EGXAPI — Trading API for the Egyptian Exchange",
+    "main_flags": ["pricing", "subscribe", "subscription", "api key"],
+    "api_subdomain": "https://api.egxapi.com",
+    "api_status": 530,
+    "api_title": "Cloudflare Tunnel error",
+    "conclusion": "Paid product; API host not reachable. Not usable free."
+  },
+  "borsa": {
+    "url": "https://borsa.ashh.me",
+    "status": 200,
+    "license": "MIT",
+    "model": "self-hostable, BYOK, provider fallback",
+    "demo_limit": "50 requests/day shared across all visitors",
+    "openapi_paths": [
+      "/v1/health",
+      "/v1/stocks",
+      "/v1/quote/{symbol}",
+      "/v1/quotes",
+      "/v1/quotes/batch",
+      "/v1/quote/by-company/{name}",
+      "/v1/status",
+      "/demo/quote/{symbol}"
+    ],
+    "conclusion": "Quote-only; no historical/intraday/order-book endpoints. Not a 1m source."
+  },
+  "yahoo_finance": {
+    "symbol_tested": "COMI.CA",
+    "requested_intervals": ["1m", "5m", "1d"],
+    "returned_granularity": "1d",
+    "rows": 483,
+    "first": "2023-01-02",
+    "last": "2024-12-30",
+    "instrument_type": "MUTUALFUND",
+    "conclusion": "The free chart endpoint returned daily data even for 1m/5m requests; no EGX 1m 2023-2024."
+  },
+  "official_disclosures": {
+    "rows": 72056,
+    "sections": 11,
+    "financial_results_rows": 6835,
+    "rows_mentioning_financial_statement": 2863,
+    "recommendation_rows_english": 10,
+    "target_price_rows": 0,
+    "analyst_rows": 0,
+    "arabic_recommendation_rows": 1,
+    "arabic_target_price_rows": 0,
+    "arabic_financial_statements_rows": 12,
+    "arabic_analyst_rows": 0,
+    "recommendation_note": "The 10 English 'recommend' rows are board/audit-committee/AGM recommendations, not broker recommendations or target prices.",
+    "conclusion": "No structured official financial statements archive and no broker recommendation/target-price series. Financial Results disclosures exist but are news items/attachments, not a clean historical statement dataset."
+  },
+  "trading_notices": {
+    "rows": 979,
+    "suspensions": 469,
+    "suspension_continuations": 28,
+    "resumes": 475,
+    "other": 7,
+    "symbols": 169,
+    "paired_suspensions": 451,
+    "unresolved_suspensions": 17,
+    "orphan_resumes": 23,
+    "same_day_pairs": 308,
+    "median_halt_calendar_days": 0,
+    "max_halt_calendar_days": 405,
+    "selected_candidate_rows": 7413,
+    "blocked_content": 18,
+    "blocked_publication": 20,
+    "blocked_content_pct": 0.2428,
+    "blocked_publication_pct": 0.2698,
+    "caveat": "Most blocked rows are MOED during a notice labelled SMEs Market; Mubasher shows MOED trading heavily in that period. The notices may refer to a specific segment, so the impact count is an upper bound and was not applied to strategy results."
+  },
+  "not_obtained": [
+    "1m bars for 2023-2024 from a free source",
+    "historical bid/ask or order book",
+    "historical intraday snapshots before 2026-10-29",
+    "structured official financial statements archive",
+    "official broker recommendations/target prices",
+    "the user's 5-10 real trades"
+  ],
+  "real_fills": "unverified"
+}

@@ -1,0 +1,81 @@
+{
+  "source": "Mubasher per-company news pages",
+  "scraped_at_utc": "2026-10-31",
+  "rows_symbol_article_links": 23573,
+  "unique_articles": 22357,
+  "symbols": 252,
+  "requested_symbols": 255,
+  "present_symbols": 252,
+  "date_min_utc": "2012-02-19 11:57:00+00:00",
+  "date_max_utc": "2026-10-29 13:06:00+00:00",
+  "null_published_utc": 0,
+  "null_first_paragraph": 0,
+  "empty_first_paragraph": 0,
+  "null_url": 0,
+  "duplicate_symbol_news_links": 0,
+  "categories": 36,
+  "rows_by_year": {
+    "2012": 1,
+    "2013": 3,
+    "2014": 7,
+    "2015": 12,
+    "2016": 6,
+    "2017": 14,
+    "2018": 21,
+    "2019": 110,
+    "2020": 575,
+    "2021": 2464,
+    "2022": 4654,
+    "2023": 3881,
+    "2024": 4324,
+    "2025": 4263,
+    "2026": 3238
+  },
+  "aliases": [
+    {
+      "requested_symbol": "AIH",
+      "mubasher_symbol": "AIHC",
+      "status": "resolved_alias",
+      "note": "Mubasher uses AIHC for Arabia Investments Holding; AIH page returns 500"
+    },
+    {
+      "requested_symbol": "LKGP",
+      "mubasher_symbol": "HCFI",
+      "status": "resolved_alias",
+      "note": "Lakah Group is HCFI on Mubasher; LKGP page returns 500"
+    },
+    {
+      "requested_symbol": "EIUD",
+      "mubasher_symbol": "GPIM",
+      "status": "resolved_alias",
+      "note": "GPI Urban Growth is GPIM on Mubasher; EIUD page returns 500"
+    },
+    {
+      "requested_symbol": "GOUR",
+      "mubasher_symbol": "",
+      "status": "unresolved",
+      "note": "Gourmet Egypt listed Jan 2026; Mubasher per-company news page returns 500 and search returns no EGX match"
+    },
+    {
+      "requested_symbol": "AMII",
+      "mubasher_symbol": "",
+      "status": "unresolved",
+      "note": "No EGX Mubasher company page; companySearch returns only MSM (Oman) AMII"
+    }
+  ],
+  "timestamp_verification": {
+    "old_snapshot_rows": 5810,
+    "old_unique_ids": 5810,
+    "old_ids_found_in_new": 5566,
+    "old_ids_missing_from_new_general_news": 244,
+    "exact_timestamp_matches": 5559,
+    "title_url_mismatches": 1,
+    "note": "The displayed list time is Cairo local; the first scraper subtracted one hour by mistake. Rebuilt from published_list_dt."
+  },
+  "caveats": [
+    "first_paragraph is the free list excerpt; paid articles may be truncated with an ellipsis and the full body is not available without a Mubasher subscription.",
+    "GOUR and AMII have no usable Mubasher EGX news page; AIH/LKGP/EIUD are aliases of AIHC/HCFI/GPIM.",
+    "News ends 2026-10-29; 2026-10-30/31 are weekend days.",
+    "One old snapshot article (id 4659336) has a different title/URL in the per-company page (H1 vs Q1 wording); timestamp is identical."
+  ]
+}

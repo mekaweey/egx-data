@@ -1,0 +1,280 @@
+{
+  "news_full": {
+    "rows": 23573,
+    "symbols": 252,
+    "unique_news": 22357,
+    "min": "2012-02-19 13:57:00+0200",
+    "max": "2026-10-29 16:06:00+0300"
+  },
+  "news_unique": {
+    "rows": 22357,
+    "unique_news": 22357,
+    "min": "2012-02-19 13:57:00+0200",
+    "max": "2026-10-29 16:06:00+0300",
+    "with_symbols": 22357
+  },
+  "corporate_actions_unified": {
+    "rows": 1066,
+    "symbols": 219,
+    "categories": {
+      "dividend": 455,
+      "other": 175,
+      "split": 156,
+      "bonus_shares": 149,
+      "capital_increase": 71,
+      "rights": 60
+    },
+    "min": "2022-01-02",
+    "max": "2026-11-10"
+  },
+  "official_corporate_actions": {
+    "rows": 697,
+    "symbols": 206,
+    "symbol_col": "reuters_code",
+    "action_types": {
+      "cash_dividend": 420,
+      "stock_dividend": 171,
+      "rights": 61,
+      "other": 26,
+      "split": 19
+    }
+  },
+  "rights_terms": {
+    "rows": 65,
+    "symbols": 46,
+    "symbol_col": "reuters_code"
+  },
+  "official_disclosures_summary": {
+    "rows": 72056,
+    "unique_codes": 72056,
+    "min_published_utc": "2022-01-02T08:12:52+00:00",
+    "max_published_utc": "2026-10-29T17:04:41+00:00",
+    "sections": {
+      "General": 41007,
+      "Members News": 277,
+      "Corporate Actions": 697,
+      "Listing Announcements": 8659,
+      "General Assemblies": 5496,
+      "Financial Results": 6835,
+      "Trading Notices": 979,
+      "Insider Trading Executions/Treasury Stocks": 3282,
+      "Shareholding Structure": 4809,
+      "Listing Committee Decisions": 8,
+      "Listing/Delisting Requests": 7
+    },
+    "missing_months": [],
+    "scraped_at_utc": "2026-10-31T13:38:06+00:00",
+    "source": "https://beta.egx.com.eg/api/bff/egx/news-search",
+    "sec_ids": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      16
+    ],
+    "note": "Official EGX beta BFF news archive; dateStamp treated as Cairo local time."
+  },
+  "limits_halts": {
+    "rows": 257663,
+    "symbols": 300,
+    "min": "2022-01-02",
+    "max": "2026-10-20",
+    "halt_true": 2635,
+    "limit_close_true": 3386,
+    "limit_up_locked": 36,
+    "limit_down_locked": 10,
+    "no_trade": 2635,
+    "tradable": 250531
+  },
+  "macro": {
+    "rows": 1508,
+    "min": "2022-01-02",
+    "max": "2026-10-30",
+    "cols": [
+      "date",
+      "sp500",
+      "vix",
+      "brent",
+      "us10y",
+      "dxy",
+      "usdegp",
+      "gold"
+    ],
+    "non_null": {
+      "sp500": 1210,
+      "vix": 1243,
+      "brent": 1218,
+      "us10y": 1204,
+      "dxy": 1204,
+      "usdegp": 1242,
+      "gold": 1215
+    }
+  },
+  "sectors_full": {
+    "rows": 318,
+    "symbols": 318,
+    "sector_en_filled": 318,
+    "sector_ar_filled": 318
+  },
+  "sectors_news": {
+    "rows": 250,
+    "symbols": 250,
+    "cols": [
+      "symbol",
+      "name_ar",
+      "name_en",
+      "sector_ar_universe",
+      "sector_en",
+      "industry",
+      "float_shares_outstanding",
+      "market_cap_basic",
+      "sector_ar",
+      "sector_source",
+      "sector_ar_filled",
+      "sector_en_filled",
+      "sector_source_filled"
+    ]
+  },
+  "mubasher_daily": {
+    "rows": 250154,
+    "symbols": 250,
+    "min": "2022-01-02 00:00:00",
+    "max": "2026-10-29 00:00:00"
+  },
+  "mubasher_intraday": {
+    "rows": 32184,
+    "cols": [
+      "symbol",
+      "datetime_raw",
+      "datetime_cairo",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "source"
+    ],
+    "head": [
+      {
+        "symbol": "AALR",
+        "datetime_raw": "2026-10-29 09:00:00",
+        "datetime_cairo": "2026-10-29 10:00:00",
+        "open": "211.0",
+        "high": "211.0",
+        "low": "208.75",
+        "close": "208.75",
+        "volume": "37",
+        "source": "mubasher_intraday_csv"
+      }
+    ]
+  },
+  "snapshots": {
+    "rows": 1346,
+    "symbols": 225,
+    "times": {
+      "10:00": 223,
+      "10:05": 223,
+      "14:00": 225,
+      "14:25": 225,
+      "14:28": 225,
+      "14:31": 225
+    }
+  },
+  "earnings": {
+    "cols": [
+      "name",
+      "url",
+      "sector",
+      "market",
+      "quarter",
+      "year",
+      "currency",
+      "marketUrl",
+      "announced",
+      "changePercentage",
+      "compared",
+      "symbol"
+    ],
+    "rows": 11500
+  },
+  "insider": {
+    "cols": [
+      "name",
+      "url",
+      "trader",
+      "type",
+      "market",
+      "sector",
+      "marketUrl",
+      "volume",
+      "price",
+      "updatedAt",
+      "symbol",
+      "date",
+      "value",
+      "side"
+    ],
+    "rows": 4000
+  },
+  "announcements": {
+    "cols": [
+      "page",
+      "news_id",
+      "published_utc",
+      "source",
+      "title",
+      "url"
+    ],
+    "rows": 2586
+  },
+  "open_valid": {
+    "rows": 257663,
+    "symbols": 300,
+    "min": "2022-01-02 00:00:00",
+    "max": "2026-10-20 00:00:00",
+    "open_valid_true": 245764,
+    "open_valid_false": 11899,
+    "daily_open_fake": 166232,
+    "no_trade": 2635,
+    "tradable": 250531
+  },
+  "open_suspicious_222": {
+    "rows": 222,
+    "symbols": 13,
+    "reasons": {
+      "OPEN_BEYOND_LIMIT": 222
+    },
+    "severity": {
+      "3": 222
+    }
+  },
+  "trading_notices": {
+    "rows": 979,
+    "symbols": 170,
+    "event_types": {
+      "resume": 475,
+      "suspension": 469,
+      "suspension_continuation": 28,
+      "other": 7
+    }
+  },
+  "event_study": {
+    "rows": 24181,
+    "symbols": 215,
+    "event_types": {
+      "financial_results": 16652,
+      "treasury_buyback": 4759,
+      "negative_news": 1554,
+      "cash_dividend": 763,
+      "stock_dividend": 239,
+      "mna": 128,
+      "rights": 86
+    }
+  }
+}
