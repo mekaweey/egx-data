@@ -1,0 +1,1 @@
+trade_id,symbol,side,order_price,order_time_cairo,execution_price,execution_time_cairo,qty,fees,status,source_table,verified_actual,notes

@@ -1,0 +1,18 @@
+key,value
+timezone,Africa/Cairo; DST handled; timestamps stored as ISO with offset
+target_times,"10:00, 10:05, 10:15, 13:55, 14:00, 14:05, 14:15, 14:25"
+live_selection,"nearest marketwatch snapshot within +/-600s; prefer a non-crossed row with valid bid+ask, then a crossed row, then a valid last; delta_sec included; positive means snapshot after target; last/volume and bid/ask may come from different snapshots in the window (snapshot_ts_cairo vs bidask_ts_cairo)"
+hist_bidask,BIDASK_FINAL/snapshots per-symbol CSV; captured_at UTC converted to Cairo; 09:45-14:35 filter; nearest snapshot within +/-600s; no fallback source
+rich_snapshot,rich_data_export daily CSV; type=snapshot with bid>0 and ask>0; timestamp_cairo parsed as Cairo; 09:45-14:35 filter; nearest snapshot within +/-600s; no fallback source
+join_keys,"(date,symbol,target_time) unique within a dataset, not across datasets; tv_1m overlaps hist_bidask 2026-08-23..2026-09-09 and rich_snapshot 2026-07-26..2026-08-04; join, do not sum"
+tv_1m_selection,last completed 1m bar strictly before target for last_price/cum_volume; first bar at/after target exposed as next_bar_open; no bid/ask
+next_morning,2026-11-02 live data does not exist at extraction time (2026-11-01); 10:00/10:05/10:15 rows are historical 1m only
+tv_ticks,"2026-10-29 has only one 16:54 Cairo snapshot (237 symbols); no target-time rows, so tv_ticks is not in quotes; 2026-11-01 tv_ticks is covered by live_quote; no bid/ask"
+bid_ask_coverage,"live_quote rows=776; rows with bid+ask=741; hist_bidask rows=16,296; rows with bid+ask=12,349; hist dates=2026-08-23..2026-10-01; rich_snapshot rows=5,432; rows with bid+ask=1,917; rich dates=2026-07-26..2026-08-04"
+tv_1m_coverage,"tv_1m rows=151,232; 2026 coverage is partial, not full-market; 2023-2025 is sparse; 1m ends 2026-09-09"
+actual_trades,verified actual rows=0; extension_trades/order_lifecycle/positions are empty; pending_orders are unconfirmed; overnight_signals.mode=paper
+aliases,BIOQ->BIOC and EEI->EEII are inferred aliases; FAITA is NOT mapped to FAIT because prices differ
+missing_1m,"APPC, COSG, EITP, FAITA, GTHE, IUFO, MISR, MKIT, NCGC, PACH"
+limitations,"historical bid/ask limited to 2026-07-26..08-04 (rich_data_export), 2026-08-23..10-01 (BIDASK_FINAL), and 2026-11-01 (live); no 1m after 2026-09-09; 2023-2025 1m sparse; no verified real fills"
+real_fills,unverified
+manifest,MANIFEST.csv lists every file except itself; the SQLite manifest table omits the SQLite file own hash because a file cannot contain its own final hash

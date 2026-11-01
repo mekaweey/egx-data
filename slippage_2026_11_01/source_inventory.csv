@@ -1,0 +1,23 @@
+name,source_type,rows,min_ts,max_ts,symbols,has_bid_ask,has_volume,notes
+marketwatch_snapshots,db_table,118650,2026-11-01T08:00:05.104209+00:00,2026-11-01T12:39:22.680000+00:00,286.0,52656.0,118100.0,db table
+live_quotes,db_table,27920,2026-11-01T08:01:08.278000+00:00,2026-11-01T12:31:20.882000+00:00,265.0,27893.0,0.0,db table
+orderbook_snapshots,db_table,7862,2026-11-01T07:59:13.107000+00:00,2026-11-01T12:40:19.267000+00:00,1.0,7862.0,0.0,db table
+tv_ticks,db_table,32278,2026-10-29T13:54:01.609513+00:00,2026-11-01T12:30:58.101000+00:00,296.0,0.0,32278.0,2026-10-29 only 16:54 Cairo; no target-time rows; 2026-11-01 covered by live_quote; no bid/ask
+thunder_tick_archive,db_table,123369,2026-09-28T16:54:39.745000+00:00,2026-11-01T12:34:20.283000+00:00,142.0,0.0,3.0,db table
+thunder_watchlist_snapshots,db_table,6726,2026-09-30T11:16:55.734614+00:00,2026-11-01T12:04:19.993664+00:00,287.0,0.0,0.0,db table
+extension_trades,db_table,0,,,,,,db table
+order_lifecycle,db_table,0,,,,,,db table
+positions,db_table,0,,,,,,db table
+pending_orders,db_table,25,,,,,,db table
+overnight_signals,db_table,25,,,,,,db table
+momentum_weekly_signals,db_table,19,,,,,,db table
+scalp_dip_signals,db_table,62,,,,,,db table
+paper_trades,db_table,56,,,,,,db table
+signal_history,db_table,34,,,,,,db table
+D:\meky-stock-main\meky-stock-main\bt\tv_lag_snapshots_2026-11-01.jsonl,file,1033,,,,,,last-price map only; no bid/ask/volume
+D:\meky-stock-main\meky-stock-main\automation\lag_probe_2026-11-01.jsonl,file,4862,,,,,,lag diagnostics; not quote data
+D:\meky-stock-main\meky-stock-main\legacy-archive\thunder_tick_archive.jsonl,file,290188,,,,,,legacy archive; bid/ask fields all null; volume only 4 rows
+D:\meky-stock-main\meky-stock-main\legacy-archive\thunder_watchlist_snapshots.jsonl,file,19917,,,,,,feed price only; no bid/ask/volume
+"D:\TradingView data (EGX_DLY_*, 1.csv)",file_folder,1763869,2023-01-02,2026-09-09,87.0,0.0,1.0,TradingView 1m OHLCV exports; no bid/ask; 2023-2026 range used; sparse before 2026
+BIDASK_FINAL/snapshots,file_folder,16296,2026-08-23,2026-10-01,96.0,1.0,1.0,"per-symbol CSV; 277 files, 899.7 MB; captured_at UTC; extracted rows shown"
+rich_data_export,file_folder,5432,2026-07-26,2026-08-04,93.0,1.0,1.0,46 daily CSV in D:\meky-stock-main; only 2026-07-26..08-04 carry non-zero bid/ask; extracted rows shown

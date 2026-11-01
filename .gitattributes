@@ -1,0 +1,7 @@
+# Preserve exact bytes for data files (no CRLF conversion).
+*.csv -text
+*.tsv -text
+*.jsonl -text
+*.sqlite binary
+*.sqlite3 binary
+*.db binary
