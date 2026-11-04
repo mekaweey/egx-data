@@ -2,39 +2,42 @@
 
 - Repository: `https://github.com/mekaweey/egx-data`
 - Branch: `main`
-- Data commit: `dd7d018f90583937a4612461ceec28834a347916`
-- Manifest commit: `a9e8c7b12d48fd85829bb10a098026b5c71c3532`
-- Remote head at verification: `a9e8c7b12d48fd85829bb10a098026b5c71c3532`
-- Verified at (Cairo): `2026-11-04T12:18:37+02:00`
+- Data commit: `8d817ba5032b26f153a2e24f2cdee5a6554dbf34`
+- Manifest commit: `8d817ba5032b26f153a2e24f2cdee5a6554dbf34`
+- Remote head at verification: `8d817ba5032b26f153a2e24f2cdee5a6554dbf34`
+- Verified at (Cairo): `2026-11-04T14:04:55+02:00`
 - Dataset folder: `egx_2026_11_03/`
 
 ## Result
 
-The data commit and the manifest-normalization commit were pushed to `main`.
-The remote tree was verified **before** adding these two status files:
+The data commit was pushed to `main`. The remote data tree was verified **before**
+updating these two status files:
 
-- Manifest files: **70**
-- Manifest total bytes: **277,133,195**
-- Remote tree before status files: **71 files / 277,144,797 bytes**
-  (70 manifest files + `MANIFEST.csv`).
-- Remote file count after the follow-up status commit: 73.
+- Manifest files: **73**
+- Manifest total bytes: **277,346,042**
+- Remote data tree before status files: **74 files / 277,358,197 bytes**
+  (73 manifest files + `MANIFEST.csv`).
+- Remote file count after the follow-up status commit: **76**.
 
 ## Checks
 
 | Check | Result |
 |---|---|
-| Remote `main` head equals local head at verification | PASS (`a9e8c7b12d48fd85829bb10a098026b5c71c3532`) |
-| Git index blob SHA1 vs remote tree blob SHA1 | PASS (71/71) |
-| Manifest SHA256 vs remote blob content | PASS (70/70) |
-| Remote tree byte sum vs local folder | PASS (277,144,797) |
+| Remote `main` head equals local head at verification | PASS (`8d817ba5032b26f153a2e24f2cdee5a6554dbf34`) |
+| Git index blob SHA1 vs remote tree blob SHA1 | PASS (74/74) |
+| Manifest SHA256 vs remote blob content | PASS (73/73) |
+| Remote data-tree byte sum vs local | PASS (277,358,197) |
 | Only `egx_2026_11_03/` changed since `46e53e8` | PASS |
 | `slippage_2026_11_01` unchanged since `46e53e8` | PASS (no diff) |
 | No `2026_11_04` data filenames in the remote folder | PASS |
 | Daily 2026-11-03 completeness | PASS (309 rows; all `is_partial=0`) |
-| Live snapshots labelled reconstructed, bid/ask null | PASS (245 / 232 / 232) |
+| Live 13:55/14:05 actual; 09:55 pre-open | PASS (245 / 237 / 237; AALR bid/ask only) |
+| Top-100 actual live coverage | PARTIAL (98/100; FCMD no 03/11 data; HALN 1m fallback) |
+| 2026-11-03 bid/ask | PARTIAL (AALR only; others null, not invented) |
 | Investor 2026-11-03 daily report | MISSING (documented; no fabrication) |
 | Exact T0 216 | UNVERIFIED (248 clean union used) |
 | Actual fills | NONE CLAIMED |
+| Local checks | PASS (104/104) |
 
 ## Commands used
 
@@ -49,13 +52,17 @@ git cat-file blob <remote-blob-sha>   # SHA256 compared with MANIFEST.csv
 
 ## Caveats
 
-- The 2026-11-03 official daily investor report was not available at build
-  time. The cumulative snapshot is labelled `cumulative_or_period_unspecified`
-  and assumed through 2026-11-03; the latest official daily report included is
+- The 2026-11-03 official daily investor report was not available at build time.
+  The cumulative snapshot is labelled `cumulative_or_period_unspecified` and
+  assumed through 2026-11-03; the latest official daily report included is
   2026-11-02 and is clearly labelled.
-- The 2026-11-03 snapshots are reconstructed, not live captures. The 09:55 file
-  uses 2026-11-02 daily OHLCV because there is no 1m bar before the 10:00 open.
-- No 2026-11-03 bid/ask exists in the delivered sources; nulls are used.
+- `09:55` is a pre-open reference using 2026-11-02 daily OHLCV because there is
+  no live snapshot before the 10:00 open. `13:55` and `14:05` are actual
+  `marketwatch_snapshots`; the 14:05 target was captured at 14:05:02 Cairo.
+- Bid/ask is actual for AALR only (from `orderbook_snapshots`); the other 236
+  symbols have null bid/ask because no verified 2026-11-03 quote source exists.
+- Actual top-100 live coverage is 98/100: FCMD has no 2026-11-03
+  daily/1m/marketwatch row; HALN has a 1m reconstruction fallback.
 - The exact T0 216 list was not found; the 248-symbol clean union is a
   documented superset.
 - No actual fills are present or claimed.
