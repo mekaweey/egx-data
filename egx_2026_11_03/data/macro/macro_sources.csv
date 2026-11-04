@@ -1,0 +1,8 @@
+﻿indicator,rows,first_date,last_date,last_value,is_partial_last,yahoo_symbol,source,cutoff
+brent,1219,2022-01-03,2026-11-03,103.5999984741211,0,BZ=F,Yahoo Finance chart API v8,2026-11-03
+dxy,1471,2022-01-03,2026-11-03,101.87000274658205,0,DX-Y.NYB,Yahoo Finance chart API v8,2026-11-03
+gold,1219,2022-01-03,2026-11-03,3940.39990234375,0,GC=F,Yahoo Finance chart API v8,2026-11-03
+sp500,1214,2022-01-03,2026-11-03,7568.919921875,0,^GSPC,Yahoo Finance chart API v8,2026-11-03
+us10y,1214,2022-01-03,2026-11-03,4.952000141143799,0,^TNX,Yahoo Finance chart API v8,2026-11-03
+usdegp,1262,2022-01-03,2026-11-03,55.32040023803711,0,EGP=X,Yahoo Finance chart API v8,2026-11-03
+vix,1262,2022-01-03,2026-11-03,20.82999992370605,0,^VIX,Yahoo Finance chart API v8,2026-11-03

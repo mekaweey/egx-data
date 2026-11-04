@@ -1,0 +1,244 @@
+﻿symbol,rows,first_date,last_date,volume_rows,no_volume_rows,sources,timeframe
+AALR,26220,2025-12-28,2026-11-03,25508,712,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ABUK,26719,2026-05-10,2026-11-03,26455,264,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ACAMD,28387,2026-04-19,2026-11-03,27944,443,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ACAP,25110,2025-12-21,2026-11-03,24390,720,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ACGC,25449,2026-02-01,2026-11-03,24701,748,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ACTF,26256,2026-02-22,2026-11-03,25883,373,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ADCI,23687,2025-10-12,2026-11-03,22804,883,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ADIB,30226,2026-05-10,2026-11-03,29981,245,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ADPC,26643,2026-02-01,2026-11-03,26081,562,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ADRI,26606,2025-11-09,2026-11-03,26012,594,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AFDI,24183,2025-11-30,2026-11-03,23306,877,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AFMC,25906,2026-02-01,2026-11-03,25433,473,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AIDC,26937,2026-02-15,2026-11-03,26504,433,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AIFI,27251,2026-02-08,2026-11-03,26718,533,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+AIH,26151,2026-03-15,2026-11-03,25829,322,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AJWA,25002,2025-08-31,2026-11-03,24414,588,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ALCN,26691,2026-04-05,2026-11-03,26264,427,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ALUM,25573,2026-01-11,2026-11-03,24849,724,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AMER,25843,2026-05-03,2026-11-03,25580,263,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AMES,30003,2026-03-08,2026-11-03,29739,264,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+AMIA,26261,2026-01-11,2026-11-03,25710,551,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AMII,26047,2026-02-08,2026-11-03,25495,552,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+AMOC,30073,2026-05-10,2026-11-03,29831,242,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+AMPI,22924,2025-07-27,2026-11-03,22024,900,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+APPC,3873,2023-01-02,2026-11-02,2808,1065,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+APSW,22717,2025-01-26,2026-11-03,21754,963,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ARAB,26002,2026-04-26,2026-11-03,25729,273,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ARCC,30224,2026-04-26,2026-11-03,29912,312,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+AREH,25714,2026-02-01,2026-11-03,25030,684,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ASCM,25974,2026-03-01,2026-11-03,25409,565,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ASPI,26323,2026-02-22,2026-11-03,25933,390,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ATLC,26685,2026-01-04,2026-11-03,26142,543,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ATQA,29210,2026-04-19,2026-11-03,28807,403,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+AXPH,25434,2024-10-27,2026-11-03,24709,725,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+BIDI,14368,2023-01-02,2026-10-18,13444,924,"['minute_bars_snapshot', 'raw_tv_export']",1m
+BIGP,25541,2025-07-27,2026-11-03,24831,710,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+BINV,25536,2025-11-16,2026-11-03,24787,749,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+BIOC,26085,2025-12-28,2026-11-03,25816,269,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+BONY,26642,2026-04-19,2026-11-03,26367,275,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+BQDC,538,2026-11-02,2026-11-03,538,0,"['tv_ticks', 'tvdatafeed']",1m
+BTFH,25719,2026-05-03,2026-11-03,25398,321,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CAED,27155,2025-11-16,2026-11-03,26550,605,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CANA,26511,2025-12-21,2026-11-03,25887,624,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CCAP,26531,2026-05-10,2026-11-03,26268,263,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CCRS,26183,2026-01-25,2026-11-03,25504,679,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CEFM,23797,2025-10-05,2026-11-03,22966,831,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CERA,25538,2026-01-11,2026-11-03,25256,282,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CFGH,8108,2023-01-03,2026-11-03,7066,1042,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CICH,24092,2025-08-10,2026-11-03,23317,775,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CIEB,25889,2026-03-01,2026-11-03,25404,485,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CIRA,25974,2025-10-19,2026-11-03,25382,592,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+CLHO,29717,2026-04-14,2026-11-03,29433,284,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CNFN,26143,2025-11-16,2026-11-03,25597,546,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+COMI,26695,2026-05-10,2026-11-03,26464,231,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+COPR,27113,2026-04-05,2026-11-03,26589,524,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+COSG,9788,2026-08-30,2026-11-03,9349,439,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CPCI,24660,2025-09-21,2026-11-03,23854,806,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CPME,3051,2025-07-23,2026-11-03,2030,1021,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CRST,30957,2026-04-19,2026-11-03,30705,252,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+CSAG,26025,2026-03-01,2026-11-03,25458,567,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+DAPH,26861,2025-12-21,2026-11-03,26501,360,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+DEIN,2306,2023-01-02,2026-10-29,1230,1076,"['minute_bars_snapshot', 'tvdatafeed']",1m
+DGTZ,24855,2025-11-30,2026-11-03,23968,887,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+DOMT,24151,2025-07-13,2026-11-03,23345,806,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+DSCW,26603,2026-04-26,2026-11-03,26222,381,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+DTPP,26574,2026-01-18,2026-11-03,26182,392,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EALR,24929,2025-11-23,2026-11-03,24100,829,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EASB,26002,2025-09-07,2026-11-03,25344,658,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EAST,26135,2026-03-15,2026-11-03,25762,373,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EBSC,24592,2025-08-24,2026-11-03,23743,849,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ECAP,23828,2025-10-12,2026-11-03,22945,883,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EDFM,19673,2023-01-02,2026-11-03,18693,980,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EEII,25664,2026-01-18,2026-11-03,24942,722,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EFIC,26967,2025-08-31,2026-11-03,26443,524,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EFID,30382,2026-05-03,2026-11-03,30087,295,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EFIH,30232,2026-04-26,2026-11-03,29938,294,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EGAL,30647,2026-05-03,2026-11-03,30412,235,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EGAS,26532,2026-01-11,2026-11-03,25925,607,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EGBE,16339,2023-01-02,2026-11-03,15368,971,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EGCH,25577,2026-04-26,2026-11-03,25261,316,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EGREF,6427,2026-09-06,2026-11-03,5803,624,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EGSA,5171,2023-01-02,2026-11-03,4103,1068,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EGTS,25985,2026-03-01,2026-11-03,25463,522,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EHDR,25876,2026-03-01,2026-11-03,25876,0,"['egx_data_pack', 'tv_ticks', 'tvdatafeed']",1m
+EITP,2231,2023-02-27,2026-10-28,1155,1076,"['minute_bars_snapshot', 'tvdatafeed']",1m
+ELEC,26208,2026-04-05,2026-11-03,25863,345,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ELKA,26203,2026-03-29,2026-11-03,25748,455,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ELNA,19488,2023-01-02,2026-11-03,18457,1031,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ELSH,26010,2026-03-24,2026-11-03,25486,524,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ELWA,21856,2025-04-27,2026-11-03,20822,1034,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EMFD,25822,2026-04-26,2026-11-03,25323,499,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ENGC,25862,2025-12-07,2026-11-03,25336,526,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+EOSB,6117,2023-02-12,2026-11-03,5049,1068,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EPCO,25877,2026-02-15,2026-11-03,25145,732,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EPPK,21135,2024-01-14,2026-10-18,20211,924,"['minute_bars_snapshot', 'raw_tv_export']",1m
+ETEL,26186,2026-05-10,2026-11-03,25956,230,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ETRS,26202,2026-03-15,2026-11-03,25667,535,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+EXPA,26711,2026-02-22,2026-11-03,26277,434,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+FAIT,23846,2025-09-28,2026-11-03,23019,827,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+FAITA,6277,2024-12-15,2026-11-03,5259,1018,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+FCMD,20196,2026-02-01,2026-09-09,20196,0,['raw_tv_export'],1m
+FERC,6125,2026-08-23,2026-11-03,5319,806,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+FIRE,22708,2024-02-11,2026-11-03,21719,989,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+FNAR,25131,2025-03-23,2026-11-03,24348,783,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+FTNS,22229,2025-04-13,2026-11-03,21239,990,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+FWRY,26585,2026-05-10,2026-11-03,26334,251,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GBCO,26943,2026-04-19,2026-11-03,26501,442,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GDWA,25900,2026-03-15,2026-11-03,25469,431,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GGCC,26534,2026-02-15,2026-11-03,25995,539,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GGRN,26283,2026-03-29,2026-11-03,25660,623,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GIHD,26586,2025-11-23,2026-11-03,25998,588,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+GMCI,20763,2023-04-06,2026-11-03,19783,980,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GOUR,26816,2026-03-29,2026-11-03,26400,416,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GPIM,26085,2026-02-01,2026-11-03,25588,497,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GRCA,25864,2025-08-24,2026-11-03,25114,750,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+GSSC,22934,2025-04-27,2026-11-03,21985,949,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+GTEX,4207,2024-03-24,2026-11-03,3147,1060,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+GTHE,3885,2023-01-02,2026-11-02,2809,1076,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+GTWL,25982,2026-01-18,2026-11-03,25742,240,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+HALN,3629,2026-10-08,2026-11-03,2705,924,"['minute_bars_snapshot', 'tvdatafeed']",1m
+HBCO,26027,2026-02-01,2026-11-03,25651,376,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+HDBK,27342,2026-03-29,2026-11-03,26952,390,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+HELI,26792,2026-05-03,2026-11-03,26388,404,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+HRHO,26670,2026-04-26,2026-11-03,26321,349,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+IBCT,22941,2025-08-24,2026-11-03,22015,926,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ICFC,27394,2026-02-22,2026-11-03,26871,523,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ICID,23602,2025-08-31,2026-11-03,22695,907,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+IDRE,26079,2025-12-28,2026-11-03,25469,610,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+IEEC,29357,2026-03-24,2026-11-03,29028,329,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+IFAP,25177,2026-01-25,2026-11-03,24474,703,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+INEG,28929,2026-01-11,2026-11-03,28581,348,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+INFI,26647,2025-12-21,2026-11-03,26082,565,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+IRON,26430,2026-01-18,2026-11-03,25850,580,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ISMA,27645,2026-02-15,2026-11-03,27111,534,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ISMQ,28060,2026-04-19,2026-11-03,27666,394,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ISPH,25913,2026-05-10,2026-11-03,25625,288,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+JUFO,26472,2026-04-26,2026-11-03,26095,377,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+KABO,27000,2025-12-21,2026-11-03,26426,574,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+KASABF,5982,2026-09-06,2026-11-03,5982,0,['tvdatafeed'],1m
+KORA,5875,2026-10-04,2026-11-03,5644,231,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+KRDI,26278,2026-04-19,2026-11-03,25855,423,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+KWIN,25506,2025-12-07,2026-11-03,24754,752,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+KZPC,24154,2025-11-09,2026-11-03,23374,780,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+LCSW,26175,2026-02-15,2026-11-03,25662,513,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+LUTS,26055,2026-03-01,2026-11-03,25759,296,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MAAL,26075,2025-10-12,2026-11-03,25404,671,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MASR,25871,2026-05-10,2026-11-03,25632,239,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MBEG,25828,2026-01-04,2026-11-03,25224,604,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MBSC,28937,2026-03-15,2026-11-03,28649,288,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MCQE,29375,2026-04-05,2026-11-03,29107,268,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MCRO,29043,2026-04-26,2026-11-03,28675,368,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MENA,22856,2025-08-10,2026-11-03,21906,950,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MEPA,26287,2026-02-22,2026-11-03,25746,541,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MFPC,30063,2026-05-10,2026-11-03,29742,321,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MFSC,23727,2023-11-26,2026-11-03,22862,865,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MHOT,25049,2025-09-14,2026-11-03,24315,734,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MICH,26674,2026-02-15,2026-11-03,26063,611,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MILS,26370,2026-01-11,2026-11-03,25629,741,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MIPH,23463,2023-06-04,2026-11-03,22528,935,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MISR,986,2024-01-15,2026-10-18,62,924,"['minute_bars_snapshot', 'tvdatafeed']",1m
+MKIT,5085,2025-12-21,2026-11-02,5085,0,['tvdatafeed'],1m
+MMAT,5065,2023-01-02,2026-11-03,4210,855,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MOED,28716,2026-02-08,2026-11-03,28280,436,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MOIL,22580,2024-11-10,2026-11-03,21679,901,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MOIN,25858,2023-09-04,2026-11-03,25223,635,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MOSC,23449,2025-10-19,2026-11-03,22566,883,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MPCI,29431,2026-04-26,2026-11-03,29077,354,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MPCO,29910,2026-04-26,2026-11-03,29629,281,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+MPRC,26820,2026-01-18,2026-11-03,26240,580,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+MTIE,29016,2026-04-05,2026-11-03,28626,390,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+NAHO,11354,2023-01-02,2026-11-03,10307,1047,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+NARE,23847,2025-05-18,2026-11-03,22984,863,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+NCCW,28878,2026-03-15,2026-11-03,28475,403,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+NCGC,1551,2023-01-04,2026-10-28,476,1075,"['minute_bars_snapshot', 'tvdatafeed']",1m
+NEDA,22120,2025-02-23,2026-11-03,21109,1011,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+NHPS,25252,2025-11-02,2026-11-03,24480,772,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+NINH,26615,2026-02-22,2026-11-03,26028,587,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+NIPH,26426,2026-05-03,2026-11-03,26134,292,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+OBRI,26770,2026-03-08,2026-11-03,26306,464,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+OCDI,27392,2026-03-29,2026-11-03,26925,467,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+OCPH,24923,2025-10-26,2026-11-03,24140,783,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ODIN,25471,2025-12-28,2026-11-03,24703,768,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+OFH,26526,2026-03-24,2026-11-03,26172,354,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+OIH,26619,2026-04-19,2026-11-03,26262,357,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+OLFI,26066,2026-03-29,2026-11-03,25532,534,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ORAS,26253,2026-05-10,2026-11-03,25999,254,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ORHD,26346,2026-05-10,2026-11-03,26118,228,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ORWE,26573,2026-04-19,2026-11-03,26164,409,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+PACH,1861,2024-01-31,2026-11-02,789,1072,"['minute_bars_snapshot', 'tvdatafeed']",1m
+PHAR,25797,2026-03-29,2026-11-03,25477,320,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+PHDC,26492,2026-05-10,2026-11-03,26200,292,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+PHGC,26706,2026-02-22,2026-11-03,26069,637,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+PHTV,19651,2023-01-03,2026-11-03,18619,1032,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+POUL,29058,2026-03-24,2026-11-03,28715,343,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+PRCL,26882,2026-02-15,2026-11-03,26311,571,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+PRDC,25839,2026-01-25,2026-11-03,25461,378,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+PRMH,24481,2026-02-01,2026-11-03,23664,817,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+QNBE,26571,2025-12-28,2026-11-03,26045,526,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RACC,26648,2026-03-24,2026-11-03,25973,675,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RAKT,21953,2023-09-24,2026-11-03,20964,989,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RAYA,26778,2026-05-10,2026-11-03,26422,356,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RKAZ,19730,2023-01-02,2026-11-03,18791,939,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RMDA,26775,2026-04-26,2026-11-03,26421,354,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ROTO,24720,2025-12-14,2026-11-03,24005,715,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RREI,26233,2026-02-08,2026-11-03,25538,695,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+RTVC,23690,2025-08-03,2026-11-03,22802,888,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+RUBX,28913,2025-12-14,2026-11-03,28603,310,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SAUD,27133,2026-02-15,2026-11-03,26450,683,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SCEM,28254,2026-03-29,2026-11-03,27872,382,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SCFM,23704,2025-12-07,2026-11-03,22731,973,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SCTS,24389,2025-11-09,2026-11-03,23460,929,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SDTI,26167,2025-11-30,2026-11-03,25613,554,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SEIG,24006,2025-08-24,2026-11-03,23086,920,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SIPC,29381,2026-03-08,2026-11-03,29125,256,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SKPC,29973,2026-04-26,2026-11-03,29673,300,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SMFR,24098,2025-08-10,2026-11-03,23275,823,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SNFC,24793,2025-11-09,2026-11-03,24042,751,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SPIN,24256,2025-06-29,2026-11-03,23385,871,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SPMD,28193,2026-02-08,2026-11-03,27713,480,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+SUGR,26112,2026-02-01,2026-11-03,25449,663,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SVCE,25834,2026-04-26,2026-11-03,25532,302,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+SWDY,26110,2026-04-26,2026-11-03,25868,242,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+TALM,29228,2025-09-14,2026-11-03,28853,375,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+TANM,27521,2025-12-07,2026-11-03,26955,566,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+TAQA,25872,2026-04-14,2026-11-03,25512,360,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+TMGH,26917,2026-05-10,2026-11-03,26690,227,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+TRTO,4761,2023-01-02,2026-11-03,3732,1029,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+TWSA,6097,2026-09-13,2026-11-03,5793,304,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+TYCN,25753,2026-04-05,2026-11-03,24979,774,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+UBEE,22956,2025-04-22,2026-11-03,22014,942,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+UEFM,21915,2023-01-02,2026-11-03,20991,924,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+UEGC,26468,2026-02-08,2026-11-03,26036,432,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+UNIP,27035,2026-02-08,2026-11-03,26522,513,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+UNIT,23532,2025-04-13,2026-11-03,22684,848,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+UPMS,20582,2023-01-02,2026-11-03,19564,1018,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+VALU,26394,2026-03-01,2026-11-03,25959,435,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+VERT,24371,2025-07-06,2026-11-03,23675,696,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+VLMR,22577,2024-11-03,2026-11-03,21693,884,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+VLMRA,6283,2026-09-27,2026-11-03,5901,382,"['minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+WCDF,19714,2023-01-02,2026-11-03,18871,843,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+WKOL,25745,2025-10-19,2026-11-03,24891,854,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m
+ZEOT,26118,2026-03-01,2026-11-03,25614,504,"['egx_data_pack', 'minute_bars_snapshot', 'tv_ticks', 'tvdatafeed']",1m
+ZMID,26083,2026-05-03,2026-11-03,25764,319,"['minute_bars_snapshot', 'raw_tv_export', 'tv_ticks', 'tvdatafeed']",1m

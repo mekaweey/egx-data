@@ -1,0 +1,25 @@
+{
+  "cutoff": "2026-11-03",
+  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
+  "timeframes": {
+    "1m": {
+      "rows": 5729505,
+      "symbols": 243,
+      "first_date": "2023-01-02",
+      "last_date": "2026-11-03"
+    },
+    "5m": {
+      "rows": 2019692,
+      "symbols": 243,
+      "first_date": "2023-01-02",
+      "last_date": "2026-11-03"
+    },
+    "60m": {
+      "rows": 945502,
+      "symbols": 243,
+      "first_date": "2023-01-02",
+      "last_date": "2026-11-03"
+    }
+  },
+  "note": "Coverage is computed only from the filtered files; no 2026-11-04 rows are counted."
+}

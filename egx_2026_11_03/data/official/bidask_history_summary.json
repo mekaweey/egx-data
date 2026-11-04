@@ -1,0 +1,11 @@
+{
+  "source_files": 277,
+  "source_rows_seen": 2449691,
+  "valid_rows": 2298634,
+  "symbols": 238,
+  "first_captured_at_utc": "2026-08-23T08:30:00Z",
+  "last_captured_at_utc": "2026-10-01T11:31:23Z",
+  "invalid_or_null_rows_excluded": 151057,
+  "source": "D:\\BIDASK_FINAL\\snapshots",
+  "note": "Only non-null, non-crossed best bid/ask rows. No 2026-11-04 quotes."
+}

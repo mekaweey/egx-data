@@ -1,0 +1,12 @@
+﻿item,count,source,note
+user_target,216,user request,exact T0 list requested
+official_symbolType_C,221,official EGX market watch,documented superset; exact 216 unverified
+halal_97,97,halal-symbols.txt,97 found; 98th not identified
+top100_liquidity,100,"filtered 60m, last 60 sessions",recomputed at cutoff
+clean_union,248,official C + halal + top100 + raw TV + tvdatafeed,documented superset used
+with_1m,243,filtered 1m coverage,at least one 1m bar
+with_5m,243,filtered 5m coverage,at least one 5m bar
+with_60m,243,filtered 60m coverage,at least one 60m bar
+with_bidask,238,bid/ask history through 2026-10-01,no 2026-11-03 bid/ask
+exact_216_found,0,"project files, DB, web searches",not found; no 216-symbol list verified
+all_stocks,306,daily 323 + clean union + top100,stock universe only; 20 index/ETF/ISIN/right rows in the daily file are excluded

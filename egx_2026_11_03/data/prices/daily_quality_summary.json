@@ -1,0 +1,41 @@
+{
+  "cutoff": "2026-11-03",
+  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
+  "rows": 206545,
+  "symbols": 323,
+  "first_date": "2023-01-02",
+  "last_date": "2026-11-03",
+  "source_counts": {
+    "daily_candles_db": 177747,
+    "aggregated_60m": 22363,
+    "egx_data_daily": 6435
+  },
+  "quality_counts": {
+    "vendor_daily": 149569,
+    "vendor_daily_repaired": 28178,
+    "aggregated_60m": 22363,
+    "vendor_egx_pack_reference_scale": 6435
+  },
+  "is_partial_counts": {
+    "0": 206545
+  },
+  "ohlc_valid_counts": {
+    "1": 206545
+  },
+  "ohlc_repaired_counts": {
+    "0": 178367,
+    "1": 28178
+  },
+  "last_5_dates": {
+    "2026-10-28": 299,
+    "2026-10-29": 313,
+    "2026-11-01": 313,
+    "2026-11-02": 321,
+    "2026-11-03": 309
+  },
+  "last_date_sources": {
+    "daily_candles_db": 307,
+    "aggregated_60m": 2
+  },
+  "note": "2026-11-04 rows were removed. 2026-11-03 has no is_partial=1 rows; two rows come from aggregated_60m."
+}

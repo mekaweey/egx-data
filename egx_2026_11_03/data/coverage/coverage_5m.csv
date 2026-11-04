@@ -1,0 +1,244 @@
+﻿symbol,rows,first_date,last_date,volume_rows,no_volume_rows,sources,timeframe
+AALR,9206,2025-12-28,2026-11-03,9137,69,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ABUK,6270,2026-05-10,2026-11-03,6221,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+ACAMD,6923,2026-04-19,2026-11-03,6872,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ACAP,9620,2025-12-21,2026-11-03,9551,69,"['aggregated_from_1m', 'tvdatafeed']",5m
+ACGC,8526,2026-02-01,2026-11-03,8444,82,"['aggregated_from_1m', 'tvdatafeed']",5m
+ACTF,8358,2026-02-22,2026-11-03,8306,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+ADCI,10358,2025-10-12,2026-11-03,10253,105,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ADIB,6270,2026-05-10,2026-11-03,6220,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ADPC,8653,2026-02-01,2026-11-03,8595,58,"['aggregated_from_1m', 'tvdatafeed']",5m
+ADRI,10417,2025-11-09,2026-11-03,10360,57,"['aggregated_from_1m', 'tvdatafeed']",5m
+AFDI,9620,2025-11-30,2026-11-03,9517,103,"['aggregated_from_1m', 'tvdatafeed']",5m
+AFMC,8456,2026-02-01,2026-11-03,8402,54,"['aggregated_from_1m', 'tvdatafeed']",5m
+AIDC,8471,2026-02-15,2026-11-03,8420,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+AIFI,8680,2026-02-08,2026-11-03,8625,55,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+AIH,7764,2026-03-15,2026-11-03,7711,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+AJWA,10814,2025-08-31,2026-11-03,10756,58,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ALCN,7331,2026-04-05,2026-11-03,7280,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+ALUM,9257,2026-01-11,2026-11-03,9189,68,"['aggregated_from_1m', 'tvdatafeed']",5m
+AMER,6465,2026-05-03,2026-11-03,6418,47,"['aggregated_from_1m', 'tvdatafeed']",5m
+AMES,7623,2026-03-08,2026-11-03,7573,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+AMIA,9115,2026-01-11,2026-11-03,9050,65,"['aggregated_from_1m', 'tvdatafeed']",5m
+AMII,8420,2026-02-08,2026-11-03,8365,55,"['aggregated_from_1m', 'tvdatafeed']",5m
+AMOC,6278,2026-05-10,2026-11-03,6229,49,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+AMPI,11607,2025-07-27,2026-11-03,11487,120,"['aggregated_from_1m', 'tvdatafeed']",5m
+APPC,1790,2023-01-02,2026-11-02,1571,219,"['aggregated_from_1m', 'tvdatafeed']",5m
+APSW,12829,2025-01-26,2026-11-03,12683,146,"['aggregated_from_1m', 'tvdatafeed']",5m
+ARAB,6719,2026-04-26,2026-11-03,6669,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+ARCC,6715,2026-04-26,2026-11-03,6664,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+AREH,8539,2026-02-01,2026-11-03,8475,64,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ASCM,7916,2026-03-01,2026-11-03,7846,70,"['aggregated_from_1m', 'tvdatafeed']",5m
+ASPI,8125,2026-02-22,2026-11-03,8073,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+ATLC,9223,2026-01-04,2026-11-03,9157,66,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ATQA,6972,2026-04-19,2026-11-03,6919,53,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+AXPH,12951,2024-10-27,2026-11-03,12874,77,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+BIDI,10107,2023-01-02,2026-10-18,9915,192,"['aggregated_from_1m', 'tvdatafeed']",5m
+BIGP,11637,2025-07-27,2026-11-03,11574,63,"['aggregated_from_1m', 'tvdatafeed']",5m
+BINV,10092,2025-11-16,2026-11-03,10012,80,"['aggregated_from_1m', 'tvdatafeed']",5m
+BIOC,9182,2025-12-28,2026-11-03,9132,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+BONY,6961,2026-04-19,2026-11-03,6911,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+BQDC,110,2026-11-02,2026-11-03,110,0,"['aggregated_from_1m', 'tvdatafeed']",5m
+BTFH,6474,2026-05-03,2026-11-03,6424,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+CAED,9593,2025-11-16,2026-11-03,9535,58,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+CANA,9491,2025-12-21,2026-11-03,9429,62,"['aggregated_from_1m', 'tvdatafeed']",5m
+CCAP,6288,2026-05-10,2026-11-03,6238,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+CCRS,8842,2026-01-25,2026-11-03,8778,64,"['aggregated_from_1m', 'tvdatafeed']",5m
+CEFM,10236,2025-10-05,2026-11-03,10147,89,"['aggregated_from_1m', 'tvdatafeed']",5m
+CERA,9339,2026-01-11,2026-11-03,9289,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+CFGH,5826,2023-01-03,2026-11-03,5628,198,"['aggregated_from_1m', 'tvdatafeed']",5m
+CICH,11735,2025-08-10,2026-11-03,11646,89,"['aggregated_from_1m', 'tvdatafeed']",5m
+CIEB,8054,2026-03-01,2026-11-03,7999,55,"['aggregated_from_1m', 'tvdatafeed']",5m
+CIRA,10026,2025-10-19,2026-11-03,9969,57,"['aggregated_from_1m', 'tvdatafeed']",5m
+CLHO,7100,2026-04-14,2026-11-03,7050,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+CNFN,10151,2025-11-16,2026-11-03,10087,64,"['aggregated_from_1m', 'tvdatafeed']",5m
+COMI,6289,2026-05-10,2026-11-03,6242,47,"['aggregated_from_1m', 'tvdatafeed']",5m
+COPR,7339,2026-04-05,2026-11-03,7286,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+COSG,6219,2026-05-10,2026-11-03,6168,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+CPCI,10932,2025-09-21,2026-11-03,10841,91,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+CPME,1601,2025-07-23,2026-11-03,1416,185,"['aggregated_from_1m', 'tvdatafeed']",5m
+CRST,6920,2026-04-19,2026-11-03,6870,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+CSAG,8010,2026-03-01,2026-11-03,7946,64,"['aggregated_from_1m', 'tvdatafeed']",5m
+DAPH,9564,2025-12-21,2026-11-03,9515,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+DEIN,1300,2023-01-02,2026-10-29,1076,224,"['aggregated_from_1m', 'tvdatafeed']",5m
+DGTZ,10102,2025-11-30,2026-11-03,9997,105,"['aggregated_from_1m', 'tvdatafeed']",5m
+DOMT,12073,2025-07-13,2026-11-03,11991,82,"['aggregated_from_1m', 'tvdatafeed']",5m
+DSCW,6711,2026-04-26,2026-11-03,6660,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+DTPP,8703,2026-01-18,2026-11-03,8651,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+EALR,9747,2025-11-23,2026-11-03,9654,93,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EASB,10756,2025-09-07,2026-11-03,10683,73,"['aggregated_from_1m', 'tvdatafeed']",5m
+EAST,7886,2026-03-15,2026-11-03,7836,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+EBSC,11086,2025-08-24,2026-11-03,10985,101,"['aggregated_from_1m', 'tvdatafeed']",5m
+ECAP,10317,2025-10-12,2026-11-03,10206,111,"['aggregated_from_1m', 'tvdatafeed']",5m
+EDFM,13016,2023-01-02,2026-11-03,12861,155,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EEII,9001,2026-01-18,2026-11-03,8929,72,"['aggregated_from_1m', 'tvdatafeed']",5m
+EFIC,11263,2025-08-31,2026-11-03,11210,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+EFID,6473,2026-05-03,2026-11-03,6422,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EFIH,6722,2026-04-26,2026-11-03,6673,49,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EGAL,6482,2026-05-03,2026-11-03,6431,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EGAS,9273,2026-01-11,2026-11-03,9213,60,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EGBE,10786,2023-01-02,2026-11-03,10625,161,"['aggregated_from_1m', 'tvdatafeed']",5m
+EGCH,6718,2026-04-26,2026-11-03,6670,48,"['aggregated_from_1m', 'tvdatafeed']",5m
+EGREF,5091,2026-01-20,2026-11-03,5028,63,"['aggregated_from_1m', 'tvdatafeed']",5m
+EGSA,3656,2023-01-02,2026-11-03,3440,216,"['aggregated_from_1m', 'tvdatafeed']",5m
+EGTS,7803,2026-03-01,2026-11-03,7745,58,"['aggregated_from_1m', 'tvdatafeed']",5m
+EHDR,7949,2026-03-01,2026-11-03,7949,0,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EITP,969,2023-02-27,2026-10-28,745,224,"['aggregated_from_1m', 'tvdatafeed']",5m
+ELEC,7359,2026-04-05,2026-11-03,7308,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+ELKA,7495,2026-03-29,2026-11-03,7440,55,"['aggregated_from_1m', 'tvdatafeed']",5m
+ELNA,12732,2023-01-02,2026-11-03,12548,184,"['aggregated_from_1m', 'tvdatafeed']",5m
+ELSH,7441,2026-03-24,2026-11-03,7385,56,"['aggregated_from_1m', 'tvdatafeed']",5m
+ELWA,11379,2025-04-27,2026-11-03,11190,189,"['aggregated_from_1m', 'tvdatafeed']",5m
+EMFD,6710,2026-04-26,2026-11-03,6658,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+ENGC,9723,2025-12-07,2026-11-03,9665,58,"['aggregated_from_1m', 'tvdatafeed']",5m
+EOSB,4090,2023-01-04,2026-11-03,3874,216,"['aggregated_from_1m', 'tvdatafeed']",5m
+EPCO,8327,2026-02-15,2026-11-03,8253,74,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EPPK,12426,2024-01-14,2026-10-18,12234,192,"['aggregated_from_1m', 'tvdatafeed']",5m
+ETEL,6270,2026-05-10,2026-11-03,6222,48,"['aggregated_from_1m', 'tvdatafeed']",5m
+ETRS,7705,2026-03-15,2026-11-03,7642,63,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+EXPA,8295,2026-02-22,2026-11-03,8242,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+FAIT,10998,2025-09-28,2026-11-03,10911,87,"['aggregated_from_1m', 'tvdatafeed']",5m
+FAITA,5368,2024-08-25,2026-11-03,5186,182,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+FCMD,6511,2026-02-01,2026-09-09,6511,0,['aggregated_from_1m'],5m
+FERC,5127,2026-05-17,2026-11-03,5031,96,"['aggregated_from_1m', 'tvdatafeed']",5m
+FIRE,13738,2024-02-11,2026-11-03,13584,154,"['aggregated_from_1m', 'tvdatafeed']",5m
+FNAR,11611,2025-03-23,2026-11-03,11530,81,"['aggregated_from_1m', 'tvdatafeed']",5m
+FTNS,11906,2025-04-13,2026-11-03,11749,157,"['aggregated_from_1m', 'tvdatafeed']",5m
+FWRY,6270,2026-05-10,2026-11-03,6221,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+GBCO,6946,2026-04-19,2026-11-03,6897,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+GDWA,7787,2026-03-15,2026-11-03,7737,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+GGCC,8288,2026-02-15,2026-11-03,8234,54,"['aggregated_from_1m', 'tvdatafeed']",5m
+GGRN,7541,2026-03-29,2026-11-03,7480,61,"['aggregated_from_1m', 'tvdatafeed']",5m
+GIHD,9676,2025-11-23,2026-11-03,9616,60,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+GMCI,13281,2023-04-06,2026-11-03,13129,152,"['aggregated_from_1m', 'tvdatafeed']",5m
+GOUR,7558,2026-03-29,2026-11-03,7506,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+GPIM,8836,2026-02-01,2026-11-03,8783,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+GRCA,10431,2025-08-24,2026-11-03,10353,78,"['aggregated_from_1m', 'tvdatafeed']",5m
+GSSC,11347,2025-04-27,2026-11-03,11216,131,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+GTEX,2863,2024-03-24,2026-11-03,2655,208,"['aggregated_from_1m', 'tvdatafeed']",5m
+GTHE,1738,2023-01-02,2026-11-02,1514,224,"['aggregated_from_1m', 'tvdatafeed']",5m
+GTWL,8284,2026-01-18,2026-11-03,8235,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+HALN,760,2026-10-08,2026-11-03,568,192,"['aggregated_from_1m', 'tvdatafeed']",5m
+HBCO,8641,2026-02-01,2026-11-03,8587,54,"['aggregated_from_1m', 'tvdatafeed']",5m
+HDBK,7580,2026-03-29,2026-11-03,7528,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+HELI,6470,2026-05-03,2026-11-03,6419,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+HRHO,6720,2026-04-26,2026-11-03,6670,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+IBCT,10768,2025-08-24,2026-11-03,10636,132,"['aggregated_from_1m', 'tvdatafeed']",5m
+ICFC,8254,2026-02-22,2026-11-03,8190,64,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ICID,10609,2025-08-31,2026-11-03,10488,121,"['aggregated_from_1m', 'tvdatafeed']",5m
+IDRE,9319,2025-12-28,2026-11-03,9242,77,"['aggregated_from_1m', 'tvdatafeed']",5m
+IEEC,7671,2026-03-24,2026-11-03,7621,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+IFAP,8804,2026-01-25,2026-11-03,8739,65,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+INEG,9143,2026-01-11,2026-11-03,9091,52,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+INFI,9383,2025-12-21,2026-11-03,9325,58,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+IRON,9211,2026-01-18,2026-11-03,9154,57,"['aggregated_from_1m', 'tvdatafeed']",5m
+ISMA,8459,2026-02-15,2026-11-03,8398,61,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ISMQ,6949,2026-04-19,2026-11-03,6897,52,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ISPH,6266,2026-05-10,2026-11-03,6215,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+JUFO,6707,2026-04-26,2026-11-03,6656,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+KABO,9569,2025-12-21,2026-11-03,9506,63,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+KASABF,5000,2026-04-09,2026-11-03,5000,0,['tvdatafeed'],5m
+KORA,5056,2026-06-16,2026-11-03,5006,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+KRDI,6951,2026-04-19,2026-11-03,6901,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+KWIN,9003,2025-12-07,2026-11-03,8919,84,"['aggregated_from_1m', 'tvdatafeed']",5m
+KZPC,9991,2025-11-09,2026-11-03,9900,91,"['aggregated_from_1m', 'tvdatafeed']",5m
+LCSW,8305,2026-02-15,2026-11-03,8243,62,"['aggregated_from_1m', 'tvdatafeed']",5m
+LUTS,7887,2026-03-01,2026-11-03,7835,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+MAAL,10479,2025-10-12,2026-11-03,10412,67,"['aggregated_from_1m', 'tvdatafeed']",5m
+MASR,6276,2026-05-10,2026-11-03,6227,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+MBEG,9110,2026-01-04,2026-11-03,9048,62,"['aggregated_from_1m', 'tvdatafeed']",5m
+MBSC,7697,2026-03-15,2026-11-03,7646,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MCQE,7340,2026-04-05,2026-11-03,7289,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MCRO,6715,2026-04-26,2026-11-03,6664,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MENA,10780,2025-08-10,2026-11-03,10640,140,"['aggregated_from_1m', 'tvdatafeed']",5m
+MEPA,8290,2026-02-22,2026-11-03,8231,59,"['aggregated_from_1m', 'tvdatafeed']",5m
+MFPC,6265,2026-05-10,2026-11-03,6215,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MFSC,12345,2023-11-26,2026-11-03,12237,108,"['aggregated_from_1m', 'tvdatafeed']",5m
+MHOT,10745,2025-09-14,2026-11-03,10668,77,"['aggregated_from_1m', 'tvdatafeed']",5m
+MICH,8505,2026-02-15,2026-11-03,8448,57,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MILS,9053,2026-01-11,2026-11-03,8973,80,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MIPH,14215,2023-06-04,2026-11-03,14074,141,"['aggregated_from_1m', 'tvdatafeed']",5m
+MISR,250,2024-01-15,2026-10-18,58,192,"['aggregated_from_1m', 'tvdatafeed']",5m
+MKIT,5000,2025-04-22,2026-11-02,5000,0,['tvdatafeed'],5m
+MMAT,3019,2023-01-02,2026-11-03,2923,96,"['aggregated_from_1m', 'tvdatafeed']",5m
+MOED,8456,2026-02-08,2026-11-03,8405,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MOIL,12185,2024-11-10,2026-11-03,12050,135,"['aggregated_from_1m', 'tvdatafeed']",5m
+MOIN,12458,2023-09-04,2026-11-03,12393,65,"['aggregated_from_1m', 'tvdatafeed']",5m
+MOSC,9688,2025-10-19,2026-11-03,9573,115,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MPCI,6711,2026-04-26,2026-11-03,6661,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MPCO,6719,2026-04-26,2026-11-03,6670,49,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+MPRC,9143,2026-01-18,2026-11-03,9073,70,"['aggregated_from_1m', 'tvdatafeed']",5m
+MTIE,7338,2026-04-05,2026-11-03,7285,53,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+NAHO,8019,2023-01-02,2026-11-03,7819,200,"['aggregated_from_1m', 'tvdatafeed']",5m
+NARE,10066,2025-05-18,2026-11-03,9964,102,"['aggregated_from_1m', 'tvdatafeed']",5m
+NCCW,7819,2026-03-15,2026-11-03,7766,53,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+NCGC,613,2023-01-04,2026-10-28,390,223,"['aggregated_from_1m', 'tvdatafeed']",5m
+NEDA,11459,2025-02-23,2026-11-03,11287,172,"['aggregated_from_1m', 'tvdatafeed']",5m
+NHPS,9872,2025-11-02,2026-11-03,9790,82,"['aggregated_from_1m', 'tvdatafeed']",5m
+NINH,8081,2026-02-22,2026-11-03,8024,57,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+NIPH,6462,2026-05-03,2026-11-03,6411,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+OBRI,7863,2026-03-08,2026-11-03,7806,57,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+OCDI,7573,2026-03-29,2026-11-03,7518,55,"['aggregated_from_1m', 'tvdatafeed']",5m
+OCPH,9347,2025-10-26,2026-11-03,9264,83,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ODIN,9257,2025-12-28,2026-11-03,9176,81,"['aggregated_from_1m', 'tvdatafeed']",5m
+OFH,7708,2026-03-24,2026-11-03,7656,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+OIH,6957,2026-04-19,2026-11-03,6904,53,"['aggregated_from_1m', 'tvdatafeed']",5m
+OLFI,7572,2026-03-29,2026-11-03,7518,54,"['aggregated_from_1m', 'tvdatafeed']",5m
+ORAS,6276,2026-05-10,2026-11-03,6226,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+ORHD,6280,2026-05-10,2026-11-03,6231,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+ORWE,6959,2026-04-19,2026-11-03,6907,52,"['aggregated_from_1m', 'tvdatafeed']",5m
+PACH,773,2024-01-31,2026-11-02,551,222,"['aggregated_from_1m', 'tvdatafeed']",5m
+PHAR,7504,2026-03-29,2026-11-03,7454,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+PHDC,6286,2026-05-10,2026-11-03,6235,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+PHGC,8286,2026-02-22,2026-11-03,8223,63,"['aggregated_from_1m', 'tvdatafeed']",5m
+PHTV,10958,2023-01-03,2026-11-03,10776,182,"['aggregated_from_1m', 'tvdatafeed']",5m
+POUL,7579,2026-03-24,2026-11-03,7527,52,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+PRCL,8306,2026-02-15,2026-11-03,8236,70,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+PRDC,8724,2026-01-25,2026-11-03,8675,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+PRMH,8469,2026-02-01,2026-11-03,8379,90,"['aggregated_from_1m', 'tvdatafeed']",5m
+QNBE,9627,2025-12-28,2026-11-03,9570,57,"['aggregated_from_1m', 'tvdatafeed']",5m
+RACC,7650,2026-03-24,2026-11-03,7589,61,"['aggregated_from_1m', 'tvdatafeed']",5m
+RAKT,13666,2023-09-24,2026-11-03,13507,159,"['aggregated_from_1m', 'tvdatafeed']",5m
+RAYA,6271,2026-05-10,2026-11-03,6220,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+RKAZ,11496,2023-01-02,2026-11-03,11360,136,"['aggregated_from_1m', 'tvdatafeed']",5m
+RMDA,6713,2026-04-26,2026-11-03,6663,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+ROTO,9412,2025-12-14,2026-11-03,9338,74,"['aggregated_from_1m', 'tvdatafeed']",5m
+RREI,8522,2026-02-08,2026-11-03,8454,68,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+RTVC,11336,2025-08-03,2026-11-03,11223,113,"['aggregated_from_1m', 'tvdatafeed']",5m
+RUBX,9381,2025-12-14,2026-11-03,9330,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SAUD,8512,2026-02-15,2026-11-03,8439,73,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SCEM,7502,2026-03-29,2026-11-03,7449,53,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SCFM,9354,2025-12-07,2026-11-03,9207,147,"['aggregated_from_1m', 'tvdatafeed']",5m
+SCTS,9498,2025-11-09,2026-11-03,9369,129,"['aggregated_from_1m', 'tvdatafeed']",5m
+SDTI,9686,2025-11-30,2026-11-03,9615,71,"['aggregated_from_1m', 'tvdatafeed']",5m
+SEIG,10137,2025-08-24,2026-11-03,10007,130,"['aggregated_from_1m', 'tvdatafeed']",5m
+SIPC,7964,2026-03-08,2026-11-03,7913,51,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SKPC,6714,2026-04-26,2026-11-03,6664,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SMFR,10715,2025-08-10,2026-11-03,10614,101,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SNFC,10251,2025-11-09,2026-11-03,10172,79,"['aggregated_from_1m', 'tvdatafeed']",5m
+SPIN,10788,2025-06-29,2026-11-03,10676,112,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SPMD,8615,2026-02-08,2026-11-03,8562,53,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+SUGR,8801,2026-02-01,2026-11-03,8737,64,"['aggregated_from_1m', 'tvdatafeed']",5m
+SVCE,6646,2026-04-26,2026-11-03,6598,48,"['aggregated_from_1m', 'tvdatafeed']",5m
+SWDY,6714,2026-04-26,2026-11-03,6666,48,"['aggregated_from_1m', 'tvdatafeed']",5m
+TALM,10511,2025-09-14,2026-11-03,10461,50,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+TANM,9788,2025-12-07,2026-11-03,9731,57,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+TAQA,7096,2026-04-14,2026-11-03,7046,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+TMGH,6293,2026-05-10,2026-11-03,6244,49,"['aggregated_from_1m', 'tvdatafeed']",5m
+TRTO,3290,2023-01-02,2026-11-03,3102,188,"['aggregated_from_1m', 'tvdatafeed']",5m
+TWSA,5059,2026-05-24,2026-11-03,5008,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+TYCN,6962,2026-04-05,2026-11-03,6871,91,"['aggregated_from_1m', 'tvdatafeed']",5m
+UBEE,12081,2025-04-22,2026-11-03,11940,141,"['aggregated_from_1m', 'tvdatafeed']",5m
+UEFM,13775,2023-01-02,2026-11-03,13652,123,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+UEGC,8574,2026-02-08,2026-11-03,8520,54,"['aggregated_from_1m', 'tvdatafeed']",5m
+UNIP,8555,2026-02-08,2026-11-03,8491,64,"['aggregated_from_1m', 'tvdatafeed']",5m
+UNIT,11530,2025-04-13,2026-11-03,11421,109,"['aggregated_from_1m', 'tvdatafeed']",5m
+UPMS,12684,2023-01-02,2026-11-03,12503,181,"['aggregated_from_1m', 'tvdatafeed']",5m
+VALU,8142,2026-03-01,2026-11-03,8091,51,"['aggregated_from_1m', 'tvdatafeed']",5m
+VERT,11725,2025-07-06,2026-11-03,11656,69,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+VLMR,13507,2024-11-03,2026-11-03,13391,116,"['aggregated_from_1m', 'tvdatafeed']",5m
+VLMRA,5057,2026-06-15,2026-11-03,5007,50,"['aggregated_from_1m', 'tvdatafeed']",5m
+WCDF,12762,2023-01-02,2026-11-03,12654,108,"['aggregated_from_1m', 'tvdatafeed']",5m
+WKOL,10199,2025-10-19,2026-11-03,10092,107,"['aggregated_from_1m', 'tvdatafeed']",5m
+ZEOT,7983,2026-03-01,2026-11-03,7920,63,"['aggregated_from_1m', 'egx_data_pack', 'tvdatafeed']",5m
+ZMID,6483,2026-05-03,2026-11-03,6434,49,"['aggregated_from_1m', 'tvdatafeed']",5m

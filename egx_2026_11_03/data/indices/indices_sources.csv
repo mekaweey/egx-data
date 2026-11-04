@@ -1,0 +1,5 @@
+﻿indicator,api_code,label,rows,first_date,last_date,last_close,is_final,source,fetched_at_utc,cutoff
+egx30,CASE30,EGX30,727,2023-11-05,2026-11-03,49255.66,1,beta.egx.com.eg index-data + intervalIndex,2026-11-04T09:50:59+00:00,2026-11-03
+egx70,EGX70_EWI,EGX70 (EGX70 EWI),727,2023-11-05,2026-11-03,16648.16,1,beta.egx.com.eg index-data + intervalIndex,2026-11-04T09:50:59+00:00,2026-11-03
+egx100,EGX100_EWI,EGX100 (EGX100 EWI),727,2023-11-05,2026-11-03,22344.1,1,beta.egx.com.eg index-data + intervalIndex,2026-11-04T09:50:59+00:00,2026-11-03
+shariah,EGX_SHARIAH,EGX SHARIAH,727,2023-11-05,2026-11-03,5907.64,1,beta.egx.com.eg index-data + intervalIndex,2026-11-04T09:50:59+00:00,2026-11-03

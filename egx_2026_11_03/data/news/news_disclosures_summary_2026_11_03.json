@@ -1,0 +1,13 @@
+{
+  "cutoff": "2026-11-03",
+  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
+  "recent_rows": 227,
+  "recent_first_published_cairo": "2026-11-01T09:14:10+02:00",
+  "recent_last_published_cairo": "2026-11-03T15:50:39+02:00",
+  "recent_seen_at_recorded": 227,
+  "recent_seen_at_missing": 0,
+  "cutoff_day_rows": 53,
+  "excluded_2026_11_04_rows": 11,
+  "source": "EGX beta news-search API (official egx.com.eg backend)",
+  "note": "Rows published after 2026-11-03 were removed. Prior rows before 2026-10-31 keep seen_at_status=not_recorded_prior_2026_10_31; recent rows carry the actual seen_at_utc/seen_at_cairo."
+}

@@ -1,0 +1,12 @@
+{
+  "report_date": "2026-11-02",
+  "is_latest_available": true,
+  "is_2026_11_03": false,
+  "rows": 12,
+  "source": "https://www.egx.com.eg/get_pdf.aspx?Lang=ENG&ID=1022",
+  "source_id": 1022,
+  "via": "official_pdf_text_via_search_index",
+  "is_final": 1,
+  "note": "The official 2026-11-03 daily investor report was not available at build time. This 2026-11-02 report is included as the latest available official daily report, clearly labelled. It is not a substitute for 2026-11-03 and must not be used as such.",
+  "derived_rows": 6
+}

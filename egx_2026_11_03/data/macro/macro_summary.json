@@ -1,0 +1,57 @@
+{
+  "cutoff": "2026-11-03",
+  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
+  "rows": 8861,
+  "series": {
+    "brent": {
+      "rows": 1219,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 103.5999984741211,
+      "is_partial_last": 0
+    },
+    "dxy": {
+      "rows": 1471,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 101.87000274658205,
+      "is_partial_last": 0
+    },
+    "gold": {
+      "rows": 1219,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 3940.39990234375,
+      "is_partial_last": 0
+    },
+    "sp500": {
+      "rows": 1214,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 7568.919921875,
+      "is_partial_last": 0
+    },
+    "us10y": {
+      "rows": 1214,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 4.952000141143799,
+      "is_partial_last": 0
+    },
+    "usdegp": {
+      "rows": 1262,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 55.32040023803711,
+      "is_partial_last": 0
+    },
+    "vix": {
+      "rows": 1262,
+      "first": "2022-01-03",
+      "last": "2026-11-03",
+      "last_value": 20.82999992370605,
+      "is_partial_last": 0
+    }
+  },
+  "note": "2026-11-04 partial macro rows were removed. US10Y last date is 2026-11-03; USD/EGP, Brent, gold and DXY are filtered to 2026-11-03."
+}

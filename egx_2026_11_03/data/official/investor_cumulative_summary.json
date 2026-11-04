@@ -1,0 +1,23 @@
+{
+  "cutoff": "2026-11-03",
+  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
+  "rows": 48,
+  "scopes": {
+    "all_types": 4,
+    "no_bonds": 4,
+    "bonds": 4,
+    "bills": 4,
+    "individuals_all": 4,
+    "institutions_all": 4,
+    "individuals_no_bonds": 4,
+    "institutions_no_bonds": 4,
+    "individuals_bonds": 4,
+    "institutions_bonds": 4,
+    "individuals_bills": 4,
+    "institutions_bills": 4
+  },
+  "fetched_at_utc": "2026-11-04T08:06:35+00:00",
+  "as_of_status": "assumed_cumulative_through_previous_session_fetched_before_2026_11_04_open",
+  "daily_report_2026_11_03": "missing_not_available_at_build_time",
+  "note": "The official daily investor page showed 2026-11-04 preliminary values when fetched on 2026-11-04. The 2026-11-03 daily report was not available; no daily values were fabricated."
+}

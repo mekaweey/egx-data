@@ -1,0 +1,14 @@
+{
+  "tag": "1011",
+  "rows": 0,
+  "unique_symbols": 0,
+  "pages": 1,
+  "symbol_type": {},
+  "intraday": {},
+  "shariah": {},
+  "max_write_time": "nan",
+  "max_last_trade_date": "nan",
+  "source": "https://beta.egx.com.eg/api/bff/egx/market-watch",
+  "note": "Official current market-watch snapshot; no bid/ask columns.",
+  "fetched_at_utc": "2026-11-04T08:06:35+00:00"
+}
