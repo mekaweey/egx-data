@@ -1,0 +1,30 @@
+{
+  "snapshot_date": "2026-11-03",
+  "target_time": "09:56",
+  "captured_at_cairo": "2026-11-03T09:56:24+02:00",
+  "rows": 297,
+  "symbols": 297,
+  "in_clean_union": 239,
+  "outside_clean_union": 58,
+  "top100_symbols": 98,
+  "halal_symbols": 92,
+  "official_intraday_symbols": 204,
+  "source": "postgres:tv_ticks",
+  "method": "actual_preopen_tick_0956",
+  "fields_available": [
+    "last_price",
+    "volume",
+    "prev_close",
+    "change_pct"
+  ],
+  "fields_null": [
+    "open",
+    "high",
+    "low",
+    "bid",
+    "ask",
+    "bid_qty",
+    "ask_qty"
+  ],
+  "note": "First actual tick is 09:56:24 Cairo, one minute after the requested 09:55. It is a pre-open tick, not a continuous-session trade; open/high/low/bid/ask were not available. This supplement does not replace the main 09:55 pre-open reference."
+}

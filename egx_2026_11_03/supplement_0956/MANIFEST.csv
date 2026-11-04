@@ -1,0 +1,2 @@
+﻿path,bytes,sha256,rows,description
+live_snapshots_2026_11_03_0956_actual_tv_ticks.csv,81950,13b0f6cf99fe3fb4a5779c2f74567e46fbd9b8c38e7fa0a29ac9b9b15381e925,297,"Actual 09:56 pre-open tick snapshot (last/volume only); supplement, not 09:55"
