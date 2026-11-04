@@ -1,6 +1,6 @@
 # Build notes
 
-- Build date: 2026-11-04T12:08:32+02:00.
+- Build date: 2026-11-04T12:15:57+02:00.
 - Data cutoff: 2026-11-03.
 - Source build: `strategy-lab/outputs/egx_2026_11_04/` (untouched).
 - Output: `strategy-lab/outputs/egx_2026_11_03/`.

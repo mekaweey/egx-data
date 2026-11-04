@@ -644,6 +644,16 @@ All time series were filtered by the first 10 characters of their date column
 # ---------------------------------------------------------------------------
 # MANIFEST
 # ---------------------------------------------------------------------------
+# Git normalizes text files to LF.  Normalize the generated Markdown/JSON here
+# as well so the SHA256 manifest describes the bytes that are actually stored
+# in the repository (CSV/CSV.gz/SQLite are left untouched).
+for p in D.rglob("*"):
+    if p.is_file() and p.suffix.lower() in {".md", ".json"}:
+        data = p.read_bytes()
+        if b"\r\n" in data:
+            p.write_bytes(data.replace(b"\r\n", b"\n"))
+
+
 def sha256(p: Path) -> str:
     h = hashlib.sha256()
     with p.open("rb") as f:

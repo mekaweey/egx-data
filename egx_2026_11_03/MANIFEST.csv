@@ -1,15 +1,15 @@
 ﻿path,category,bytes,sha256,rows,description
-CHECKLIST.md,root,3917,ab3b7c0ba465eac989610644b54cf208d31fbba51f58d3b7b4b8bb5ea7e111b0,,Requirement checklist
+CHECKLIST.md,root,3879,feede206ea60b8d495153dd931192be4b218527591f853329108b56034b829a0,,Requirement checklist
 data/coverage/coverage_1m.csv,data/coverage,27811,ee95665d8512769a53e6209ca89d54c39f65c95dad341107b92ecd60c65f08e7,243.0,1-minute coverage per symbol
 data/coverage/coverage_5m.csv,data/coverage,21519,ea142e5d6f91b96f60765c8d4c0a8fe6762a4d0d22cfe7e5497ea716e3735acd,243.0,5-minute coverage per symbol
 data/coverage/coverage_60m.csv,data/coverage,21302,c0184d196cd12891d2b994a11ed5c5f15130d8f07d6d155bec20d0e7b486c0f8,243.0,60-minute coverage per symbol
 data/coverage/coverage_by_symbol.csv,data/coverage,209335,63a642237f7a8946018cffb311eae557dca5ffdfd180bdf831ce00c39d38e1a1,306.0,Per-symbol coverage and metadata (306 stocks)
 data/coverage/coverage_by_symbol_timeframe.csv,data/coverage,70468,182151a953b89c4aaba8e7feef5403aa4b868643ef62ff622e37bef240d35884,729.0,Coverage long format (729 rows)
-data/coverage/coverage_summary.json,data/coverage,613,0c1bab729ca08d3bb3a75655e2ab22ebb6c7d45090bebd7445900279bacfe9dc,,Coverage summary
+data/coverage/coverage_summary.json,data/coverage,589,e3a27715dbe911bcdfb28b1b7e568ab0747189980f5df7b2b56bb6cefeaab37f,,Coverage summary
 data/indices/indices_daily_2023_2026_2026_11_03.csv,data/indices,78638,87dfe9e514b97a4c74e2cbfadf8c4422cb71d46e16dd0325a69a328961e49f2c,727.0,"Daily indices 2023-2026, cutoff 2026-11-03"
 data/indices/indices_sources.csv,data/indices,697,dd58ec940fab50887747cae6507d3bfc6766cdfaa50e03d318cae061b2723ad4,4.0,Index source/coverage table
-data/indices/indices_summary.json,data/indices,396,8be2ddb1b5bd300c0200b5bb0cd6cdc7c65b952e50877bb66b1822969f2035b2,,Indices summary for the cutoff
-data/live/live_snapshot_summary.json,data/live,1237,b2d01fac6f4f4af5e0b8c54d2b6aaec2d32e92313887a4e16f859c3c0e77de44,,Live reconstruction summary (not live captures)
+data/indices/indices_summary.json,data/indices,382,29d4f7a436384c7a46ba1f1df199a16c92a2778879186ea220ad0869c0c9d9a4,,Indices summary for the cutoff
+data/live/live_snapshot_summary.json,data/live,1205,be16594cec02d9c65d43cbe41794c71aec4d0cd6a085fda4a90c69c22dd2c732,,Live reconstruction summary (not live captures)
 data/live/live_snapshots_2026_11_03_0955.csv,data/live,63268,dc984306361af0fe546c46c92487d9d1877c3924f55c551eb268cfc15dd0f525,245.0,09:55 pre-open reference (2026-11-02 daily OHLCV; not live)
 data/live/live_snapshots_2026_11_03_1355.csv,data/live,65886,afb1ea9c6c96ce8d04a04e9d1ebf474ae42bbbe1b750b98176c799b3084ddfb2,232.0,13:55 reconstructed snapshot (last completed 1m bar; not live)
 data/live/live_snapshots_2026_11_03_1405.csv,data/live,65906,6250c446c3d08c26d2175ade049407695fb074822cbe7f60cbacd3776ccc069d,232.0,14:05 reconstructed snapshot (last completed 1m bar; not live)
@@ -17,20 +17,20 @@ data/live/live_snapshots_2026_11_03_all.csv,data/live,194472,095733608d907403c15
 data/macro/macro_daily_2022_2026_2026_11_03.csv,data/macro,251724,4c32ec02689b7f538cd9814c88602d94c1cac4019d0fdcd119a3a7a05c7c8977,1514.0,"Macro wide daily format, cutoff 2026-11-03"
 data/macro/macro_long_2022_2026_2026_11_03.csv,data/macro,612223,b3bcaa6711a85994525e87748c9f53912fbedd2cddc8ccb08cfc25bb70fa8674,8861.0,"Macro long format, cutoff 2026-11-03"
 data/macro/macro_sources.csv,data/macro,772,999cf3f91bf48ad957b3577dbeccdb27f524046c61bc55b5d6852ad0e9e2ca24,7.0,Macro source/coverage table
-data/macro/macro_summary.json,data/macro,1464,3da10ad8f50cd7a0d3bbc25ab520bd56e61651df23bd5a2996142cd07cd178e5,,Macro summary for the cutoff
+data/macro/macro_summary.json,data/macro,1408,4ae880f96b58ec194b68cc1290a360cee439093e29376967d8e211cf158fbc22,,Macro summary for the cutoff
 data/news/egx_official_disclosures_2022_2026_2026_11_03.csv.gz,data/news,21617449,f86b58e0a2dae8ad31bd90356d4970277efd2438525bc6489a742263bc6253f1,72283.0,"Official EGX disclosures 2022-2026, cutoff 2026-11-03"
 data/news/news_2026_11_01_2026_11_03.csv,data/news,373857,4407b58e96a979be10b088a4d0b01e4445b9601766f62251192444dfc9eb471f,227.0,Recent news/disclosures 2026-11-01..2026-11-03 (actual seen_at)
-data/news/news_disclosures_summary_2026_11_03.json,data/news,629,35480e807ac3217914a62fe608f6b2dc6cbc853ce2df1b15bb1dcd3db533b8e2,,News/disclosures summary for the cutoff
-data/official/bidask_history_summary.json,data/official,377,117fca8c6b98b9d432960bd41402d05cb2902bcfee8b82ff12fb6ed32d8fc241,,Bid/ask history summary
+data/news/news_disclosures_summary_2026_11_03.json,data/news,617,4060249dd20d761766a6bd30afebc34ffc802d5102f078bf587934141a92be34,,News/disclosures summary for the cutoff
+data/official/bidask_history_summary.json,data/official,367,a35e88037ae61d4aabfbbebe92bbb39fe75f45e950fdd0e0fd9e563f3cd0cdb3,,Bid/ask history summary
 data/official/bidask_snapshots_2026_08_23_2026_10_01.csv.gz,data/official,33205873,2c6aee321cd88f2fb0ccc1eb1dee1e8a556ad19d6684c416d9e73d41708f29da,2298634.0,Bid/ask history 2026-08-23..2026-10-01 (no 2026-11-03)
 data/official/egx_daily_investor_report_2026_11_02.csv,data/official,9146,a8298bcfa0d1be057261318a14b66af38deead873379f077742381fa12eff9e2,12.0,Latest official daily investor report (2026-11-02; NOT 2026-11-03)
 data/official/egx_investor_cumulative_2026_11_03.csv,data/official,26472,b4c7aad69f17b7dcd7ce405e60d51cd56341490db87ae46df025570e597df9e2,48.0,Official cumulative investor snapshot (period unspecified; assumed through 2026-11-03)
 data/official/egx_official_market_watch_1011.csv,data/official,274,283249498663cf10c3178ef6720f3298179b5453d35c214e5f4163556f199e8a,0.0,Official market-watch snapshot (0 rows at fetch time)
-data/official/egx_official_market_watch_summary_1011.json,data/official,383,83748bd97707f164cff6eed434f0bd90d324d7e7f5975301ed7a9810c3836bea,,Official market-watch snapshot (0 rows at fetch time)
-data/official/investor_cumulative_summary.json,data/official,840,d72384db60daba72ee8ade76104483b3bf59eb89074fb797d01a6e0dc9f3419e,,Cumulative investor snapshot summary
-data/official/investor_daily_latest_available_summary.json,data/official,549,f31b0b01c9d76003d23f28beae1ea2049a0d6564b8a8a3bb38d96c7698970821,,Summary of the latest available daily investor report
-data/official/MISSING_2026_11_03_DAILY_INVESTOR.md,data/official,1163,9a83893da33049af5c2c1f7a15fbddf080f1feeac8e0975cb20f7382bc3aff92,,Missing 2026-11-03 daily investor report note
-data/prices/daily_quality_summary.json,data/prices,988,ed35182dbfe7194b886ffe4863e7e667f9395d80b8c3fccb737c5ea871c5be78,,Daily quality summary for the cutoff
+data/official/egx_official_market_watch_summary_1011.json,data/official,370,f9c027914a03bb950913580c70728a83df85792abb333bfdf7d2d41448aef341,,Official market-watch snapshot (0 rows at fetch time)
+data/official/investor_cumulative_summary.json,data/official,818,03a33a8eca0f784d53cdcc3f76b80adacd04fa70b70ec73871a728a170a23a43,,Cumulative investor snapshot summary
+data/official/investor_daily_latest_available_summary.json,data/official,538,a9554f261cc56d7fbc53398fd9a1a80149501738b23480a22f15335f96637e33,,Summary of the latest available daily investor report
+data/official/MISSING_2026_11_03_DAILY_INVESTOR.md,data/official,1145,da4825d683f3f3f3cd4f8817f676b6b2df59475a7578532168d23ac1564a0f70,,Missing 2026-11-03 daily investor report note
+data/prices/daily_quality_summary.json,data/prices,948,79fd63ca645223ec409953fc6e06555d828ffd67be5dcff971e680c6d5f65cee,,Daily quality summary for the cutoff
 data/prices/egx_1m_2023.csv.gz,data/prices,450561,fa01b93a8f5eef491df56685059ea05b3f75bd737f6c4d7bc466e2089be55cb0,27343.0,1-minute OHLCV 2023
 data/prices/egx_1m_2024.csv.gz,data/prices,1186229,8e00b64ebabb4b66e65706fd62c6d1468d52502e069f3b86e80338767d62c887,76485.0,1-minute OHLCV 2024
 data/prices/egx_1m_2025.csv.gz,data/prices,7116934,72dbd5d84114ca4bf884966051270ea3b8f0c084655c4020da45be1ad71c87a0,479315.0,1-minute OHLCV 2025
@@ -52,20 +52,20 @@ data/universe/top100_liquidity.csv,data/universe,2693,f92c8306241a96ef74b72cef82
 data/universe/union_symbols.csv,data/universe,1970,3ae026ded9229dd5acd998fbd0248c8e1499da7060c37f78dccaf0e9c33d8be3,308.0,Union symbol list
 data/universe/universe_all.csv,data/universe,209335,63a642237f7a8946018cffb311eae557dca5ffdfd180bdf831ce00c39d38e1a1,306.0,Universe with flags and coverage (306 stocks)
 data/universe/universe_halal_97.csv,data/universe,76147,2a77e72ad81211b54336e22b2ca9956aaf046dc9172b8ecf741eb3a5c09778b8,97.0,Halal universe list (97 found)
-data/universe/universe_summary.json,data/universe,893,02448e9480ad4619dd6f9d8f0f5f8cbbc336a7256bff5eb7bca722a10d3c87cb,,Universe summary and known gaps
+data/universe/universe_summary.json,data/universe,870,438369704491770ff3ea3ad0a9740ec0388f1032b0b5ee62f792e035345e3533,,Universe summary and known gaps
 data/universe/universe_t0_attempt.csv,data/universe,866,2a4404911337730317f17008274c3525b9738523825614b5a2f0d59cb8dce645,11.0,T0/halal/top100 attempt counts
 data/universe/universe_top100_liquidity.csv,data/universe,82976,3eb773f68f05599af56a61bf143dd66191378ad344641cc380f8871297c1e2c6,100.0,"Top-100 liquidity list (filtered 60m, last 60 sessions)"
-DATA_DICTIONARY.md,root,7461,623f154f80ceae3850846e4480bee64cdfba1c99024c3eac1cf631c3385a62c7,,Column and table dictionary
+DATA_DICTIONARY.md,root,7310,19c99b044eeabccc50114c90029b58d2c8e28dc316bc5037580e32c239cfeef2,,Column and table dictionary
 db/egx_2026_11_03.sqlite,db,63832064,803762b4ca06c3faa9edd082290ac897abce763ee8bf50780daa8bc92e79ccbe,,Compact SQLite database (15 tables; recent intraday window)
-docs/BUILD_NOTES.md,docs,2465,e5a27b9afc1f868d3c13e3cb57b9ad7b9670c45a8208291879bda9295633c4af,,Build/upload documentation
-MISSING.md,root,4154,fb4285dd236de1a9d5d66549f26ffca20e243fccf136f9386f4cc20c1b0fdc59,,Missing/limited items
-README.md,root,9426,d4392dac9002b86d1a7da351cfea015e47bae3becae2a9312048ad4f9fab92d7,,Main README
+docs/BUILD_NOTES.md,docs,2403,f7ef5f5a0757ab1a06e244944050ac74afbdf001aba2d9884f77a0e1c6049ada,,Build/upload documentation
+MISSING.md,root,4067,8736a4b00e86fa223ccda7b4432c7796ec83e2de3abd97de13ec91f2f27e98b8,,Missing/limited items
+README.md,root,9280,63d02dcb1508997d38c0c728f92a9a8589cc65b8bf03fa9aabde4716d83f89b3,,Main README
 scripts/build_delivery_2026_11_03.py,scripts,32896,ac4e1d16b0c26b078ab1e4e6a2636df016caf2116803534a6abbd1549815ad90,,Cutoff build/validation script
 scripts/build_investor_report_2026_11_02.py,scripts,4748,1a9bfc94968cb010ea28d33ca0ad71523e32c1644bbe5b627195020e640eb649,,Cutoff build/validation script
 scripts/build_sqlite_2026_11_03.py,scripts,5507,49df249fd3364092bbcae38dae3f9485e5e3befb489fdbdca289c9c936425913,,Cutoff build/validation script
 scripts/fix_universe_scope_2026_11_03.py,scripts,4024,4a1f6bb2d3f4657950b8326f003a5bd211d0fc122bf3a3edf003acf911436a2e,,Cutoff build/validation script
 scripts/inspect_2026_11_03.py,scripts,4328,578fe3d298051d18a96216085bb2bdbc70b6cfd6e236994e13701c999a6f6173,,Cutoff build/validation script
-scripts/README.md,scripts,993,035e4571c9b94227b4e03b2c105de7324511b51007c84fb82a1f8ee02a6e944d,,Cutoff build/validation script
+scripts/README.md,scripts,980,0428b82b4abf081f6519867e8faa7c9032e93fd3dc6530d5f35ee35b25a5d028,,Cutoff build/validation script
 scripts/validate_delivery_2026_11_03.py,scripts,2233,e661c57d10f7e6e0f9cc480820e9515ee010a717b009869efc7ca70158b789ae,,Cutoff build/validation script
 scripts/verify_delivery_2026_11_03.py,scripts,9767,a49d444156be83b62780f98107393564e21e2c9e1c37f09157b17ff8e26aa9ad,,Cutoff build/validation script
-scripts/write_docs_manifest_2026_11_03.py,scripts,45129,8e4bae30996092ca73c491c1fed33af70db9739fc0b9319e191dedd632b03bf6,,Cutoff build/validation script
+scripts/write_docs_manifest_2026_11_03.py,scripts,45546,a006fc6eebcb09d8ed2d66621b4c5a20988421e45c0c3c94bd821652307f2b5b,,Cutoff build/validation script
