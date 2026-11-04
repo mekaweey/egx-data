@@ -1,6 +1,6 @@
 # Build notes
 
-- Build date: 2026-11-04T12:15:57+02:00.
+- Build date: 2026-11-04T14:00:27+02:00.
 - Data cutoff: 2026-11-03.
 - Source build: `strategy-lab/outputs/egx_2026_11_04/` (untouched).
 - Output: `strategy-lab/outputs/egx_2026_11_03/`.
@@ -19,15 +19,19 @@ All time series were filtered by the first 10 characters of their date column
 - Macro: 5 rows across series.
 - Indices: 1 provisional row.
 
-## Live reconstruction
+## Live snapshots
 
 - 09:55: no 1m bar before 10:00; previous session (2026-11-02) daily OHLCV used
   as a pre-open reference for the 245 clean-union symbols that have a 2026-11-02
-  daily row.
-- 13:55 / 14:05: filter 1m bars with `time_cairo < target`, group by symbol:
-  first open, max high, min low, last close, sum volume, count bars, last bar
-  time. 232 symbols each.
-- All rows: `is_live_capture=0`, bid/ask null, `bidask_status=unavailable_source_null`.
+  daily row. `is_live_capture=0`.
+- 13:55 / 14:05: actual `marketwatch_snapshots` from the live PostgreSQL source,
+  237 symbols each; 14:05 captured at 14:05:02 Cairo. `open` comes from the
+  actual 2026-11-03 daily open because marketwatch `open_price` is null. Six
+  symbols outside the clean union are included with `in_clean_union=0`.
+- Bid/ask: AALR actual `orderbook_snapshots` at both targets; all other symbols
+  null because no verified quote source exists.
+- The old 1m reconstructions are preserved as `*_reconstructed_1m.csv` fallbacks
+  (232 symbols each); they are not in the combined actual file.
 
 ## Investor data
 
@@ -49,7 +53,7 @@ All time series were filtered by the first 10 characters of their date column
 ## SQLite
 
 - Built from the filtered CSVs with the same cutoff.
-- 15 tables; 63.8 MB (under the 100 MB per-file limit).
+- 15 tables; 60.9 MiB / 63.9 MB (under the 100 MB per-file limit).
 - The 2013-2022 daily archive and full news history remain in CSV.gz only.
 
 ## Verification

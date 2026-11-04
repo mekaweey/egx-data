@@ -1,33 +1,56 @@
 {
   "snapshot_date": "2026-11-03",
-  "generated_at_cairo": "2026-11-04T11:50:59+02:00",
-  "bidask": "unavailable_source_null",
-  "is_live_capture": 0,
+  "generated_at_cairo": "2026-11-04T14:00:17+02:00",
+  "bidask": "actual_AALR_only_others_null",
+  "is_live_capture": "mixed",
   "targets": {
     "09:55": {
       "rows": 245,
       "symbols": 245,
       "method": "preopen_reference_previous_session_daily_ohlcv",
+      "is_live_capture": 0,
       "reference_date": "2026-11-02",
-      "bars_used_min": 0,
-      "bars_used_max": 0
+      "bidask_symbols": 0
     },
     "13:55": {
-      "rows": 232,
-      "symbols": 232,
-      "method": "reconstructed_from_1m_last_completed_bar_before_target",
-      "reference_date": "2026-11-03",
-      "bars_used_min": 1,
-      "bars_used_max": 235
+      "rows": 237,
+      "symbols": 237,
+      "method": "actual_marketwatch_snapshot",
+      "is_live_capture": 1,
+      "captured_at_cairo": "2026-11-03T13:55:00+02:00",
+      "in_clean_union": 231,
+      "outside_clean_union": 6,
+      "clean_missing_count": 17,
+      "top100_actual": 98,
+      "top100_missing": [
+        "FCMD",
+        "HALN"
+      ],
+      "bidask_symbols": 1,
+      "open_source": "egx_daily_2026_11_03"
     },
     "14:05": {
-      "rows": 232,
-      "symbols": 232,
-      "method": "reconstructed_from_1m_last_completed_bar_before_target",
-      "reference_date": "2026-11-03",
-      "bars_used_min": 1,
-      "bars_used_max": 245
+      "rows": 237,
+      "symbols": 237,
+      "method": "actual_marketwatch_snapshot",
+      "is_live_capture": 1,
+      "captured_at_cairo": "2026-11-03T14:05:02+02:00",
+      "in_clean_union": 231,
+      "outside_clean_union": 6,
+      "clean_missing_count": 17,
+      "top100_actual": 98,
+      "top100_missing": [
+        "FCMD",
+        "HALN"
+      ],
+      "bidask_symbols": 1,
+      "open_source": "egx_daily_2026_11_03"
     }
   },
-  "caveat": "These are NOT live captures. 09:55 has no 1m bar before the 10:00 open, so it uses the previous session (2026-11-02) daily OHLCV as a pre-open reference. 13:55 and 14:05 are reconstructed from the last completed 1m bar before the target. Bid/ask and quantities are null because no verified order-book source was available. No quote was invented."
+  "fallback": {
+    "note": "The old 1m reconstructions are preserved as *_reconstructed_1m.csv for the 232 symbols that have 1m bars; the main files are actual snapshots.",
+    "reconstructed_1355_rows": 232,
+    "reconstructed_1405_rows": 232
+  },
+  "caveat": "09:55 is a pre-open reference using 2026-11-02 daily OHLCV, not a live capture. 13:55 and 14:05 are actual marketwatch snapshots from the live PostgreSQL source (237 symbols each; 14:05 was captured at 14:05:02 Cairo). The marketwatch open_price column is null; open is taken from the actual 2026-11-03 daily open. Bid/ask and quantities are available only for AALR from orderbook_snapshots; all other symbols have null bid/ask because no verified 2026-11-03 quote source exists. No quote or price was invented. No 2026-11-04 data is included."
 }

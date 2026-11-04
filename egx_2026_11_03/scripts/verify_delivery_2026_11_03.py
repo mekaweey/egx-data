@@ -132,22 +132,36 @@ last_idx = idx[idx["date"].astype(str) == CUTOFF]
 check(len(last_idx) == 1 and int(last_idx["is_final"].iloc[0]) == 1, "indices_last_final")
 check(not (idx["date"].astype(str) == "2026-11-04").any(), "indices_no_2026_11_04")
 
-# Live.
-live_expected = {"0955": 245, "1355": 232, "1405": 232}
+# Live: 09:55 pre-open reference; 13:55/14:05 actual marketwatch snapshots.
+live_expected = {"0955": 245, "1355": 237, "1405": 237}
 for tag, n in live_expected.items():
     p = DATA / "live" / f"live_snapshots_2026_11_03_{tag}.csv"
     x = pd.read_csv(p)
     check(len(x) == n, f"live_{tag}_rows", str(len(x)))
-    check(x["bid"].isna().all() and x["ask"].isna().all(), f"live_{tag}_bidask_null")
-    check(x["is_live_capture"].eq(0).all(), f"live_{tag}_not_live_capture")
     check(x["target_time"].eq(f"{tag[:2]}:{tag[2:]}").all(), f"live_{tag}_target")
+    if tag == "0955":
+        check(x["bid"].isna().all() and x["ask"].isna().all(), f"live_{tag}_bidask_null")
+        check(x["is_live_capture"].eq(0).all(), f"live_{tag}_not_live_capture")
+        check(x["snapshot_status"].eq("preopen_reference_previous_session_daily_ohlcv").all(), f"live_{tag}_status")
+    else:
+        check(x["is_live_capture"].eq(1).all(), f"live_{tag}_actual_capture")
+        check(x["snapshot_status"].eq("actual_marketwatch_snapshot").all(), f"live_{tag}_status")
+        check(int(x["bid"].notna().sum()) == 1 and int(x["ask"].notna().sum()) == 1, f"live_{tag}_bidask_aalr_only")
+        check(set(x.loc[x["bid"].notna(), "symbol"]) == {"AALR"}, f"live_{tag}_bidask_symbol")
+        check(int(x["bid_qty"].notna().sum()) == 1 and int(x["ask_qty"].notna().sum()) == 1, f"live_{tag}_bidask_qty")
+        check(x["open"].notna().all(), f"live_{tag}_open")
+        check(x["bars_used"].eq(0).all(), f"live_{tag}_bars_zero")
 live_all = pd.read_csv(DATA / "live" / "live_snapshots_2026_11_03_all.csv")
-check(len(live_all) == 709, "live_all_rows", str(len(live_all)))
-check(live_all["bid"].isna().all() and live_all["ask"].isna().all(), "live_all_bidask_null")
-check(live_all["is_live_capture"].eq(0).all(), "live_all_not_live_capture")
-check(live_all["snapshot_status"].str.contains("reconstructed|preopen_reference").all(), "live_all_status")
-check(live_all.loc[live_all.target_time == "13:55", "last_bar_time"].astype(str).str[:5].max() < "13:55", "live_1355_last_bar_before")
-check(live_all.loc[live_all.target_time == "14:05", "last_bar_time"].astype(str).str[:5].max() < "14:05", "live_1405_last_bar_before")
+check(len(live_all) == 719, "live_all_rows", str(len(live_all)))
+check(int(live_all["is_live_capture"].sum()) == 474, "live_all_actual_rows", str(int(live_all["is_live_capture"].sum())))
+check(int(live_all["bid"].notna().sum()) == 2 and int(live_all["ask"].notna().sum()) == 2, "live_all_bidask_aalr_only")
+check(set(live_all.loc[live_all["bid"].notna(), "symbol"]) == {"AALR"}, "live_all_bidask_symbol")
+check(live_all["snapshot_status"].str.contains("actual_marketwatch|preopen_reference").all(), "live_all_status")
+check(live_all["bars_used"].eq(0).all(), "live_all_bars_zero")
+check(int((live_all["in_clean_union"] == 0).sum()) == 12, "live_all_outside_clean_6x2")
+for tag in ["1355", "1405"]:
+    fb = pd.read_csv(DATA / "live" / f"live_snapshots_2026_11_03_{tag}_reconstructed_1m.csv")
+    check(len(fb) == 232 and fb["is_live_capture"].eq(0).all(), f"live_{tag}_fallback")
 
 # Investor.
 inv_cum = pd.read_csv(DATA / "official" / "egx_investor_cumulative_2026_11_03.csv", low_memory=False)
@@ -182,9 +196,9 @@ con = sqlite3.connect(db)
 expected_tables = {
     "daily_2023_2026": 206545, "daily_2026_11_03": 309,
     "intraday_1m_recent": 39302, "intraday_5m_recent": 54335, "intraday_60m_recent": 27325,
-    "live_snapshots": 709, "news_recent": 227, "macro_daily": 1514, "indices_daily": 727,
+    "live_snapshots": 719, "news_recent": 227, "macro_daily": 1514, "indices_daily": 727,
     "universe": 306, "coverage": 729, "bidask_daily_sample": 4931,
-    "investor_cumulative": 48, "investor_daily_latest_available": 12, "metadata": 9,
+    "investor_cumulative": 48, "investor_daily_latest_available": 12, "metadata": 10,
 }
 for t, n in expected_tables.items():
     got = con.execute(f'select count(*) from "{t}"').fetchone()[0]

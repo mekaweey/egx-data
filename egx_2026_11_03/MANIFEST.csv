@@ -1,5 +1,5 @@
 ﻿path,category,bytes,sha256,rows,description
-CHECKLIST.md,root,3879,feede206ea60b8d495153dd931192be4b218527591f853329108b56034b829a0,,Requirement checklist
+CHECKLIST.md,root,3954,a0fe7e7a32cd170aca152e1d07205cac89f69c9b12f6dbcffdfa52131f1935a5,,Requirement checklist
 data/coverage/coverage_1m.csv,data/coverage,27811,ee95665d8512769a53e6209ca89d54c39f65c95dad341107b92ecd60c65f08e7,243.0,1-minute coverage per symbol
 data/coverage/coverage_5m.csv,data/coverage,21519,ea142e5d6f91b96f60765c8d4c0a8fe6762a4d0d22cfe7e5497ea716e3735acd,243.0,5-minute coverage per symbol
 data/coverage/coverage_60m.csv,data/coverage,21302,c0184d196cd12891d2b994a11ed5c5f15130d8f07d6d155bec20d0e7b486c0f8,243.0,60-minute coverage per symbol
@@ -9,11 +9,13 @@ data/coverage/coverage_summary.json,data/coverage,589,e3a27715dbe911bcdfb28b1b7e
 data/indices/indices_daily_2023_2026_2026_11_03.csv,data/indices,78638,87dfe9e514b97a4c74e2cbfadf8c4422cb71d46e16dd0325a69a328961e49f2c,727.0,"Daily indices 2023-2026, cutoff 2026-11-03"
 data/indices/indices_sources.csv,data/indices,697,dd58ec940fab50887747cae6507d3bfc6766cdfaa50e03d318cae061b2723ad4,4.0,Index source/coverage table
 data/indices/indices_summary.json,data/indices,382,29d4f7a436384c7a46ba1f1df199a16c92a2778879186ea220ad0869c0c9d9a4,,Indices summary for the cutoff
-data/live/live_snapshot_summary.json,data/live,1205,be16594cec02d9c65d43cbe41794c71aec4d0cd6a085fda4a90c69c22dd2c732,,Live reconstruction summary (not live captures)
-data/live/live_snapshots_2026_11_03_0955.csv,data/live,63268,dc984306361af0fe546c46c92487d9d1877c3924f55c551eb268cfc15dd0f525,245.0,09:55 pre-open reference (2026-11-02 daily OHLCV; not live)
-data/live/live_snapshots_2026_11_03_1355.csv,data/live,65886,afb1ea9c6c96ce8d04a04e9d1ebf474ae42bbbe1b750b98176c799b3084ddfb2,232.0,13:55 reconstructed snapshot (last completed 1m bar; not live)
-data/live/live_snapshots_2026_11_03_1405.csv,data/live,65906,6250c446c3d08c26d2175ade049407695fb074822cbe7f60cbacd3776ccc069d,232.0,14:05 reconstructed snapshot (last completed 1m bar; not live)
-data/live/live_snapshots_2026_11_03_all.csv,data/live,194472,095733608d907403c15881a7d57582471aaf6170a866aa4a37b420a0c4b57018,709.0,"All three reconstructed snapshots, 2026-11-03"
+data/live/live_snapshot_summary.json,data/live,2115,035637745372912081a788408515e3e5ff725e8d2e879ebff2e896a4c9b6973b,,Live snapshot summary (09:55 pre-open + actual 13:55/14:05)
+data/live/live_snapshots_2026_11_03_0955.csv,data/live,71890,e384cfb2f8e8b1d0655d4c795c906cc6f9258ac6ef55fa6ab2ecc975c6295392,245.0,09:55 pre-open reference (2026-11-02 daily OHLCV; not live)
+data/live/live_snapshots_2026_11_03_1355.csv,data/live,68465,3fa1829baef69b4adbb75784e4993f13d659c0bc3836637430cf6a284d7c7fd6,237.0,13:55 actual marketwatch snapshot (237 symbols)
+data/live/live_snapshots_2026_11_03_1355_reconstructed_1m.csv,data/live,71232,5d7b84476299e12e666cf08f00d904fb700f7e5c9d9ea206e8f2f3a1e7400090,232.0,13:55 1m reconstruction fallback (not live)
+data/live/live_snapshots_2026_11_03_1405.csv,data/live,68440,5818662fe58f60b8d33c8d73ca6cd2837aac6857131a9467a89840909806ce1d,237.0,14:05 actual marketwatch snapshot (captured 14:05:02; 237 symbols)
+data/live/live_snapshots_2026_11_03_1405_reconstructed_1m.csv,data/live,71260,a98474a6594c86435e82d4af812e9c92faf2826b4fa26fb682bbd38fb1c80dd8,232.0,14:05 1m reconstruction fallback (not live)
+data/live/live_snapshots_2026_11_03_all.csv,data/live,209061,224494e6f088a81a6f6ac6cca08c4f9d6f7773b5b4829f753bd902e8149e894d,719.0,All live snapshots: 09:55 pre-open + actual 13:55/14:05
 data/macro/macro_daily_2022_2026_2026_11_03.csv,data/macro,251724,4c32ec02689b7f538cd9814c88602d94c1cac4019d0fdcd119a3a7a05c7c8977,1514.0,"Macro wide daily format, cutoff 2026-11-03"
 data/macro/macro_long_2022_2026_2026_11_03.csv,data/macro,612223,b3bcaa6711a85994525e87748c9f53912fbedd2cddc8ccb08cfc25bb70fa8674,8861.0,"Macro long format, cutoff 2026-11-03"
 data/macro/macro_sources.csv,data/macro,772,999cf3f91bf48ad957b3577dbeccdb27f524046c61bc55b5d6852ad0e9e2ca24,7.0,Macro source/coverage table
@@ -29,7 +31,7 @@ data/official/egx_official_market_watch_1011.csv,data/official,274,283249498663c
 data/official/egx_official_market_watch_summary_1011.json,data/official,370,f9c027914a03bb950913580c70728a83df85792abb333bfdf7d2d41448aef341,,Official market-watch snapshot (0 rows at fetch time)
 data/official/investor_cumulative_summary.json,data/official,818,03a33a8eca0f784d53cdcc3f76b80adacd04fa70b70ec73871a728a170a23a43,,Cumulative investor snapshot summary
 data/official/investor_daily_latest_available_summary.json,data/official,538,a9554f261cc56d7fbc53398fd9a1a80149501738b23480a22f15335f96637e33,,Summary of the latest available daily investor report
-data/official/MISSING_2026_11_03_DAILY_INVESTOR.md,data/official,1145,da4825d683f3f3f3cd4f8817f676b6b2df59475a7578532168d23ac1564a0f70,,Missing 2026-11-03 daily investor report note
+data/official/MISSING_2026_11_03_DAILY_INVESTOR.md,data/official,1339,3d8004f40b797d565572c4566da8d253f860abada482bf1570b9b64e49fde258,,Missing 2026-11-03 daily investor report note
 data/prices/daily_quality_summary.json,data/prices,948,79fd63ca645223ec409953fc6e06555d828ffd67be5dcff971e680c6d5f65cee,,Daily quality summary for the cutoff
 data/prices/egx_1m_2023.csv.gz,data/prices,450561,fa01b93a8f5eef491df56685059ea05b3f75bd737f6c4d7bc466e2089be55cb0,27343.0,1-minute OHLCV 2023
 data/prices/egx_1m_2024.csv.gz,data/prices,1186229,8e00b64ebabb4b66e65706fd62c6d1468d52502e069f3b86e80338767d62c887,76485.0,1-minute OHLCV 2024
@@ -55,17 +57,18 @@ data/universe/universe_halal_97.csv,data/universe,76147,2a77e72ad81211b54336e22b
 data/universe/universe_summary.json,data/universe,870,438369704491770ff3ea3ad0a9740ec0388f1032b0b5ee62f792e035345e3533,,Universe summary and known gaps
 data/universe/universe_t0_attempt.csv,data/universe,866,2a4404911337730317f17008274c3525b9738523825614b5a2f0d59cb8dce645,11.0,T0/halal/top100 attempt counts
 data/universe/universe_top100_liquidity.csv,data/universe,82976,3eb773f68f05599af56a61bf143dd66191378ad344641cc380f8871297c1e2c6,100.0,"Top-100 liquidity list (filtered 60m, last 60 sessions)"
-DATA_DICTIONARY.md,root,7310,19c99b044eeabccc50114c90029b58d2c8e28dc316bc5037580e32c239cfeef2,,Column and table dictionary
-db/egx_2026_11_03.sqlite,db,63832064,803762b4ca06c3faa9edd082290ac897abce763ee8bf50780daa8bc92e79ccbe,,Compact SQLite database (15 tables; recent intraday window)
-docs/BUILD_NOTES.md,docs,2403,f7ef5f5a0757ab1a06e244944050ac74afbdf001aba2d9884f77a0e1c6049ada,,Build/upload documentation
-MISSING.md,root,4067,8736a4b00e86fa223ccda7b4432c7796ec83e2de3abd97de13ec91f2f27e98b8,,Missing/limited items
-README.md,root,9280,63d02dcb1508997d38c0c728f92a9a8589cc65b8bf03fa9aabde4716d83f89b3,,Main README
+DATA_DICTIONARY.md,root,8227,06925e6925c7dc28a84e818f5f12cb308a96eef6e602a7a4c3603b91b7bb836b,,Column and table dictionary
+db/egx_2026_11_03.sqlite,db,63852544,f89e605e92356d116a866e3d653b36275f00b2ab2080c07b99f8f777fc04d00a,,Compact SQLite database (15 tables; recent intraday window)
+docs/BUILD_NOTES.md,docs,2740,b0604771690d23153b9aac070895a5bf864f6f9e47dd4c7f3e831308a346df3d,,Build/upload documentation
+MISSING.md,root,4678,31809d7eae2d3802be3a2c99d487f9dde2b4565091c3585996bf093914dce08b,,Missing/limited items
+README.md,root,10469,d94a1edb609fba386666b201370268a398e39cab3518ad5e5f9e1e0cb9a048db,,Main README
 scripts/build_delivery_2026_11_03.py,scripts,32896,ac4e1d16b0c26b078ab1e4e6a2636df016caf2116803534a6abbd1549815ad90,,Cutoff build/validation script
 scripts/build_investor_report_2026_11_02.py,scripts,4748,1a9bfc94968cb010ea28d33ca0ad71523e32c1644bbe5b627195020e640eb649,,Cutoff build/validation script
-scripts/build_sqlite_2026_11_03.py,scripts,5507,49df249fd3364092bbcae38dae3f9485e5e3befb489fdbdca289c9c936425913,,Cutoff build/validation script
+scripts/build_sqlite_2026_11_03.py,scripts,5642,b383dc75844a1a55f34623f8ea154bcd6bcba3111668d952f7adeff1b3d9acff,,Cutoff build/validation script
+scripts/extract_live_actual_2026_11_03.py,scripts,12475,1945d92c534e9c9fb0b4f204878f858599a0fd5b6cb24243b8a4402f488b22f8,,Cutoff build/validation script
 scripts/fix_universe_scope_2026_11_03.py,scripts,4024,4a1f6bb2d3f4657950b8326f003a5bd211d0fc122bf3a3edf003acf911436a2e,,Cutoff build/validation script
 scripts/inspect_2026_11_03.py,scripts,4328,578fe3d298051d18a96216085bb2bdbc70b6cfd6e236994e13701c999a6f6173,,Cutoff build/validation script
 scripts/README.md,scripts,980,0428b82b4abf081f6519867e8faa7c9032e93fd3dc6530d5f35ee35b25a5d028,,Cutoff build/validation script
 scripts/validate_delivery_2026_11_03.py,scripts,2233,e661c57d10f7e6e0f9cc480820e9515ee010a717b009869efc7ca70158b789ae,,Cutoff build/validation script
-scripts/verify_delivery_2026_11_03.py,scripts,9767,a49d444156be83b62780f98107393564e21e2c9e1c37f09157b17ff8e26aa9ad,,Cutoff build/validation script
-scripts/write_docs_manifest_2026_11_03.py,scripts,45546,a006fc6eebcb09d8ed2d66621b4c5a20988421e45c0c3c94bd821652307f2b5b,,Cutoff build/validation script
+scripts/verify_delivery_2026_11_03.py,scripts,10894,d38dac4782bb7802f4f595cdef96fb2c905970a81130780bebbb1d1817e1ca72,,Cutoff build/validation script
+scripts/write_docs_manifest_2026_11_03.py,scripts,49127,f6476fdaf8b3fd40981f3170d841346c6c5014b49c9c07701a070c21ffa9017c,,Cutoff build/validation script

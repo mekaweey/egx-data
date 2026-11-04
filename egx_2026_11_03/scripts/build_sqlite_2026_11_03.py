@@ -67,7 +67,7 @@ if m1_parts:
     m1 = pd.concat(m1_parts, ignore_index=True)
     put("intraday_1m_recent", m1[m1["date_cairo"] >= "2026-11-03"], ["symbol", "date_cairo", "time_cairo"])
 
-# Live snapshots (reconstructed; not live captures).
+# Live snapshots: 09:55 pre-open reference + actual 13:55/14:05 marketwatch snapshots.
 live = load(DATA / "live" / "live_snapshots_2026_11_03_all.csv")
 put("live_snapshots", live, ["target_time", "symbol"])
 
@@ -105,8 +105,9 @@ put("investor_daily_latest_available", inv_daily, ["table", "nationality"])
 meta = pd.DataFrame([
     ("data_cutoff", "2026-11-03"),
     ("build_date", "2026-11-04"),
-    ("live_snapshots", "reconstructed_from_1m_and_previous_session_daily_not_live_capture"),
-    ("bidask_2026_11_03", "unavailable_source_null"),
+    ("live_snapshots", "actual_1355_1405_237_each_plus_preopen_0955_245_bidask_AALR_only"),
+    ("live_snapshots_reconstructed_fallback", "232_each_preserved_as_csv_not_in_all"),
+    ("bidask_2026_11_03", "actual_AALR_orderbook_only_others_null"),
     ("daily_investor_2026_11_03", "missing_not_available_at_build_time"),
     ("investor_daily_latest_available", "2026-11-02_official_pdf_ID_1022"),
     ("exact_t0_216", "unverified_clean_union_248_used"),

@@ -6,6 +6,8 @@ values when fetched on 2026-11-04 at 10:17 Cairo. The page is current-day only a
 
 The official daily report PDF for 2026-11-03 was not published/indexed at build time; the latest
 available daily report is 2026-11-02 (ID 1022, published 03-11-2026). No daily 2026-11-03 values were invented.
+Re-checked the official Reports page at 2026-11-04 13:14 Cairo: the latest Daily Report was still
+ID 1022 (published 03-11-2026, trading date 2026-11-02); no 2026-11-03 daily report was listed.
 
 Included instead:
 - `egx_daily_investor_report_2026_11_02.csv`: the latest available official daily report (2026-11-02),

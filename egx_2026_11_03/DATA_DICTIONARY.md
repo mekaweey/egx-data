@@ -42,20 +42,35 @@ daily file and should not be concatenated without de-duplication.
 
 `symbol`, `scanner_symbol`, `target_time`, `captured_at_cairo`, `last_price`,
 `open`, `high`, `low`, `volume`, `change_pct`, `bid`, `ask`, `bid_qty`,
-`ask_qty`, `in_clean_union`, `source`, `snapshot_status`, `data_quality`,
-`bidask_status`, `is_live_capture`, `bars_used`, `first_bar_time`,
-`last_bar_time`, `last_bar_timestamp_cairo`, `prev_close`, `reference_date`.
+`ask_qty`, `in_clean_union`, `source`, `open_source`, `bidask_source`,
+`bidask_captured_at_cairo`, `snapshot_status`, `data_quality`, `bidask_status`,
+`is_live_capture`, `bars_used`, `first_bar_time`, `last_bar_time`,
+`last_bar_timestamp_cairo`, `prev_close`, `reference_date`.
 
 - `target_time`: `09:55`, `13:55`, `14:05`.
 - `snapshot_status`:
   - `preopen_reference_previous_session_daily_ohlcv` for 09:55 (no 1m bar before
     the 10:00 open; uses 2026-11-02 daily OHLCV).
-  - `reconstructed_from_1m_last_completed_bar_before_target` for 13:55/14:05.
-- `is_live_capture=0` for every row.
-- `bid`, `ask`, `bid_qty`, `ask_qty` are null; `bidask_status` is
-  `unavailable_source_null`.
-- `bars_used` is the number of 1m bars aggregated; 0 for 09:55.
-- `change_pct` is `last_price / prev_close - 1` in percent; null for 09:55.
+  - `actual_marketwatch_snapshot` for 13:55/14:05 (actual live source).
+  - `reconstructed_from_1m_last_completed_bar_before_target` only in the
+    `*_reconstructed_1m.csv` fallback files.
+- `is_live_capture`: 0 for 09:55; 1 for 13:55/14:05.
+- `bid`, `ask`, `bid_qty`, `ask_qty` are actual for AALR only at 13:55/14:05
+  (`bidask_status=actual_orderbook_snapshot_AALR_only`); all other symbols have
+  nulls and `bidask_status=unavailable_source_null`.
+- `open_source`: `egx_daily_2026_11_03` for actual snapshots;
+  `previous_session_daily_2026_11_02` for 09:55; `egx_1m_2026_H2.csv.gz` for
+  the reconstructed fallbacks.
+- `bidask_captured_at_cairo`: actual order-book time for AALR; null elsewhere.
+- `bars_used` is 0 for actual/pre-open rows; the reconstructed fallbacks record
+  the number of 1m bars aggregated.
+- `change_pct` is the actual marketwatch `last_change_prc` for 13:55/14:05; null
+  for 09:55.
+- `captured_at_cairo` is the actual capture time; the 14:05 target was captured
+  at 14:05:02 Cairo.
+- `source` is `postgres:marketwatch_snapshots` for actual rows;
+  `egx_daily_2023_2026_2026_11_03.csv.gz` for the 09:55 reference; and
+  `egx_1m_2026_H2.csv.gz` for the reconstructed fallbacks.
 
 ## News (`data/news/`)
 

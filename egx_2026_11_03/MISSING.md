@@ -22,21 +22,30 @@ what is missing and what is included instead.
 - No 2026-11-03 Egyptians/foreigners/institutions/individuals daily values were
   fabricated.
 
-## 2. Verified 2026-11-03 live captures - MISSING
+## 2. 2026-11-03 live snapshots - PARTIAL
 
-- No verified live capture files exist for 2026-11-03.
 - `09:55` has no 1-minute bar before the 10:00 open. The delivered 09:55 file is
   a **pre-open reference using 2026-11-02 daily OHLCV** (245 clean-union symbols
-  with a 2026-11-02 daily row).
-- `13:55` and `14:05` are reconstructed from the last completed 1-minute bar
-  before the target (232 symbols each).
-- All rows have `is_live_capture=0`; bid/ask and quantities are null.
+  with a 2026-11-02 daily row); `is_live_capture=0`.
+- `13:55` and `14:05` are **actual `marketwatch_snapshots`** from the live
+  PostgreSQL source: 237 symbols each, 231 clean-union + 6 outside (ALEX,
+  EGS370O1C013, EGS3I0S1C019, SAIB, SPHT, UTOP; `in_clean_union=0`).
+- The 14:05 target was captured at 14:05:02 Cairo; `captured_at_cairo` records
+  the actual time.
+- Actual top-100 coverage is 98/100: FCMD has no 2026-11-03 daily/1m/marketwatch
+  row; HALN has a 1m reconstruction in `*_reconstructed_1m.csv`.
+- The old 1m reconstructions are preserved as
+  `live_snapshots_2026_11_03_1355_reconstructed_1m.csv` and
+  `..._1405_reconstructed_1m.csv` (232 symbols each) as fallbacks; they are not
+  part of `live_snapshots_2026_11_03_all.csv`.
 
-## 3. 2026-11-03 bid/ask - MISSING
+## 3. 2026-11-03 bid/ask - PARTIAL (AALR only)
 
 - The bid/ask history ends 2026-10-01 (2,298,634 rows / 238 symbols).
-- No verified 2026-11-03 quotes were available; the live files use nulls and
-  `bidask_status=unavailable_source_null`.
+- AALR has actual `orderbook_snapshots` at 13:55:00 and 14:05:00; the live files
+  use those values.
+- The other 236 symbols have null bid/ask and quantities because no verified
+  2026-11-03 quote source exists; `bidask_status=unavailable_source_null`.
 
 ## 4. Exact T0 216 list - UNVERIFIED
 

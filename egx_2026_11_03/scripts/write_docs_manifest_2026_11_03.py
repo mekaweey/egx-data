@@ -24,6 +24,7 @@ NOW = datetime.now(ZoneInfo("Africa/Cairo")).isoformat(timespec="seconds")
 SCRIPTS = [
     "build_delivery_2026_11_03.py",
     "build_sqlite_2026_11_03.py",
+    "extract_live_actual_2026_11_03.py",
     "build_investor_report_2026_11_02.py",
     "fix_universe_scope_2026_11_03.py",
     "inspect_2026_11_03.py",
@@ -133,8 +134,8 @@ S = {
 readme = f"""# EGX consolidated dataset - cutoff 2026-11-03
 
 Built on 2026-11-04. **Data cutoff: 2026-11-03 (end of day).** The partial
-2026-11-04 session, live snapshots, provisional indices and preliminary investor
-report are intentionally excluded.
+2026-11-04 session and its live snapshots, provisional indices and preliminary
+investor report are intentionally excluded.
 
 This is a data delivery, not an execution record. **No actual fills are claimed
 or verified.**
@@ -151,16 +152,16 @@ or verified.**
 | 5-minute OHLCV | `data/prices/egx_5m_2023_2026.csv.gz` | {m5_full['rows']:,} | {m5_full['symbols']} | {m5_full['first']} .. {m5_full['last']} | {m5_day['rows']:,} rows / {m5_day['symbols']} symbols on {CUTOFF} |
 | 60-minute OHLCV | `data/prices/egx_60m_2023_2026.csv.gz` | {m60_full['rows']:,} | {m60_full['symbols']} | {m60_full['first']} .. {m60_full['last']} | {m60_day['rows']:,} rows / {m60_day['symbols']} symbols on {CUTOFF} |
 | Reference daily (69 symbols) | `data/reference/egx_daily_egx_data_pack_69_2022_2026.csv.gz` | {ref['rows']:,} | {ref['symbols']} | {ref['first']} .. {ref['last']} | separate vendor reference pack |
-| Reconstructed snapshots | `data/live/live_snapshots_2026_11_03_*.csv` | {S['live_total']:,} | 3 targets | {CUTOFF} 09:55 / 13:55 / 14:05 | **NOT live captures**; bid/ask null |
+| Live snapshots (actual + pre-open) | `data/live/live_snapshots_2026_11_03_*.csv` | {S['live_total']:,} | 245 + 237 + 237 | {CUTOFF} 09:55 / 13:55 / 14:05 | 13:55/14:05 **actual marketwatch**; 09:55 pre-open; bid/ask AALR only |
 | News and disclosures, recent | `data/news/news_2026_11_01_2026_11_03.csv` | {S['news']:,} | - | {S['news_first']} .. {S['news_last']} | {S['news_03']} published on {CUTOFF}; actual `seen_at_cairo` |
 | Official disclosures, full | `data/news/egx_official_disclosures_2022_2026_2026_11_03.csv.gz` | {S['news_full']:,} | - | {S['news_full_first']} .. {S['news_full_last']} | 2022-2026 history |
 | Macro | `data/macro/macro_daily_2022_2026_2026_11_03.csv` | {S['macro']:,} | {S['macro_series']} series | {S['macro_first']} .. {S['macro_last_date']} | USD/EGP, S&P 500, VIX, Brent, gold, DXY, US10Y |
 | Indices | `data/indices/indices_daily_2023_2026_2026_11_03.csv` | {S['idx']:,} | 4 indices | {S['idx_first']} .. {S['idx_last']} | EGX30, EGX70, EGX100, Sharia; 2026-11-03 final |
-| Bid/ask history | `data/official/bidask_snapshots_2026_08_23_2026_10_01.csv.gz` | {bidask['valid_rows']:,} | {bidask['symbols']} | 2026-08-23 .. 2026-10-01 | no 2026-11-03 bid/ask |
+| Bid/ask history | `data/official/bidask_snapshots_2026_08_23_2026_10_01.csv.gz` | {bidask['valid_rows']:,} | {bidask['symbols']} | 2026-08-23 .. 2026-10-01 | history only; 2026-11-03 AALR live is in `data/live/` |
 | Investor cumulative | `data/official/egx_investor_cumulative_2026_11_03.csv` | {S['inv_cum']:,} | 12 scopes | assumed through 2026-11-03 | period field is `cumulative_or_period_unspecified` |
 | Latest official daily investor report | `data/official/egx_daily_investor_report_2026_11_02.csv` | {S['inv_daily']:,} | 3 tables | 2026-11-02 | **not 2026-11-03**; {S['inv_daily_derived']} derived rows |
 | Universe / coverage | `data/universe/`, `data/coverage/` | {uni['all_stocks']} stocks | - | through {CUTOFF} | 248 clean union, 243 intraday, 238 bid/ask |
-| SQLite | `db/egx_2026_11_03.sqlite` | - | 15 tables | through {CUTOFF} | compact queryable copy, {S['db_mb']:.1f} MB |
+| SQLite | `db/egx_2026_11_03.sqlite` | - | 15 tables | through {CUTOFF} | compact queryable copy, {S['db_mb']:.1f} MiB |
 
 **Last values on 2026-11-03:** USD/EGP {macro_last['usdegp']:.4f}; S&P 500 {macro_last['sp500']:.2f};
 VIX {macro_last['vix']:.2f}; Brent {macro_last['brent']:.2f}; gold {macro_last['gold']:.2f};
@@ -169,12 +170,15 @@ Indices: EGX30 {S['idx30']:,.2f}; EGX70 {S['idx70']:,.2f}; EGX100 {S['idx100']:,
 
 ## Critical caveats - read before use
 
-1. **The live snapshots are reconstructed, not live captures.** There were no
-   verified live captures for 2026-11-03. `09:55` has no 1-minute bar before the
-   10:00 open, so it is a **pre-open reference using 2026-11-02 daily OHLCV**.
-   `13:55` and `14:05` use the last completed 1-minute bar before the target.
-   `is_live_capture=0`, `bid/ask=null`, `bidask_status=unavailable_source_null`.
-   Do not present these as real-time observations.
+1. **Live snapshots: 13:55/14:05 actual, 09:55 pre-open.** The live extension
+   database contains `marketwatch_snapshots` at 2026-11-03 13:55:00 and
+   14:05:02 Cairo (237 symbols each; 14:05 is two seconds after the target).
+   `09:55` is before the 10:00 open, so it is a **pre-open reference using
+   2026-11-02 daily OHLCV**. The actual snapshots have `is_live_capture=1`; the
+   09:55 reference has `is_live_capture=0`. Bid/ask is actual only for AALR
+   (from `orderbook_snapshots`); all other symbols have null bid/ask because no
+   verified quote source exists. `open` is the actual 2026-11-03 daily open
+   because the marketwatch `open_price` column is null.
 2. **The official 2026-11-03 daily investor report is missing.** The EGX beta
    daily page is current-day only; when fetched on 2026-11-04 it showed the
    2026-11-04 preliminary values. The latest official daily report available is
@@ -182,13 +186,19 @@ Indices: EGX30 {S['idx30']:,.2f}; EGX70 {S['idx70']:,.2f}; EGX100 {S['idx100']:,
    cumulative snapshot fetched 2026-11-04 08:06 UTC is included with
    `as_of_status=assumed_cumulative_through_previous_session`; its period field is
    unspecified. **No 2026-11-03 daily values were invented.**
-3. **No 2026-11-03 bid/ask.** The bid/ask history ends 2026-10-01; the live files
-   have null bid/ask and quantities.
+3. **2026-11-03 bid/ask is actual for AALR only.** The bid/ask history ends
+   2026-10-01. For 2026-11-03, AALR has an actual `orderbook_snapshots` quote at
+   13:55:00 and 14:05:00; all other symbols have null bid/ask and quantities
+   because no verified quote source exists.
 4. **The exact T0 216-symbol list was not found.** The documented 248-symbol
    clean union is used as a superset: 221 official symbolType C, 97 halal symbols
    (the 98th was not identified), 100 top-liquidity symbols, and the union.
    243 symbols have intraday history; 232 have 1-minute bars on 2026-11-03.
-   Top-100 liquidity: 100/100 have 1-minute history. Halal: 94/97 have 1-minute
+   The actual 13:55/14:05 snapshots cover 237 symbols (231 clean union + 6
+   outside, flagged); 09:55 covers 245 clean-union symbols. Actual top-100
+   coverage is 98/100: FCMD has no 2026-11-03 daily/1m/marketwatch row; HALN has
+   a 1m reconstruction in the fallback file. Top-100 liquidity: 100/100 have
+   1-minute history. Halal: 94/97 have 1-minute
    history. The stock universe is 306; the daily file has 323 symbols because it
    also contains 20 index/ETF/ISIN/right/other rows that are not stocks.
 5. **1-minute coverage is uneven.** 2023 has {basic(DATA / 'prices' / 'egx_1m_2023.csv.gz', 'date_cairo')['rows']:,}
@@ -202,7 +212,7 @@ Indices: EGX30 {S['idx30']:,.2f}; EGX70 {S['idx70']:,.2f}; EGX100 {S['idx100']:,
    on 2026-11-03: AIHC, APPC, BIDI, BIOQ, DEIN, EEI, EITP, EPPK, FCMD, GTHE,
    IUFO, MISR, MKIT, NAPR, NCGC, PACH.
 6. **Three universe symbols have no daily row:** BIOQ, EEI, IUFO.
-7. **No actual fills.** This package contains market data and reconstructed
+7. **No actual fills.** This package contains market data and live/pre-open
    snapshots only. It does not contain broker fills, order acknowledgements,
    partial-fill records, or settlement. Any strategy result must be labelled a
    simulation, not an execution.
@@ -224,7 +234,7 @@ egx_2026_11_03/
   MANIFEST.csv                 SHA256 + bytes + rows for every delivered file
   data/
     prices/                    daily, 1m, 5m, 60m, reference
-    live/                      3 reconstructed snapshots + summary
+    live/                      09:55 pre-open + actual 13:55/14:05 + fallbacks + summary
     news/                      recent + full disclosures
     macro/                     long, wide, sources, summary
     indices/                   daily + sources + summary
@@ -243,9 +253,9 @@ egx_2026_11_03/
   file (excluding the manifest itself and post-upload status files).
 - Run `python scripts/verify_delivery_2026_11_03.py` from the package root.
 - Local checks cover: manifest hashes, cutoff (no 2026-11-04 rows), daily last-day
-  completeness, news/macro/index maxima, live reconstruction labels and null
-  bid/ask, investor labels, universe/coverage counts, bid/ask range and SQLite
-  table counts.
+  completeness, news/macro/index maxima, live actual/pre-open labels and
+  AALR-only bid/ask, investor labels, universe/coverage counts, bid/ask range
+  and SQLite table counts.
 - Remote upload verification is in `docs/UPLOAD_VERIFICATION.md` and
   `UPLOAD_STATUS.json` after upload.
 
@@ -256,7 +266,9 @@ egx_2026_11_03/
 - News and disclosures: EGX beta news-search API (`beta.egx.com.eg`).
 - Macro: Yahoo Finance chart API v8.
 - Indices: `beta.egx.com.eg` index data + intervalIndex.
-- Bid/ask: `D:\\BIDASK_FINAL\\snapshots` (non-null, non-crossed best bid/ask).
+- Live snapshots: `postgres:marketwatch_snapshots` (13:55/14:05 actual).
+- Bid/ask: `D:\\BIDASK_FINAL\\snapshots` history; 2026-11-03 AALR live from
+  `postgres:orderbook_snapshots`.
 - Investor cumulative: `beta.egx.com.eg/api/bff/egx/investor-full-statistics`.
 - Latest daily investor report: official EGX PDF ID 1022 (2026-11-02).
 - Universe: official EGX market watch, `halal-symbols.txt`, TV symbols and the
@@ -266,16 +278,20 @@ egx_2026_11_03/
 
 The cutoff build is reproducible from `scripts/build_delivery_2026_11_03.py`
 using the source build in `strategy-lab/outputs/egx_2026_11_04/`. The source
-build is not modified. The SQLite database is rebuilt by
-`scripts/build_sqlite_2026_11_03.py`. The manifest is regenerated by
-`scripts/write_docs_manifest_2026_11_03.py`.
+build is not modified. The 13:55/14:05 actual live files are extracted by
+`scripts/extract_live_actual_2026_11_03.py` from the live PostgreSQL source
+(requires `DATABASE_URL`); it also preserves the 1m reconstructions as
+fallbacks. The 09:55 pre-open reference remains from the cutoff build. The
+SQLite database is rebuilt by `scripts/build_sqlite_2026_11_03.py`. The manifest
+is regenerated by `scripts/write_docs_manifest_2026_11_03.py`.
 
 ## Honest status
 
 Data cutoff is complete for prices, news, macro, indices, bid/ask history and
-universe/coverage. The 2026-11-03 **daily investor report** and **verified live
-captures** are not available; they are documented as missing/reconstructed, not
-filled with invented values. No execution is claimed.
+universe/coverage. The 2026-11-03 **daily investor report** is missing. Live
+13:55/14:05 snapshots are actual; 09:55 is a pre-open reference; bid/ask is
+actual only for AALR. Gaps are documented, not filled with invented values. No
+execution is claimed.
 """
 (D / "README.md").write_text(readme, encoding="utf-8")
 
@@ -303,19 +319,19 @@ passed, remote verification recorded after upload.
 | 10 | Macro through 2026-11-03 | **DONE** | {S['macro']:,} rows / {S['macro_series']} series; last date {S['macro_last_date']}; all last rows `is_partial=0` |
 | 11 | Daily indices through 2026-11-03 | **DONE** | {S['idx']:,} rows / 4 indices; 2026-11-03 `is_final=1`; 2026-11-04 provisional row excluded |
 | 12 | EGX daily investor report through 2026-11-03 | **MISSING** | Official 2026-11-03 daily report not published/available at build time; cumulative snapshot through 2026-11-03 included with unspecified-period label; latest official daily report is 2026-11-02 (clearly labelled, not a substitute) |
-| 13 | Live snapshots 09:55 / 13:55 / 14:05 | **PARTIAL** | 245 / 232 / 232 rows; reconstructed, not live; 09:55 is a 2026-11-02 pre-open reference; 13:55/14:05 use the last completed 1m bar; bid/ask null |
-| 14 | Bid/ask for 2026-11-03 | **MISSING** | History ends 2026-10-01; no verified 2026-11-03 quotes; nulls, not invented |
+| 13 | Live snapshots 09:55 / 13:55 / 14:05 | **PARTIAL** | 245 / 237 / 237 rows; 09:55 is a 2026-11-02 pre-open reference; 13:55/14:05 are actual marketwatch snapshots (14:05 captured 14:05:02); bid/ask AALR only |
+| 14 | Bid/ask for 2026-11-03 | **PARTIAL** | AALR actual orderbook at 13:55/14:05; all other symbols null (no verified source); history ends 2026-10-01 |
 | 15 | Preserve the existing 2026-11-01 dataset | **DONE** | `slippage_2026_11_01` was not modified; source `egx_2026_11_04` is untouched |
 | 16 | Exclude 2026-11-04 partial data | **DONE** | All price/news/macro/index maxima are 2026-11-03; no 2026-11-04 data filenames |
 | 17 | Upload to GitHub without omissions | **SEE STATUS** | `UPLOAD_STATUS.json` and `docs/UPLOAD_VERIFICATION.md` are written after upload |
-| 18 | Verify before and after upload | **LOCAL PASS** | 90 local checks passed; remote verification is in `UPLOAD_STATUS.json` |
+| 18 | Verify before and after upload | **LOCAL PASS** | 104 local checks passed; remote verification is in `UPLOAD_STATUS.json` |
 | 19 | No fabricated values / no false execution claims | **DONE** | Missing items are labelled; no fills; no 2026-11-03 daily investor values invented |
 
 ## Known gaps
 
 - 2026-11-03 daily investor report: missing (see `MISSING.md`).
-- 2026-11-03 live captures: not available; reconstructed only.
-- 2026-11-03 bid/ask: not available.
+- 2026-11-03 live captures: 13:55/14:05 actual; 09:55 pre-open reference.
+- 2026-11-03 bid/ask: AALR only; all other symbols missing.
 - Exact T0 216 and 98th halal symbol: not found.
 - 1m gaps: 2023-2024 sparse; 2026-09-10 missing outside the 69-symbol pack; 5 clean-union symbols have no 1m history; 16 have no 2026-11-03 1m bar.
 - 3 universe symbols have no daily row: BIOQ, EEI, IUFO.
@@ -370,20 +386,35 @@ daily file and should not be concatenated without de-duplication.
 
 `symbol`, `scanner_symbol`, `target_time`, `captured_at_cairo`, `last_price`,
 `open`, `high`, `low`, `volume`, `change_pct`, `bid`, `ask`, `bid_qty`,
-`ask_qty`, `in_clean_union`, `source`, `snapshot_status`, `data_quality`,
-`bidask_status`, `is_live_capture`, `bars_used`, `first_bar_time`,
-`last_bar_time`, `last_bar_timestamp_cairo`, `prev_close`, `reference_date`.
+`ask_qty`, `in_clean_union`, `source`, `open_source`, `bidask_source`,
+`bidask_captured_at_cairo`, `snapshot_status`, `data_quality`, `bidask_status`,
+`is_live_capture`, `bars_used`, `first_bar_time`, `last_bar_time`,
+`last_bar_timestamp_cairo`, `prev_close`, `reference_date`.
 
 - `target_time`: `09:55`, `13:55`, `14:05`.
 - `snapshot_status`:
   - `preopen_reference_previous_session_daily_ohlcv` for 09:55 (no 1m bar before
     the 10:00 open; uses 2026-11-02 daily OHLCV).
-  - `reconstructed_from_1m_last_completed_bar_before_target` for 13:55/14:05.
-- `is_live_capture=0` for every row.
-- `bid`, `ask`, `bid_qty`, `ask_qty` are null; `bidask_status` is
-  `unavailable_source_null`.
-- `bars_used` is the number of 1m bars aggregated; 0 for 09:55.
-- `change_pct` is `last_price / prev_close - 1` in percent; null for 09:55.
+  - `actual_marketwatch_snapshot` for 13:55/14:05 (actual live source).
+  - `reconstructed_from_1m_last_completed_bar_before_target` only in the
+    `*_reconstructed_1m.csv` fallback files.
+- `is_live_capture`: 0 for 09:55; 1 for 13:55/14:05.
+- `bid`, `ask`, `bid_qty`, `ask_qty` are actual for AALR only at 13:55/14:05
+  (`bidask_status=actual_orderbook_snapshot_AALR_only`); all other symbols have
+  nulls and `bidask_status=unavailable_source_null`.
+- `open_source`: `egx_daily_2026_11_03` for actual snapshots;
+  `previous_session_daily_2026_11_02` for 09:55; `egx_1m_2026_H2.csv.gz` for
+  the reconstructed fallbacks.
+- `bidask_captured_at_cairo`: actual order-book time for AALR; null elsewhere.
+- `bars_used` is 0 for actual/pre-open rows; the reconstructed fallbacks record
+  the number of 1m bars aggregated.
+- `change_pct` is the actual marketwatch `last_change_prc` for 13:55/14:05; null
+  for 09:55.
+- `captured_at_cairo` is the actual capture time; the 14:05 target was captured
+  at 14:05:02 Cairo.
+- `source` is `postgres:marketwatch_snapshots` for actual rows;
+  `egx_daily_2023_2026_2026_11_03.csv.gz` for the 09:55 reference; and
+  `egx_1m_2026_H2.csv.gz` for the reconstructed fallbacks.
 
 ## News (`data/news/`)
 
@@ -507,21 +538,30 @@ what is missing and what is included instead.
 - No 2026-11-03 Egyptians/foreigners/institutions/individuals daily values were
   fabricated.
 
-## 2. Verified 2026-11-03 live captures - MISSING
+## 2. 2026-11-03 live snapshots - PARTIAL
 
-- No verified live capture files exist for 2026-11-03.
 - `09:55` has no 1-minute bar before the 10:00 open. The delivered 09:55 file is
   a **pre-open reference using 2026-11-02 daily OHLCV** (245 clean-union symbols
-  with a 2026-11-02 daily row).
-- `13:55` and `14:05` are reconstructed from the last completed 1-minute bar
-  before the target (232 symbols each).
-- All rows have `is_live_capture=0`; bid/ask and quantities are null.
+  with a 2026-11-02 daily row); `is_live_capture=0`.
+- `13:55` and `14:05` are **actual `marketwatch_snapshots`** from the live
+  PostgreSQL source: 237 symbols each, 231 clean-union + 6 outside (ALEX,
+  EGS370O1C013, EGS3I0S1C019, SAIB, SPHT, UTOP; `in_clean_union=0`).
+- The 14:05 target was captured at 14:05:02 Cairo; `captured_at_cairo` records
+  the actual time.
+- Actual top-100 coverage is 98/100: FCMD has no 2026-11-03 daily/1m/marketwatch
+  row; HALN has a 1m reconstruction in `*_reconstructed_1m.csv`.
+- The old 1m reconstructions are preserved as
+  `live_snapshots_2026_11_03_1355_reconstructed_1m.csv` and
+  `..._1405_reconstructed_1m.csv` (232 symbols each) as fallbacks; they are not
+  part of `live_snapshots_2026_11_03_all.csv`.
 
-## 3. 2026-11-03 bid/ask - MISSING
+## 3. 2026-11-03 bid/ask - PARTIAL (AALR only)
 
 - The bid/ask history ends 2026-10-01 (2,298,634 rows / 238 symbols).
-- No verified 2026-11-03 quotes were available; the live files use nulls and
-  `bidask_status=unavailable_source_null`.
+- AALR has actual `orderbook_snapshots` at 13:55:00 and 14:05:00; the live files
+  use those values.
+- The other 236 symbols have null bid/ask and quantities because no verified
+  2026-11-03 quote source exists; `bidask_status=unavailable_source_null`.
 
 ## 4. Exact T0 216 list - UNVERIFIED
 
@@ -597,15 +637,19 @@ All time series were filtered by the first 10 characters of their date column
 - Macro: 5 rows across series.
 - Indices: 1 provisional row.
 
-## Live reconstruction
+## Live snapshots
 
 - 09:55: no 1m bar before 10:00; previous session (2026-11-02) daily OHLCV used
   as a pre-open reference for the 245 clean-union symbols that have a 2026-11-02
-  daily row.
-- 13:55 / 14:05: filter 1m bars with `time_cairo < target`, group by symbol:
-  first open, max high, min low, last close, sum volume, count bars, last bar
-  time. 232 symbols each.
-- All rows: `is_live_capture=0`, bid/ask null, `bidask_status=unavailable_source_null`.
+  daily row. `is_live_capture=0`.
+- 13:55 / 14:05: actual `marketwatch_snapshots` from the live PostgreSQL source,
+  237 symbols each; 14:05 captured at 14:05:02 Cairo. `open` comes from the
+  actual 2026-11-03 daily open because marketwatch `open_price` is null. Six
+  symbols outside the clean union are included with `in_clean_union=0`.
+- Bid/ask: AALR actual `orderbook_snapshots` at both targets; all other symbols
+  null because no verified quote source exists.
+- The old 1m reconstructions are preserved as `*_reconstructed_1m.csv` fallbacks
+  (232 symbols each); they are not in the combined actual file.
 
 ## Investor data
 
@@ -627,7 +671,7 @@ All time series were filtered by the first 10 characters of their date column
 ## SQLite
 
 - Built from the filtered CSVs with the same cutoff.
-- 15 tables; 63.8 MB (under the 100 MB per-file limit).
+- 15 tables; 60.9 MiB / 63.9 MB (under the 100 MB per-file limit).
 - The 2013-2022 daily archive and full news history remain in CSV.gz only.
 
 ## Verification
@@ -708,15 +752,19 @@ def describe(rel: str) -> str:
             return "60-minute OHLCV 2023-2026, cutoff 2026-11-03"
     if rel.startswith("data/live/"):
         if "summary" in name:
-            return "Live reconstruction summary (not live captures)"
+            return "Live snapshot summary (09:55 pre-open + actual 13:55/14:05)"
         if "all" in name:
-            return "All three reconstructed snapshots, 2026-11-03"
+            return "All live snapshots: 09:55 pre-open + actual 13:55/14:05"
         if "0955" in name:
             return "09:55 pre-open reference (2026-11-02 daily OHLCV; not live)"
+        if "reconstructed" in name and "1355" in name:
+            return "13:55 1m reconstruction fallback (not live)"
+        if "reconstructed" in name and "1405" in name:
+            return "14:05 1m reconstruction fallback (not live)"
         if "1355" in name:
-            return "13:55 reconstructed snapshot (last completed 1m bar; not live)"
+            return "13:55 actual marketwatch snapshot (237 symbols)"
         if "1405" in name:
-            return "14:05 reconstructed snapshot (last completed 1m bar; not live)"
+            return "14:05 actual marketwatch snapshot (captured 14:05:02; 237 symbols)"
     if rel.startswith("data/news/"):
         if "summary" in name:
             return "News/disclosures summary for the cutoff"
@@ -810,9 +858,12 @@ def describe(rel: str) -> str:
     return ""
 
 
+EXCLUDE_FROM_MANIFEST = {"UPLOAD_STATUS.json", "docs/UPLOAD_VERIFICATION.md"}
 files = sorted(
     p for p in D.rglob("*")
-    if p.is_file() and p.name != "MANIFEST.csv"
+    if p.is_file()
+    and p.name != "MANIFEST.csv"
+    and str(p.relative_to(D)).replace("\\", "/") not in EXCLUDE_FROM_MANIFEST
 )
 rows = []
 for p in files:
