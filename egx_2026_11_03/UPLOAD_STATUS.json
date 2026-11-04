@@ -5,13 +5,13 @@
   "branch": "main",
   "data_commit": "8d817ba5032b26f153a2e24f2cdee5a6554dbf34",
   "manifest_commit": "8d817ba5032b26f153a2e24f2cdee5a6554dbf34",
-  "remote_head_at_verification": "8d817ba5032b26f153a2e24f2cdee5a6554dbf34",
-  "verified_at_cairo": "2026-11-04T14:04:55+02:00",
+  "remote_head_at_verification": "e06fcaaef593eb362c8880a565fb6f712518258a",
+  "verified_at_cairo": "2026-11-04T14:40:02+02:00",
   "manifest_files": 73,
   "remote_tree_files_before_status": 74,
   "manifest_total_bytes": 277346042,
   "remote_tree_bytes_before_status": 277358197,
-  "remote_final_files": 76,
+  "remote_final_files": 80,
   "verification": {
     "manifest_sha256_all_match_remote_blobs": "73/73",
     "git_blob_sha1_index_vs_remote": "74/74",
@@ -20,16 +20,19 @@
     "slippage_2026_11_01_preserved": true,
     "no_2026_11_04_data": true,
     "daily_2026_11_03": "309 rows; 307 daily_candles_db + 2 aggregated_60m; all is_partial=0",
-    "live": "09:55 pre-open 245; 13:55 actual 237; 14:05 actual 237 (captured 14:05:02); bid/ask AALR only; top100 actual 98/100",
+    "live": "09:55 pre-open 245; supplement actual 09:56 297 (last/volume only, not 09:55); 13:55 actual 237; 14:05 actual 237; bid/ask AALR only",
     "investor": "2026-11-03 daily missing; cumulative 48 rows; latest official daily 2026-11-02 12 rows",
     "universe": "306 stocks; clean union 248; official C 221; halal 97; top100 100; 1m 243; 5m 243; 60m 243; bidask 238",
     "exact_t0_216": "unverified",
     "actual_fills": "unverified_no_execution_claim",
-    "local_checks": "104/104 passed"
+    "local_checks": "104/104 passed",
+    "supplement_manifest_sha256_match": "1/1",
+    "remote_tree_files": 80,
+    "supplement_files": 4
   },
   "known_gaps": [
-    "Official 2026-11-03 daily investor report not available at build time; no daily values fabricated.",
-    "09:55 has no live snapshot; it is a 2026-11-02 pre-open reference. 13:55/14:05 are actual marketwatch snapshots.",
+    "Official 2026-11-03 daily investor report not available at build time; no daily values fabricated. Latest official daily report is 2026-11-02.",
+    "09:55 has no exact live snapshot; it is a 2026-11-02 pre-open reference. A supplementary actual 09:56 tick snapshot (297 symbols, last/volume only) is included; it is not 09:55 and has no OHLC/bid/ask.",
     "Bid/ask for 2026-11-03 is actual for AALR only; the other 236 symbols have null bid/ask.",
     "Top-100 actual live coverage is 98/100: FCMD has no 2026-11-03 daily/1m/marketwatch row; HALN has a 1m reconstruction fallback.",
     "Exact T0 216 list not found; 248-symbol clean union used as documented superset.",
@@ -43,5 +46,36 @@
     "UPLOAD_STATUS.json",
     "docs/UPLOAD_VERIFICATION.md"
   ],
-  "status_files_note": "These two files are updated in a follow-up commit after the verified data head. They are intentionally excluded from MANIFEST.csv."
+  "status_files_note": "These two files are updated in a follow-up commit after the verified data head. They are intentionally excluded from MANIFEST.csv.",
+  "supplement_commit": "e06fcaaef593eb362c8880a565fb6f712518258a",
+  "supplement": {
+    "folder": "egx_2026_11_03/supplement_0956",
+    "files": 4,
+    "csv_rows": 297,
+    "symbols": 297,
+    "captured_at_cairo": "2026-11-03T09:56:24+02:00",
+    "source": "postgres:tv_ticks",
+    "fields_available": [
+      "last_price",
+      "volume",
+      "prev_close",
+      "change_pct"
+    ],
+    "fields_null": [
+      "open",
+      "high",
+      "low",
+      "bid",
+      "ask",
+      "bid_qty",
+      "ask_qty"
+    ],
+    "in_clean_union": 239,
+    "outside_clean_union": 58,
+    "top100_symbols": 98,
+    "halal_symbols": 92,
+    "official_intraday_symbols": 204,
+    "sha256_verified": true,
+    "note": "Closest actual tick; one minute after 09:55. Pre-open, not a continuous-session trade. Does not replace the 09:55 pre-open reference."
+  }
 }

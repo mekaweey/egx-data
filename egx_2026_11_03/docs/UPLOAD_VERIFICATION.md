@@ -39,6 +39,18 @@ updating these two status files:
 | Actual fills | NONE CLAIMED |
 | Local checks | PASS (104/104) |
 
+## Supplementary actual 09:56 tick
+
+- Folder: `egx_2026_11_03/supplement_0956/` (4 files).
+- CSV: `live_snapshots_2026_11_03_0956_actual_tv_ticks.csv`, 297 rows.
+- Captured: `2026-11-03T09:56:24+02:00` from PostgreSQL `tv_ticks`.
+- Available: `last_price`, `volume`, `prev_close`, `change_pct`.
+- Null: `open`, `high`, `low`, `bid`, `ask`, `bid_qty`, `ask_qty`.
+- It is the closest actual tick, one minute after the requested 09:55. It is
+  pre-open, not a continuous-session trade, and does not replace the 09:55
+  pre-open reference in the main delivery.
+- Remote supplement manifest: 1/1 SHA256 match; 4 supplement files present.
+
 ## Commands used
 
 ```text
